@@ -193,7 +193,6 @@ extra_javascript:
 
 # Page tree that defines the navigation structure
 nav:
-  - Home: index.md
   - Introduction: operating-systems/introduction.md
   - Learning Objectives: operating-systems/learning-objectives.md
   - Learning Community: operating-systems/learning-community.md
