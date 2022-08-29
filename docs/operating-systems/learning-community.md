@@ -37,17 +37,19 @@ think!
 ## Community Advice
 
 Sometimes you may not be sure which community forum you should use! Here is some
-advice for you to consider when facing this dilemma. You should use the
-community forum that best connects to your situation, as illustrated with the
-following examples.
+advice to consider when you face this dilemma. You should use the community
+forum that best connects to your situation, as illustrated with these examples.
 
 - If you have a **detailed technical question** or **need technical support**
-  with content on OS Sketch, then you should ask it on [GitHub
+  with content on the OS Sketch web site, then you should ask it on [GitHub
   Discussions
-  Forum](https://github.com/OS-Sketch/www.os-sketch.com/discussions).
+  Forum](https://github.com/OS-Sketch/www.os-sketch.com/discussions). Please
+  note that the use of GitHub Discussions is ideal because it allows for the
+  marking of an accepted answer to a technical question, which is not available
+  through other community forums.
 
-- If you have a **quick technical question** about the content on this web site,
-  then you should ask it on the [OS Sketch Discord
+- If you have a **quick technical question** about the site's content, then you
+  should ask it on the [OS Sketch Discord
   Server](https://discord.gg/9VfCdqffu6).
 
 - If you want to **hang out** or **discuss the challenges** you face as you
