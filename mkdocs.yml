@@ -143,7 +143,7 @@ plugins:
       enumerate_figures: true
       add_cover_page: true
       cover_page_template: ""
-      path_to_pdf: "pdf/proactive-programmers.pdf"
+      path_to_pdf: "pdf/operating-systems-sketch.pdf"
       enabled: true
 
 # Add icons and links to the footer
