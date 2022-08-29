@@ -204,7 +204,7 @@ extra_javascript:
 
 # Page tree that defines the navigation structure
 nav:
-  - Introduction: operating-systems/introduction.md
+  - Introduction: index.md
   - Learning Objectives: operating-systems/learning-objectives.md
   - Learning Community: operating-systems/learning-community.md
   - Course Syllabus: operating-systems/syllabus.md
