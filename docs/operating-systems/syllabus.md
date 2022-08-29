@@ -297,8 +297,7 @@ adventure in rigorous Python programming.
 
     This syllabus is for learners who enrolled in a for-credit Computer Science
     class at Allegheny College. Even though external learners are not bound by
-    the rules in this syllabus, they can rely on the team of [programming
-    experts](https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/graphs/contributors)
-    and the members of the [proactive
-    community](proactive-community/introduction-proactive-community.md) to
+    the rules in this syllabus, they can rely on the team of [operating system
+    sketchers](https://github.com/OS-Sketch/www.os-sketch.com/graphs/contributors)
+    and the members of the [OS Sketch community](../learning-community) to
     complete the projects on this web site.
