@@ -90,3 +90,18 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
   </small>
 
 </div>
+
+<div class="md-source-file">
+  <small>
+    <span class="md-source-file__fact">
+      <span class="md-icon">
+        {% include ".icons/material/account.svg" %}
+      </span>
+      <div class="footertext">
+    {%- for user in committers -%}
+      Creator(s): <a href="{{ user.url }}" title="{{ user.name }}" data-bi-name="contributorprofile" target="_blank">{{ user.name }}</a> &nbsp;
+    {%- endfor -%}
+      </div>
+    </span>
+  </small>
+</div>
