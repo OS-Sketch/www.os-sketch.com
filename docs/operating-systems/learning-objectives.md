@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # Learning Objectives
 
 ## Virtualization
@@ -69,9 +74,9 @@ demonstrate mastery of the following programming skills:
 
 ### Programming Tools
 
-- Use a Python programming environment to complete these tasks while
-  implementing a Python program consisting of between one and five hundred lines
-  of code:
+- Use a programming environment that supports a recent version of the C, Go, and
+  Python programming languages to complete these tasks while implementing a
+  program between one and five hundred lines of code:
     - Install, upgrade, and use [Python](https://www.python.org/) 3.10
       programming environment to create, run, and debug a Python program through
       a terminal window and/or a text editor.
@@ -84,6 +89,8 @@ demonstrate mastery of the following programming skills:
       find and fix the fault, ultimately confirming that the Python program no
       longer contains the fault and that the fix did not compromise other
       functions in the program.
+    - Install, upgrade, and use a recent version of the [C programming language
+      toolchain](https://gcc.gnu.org/)
     - Use a text editor like [VS Code](https://code.visualstudio.com/) to
       implement, test, debug, document, and manage the source code of a Python
       program, leveraging plugins for workflow enhancement.
@@ -130,7 +137,6 @@ your Windows 10 Home operating system cannot run WSL 2, then you must upgrade
 your operating system to either Windows 10 Pro, Windows 10 Enterprise, or
 Windows 10 Education. Finally, you should not use Docker Toolbox since it is
 deprecated and no longer supported!
-
 
 ### Version Control
 
