@@ -151,6 +151,17 @@ following technology-mediated learning skills:
 
 ## Improving Objectives
 
---8<-- "includes/objectives/improving-objectives-abstraction.md"
+As [Robert Talbert](https://rtalbert.org/) explains, a learning objective is
+**clear** when it is "clear from the students' perspective" and **measurable**
+when there is "some way to know whether the objective has been met" or "how far
+away the learner is from meeting it".[^1] Do you see a way in which we can improve
+the learning objectives for data abstraction? If you do, then please participate
+in the [OS Sketch community](../learning-community/) by sharing your ideas for
+improving them!
 
---8<-- "includes/objectives/learning-objectives-footnote.md"
+[^1]: See [Robert Talbert](https://rtalbert.org/)'s article entitled [How to
+Write Learning
+Objectives](https://rtalbert.org/how-to-write-learning-objectives/) for more
+details about how to design learning objectives for an academic course. From
+your perspective what does it mean to write learning objectives that are both
+clear and measurable for an advanced course on the topic of operating systems?
