@@ -53,8 +53,8 @@ class and lab sessions.
 ### Required Textbook
 
 [Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP/)
-by [Remzi H. Arpaci-Dusseau](https://pages.cs.wisc.edu/~remzi/) and 
-[Remzi H. Arpaci-Dusseau](https://pages.cs.wisc.edu/~remzi/)
+by [Remzi H. Arpaci-Dusseau](https://pages.cs.wisc.edu/~remzi/) and [Andrea C.
+Arpaci-Dusseau](https://pages.cs.wisc.edu/~dusseau/)
 
 ### Course Policies
 
