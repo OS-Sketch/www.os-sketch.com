@@ -29,6 +29,14 @@ a {
   text-decoration: none;
 }
 
+.md-typeset a {
+  color: #fff;
+}
+
+.md-source-file__notify {
+  color: #fff!important;
+}
+
 .md-top {
   text-decoration: none;
 }
