@@ -6,7 +6,7 @@
 <!--   2) Create and review a pull request to ensure that SVG files (i.e., normal -->
 <!--   and inverted) are placed inside of the course slides and course web site. This -->
 <!--   pull request should also include the original Excalidraw file as well! -->
-<!--   3) Review the course slides for that week and raise at least one issue in) -->
+<!--   3) Review the course slides for that week and raise at least one issue in -->
 <!--   the GitHub Issue Tracker for improving the existing content -->
 
 ## Software Operation
