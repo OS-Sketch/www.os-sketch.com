@@ -36,23 +36,19 @@ hide:
 A person who is learning the fundamentals of operating systems should
 demonstrate mastery of the following programming skills:
 
-### Python Programming
+### Programming
 
-- Write short Python functions of ten to twenty lines that have the following
-  characteristics:
+- Write short programs up to five hundred lines that have the following
+  characteristics for the chosen programming language:
     - Has function and variable names that adhere to an industry-standard coding
-      style.
-    - Has descriptive comments for module definition and both the function's
-      declaration and the function's code that adhere to an industry-standard
-      coding style.
+      style for the chosen programming language.
+    - Has descriptive comments for all program components that adhere to an
+      industry-standard coding style.
     - Features a source code format that adheres to an industry-standard coding
-      style.
+      style for the chosen language.
     - Passes an automated test suite, written with an industry-standard
-      framework such as [Pytest](https://docs.pytest.org/), showing that it
-      correctly implements the specification for the function.
-    - Has an automated test suite, written with an industry-standard framework
-      such as [Pytest](https://docs.pytest.org/), that covers at least the 80%
-      of the statements and branches in the function.
+      framework for the chosen language, showing that it correctly implements
+      the specification for the function.
     - Performs the specified operation in an efficient fashion, as determined
       through experiments that evaluate the function's performance in seconds or
       milliseconds.
@@ -63,14 +59,8 @@ demonstrate mastery of the following programming skills:
     - Correctly performs file and console input and output, ensuring that all
       input and output is displayed and stored correctly, is not corrupted, and
       is processed efficiently.
-    - Correctly simulate aspects of an operating system through the use of a
-      Python program.
-- Write correct Python programs consisting of between one and five hundred lines
-  of source code that correctly solve problems using data structures like a list
-  or dictionary.
-- Uses the features of the Python programming language to create classes and
-  instances of these classes that solve problems by using object-oriented
-  programming.
+    - Correctly simulates aspects of an operating system (e.g., process
+      scheduling) through the use of a Python program.
 
 ### Programming Tools
 
