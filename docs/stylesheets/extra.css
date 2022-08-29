@@ -29,11 +29,11 @@ a {
   text-decoration: none;
 }
 
-.md-typeset a {
-  color: #fff;
+.md-source-file__notify {
+  color: #fff!important;
 }
 
-.md-source-file__notify {
+.md-source-file__notify a {
   color: #fff!important;
 }
 
