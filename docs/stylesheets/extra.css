@@ -33,6 +33,10 @@ a {
   text-decoration: none;
 }
 
+.md-tag {
+  text-decoration: none;
+}
+
 .md-copyright a {
     text-decoration: underline;
 }
