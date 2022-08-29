@@ -4,6 +4,12 @@ hide:
   - toc
 ---
 
+<!-- TODO: Add a logo that fully describes all of the topics in the course -->
+<!-- TODO: Make sure that you draw the logo using this tool: https://excalidraw.com/ -->
+<!-- TODO: Export the logo into the SVG format and save it in the docs/img directory -->
+<!-- TODO: The logo needs a regular and inverse-regular logo; see instructor for details -->
+<!-- TODO: Make sure that the introduction references each input, output, and process in the logo -->
+
 # Introduction
 
 An operating system is responsible for managing and protecting the resources of
