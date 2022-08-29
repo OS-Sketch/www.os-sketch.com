@@ -1,0 +1,278 @@
+# Details about the site
+site_name: "OS Sketch"
+site_url: https://www.os-sketch.com
+repo_url: https://github.com/OS-Sketch/www.os-sketch.com
+copyright: Default
+
+# Definition of the theme
+theme:
+  # Use the default theme and then customize it further
+  name: material
+  # Provide an overrides/ directory that contains a main.html file for customization
+  custom_dir: overrides
+  # Define the logo for the top left-hand corner of the screen and collapsible menu
+  logo: img/os-sketch-thumbnail.png
+  # Define the favicon that displays in the tab of the browser
+  favicon: img/os-sketch-thumbnail.png
+  # Define the logo for the repository for the top right-hand corner of the screen
+  icon:
+    repo: fontawesome/brands/github
+  # Define the fonts used on the site
+  font:
+    # The main font used in header, footer, and all body text
+    text: IBM Plex Sans
+    # The font used in all of the source code samples
+    code: IBM Plex Mono
+  # Create black menu bars at the top and bottom
+  palette:
+    - scheme: default
+      primary: black
+      accent: orange
+  # Enable features that are built-in to material for mkdocs
+  features:
+    # Allow a user to dismiss the announcement at the top of the page
+    - announce.dismiss
+    # Create a single-page application with faster loading evident
+    # Note that this option prohibits the rendering of mathematics;
+    # there was some evidence that this was not the case but now
+    # it seems likely that using "instant" does break MathJax rendering;
+    # Note that this may break the feedback mechanism
+    - navigation.instant
+    # Display tabs for main sections at top of page
+    - navigation.tabs
+    # Automatically expand the navigation for each section
+    # Note that this might not be suitable for courses with many assignments
+    # - navigation.expand
+    # Offer a "Back to Top" button when person starts scrolling up on page
+    - navigation.top
+    # Make search suggestions when using project-wide search
+    - search.suggest
+    # Enable the sharing of searches with an icon in search box after start
+    - search.share
+    # Highlight search terms that match on the chosen page
+    - search.highlight
+
+# Extensions to markdown that provide the feature described above the extension itself
+markdown_extensions:
+  # Add HTML attributes and CSS classes to markdown elements
+  - attr_list
+  # Support the inclusion of snippets of HTML or Markdown from other files;
+  # note that this extension also enables the chosen abbreviations approach
+  - pymdownx.snippets:
+  # Display and generate emojis using the standard notation (e.g., ":runner:")
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator:
+        !!python/name:materialx.emoji.to_svg # Display mathematics using MathJax
+
+  - pymdownx.arithmatex:
+      generic: true
+  # Display paragraph markers that exhibit as permalinks for section in a file
+  - toc:
+      permalink: true
+  # Highlight source code
+  - codehilite
+  - markdown.extensions.codehilite:
+      guess_lang: true
+  # Admonitions in separate boxes
+  - admonition
+  # Make admonitions collapsible
+  - pymdownx.details
+  # Support extra social media icons in the footer
+  - extra
+  # Display keys with easier-to-read symbols
+  - pymdownx.keys
+  # Allow jump-to-and-jump back footnotes
+  - footnotes
+  # Display source code correctly with line numbers
+  - pymdownx.superfences:
+      custom_fences:
+        - format:
+            !!python/name:pymdownx.superfences.fence_div_format # Enable source code and admonitions to be tabbed
+
+  - pymdownx.tabbed
+  # Provide support for more intelligent emphasis and bolding
+  - pymdownx.betterem:
+      smart_enable: all
+  # Support highlighting of text and super- and sub-scripts
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  # Support inserting special characters with greater ease
+  - pymdownx.smartsymbols
+  # Support the creation of customizable task lists
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+# Install plugins
+plugins:
+  - search
+  - git-revision-date-localized:
+      type: timeago
+      enable_creation_date: true
+  - tags:
+      tags_file: tags.md
+  # Minify the HTML source code to support faster downloads
+  - minify:
+      minify_html: true
+      htmlmin_opts:
+        remove_comments: true
+  # Render a PDF of the site for referencing in right-side box,
+  # ensuring that PDF rendering only takes place when the
+  # environment variable ENABLE_PDF_EXPORT is set to 1.
+  # Example: ENABLE_PDF_EXPORT=1 poetry run mkdocs serve
+  # Example: ENABLE_PDF_EXPORT=1 poetry run mkdocs build
+  - with-pdf:
+      author: "Gregory M. Kapfhammer"
+      copyright: Copyright &copy; 2021 Gregory M. Kapfhammer
+      cover: true
+      cover_subtitle: "Putting the PRO in programmer"
+      cover_logo: ""
+      output_path: "pdf/proactive-programmers.pdf"
+      enabled_if_env: ENABLE_PDF_EXPORT
+  # Provide a site printing feature and add an icon
+  # for allowing the download of the site's PDF
+  - print-site:
+      add_to_navigation: false
+      print_page_title: ""
+      add_table_of_contents: false
+      toc_title: ""
+      toc_depth: 1
+      add_full_urls: false
+      enumerate_headings: false
+      enumerate_figures: true
+      add_cover_page: true
+      cover_page_template: ""
+      path_to_pdf: "pdf/proactive-programmers.pdf"
+      enabled: true
+
+# Add icons and links to the footer
+extra:
+  social:
+    # GitHub organization
+    - icon: fontawesome/brands/github
+      link: https://github.com/ProactiveProgrammers
+    # GitHub issue tracker
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/issues
+    # GitHub discussions
+    - icon: fontawesome/solid/comments
+      link: https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/discussions
+    # Discord server invitation (open publicly)
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/kjah8MFYbR
+    # Computer science Discord (for Allegheny courses)
+    - icon: fontawesome/solid/tower-broadcast
+      link: https://discord.gg/CS2h9kXzX6
+    # Twitter account
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/ProactiveProgr3
+  # add Google analytics to support receiving feedback through the site
+  analytics:
+    provider: google
+    property: G-BT7YZ6G7ZC
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your positive feedback! Share what you like about this
+            page through the <a href = "https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/issues">issue tracker</a> or <a href = "https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/discussions">discussions</a> in our project's <a href = "https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com">GitHub repository</a>.
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >-
+            Thanks for your feedback! Share your suggestions for improving this
+            page through the <a href = "https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/issues">issue tracker</a> or <a href = "https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/discussions">discussions</a> in our project's <a href = "https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com">GitHub repository</a>.
+
+# Load the stylesheet that overrides parts of the material for mkdocs theme
+extra_css:
+  - stylesheets/extra.css
+
+# Load the JavaScript needed to support MathJax rendering inside of site
+extra_javascript:
+  - javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+# Page tree that defines the navigation structure
+nav:
+  - Home: index.md
+  - Proactive Skills:
+      - Introduction: proactive-skills/introduction-proactive-skills.md
+      - Technical Skills:
+          - Introduction: proactive-skills/technical-skills/introduction-technical-skills.md
+          - Using VS Code: proactive-skills/technical-skills/using-vscode.md
+          - Using Markdown: proactive-skills/technical-skills/using-markdown.md
+          - Using Terminal: proactive-skills/technical-skills/using-terminal.md
+          - Using GitHub: proactive-skills/technical-skills/using-git.md
+          - Using Docker: proactive-skills/technical-skills/using-docker.md
+          - Python Programming: proactive-skills/technical-skills/python-programming.md
+          - Python Packaging: proactive-skills/technical-skills/python-packages.md
+          - Using GatorGrader: proactive-skills/technical-skills/using-gatorgrader.md
+      - Professional Skills:
+          - Introduction: proactive-skills/professional-skills/introduction-professional-skills.md
+          - Effective Communication: proactive-skills/professional-skills/effective-communication.md
+          - Time Management: proactive-skills/professional-skills/time-management.md
+          - Reading Documentation: proactive-skills/professional-skills/reading-documentation.md
+  - Proactive Community:
+      - Introduction: proactive-community/introduction-proactive-community.md
+      - Technical Community: proactive-community/technical-resources.md
+      - Professional Community: proactive-community/professional-resources.md
+      - Our Community: proactive-community/community-connections.md
+  - Proactive Learning:
+      - Introduction: proactive-learning/introduction-proactive-learning.md
+      - Bloom's Taxonomy: proactive-learning/blooms-taxonomy.md
+      - Assignment Types: proactive-learning/assignment-types.md
+      - Assessment Strategy: proactive-learning/assessment-strategy.md
+  - Data Abstraction:
+      - Introduction: data-abstraction/introduction-data-abstraction.md
+      - Learning Objectives: data-abstraction/learning-objectives-data-abstraction.md
+      - Course Syllabus: data-abstraction/syllabus-data-abstraction.md
+      - Course Schedule: data-abstraction/schedule-data-abstraction.md
+      - Source Code Surveys:
+          - Numerical Data: data-abstraction/source-code-surveys/numerical-data.md
+          - Structured Types: data-abstraction/source-code-surveys/structured-types.md
+          - Debugging Functions: data-abstraction/source-code-surveys/debugging-functions.md
+          - Container Cloning: data-abstraction/source-code-surveys/container-cloning.md
+          - Knapsack Solvers: data-abstraction/source-code-surveys/knapsack-solvers.md
+      - Programming Projects:
+          - Number Comparison: data-abstraction/programming-projects/number-comparison.md
+          - Square Roots: data-abstraction/programming-projects/square-root.md
+          - Matrix Processing: data-abstraction/programming-projects/matrix-processing.md
+      - Engineering Efforts:
+          - Integer Squaring: data-abstraction/engineering-efforts/integer-squaring.md
+          - Primality Testing: data-abstraction/engineering-efforts/primality-testing.md
+          - Intersection Algorithms: data-abstraction/engineering-efforts/intersection-algorithms.md
+          - Fibonacci Algorithms: data-abstraction/engineering-efforts/fibonacci-algorithms.md
+          - Palindrome Checking: data-abstraction/engineering-efforts/palindrome-checking.md
+          - Sorting Algorithms: data-abstraction/engineering-efforts/sorting-algorithms.md
+          - Object Processing: data-abstraction/engineering-efforts/object-processing.md
+          - Containment Checks: data-abstraction/engineering-efforts/containment-checking.md
+  - Discrete Structures:
+      - Introduction: discrete-structures/introduction-discrete-structures.md
+      - Learning Objectives: discrete-structures/learning-objectives-discrete-structures.md
+      - Course Syllabus: discrete-structures/syllabus-discrete-structures.md
+      - Course Schedule: discrete-structures/schedule-discrete-structures.md
+      - Source Code Surveys:
+          - Data Types: discrete-structures/source-code-surveys/data-types.md
+          - Tuple Swapping: discrete-structures/source-code-surveys/tuple-swapping.md
+          - Higher-Order Functions: discrete-structures/source-code-surveys/higher-order-functions.md
+          - Mode Calculation: discrete-structures/source-code-surveys/mode-calculation.md
+          - Using Memoization: discrete-structures/source-code-surveys/using-memoization.md
+          - Representing Objects: discrete-structures/source-code-surveys/representing-objects.md
+      - Programming Projects:
+          - Computing Averages: discrete-structures/programming-projects/average-computation.md
+          - Temperature Conversion: discrete-structures/programming-projects/temperature-conversion.md
+          - Contact Searching: discrete-structures/programming-projects/contact-searching.md
+      - Engineering Efforts:
+          - File Searching: discrete-structures/engineering-efforts/file-searching.md
+          - Quadratic Roots: discrete-structures/engineering-efforts/quadratic-roots.md
+          - Iterative Exponentiation: discrete-structures/engineering-efforts/iterative-exponentiation.md
+          - Data Summarization: discrete-structures/engineering-efforts/data-summarization.md
+          - Data Analysis: discrete-structures/engineering-efforts/data-analysis.md
+          - List Uniquification: discrete-structures/engineering-efforts/list-uniquification.md
+          - Text Processing: discrete-structures/engineering-efforts/text-analysis.md
+          - Collatz Creation: discrete-structures/engineering-efforts/collatz-creation.md
