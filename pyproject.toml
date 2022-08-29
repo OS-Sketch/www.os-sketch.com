@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "os-sketch"
+version = "0.1.0"
+description = ""
+authors = ["Gregory M. Kapfhammer <gkapfham@allegheny.edu>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+mkdocs-mermaid2-plugin = "^0.5.2"
+mkdocs-print-site-plugin = "^2.0.0"
+mkdocs-with-pdf = "^0.9.3"
+mkdocs-minify-plugin = "^0.4.1"
+mkdocs-git-revision-date-localized-plugin = "^1.1.0"
+mkdocs-material = "^8.4.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
