@@ -10,8 +10,8 @@ hide:
 <!-- TODO: The logo needs a regular and inverse-regular logo; see instructor for details -->
 <!-- TODO: Make sure that the introduction references each input, output, and process in the logo -->
 
-![Data Sets](/img/terminal-window.svg#only-light){width="70%"}
-![Data Sets](/img/terminal-window-inverted.svg#only-dark){width="70%"}
+![Terminal Window](/img/terminal-window.svg#only-light){width="70%"}
+![Terminal Window](/img/terminal-window-inverted.svg#only-dark){width="70%"}
 
 # Introduction
 
