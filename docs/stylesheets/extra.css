@@ -1,73 +1,85 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap");
 
-[data-md-color-scheme="default"] {
-  --md-typeset-a-color: #f57c00;
-  --md-typeset-mark-color: #ffcc80;
+.md-top {
+    background-color: #3949AB;
+    color: #FFFFFF;
 }
 
-.announcement {
-  color: var(--md-typeset-a-color) !important;
-  text-decoration: underline;
-  word-break: break-word;
+.md-nav__item .md-nav__link--active {
+    color: #0288D1;
 }
 
-.md-banner a {
-  color: var(--md-default-bg-color) !important;
+.md-nav__item .md-nav__link--active:hover {
+    color: #FF6E42;
 }
 
-.md-typeset a {
-  text-decoration: underline;
-  color: #000;
-  word-break: break-word;
+.md-copyright {
+    color: var(--md-footer-fg-color--light);
 }
 
-.md-tags {
-  margin-bottom: -0.5em !important;
+a {
+    text-decoration: underline;
 }
 
-[dir="ltr"] .md-tag {
+.md-tabs__link {
   text-decoration: none;
 }
 
+.md-copyright a {
+    text-decoration: underline;
+}
+
+.md-content {
+  --md-typeset-a-color: #0288D1;
+}
+
 .md-typeset p {
-  font-weight: 500;
-  font-size: 0.85rem;
+    font-weight: 500;
+    font-size: 0.85rem;
+}
+
+.md-typeset img {
+    margin-bottom: -.5em;
+}
+
+.md-typeset ul li {
+    margin-bottom: 0.25em;
 }
 
 .md-typeset pre {
-  font-weight: 600;
+    font-weight: 600;
 }
 
 .md-typeset code {
-  font-weight: 500;
+    font-weight: 600;
 }
 
 .md-typeset h1 {
-  margin: 0 0 px2em(40px, 32px);
-  color: var(--md-default-fg-color);
-  font-weight: 600;
-  font-size: 2.75rem;
-  line-height: 1;
-  margin-bottom: 0.5em;
-  letter-spacing: -0.01em;
+    margin: 0 0 px2em(40px, 32px);
+    color: var(--md-default-fg-color);
+    font-weight: 600;
+    font-size: 2.75rem;
+    line-height: 1.0;
+    margin-bottom: .5em;
+    letter-spacing: -0.01em;
 }
 
 .md-typeset h2 {
-  color: var(--md-default-fg-color);
-  font-weight: 600;
-  font-size: 1.75rem;
-  margin-top: 0.75em;
-  margin-bottom: 0.25em;
-  line-height: 1;
+    color: var(--md-default-fg-color);
+    font-weight: 600;
+    font-size: 2rem;
+    margin-top: .5em;
+    margin-bottom: .25em;
+    line-height: 1.0;
 }
 
 .md-typeset h3 {
-  color: var(--md-default-fg-color);
-  font-weight: 600;
-  font-size: 1.25rem;
-  margin-top: 0.75em;
-  margin-bottom: 0.75em;
-  line-height: 1;
+    color: var(--md-default-fg-color);
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: .75em;
+    margin-bottom: .75em;
+    line-height: 1.0;
 }
 
 #print-site-page h1.nav-section-title,
@@ -76,16 +88,16 @@
 #print-site-page h4.nav-section-title,
 #print-site-page h5.nav-section-title,
 #print-site-page h6.nav-section-title {
-  text-align: center;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  padding-left: 0.5em;
-  font-weight: 600;
-  font-size: 2.75rem;
-  line-height: 1;
-  margin-bottom: 0.5em;
-  letter-spacing: -0.01em;
-  color: var(--md-default-fg-color);
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    font-weight: 600;
+    font-size: 2.75rem;
+    line-height: 1.0;
+    margin-bottom: .5em;
+    letter-spacing: -0.01em;
+    color: var(--md-default-fg-color);
 }
 
 .md-source-file__fact {
