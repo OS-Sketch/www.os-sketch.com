@@ -139,7 +139,7 @@ plugins:
   # Example: ENABLE_PDF_EXPORT=1 poetry run mkdocs build
   - with-pdf:
       author: "Gregory M. Kapfhammer"
-      copyright: Copyright &copy; 2021 Gregory M. Kapfhammer
+      copyright: Copyright &copy; 2022 Gregory M. Kapfhammer
       cover: true
       cover_subtitle: "Understanding Operating Systems ... One Sketch at a Time!"
       cover_logo: ""
