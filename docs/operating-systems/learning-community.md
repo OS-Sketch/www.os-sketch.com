@@ -1,3 +1,10 @@
+---
+tags:
+  - Discussion
+  - Logistics
+  - Resources
+---
+
 # Learning Community
 
 The OS Sketch community offers several ways in which you can grow in your
