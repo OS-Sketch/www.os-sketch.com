@@ -1,7 +1,7 @@
 # Details about the site
 site_name: "OS Sketch"
 site_url: https://www.os-sketch.com
-repo_url: https://github.com/OS-Sketch/www.os-sketch.com
+# repo_url: https://github.com/OS-Sketch/www.os-sketch.com
 copyright: Default
 
 # Definition of the theme
@@ -162,10 +162,10 @@ extra:
   social:
     # GitHub organization
     - icon: fontawesome/brands/github
-      link: https://github.com/OS-Sketch/
+      link: https://github.com/OS-Sketch/www.os-sketch.com
     # GitHub issue tracker
     - icon: fontawesome/brands/github-alt
-      link: https://github.com/OS-Sketch/issues
+      link: https://github.com/OS-Sketch/www.os-sketch.com/issues
     # GitHub discussions
     - icon: fontawesome/solid/comments
       link: https://github.com/OS-Sketch/discussions
