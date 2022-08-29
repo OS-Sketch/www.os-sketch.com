@@ -1,4 +1,6 @@
 ---
+hide:
+  - navigation
 tags:
   - Discussion
   - Logistics
@@ -6,6 +8,8 @@ tags:
 ---
 
 # Learning Community
+
+## Resource Links
 
 The OS Sketch community offers several ways in which you can grow in your
 technical skills. Try out the following resources and let us know what you
@@ -30,6 +34,8 @@ think!
   community. After you have setup your account and connected it to your email
   address, you can start to participate in the discussion.
 
+## Community Advice
+
 Sometimes you may not be sure which community forum you should use! Here is some
 advice for you to consider when facing this dilemma. You should use the
 community forum that best connects to your situation, as illustrated with the
@@ -42,18 +48,18 @@ following examples.
 
 - If you have a **quick technical question** about the content on this web site,
   then you should ask it on the [OS Sketch Discord
-  Server](https://discord.gg/kjah8MFYbR).
+  Server](https://discord.gg/9VfCdqffu6).
 
 - If you want to **hang out** or **discuss the challenges** you face as you
-  learn more about operating systems, then you should go to the [Proactive
-  Programmers Discord Server](https://discord.gg/kjah8MFYbR).
+  learn more about operating systems, then you should go to the [OS Sketch
+  Discord Server](https://discord.gg/9VfCdqffu6).
 
 - If you want to **share or receive career advice** with other people who are
   exploring the field of operating systems, then you should go to the [OS Sketch
-  Discord Server](https://discord.gg/kjah8MFYbR).
+  Discord Server](https://discord.gg/9VfCdqffu6).
 
-- If you want to **offer feedback** about the content on OS Sketch,
-  then you should create an issue in the [GitHub Issue
+- If you want to **offer feedback** about OS Sketch content, then you should
+  create an issue in the [GitHub Issue
   Tracker](https://github.com/OS-Sketch/www.os-sketch.com/issues).
 
 - If you want to **report a bug** in either the **source code** or the **written
