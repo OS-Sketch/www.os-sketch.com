@@ -350,6 +350,19 @@ watchdog = ">=2.0"
 i18n = ["babel (>=2.9.0)"]
 
 [[package]]
+name = "mkdocs-git-committers-plugin-2"
+version = "0.4.4"
+description = "An MkDocs plugin to create a list of contributors on the page"
+category = "main"
+optional = false
+python-versions = ">=2.7"
+
+[package.dependencies]
+gitpython = "*"
+mkdocs = ">=1.0.3"
+requests = "*"
+
+[[package]]
 name = "mkdocs-git-revision-date-localized-plugin"
 version = "1.1.0"
 description = "Mkdocs plugin that enables displaying the localized date of the last git modification of a markdown file."
@@ -758,7 +771,7 @@ test = ["pytest"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "d2d4edb309e7423526812869abeb4ca1fec07b5b3f0e5c0b633b040c4ae05476"
+content-hash = "d53c63eadda442ab0cc709788c196a21e12173590ee74bdbe9c017458278e57a"
 
 [metadata.files]
 atomicwrites = []
@@ -1060,6 +1073,10 @@ mergedeep = [
 mkdocs = [
     {file = "mkdocs-1.3.1-py3-none-any.whl", hash = "sha256:fda92466393127d2da830bc6edc3a625a14b436316d1caf347690648e774c4f0"},
     {file = "mkdocs-1.3.1.tar.gz", hash = "sha256:a41a2ff25ce3bbacc953f9844ba07d106233cd76c88bac1f59cb1564ac0d87ed"},
+]
+mkdocs-git-committers-plugin-2 = [
+    {file = "mkdocs-git-committers-plugin-2-0.4.4.tar.gz", hash = "sha256:4e2156c2b0135cb334668f163b1715f52162c9e0cb76eaefd4de8139eb4ee857"},
+    {file = "mkdocs_git_committers_plugin_2-0.4.4-py3-none-any.whl", hash = "sha256:8581559c635bc1ae630010bb42da9e73c4fe7fbe4ec4ad2258c3cf99461fdaf9"},
 ]
 mkdocs-git-revision-date-localized-plugin = [
     {file = "mkdocs-git-revision-date-localized-plugin-1.1.0.tar.gz", hash = "sha256:38517e2084229da1a1b9460e846c2748d238c2d79efd405d1b9174a87bd81d79"},
