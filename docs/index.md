@@ -11,3 +11,6 @@ have implemented. Your use of a computer is normally mediated by some operating
 systems like Linux. Even though many software engineers do to need to implement
 their own operating system, there are significant benefits to understanding how
 operating systems work.
+
+<!-- TODO: Explain the benefits of understanding operating systems -->
+<!-- TODO: Explain the benefits of using this site to learn operating systems -->
