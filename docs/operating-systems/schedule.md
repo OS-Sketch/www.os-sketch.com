@@ -1,5 +1,14 @@
 # Course Schedule
 
+<!-- TODO: Use a comment to assign at least two students for each module. These -->
+<!-- students will be responsible for the following tasks: -->
+<!--   1) Create a sketch using Excalidraw to illustrate the key concepts in the module -->
+<!--   2) Create and review a pull request to ensure that SVG files (i.e., normal -->
+<!--   and inverted) are placed inside of the course slides and course web site. This -->
+<!--   pull request should also include the original Excalidraw file as well! -->
+<!--   3) Review the course slides for that week and raise at least one issue in) -->
+<!--   the GitHub Issue Tracker for improving the existing content -->
+
 ## Software Operation
 
 ### Technical Question
