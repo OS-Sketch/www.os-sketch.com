@@ -33,4 +33,3 @@ that the project maintainers will not merge any pull requests that either do not
 adhere to the template or break any aspects of the automated build. You should
 read the following subsection to learn more about the project standards to which
 all of www.os-sketch.com's contributors adhere.
-
