@@ -1,0 +1,61 @@
+# Basic workflow
+name: build
+
+# Controls when the action will run
+# Workflow begins with push or PR events
+# Focuses on the master branch only
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+# Create one single job
+# This job performs all necessary checks
+jobs:
+  build:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      # Turning fail-fast off ensures the entire strategy matrix is allowed to
+      # run to completion, allowing detection of individual platform issues
+      # regardless of the status of the other platforms.
+      fail-fast: false
+      matrix:
+        # Can only use ubuntu-latest because MacOS and Windows do not support
+        # the installation of some of the Python dependencies, namely those
+        # connected to weasyprint that support the automated creation of a PDF
+        os: [ubuntu-latest]
+        python-version: [3.8, 3.9]
+    env:
+      # These environment variables are passed to CodeCov to identify each build
+      OS: ${{ matrix.os }}
+      PYTHON: ${{ matrix.python-version }}
+    # Define the workflow steps
+    steps:
+        # Checkout the code of the repository
+        - name: Check out Repository Code
+          uses: actions/checkout@v2
+          with:
+            fetch-depth: 0
+        # Run the mdl linting tool
+        # Refers to .mdlrc file in repository
+        - name: Run Markdown Linting
+          if: runner.os=='Linux'
+          uses: actionshub/markdownlint@main
+        # Setup Python for the current language version
+        - name: Setup Python ${{ matrix.python-version }}
+          uses: actions/setup-python@v1
+          with:
+            python-version: ${{ matrix.python-version }}
+        # Install poetry
+        - name: Install Poetry
+          uses: abatilo/actions-poetry@v2.0.0
+          with:
+            poetry-version: 1.1.0
+        # Build the web site
+        - name: Build the web site
+          run: |
+            poetry install
+            poetry run mkdocs build
+          env:
+            ENABLE_PDF_EXPORT: 1
