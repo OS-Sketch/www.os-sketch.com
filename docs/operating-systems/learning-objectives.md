@@ -47,6 +47,18 @@ hide:
 
 ### File Systems
 
+### Network File Systems
+
+## Security
+
+### Authentication
+
+### Authorization
+
+### Access Control
+
+### Cryptography
+
 ## Advanced Programming
 
 A person who is learning the fundamentals of operating systems should
