@@ -3,6 +3,22 @@ hide:
   - navigation
 ---
 
+<!-- TODO: Review the content in the OSTEP book and identify key chapters and topics -->
+<!-- to cover during a single academic semester, which each module lasting one week. -->
+
+<!-- TODO: Instead of using the word "understand" when you are writing a learning -->
+<!-- objective, write the objective so that there is an action that will -->
+<!-- unambiguously demonstrate that a learner has achieved the objective. -->
+
+<!-- TODO: Make sure that all of the learning objectives are both clear and -->
+<!-- measurable. You should write a draft of the learning objective and then as -->
+<!-- another member of your team and/or the instructor to review it to ensure its -->
+<!-- correctness. Remember that all learners will be bound by these objectives! -->
+
+<!-- References: -->
+<!-- https://rtalbert.org/steps-toward-excellence-the-power-of-learning-objectives/ -->
+<!-- https://rtalbert.org/how-to-write-learning-objectives/ -->
+
 # Learning Objectives
 
 ## Virtualization
