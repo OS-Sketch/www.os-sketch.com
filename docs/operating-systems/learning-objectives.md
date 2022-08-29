@@ -51,8 +51,8 @@ programming languages:
       framework for the chosen language, showing that it correctly implements
       the specification for the function.
     - Performs the specified operation in an efficient fashion, as determined
-      through experiments that evaluate the function's performance in seconds or
-      milliseconds.
+      through experiments that evaluate the a components's performance in
+      minutes, seconds, or milliseconds.
     - Correctly uses assignment statements, iteration constructs, conditional
       logic, function invocation, and function recursion in a way that passes
       the function's test suite, works efficiently, and conveys the intended
@@ -61,7 +61,7 @@ programming languages:
       input and output is displayed and stored correctly, is not corrupted, and
       is processed efficiently.
     - Correctly simulates aspects of an operating system (e.g., process
-      scheduling) through the use of a Python program.
+      scheduling) through the use of a program.
 
 ### Programming Tools
 
@@ -84,9 +84,36 @@ programming languages:
       implement, test, debug, document, and manage the source code of a Python
       program, leveraging plugins for workflow enhancement.
 
-### Version Control
+## Version Control
 
---8<-- "includes/objectives/version-control.md"
+- Use the [GitHub](https://github.com/) platform and the
+  [Git](https://git-scm.com/) version control system in the following fashion:
+    - Clone a GitHub repository without error using either a command in a
+      terminal window or an extension for Git integration in a text editor like
+      VS Code.
+    - Write short and descriptive commit messages that use the [Conventional
+      Commits](https://www.conventionalcommits.org/en/v1.0.0/) standard explain
+      the specific way in which a commit changes the source code and
+      documentation in the GitHub repository.
+    - Navigate reports produced by [GitHub
+      Actions](https://github.com/features/actions) so as to determine which
+      aspects of a GitHub repository do and do not adhere to a project's
+      specification.
+    - In either a team-based on individual context, use the [GitHub Flow
+      model](https://guides.github.com/introduction/flow/) to implement specific
+      features in a branch of a GitHub repository and then merge that branch to
+      the main one only after all the checks run by GitHub Actions pass as
+      required and code reviews confirm the code's correctness.
+    - Create and discuss programming and technical writing issues with the
+      [GitHub Issue
+      Tracker](https://github.com/OS-Sketch/www.os-sketch.com/issues) and the
+      [GitHub Discussion
+      Forum](https://github.com/OS-Sketch/www.os-sketch.com/discussions),
+      furnishing descriptive titles and problem descriptions that adhere to
+      industry best practices and project templates.
+    - Submit completed projects that pass all of the instructor-provided and
+      industry-standard checks, as evidenced through the report of a passing
+      build by [GitHub Actions](https://github.com/features/actions).
 
 ## Effective Learning
 
