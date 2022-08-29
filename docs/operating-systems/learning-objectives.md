@@ -34,7 +34,8 @@ hide:
 ## Advanced Programming
 
 A person who is learning the fundamentals of operating systems should
-demonstrate mastery of the following programming skills:
+demonstrate mastery of the following programming skills in myriad of necessary
+programming languages:
 
 ### Programming
 
