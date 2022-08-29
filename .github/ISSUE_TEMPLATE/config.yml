@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: I have a technical question or need technical support with content on OS Sketch
+    url: https://github.com/OS-Sketch/www.os-sketch.com/discussions
+    about: We use GitHub Discussions for all detailed communication about technical content. No invitation needed!
+  - name: I have a quick technical question about the content on OS Sketch
+    url: https://discord.com/invite/kjah8MFYbR
+    about: If you have a quick question, then joining our Discord Chat is a great idea. Just accept the invitation!
+  - name: I heard about OS Sketch but I don't know how to find it!
+    url: https://os-sketch.com/
+    about: If you want to access the technical content, then visit the main web site!
+  - name: I'm unsure where to go for more help with OS Sketch
+    url: https://discord.gg/9VfCdqffu6
+    about: If you are unsure where to go, then joining our Discord chat is recommended. Just accept the invitation!
