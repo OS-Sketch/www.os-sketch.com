@@ -29,6 +29,10 @@ a {
   text-decoration: none;
 }
 
+.md-top {
+  text-decoration: none;
+}
+
 .md-copyright a {
     text-decoration: underline;
 }
