@@ -118,6 +118,10 @@ markdown_extensions:
 # Install plugins
 plugins:
   - search
+  - git-committers:
+      repository: OS-Sketch/www.os-sketch.com
+      branch: master
+      token: !ENV ["MKDOCS_GIT_COMMITTERS_APIKEY"]
   - git-revision-date-localized:
       type: timeago
       enable_creation_date: true
