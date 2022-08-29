@@ -126,9 +126,9 @@ plugins:
       author: "Gregory M. Kapfhammer"
       copyright: Copyright &copy; 2021 Gregory M. Kapfhammer
       cover: true
-      cover_subtitle: "Putting the PRO in programmer"
+      cover_subtitle: "Understanding Operating Systems ... One Sketch at a Time!"
       cover_logo: ""
-      output_path: "pdf/proactive-programmers.pdf"
+      output_path: "pdf/operating-systems-sketch.pdf"
       enabled_if_env: ENABLE_PDF_EXPORT
   # Provide a site printing feature and add an icon
   # for allowing the download of the site's PDF
