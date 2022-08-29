@@ -11,11 +11,12 @@ theme:
   # Provide an overrides/ directory that contains a main.html file for customization
   custom_dir: overrides
   # Define the logo for the top left-hand corner of the screen and collapsible menu
-  logo: img/os-sketch-thumbnail.png
+  # logo: material/draw
   # Define the favicon that displays in the tab of the browser
   favicon: img/os-sketch-thumbnail.png
   # Define the logo for the repository for the top right-hand corner of the screen
   icon:
+    logo: material/draw
     repo: fontawesome/brands/github
   # Define the fonts used on the site
   font:
