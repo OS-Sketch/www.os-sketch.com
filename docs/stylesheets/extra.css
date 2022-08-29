@@ -25,6 +25,10 @@ a {
   text-decoration: none;
 }
 
+.md-nav__link {
+  text-decoration: none;
+}
+
 .md-copyright a {
     text-decoration: underline;
 }
