@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # Course Schedule
 
 <!-- TODO: Use a comment to assign at least two students for each module. These -->
