@@ -1,0 +1,16 @@
+[build.environment]
+  NODE_VERSION = "16"
+  PYTHON_VERSION = "3.8"
+
+[build]
+publish = "site"
+command = """
+pip install -q poetry &&
+poetry config virtualenvs.in-project true &&
+poetry install -v &&
+ENABLE_PDF_EXPORT=1 mkdocs build -d site &&
+cd decks
+cd os-slides
+npm install
+npm run build --workspaces
+"""
