@@ -55,7 +55,7 @@ demonstrate mastery of the following programming skills:
     - Correctly uses assignment statements, iteration constructs, conditional
       logic, function invocation, and function recursion in a way that passes
       the function's test suite, works efficiently, and conveys the intended
-      function's purpose in a Pythonic fashion.
+      function's purpose.
     - Correctly performs file and console input and output, ensuring that all
       input and output is displayed and stored correctly, is not corrupted, and
       is processed efficiently.
