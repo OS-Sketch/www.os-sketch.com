@@ -81,8 +81,16 @@ forum that best connects to your situation, as illustrated with these examples.
 
 - The description should be meaningful and concise (less than 50 characters).
 
-- Commit messages should follow the same format. They should be created when a new feature is
-  added or a change/fix is completed. 
+- Commit messages should follow the link below.
+
+- The follow process work with Linux, Mac, and Windows.
+
+- Make sure you excute local builds before creating a PR. First you will run `poetry install`  
+  then run `poetry run mkdocs serve`.
+
+- To see the local build copy the link and paste it into your browser. 
+
+- In order to leave the local build hit `control + c`.
 
 - Add all of the Integration team to every pull request. Make sure that only 2 reviewers are 
   **required** to merge the pull request.
@@ -93,4 +101,4 @@ forum that best connects to your situation, as illustrated with these examples.
 
 - Once both reviewers have agreed the PR does not have any issues, the addition will be added.
 
-- [Link to How to Write a Git Commit Message](https://cbea.ms/git-commit/).
+- [Link to How to Write a Git Commit Message](https://www.conventionalcommits.org/en/v1.0.0/#summary).
