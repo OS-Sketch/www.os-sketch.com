@@ -1,0 +1,74 @@
+name: Offer Feedback about the OS Sketch Web Site
+description: Offer feedback about the web site
+title: "[Feedback]: "
+labels: [feedback, triage]
+assignees:
+  - gkapfham
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for filling out this feedback form on the OS Sketch web site!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info? Please note that your email address will be in a public GitHub issue.
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: textarea
+    id: extra-feedback
+    attributes:
+      label: What is your feedback about the site?
+      description: What is your feedback about the OS Sketch web site?
+      placeholder: Share your ideas!
+      value: "My feedback about the site is that ..."
+    validations:
+      required: true
+  - type: textarea
+    id: what-like
+    attributes:
+      label: What do you like about the web site?
+      description: What features do you most like on the OS Sketch web site?
+      placeholder: Tell us what you like!
+      value: "I really like ..."
+    validations:
+      required: false
+  - type: textarea
+    id: what-do-not-like
+    attributes:
+      label: What do you not like about the web site?
+      description: What features do you least like on the OS Sketch web site?
+      placeholder: Tell us what you dislike!
+      value: "I really dislike ..."
+    validations:
+      required: false
+  - type: textarea
+    id: what-want-improvement
+    attributes:
+      label: What features would you like to see on the web site?
+      description: What features would you like to see on the OS Sketch web site?
+      placeholder: Tell us what you want!
+      value: "I really would like ..."
+    validations:
+      required: false
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: What browser(s) do you use when visiting the web site?
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
+        - Other
+  - type: checkboxes
+    id: terms-of-conduct
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/CODE_OF_CONDUCT.md)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
