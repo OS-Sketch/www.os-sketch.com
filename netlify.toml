@@ -8,7 +8,7 @@ command = """
 pip install -q poetry &&
 poetry config virtualenvs.in-project true &&
 poetry install -v &&
-ENABLE_PDF_EXPORT=1 mkdocs build -d site &&
+mkdocs build -d site &&
 cd decks
 cd os-slides
 npm install
