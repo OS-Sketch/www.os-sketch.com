@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
+  - name: I want to raise an issue in a category not already described.
+    url: https://github.com/OS-Sketch/www.os-sketch.com/issues
+    about: Go ahead and raise your issue on our issue tracker!
   - name: I have a technical question or need technical support with content on OS Sketch
     url: https://github.com/OS-Sketch/www.os-sketch.com/discussions
     about: We use GitHub Discussions for all detailed communication about technical content. No invitation needed!
