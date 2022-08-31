@@ -94,7 +94,7 @@ forum that best connects to your situation, as illustrated with these examples.
 
 - In order to leave the local build hit `control + c`.
 
-- You must run it local to see preview changes before making a lot of pull requests 
+- You must run it local to see preview changes before making a lot of pull requests.
 
 - Add all of the Integration team to every pull request. Make sure that only 2 reviewers are 
   **required** to merge the pull request.
