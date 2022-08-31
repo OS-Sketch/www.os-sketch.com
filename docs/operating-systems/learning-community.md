@@ -68,3 +68,29 @@ forum that best connects to your situation, as illustrated with these examples.
   content** on OS Sketch, then you should create an issue in the
   [GitHub Issue
   Tracker](https://github.com/OS-Sketch/www.os-sketch.com/issues).
+
+## Integration Guidelines
+
+- In order to properly create a pull request (PR), the user should follow simple syntactic
+  rules so that all requests are uniform:
+
+- The first letter of the PR should be capitalized, and the first word should be in the 
+  imperative case.
+
+- There should be no periods.
+
+- The description should be meaningful and concise (less than 50 characters).
+
+- Commit messages should follow the same format. They should be created when a new feature is
+  added or a change/fix is completed. 
+
+- Add all of the Integration team to every pull request. Make sure that only 2 reviewers are 
+  **required** to merge the pull request.
+
+- Two reviews should be selected for the PR. One reviewer from the creator’s team and one
+  reviewer from the integration team. Both reviewers should utilize the netlify
+  preview feature.
+
+- Once both reviewers have agreed the PR does not have any issues, the addition will be added.
+
+- [Link to How to Write a Git Commit Message](https://cbea.ms/git-commit/).
