@@ -1,0 +1,74 @@
+name: Report Bug in Web Site Source Code Examples
+description: File a bug report about the source code examples on the web site
+title: "[Bug]: "
+labels: [bug, triage]
+assignees:
+  - gkapfham
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for filling out this bug report about the source code on the OS Sketch web site!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info? Please note that your email address will be in a public GitHub issue.
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: textarea
+    id: wrong-code
+    attributes:
+      label: What bug did you find in a source code example?
+      description: What was the mistake in a source code example?
+      placeholder: Please copy and paste the incorrect source code. This will be automatically formatted as source code in your reported issue!
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: correct-code
+    attributes:
+      label: What repair do you suggest for the source code example?
+      description: How do you think that we should fix the mistake in the source code example?
+      placeholder: Please copy and paste the incorrect source code. This will be automatically formatted as source code in your reported issue!
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: explain-bug
+    attributes:
+      label: How do you know that this source code example is a bug?
+      description: Explain what suggested to you that the source code was broken!
+      placeholder: Tell us how you know it is a bug!
+      value: "I can tell that it is a bug because ..."
+    validations:
+      required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: What is the severity of the bug in the source code example?
+      multiple: true
+      options:
+        - Not Severe
+        - Mild Severity
+        - Moderate Severity
+        - Serious Severity
+        - Showstopper Severity
+  - type: textarea
+    id: what-like
+    attributes:
+      label: What do you like about this web site?
+      description: Explain what you have enjoyed so far about this site!
+      placeholder: Tell us what you like!
+      value: "I really like that OS Sketch ..."
+    validations:
+      required: false
+  - type: checkboxes
+    id: terms-of-conduct
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/OS-Sketch/www.os-sketch.com/CODE_OF_CONDUCT.md)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
