@@ -57,5 +57,3 @@ jobs:
           run: |
             poetry install
             poetry run mkdocs build
-          env:
-            ENABLE_PDF_EXPORT: 1
