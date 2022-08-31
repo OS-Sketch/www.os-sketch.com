@@ -73,11 +73,11 @@ assigned percentages during the academic semester.
 | Category               | Percentage |
 |------------------------| -----------|
 | Course Participation   |  5%        |
+| Course Web Site        |  15%       |
 | Midterm Examination    |  10%       |
-| Final Examination      |  15%       |
-| Source Code Surveys    |  15%       |
-| Programming Projects   |  15%       |
-| Engineering Efforts    |  40%       |
+| Final Examination      |  10%       |
+| Long-Term Project      |  20%       |
+| Laboratory Assignments |  40%       |
 
 These grading categories have the following definitions:
 
