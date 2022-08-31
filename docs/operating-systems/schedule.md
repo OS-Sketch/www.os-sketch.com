@@ -14,18 +14,19 @@ hide:
 <!--   3) Review the course slides for that week and raise at least one issue in -->
 <!--   the GitHub Issue Tracker for improving the existing content -->
 
-## Software Operation
+## Course Setup
 
-### Technical Question
+### Professional Question
 
-- How do I install and use the industry-standard programming tools that will
-  help me to rigorously explore data abstraction with the Python programming
-  language?
+- What technical content about operating systems will we cover this semester,
+  how will we assess our mastery of this technical material, and how will we
+  structure all aspects of this advanced course in operating systems?
 
 ### Next Steps
 
-- All written content in and tutorials referenced by the list of [proactive
-  technical skills](/proactive-skills/technical-skills/introduction-technical-skills/).
+- Review all of the discussions in the [OS Sketch Issue
+  Tracker](https://github.com/OS-Sketch/www.os-sketch.com/issues) for more
+  details.
 
 ## Systems Introduction
 

@@ -133,34 +133,6 @@ plugins:
       minify_html: true
       htmlmin_opts:
         remove_comments: true
-  # Render a PDF of the site for referencing in right-side box,
-  # ensuring that PDF rendering only takes place when the
-  # environment variable ENABLE_PDF_EXPORT is set to 1.
-  # Example: ENABLE_PDF_EXPORT=1 poetry run mkdocs serve
-  # Example: ENABLE_PDF_EXPORT=1 poetry run mkdocs build
-  - with-pdf:
-      author: "Gregory M. Kapfhammer"
-      copyright: Copyright &copy; 2022 Gregory M. Kapfhammer
-      cover: true
-      cover_subtitle: "Understanding Operating Systems ... One Sketch at a Time!"
-      cover_logo: ""
-      output_path: "pdf/operating-systems-sketch.pdf"
-      enabled_if_env: ENABLE_PDF_EXPORT
-  # Provide a site printing feature and add an icon
-  # for allowing the download of the site's PDF
-  - print-site:
-      add_to_navigation: false
-      print_page_title: ""
-      add_table_of_contents: false
-      toc_title: ""
-      toc_depth: 1
-      add_full_urls: false
-      enumerate_headings: false
-      enumerate_figures: true
-      add_cover_page: true
-      cover_page_template: ""
-      path_to_pdf: "pdf/operating-systems-sketch.pdf"
-      enabled: true
 
 # Add icons and links to the footer
 extra:
