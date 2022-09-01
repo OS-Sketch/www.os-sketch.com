@@ -122,15 +122,12 @@ These grading categories have the following definitions:
     systems referenced by the course [course
     schedule](/operating-systems/schedule/).
 
--   **Engineering Efforts**: These assignments invite students to explore
+-   **Laboratory Assignments**: These assignments invite students to explore
     different techniques for rigorously designing, implementing, evaluating, and
-    documenting real-world Python programs. These assignments invite students to
-    use tools like a text editor, a terminal window, and a modern Python
-    development environment to implement functions that strike the right balance
-    between understandability, generalizability, and specialization. Students
-    will also use the data collected from running experiments to evaluate the
-    implementation of a Python function as they consider trade-offs between, for
-    instance, its efficiency and correctness.
+    documenting operating system components or concepts. As part of these
+    assignments, learners will use the data collected from running experiments
+    to evaluate the implementation of an operating system component as they
+    consider trade-offs between, for instance, its efficiency and effectiveness.
 
 #### Assignment Submission
 
