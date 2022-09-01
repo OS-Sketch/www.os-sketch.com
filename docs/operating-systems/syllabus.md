@@ -121,13 +121,6 @@ These grading categories have the following definitions:
     the opportunity to explore in greater detail some aspect of operating
     systems referenced on the [course schedule](/operating-systems/schedule/).
 
-    Graded on a checkmark basis and building
-    on material available in the textbook and the content covered during that
-    week's in-person classroom session, the programming projects further equip a
-    learner to solve new problems in the field of data abstraction by applying
-    &mdash; in a new way &mdash; their knowledge of the facts and techniques of
-    data abstraction and rigorous Python programming.
-
 -   **Engineering Efforts**: These assignments invite students to explore
     different techniques for rigorously designing, implementing, evaluating, and
     documenting real-world Python programs. These assignments invite students to
