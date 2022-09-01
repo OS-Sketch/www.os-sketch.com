@@ -100,7 +100,7 @@ Stride scheduling is made without using randomization in mind, why do people use
 ### Network File Systems
 
 ## Security
-
+  In order to create and maintain a high quality software, you must have the ability to secure it. From this point onwards, you will learn techniques that can help you with your future projects.
 ### Authentication
 
   Authentication is one of the most important topics covered in chapter 54. To display proficiency in this chapter, the reader must be able to tell the difference between authentication and authorization. 
