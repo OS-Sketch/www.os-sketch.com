@@ -52,21 +52,22 @@ forum that best connects to your situation, as illustrated with these examples.
   should ask it on the [OS Sketch Discord
   Server](https://discord.gg/9VfCdqffu6).
 
-- If you want to **hang out** or **discuss the challenges** you face as you
-  learn more about operating systems, then you should go to the [OS Sketch
-  Discord Server](https://discord.gg/9VfCdqffu6).
+- If you want to **hang out**, **discuss the challenges** you face as you learn
+  more about operating systems, or **share fun links** to new systems and
+  tools, then you should go to the [OS Sketch Discord
+  Server](https://discord.gg/9VfCdqffu6).
 
 - If you want to **share or receive career advice** with other people who are
-  exploring the field of operating systems, then you should go to the [OS Sketch
-  Discord Server](https://discord.gg/9VfCdqffu6).
+  either exploring and working in the field of operating systems, then you
+  should go to the [OS Sketch Discord Server](https://discord.gg/9VfCdqffu6).
 
 - If you want to **offer feedback** about OS Sketch content, then you should
   create an issue in the [GitHub Issue
   Tracker](https://github.com/OS-Sketch/www.os-sketch.com/issues).
 
-- If you want to **report a bug** in either the **source code** or the **written
-  content** on OS Sketch, then you should create an issue in the
-  [GitHub Issue
+- If you want to **report a bug** in either the **source code** or the
+  **written content** on OS Sketch or **make a suggestions** for new content,
+  then you should create an issue in the [GitHub Issue
   Tracker](https://github.com/OS-Sketch/www.os-sketch.com/issues).
 
 ## Integration Guidelines
@@ -74,7 +75,7 @@ forum that best connects to your situation, as illustrated with these examples.
 - In order to properly create a pull request (PR), the user should follow simple syntactic
   rules so that all requests are uniform:
 
-  - The first letter of the PR should be capitalized, and the first word should be in the 
+  - The first letter of the PR should be capitalized, and the first word should be in the
   imperative case.
 
   - There should be no periods.
@@ -92,11 +93,11 @@ fix: Add the correct percentages to grading table in syllabus
 
   - In the directory of the repository, run `poetry install`, then `poetry run mkdocs serve`.
 
-  - To see the local build, copy the link and paste it into your browser. 
+  - To see the local build, copy the link and paste it into your browser.
 
   - In order to leave the local build, use `control + c` in the terminal.
 
-- Add every member of the Integration team as reviewers to every pull request. Make sure that only 2 reviewers are 
+- Add every member of the Integration team as reviewers to every pull request. Make sure that only 2 reviewers are
   **required** to merge the pull request.
 
 - Two reviews should be selected for each PR. One reviewer from the creator’s team and one
