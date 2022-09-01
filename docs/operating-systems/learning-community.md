@@ -72,34 +72,32 @@ forum that best connects to your situation, as illustrated with these examples.
 
 ## Integration Guidelines
 
-- In order to properly create a pull request (PR), the user should follow
-  simple syntactic rules so that all requests are uniform:
+- To ensure the creation of uniform pull requests (PR), you should follow these
+  syntactic rules:
 
-  - The first letter of the pull request (PR) should be capitalized, and the
-    first word should be in the imperative case.
+    - The first letter of the pull request (PR) title should be capitalized,
+      and the first word should be in the imperative case.
+    - There should not be a period at the end of the PR's title.
+    - The description should be meaningful and concise (less than 50
+      characters).
 
-  - There should be no periods.
+- Commit messages should follow the rules described by the [Conventional
+  Commits Standard](https://www.conventionalcommits.org/en/v1.0.0/#summary).
+  Here is an example:
 
-  - The description should be meaningful and concise (less than 50 characters).
+    ```
+    fix: Add the correct percentages to grading table in syllabus
+    ```
 
-- Commit messages should follow the rules found at [this
-  link](https://www.conventionalcommits.org/en/v1.0.0/#summary). An example is
-  shown below:
+- So as to avoid unnecessary builds on Netlify, excessive pushes to pull
+  requests should be avoided if possible. In order to preview your changes to
+  the web site, please adopt the following process that requires
+  [Python](https://www.python.org/) and [Poetry](https://python-poetry.org/).
 
-```
-fix: Add the correct percentages to grading table in syllabus
-```
-
-- Excessive pushes to pull requests should be avoided if possible. In order to
-  see deployment previews, run them locally with the following process (Works
-  with Linux, Mac, and Windows):
-
-  - In the directory of the repository, run `poetry install`, then `poetry run
-    mkdocs serve`.
-
-  - To see the local build, copy the link and paste it into your browser.
-
-  - In order to leave the local build, use `control + c` in the terminal.
+    - In the directory of the repository, run `poetry install`, then `poetry run
+      mkdocs serve`.
+    - To see the local build, copy the link and paste it into your browser.
+    - In order to leave the local build, use `control + c` in the terminal.
 
 - Add every member of the Integration team as reviewers to every pull request.
   Make sure that only 2 reviewers are **required** to merge the pull request.
