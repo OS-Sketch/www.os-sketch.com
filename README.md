@@ -4,3 +4,9 @@
 
 Educational resources for learners who want to attain an understanding of operating systems.
 All content created and copyrighted by [Gregory M. Kapfhammer](https://www.gregorykapfhammer.com/).
+
+Excessive pushes to pull requests should be avoided if possible. In order to see deployment  
+previews, run them locally with the following process (Works with Linux, Mac, and Windows):
+In the directory of the repository, run `poetry install`, then `poetry run mkdocs serve`. To 
+see the local build, copy the link and paste it into your browser. In order to leave the local 
+build, use `control + c` in the terminal.
