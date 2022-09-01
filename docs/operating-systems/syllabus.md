@@ -100,10 +100,11 @@ These grading categories have the following definitions:
 
 -   **Midterm Examination**: The midterm is an online cumulative assessment
     covering all of the material from the class and laboratory sessions, as
-    outlined on the course schedule. Unless prior arrangements are made with the
-    course instructor, all students will be expected to use their computer to
-    take this test on the scheduled date and complete the test in the stated
-    period of time.
+    outlined on the [course schedule](/operating-systems/schedule/). Unless
+    prior arrangements are made with the course instructor, all students will be
+    expected to use their computer to take this test on the scheduled date and
+    to complete it in the stated location while taking no more than the required
+    amount of time.
 
 -   **Final Examination**: The final is an online cumulative assessment covering
     all of the material from the class, programming, and laboratory sessions, as
