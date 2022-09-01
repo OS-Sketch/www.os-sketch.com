@@ -119,7 +119,8 @@ These grading categories have the following definitions:
     system as part of this project that will take place over approximately half
     of the academic semester. The long-term final project will afford learners
     the opportunity to explore in greater detail some aspect of operating
-    systems referenced on the [course schedule](/operating-systems/schedule/).
+    systems referenced by the course [course
+    schedule](/operating-systems/schedule/).
 
 -   **Engineering Efforts**: These assignments invite students to explore
     different techniques for rigorously designing, implementing, evaluating, and
