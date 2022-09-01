@@ -31,6 +31,14 @@ tags:
 
 ### CPU Scheduling
 
+Stride scheduling is made without using randomization in mind, why do people use stride scheduling? And why is it so straightforward? 
+
+  - A person reading chapter 9 must know the importance of stride scheduling and master the concept of fairness metric.
+  - Having the ability to define the main differences between lottery scheduling, stride scheduling, and the Completely Fair Scheduling of Linux.
+
+  - Have the ability to recognize the real scheduler vs. the fake. 
+  - Being able to define one clear issue if you use a scheduler.
+
 ### Memory Management
 
 ### Paging
@@ -45,6 +53,11 @@ tags:
 
 ### Semaphores
 
+  - Explain what a semaphore is and why it is important to an OS. 
+  - Define the different types of semaphores.
+  - Shows proficiency in using semaphores. 
+
+
 ## Persistence
 
 ### Input/Output Devices
@@ -56,12 +69,33 @@ tags:
 ## Security
 
 ### Authentication
-
-### Authorization
+  Authentication is one of the most important topics covered in chapter 54. To display proficiency in this chapter, the reader must be able to tell the difference between authentication and authorization. 
+  - Correctly identify the difference between agent, principal, credential, and object in OS.
+  - Correctly identify the 3 main ways to authenticate users. 
+  - correctly identify the 3 main ways to authenticate users. 
+  - Explain the importance of hashes, cryptographic hashes, and what does it prevent.
+  - Demonstrate the ability to authentication by what you know
+  - Demonstrate the ability to authentication by what you have 
+  - Demonstrate the ability to authentication by what you are
 
 ### Access Control
 
-### Cryptography
+  - Have the ability to figure out if a request fits within your security policy, if it does, operate, if not, do not operate. 
+  - Explain the difference between authorization and authentication. 
+  - Have the ability to explain the difference between capability-based systems and access control list systems. (ch 55, pg4)
+
+## Cryptography
+
+  - Correctly explain the meaning of cryptography. (ch 56, pg 1) 
+  - Explain what a cipher and a key is. 
+  - Explain the meaning behind “The cryptography's benefit relies entirely on the secrecy of the key.”
+  - Differentiate between private and public keys in cryptography.
+
+### Distributed System Security 
+
+  - Explain the importance of distributed systems to modern computing. 
+  - Explain the reason behind using symmetric cryptography to transport data.
+  - Define other authentication approaches.
 
 ## Advanced Programming
 
