@@ -147,8 +147,8 @@ community](/operating-systems/learning-community/) content.
 Using a report that the instructor shares with you through your assignment's
 GitHub repository, you will privately receive a grade for and feedback on each
 assignment. Your grade will be a function of whether or not you completed
-correct work that fulfills the project's specification and submitted it by the
-deadline.
+correct work that fulfills the project's specification and whether or not you
+submitted the project by the deadline.
 
 #### Course Attendance
 
@@ -172,11 +172,12 @@ participate in these class discussions.
 Importantly, only prepared students will be able to acquire the knowledge and
 skills that they need to be successful in this course, subsequent courses, and
 the field of web development. In order to help students remain organized and to
-effectively prepare for classes, the course instructor will maintain a class
-schedule with reading assignments and presentation slides, available at on this
-site. During the class sessions students will also be required to download, use,
-and modify web site components and data sets that are made available through
-means such as the course web site and a GitHub repository.
+effectively prepare for classes, the OS-Sketch web site features a [course
+schedule](/operating-systems/schedule/) with, for instance, reading assignments
+and presentation slides. During the class sessions students will also be
+required to download, use, and modify source code segments and data sets that
+are made available through means such as the course web site or a GitHub
+repository.
 
 #### Seeking Assistance
 
