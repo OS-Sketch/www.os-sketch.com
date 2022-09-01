@@ -34,6 +34,13 @@ tags:
 
 ### Processes
 
+### Direct Execution
+
+- Given a Limited Direct Execution, a student should be able to trace the steps of the execution.
+- When provided with a system call, a student should be able to measure its estimated cost.
+- A student should be able to trace the steps of Context Switch code.
+- Given context switch code, a student should be able to measure its cost using the lmbench tool.
+
 ### CPU Scheduling
 
 Stride scheduling is made without using randomization in mind, why do people use stride scheduling? And why is it so straightforward? 
@@ -70,6 +77,12 @@ Stride scheduling is made without using randomization in mind, why do people use
 
 ### Threads
 
+- A student should be able to articulate the value and purpose of threads
+- A student should be able to write and execute the code necessary to create threads.
+- Additionally, a student should be able to pass arguments to threads.
+- Given a situation in which threads access shared data, a student should be able to address the issue through building support for synchronized primitives to support atomicity.
+- A student should be able to build mechanisms to support the sleeping and waking interaction between processes.
+
 ### Locks
 
 ### Semaphores
@@ -77,7 +90,6 @@ Stride scheduling is made without using randomization in mind, why do people use
   - Explain what a semaphore is and why it is important to an OS. 
   - Define the different types of semaphores.
   - Shows proficiency in using semaphores. 
-
 
 ## Persistence
 
@@ -90,6 +102,7 @@ Stride scheduling is made without using randomization in mind, why do people use
 ## Security
 
 ### Authentication
+
   Authentication is one of the most important topics covered in chapter 54. To display proficiency in this chapter, the reader must be able to tell the difference between authentication and authorization. 
   - Correctly identify the difference between agent, principal, credential, and object in OS.
   - Correctly identify the 3 main ways to authenticate users. 
