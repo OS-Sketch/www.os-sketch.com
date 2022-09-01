@@ -99,8 +99,9 @@ forum that best connects to your situation, as illustrated with these examples.
     - To see the local build, copy the link and paste it into your browser.
     - In order to leave the local build, use `control + c` in the terminal.
 
-- Add every member of the Integration team as reviewers to every pull request.
-  Make sure that only 2 reviewers are **required** to merge the pull request.
+- When you create your PR, please add every member of the Integration team as
+  reviewers. With that said, please note that only two approving reviewers are
+  **required** to merge your pull request.
 
 - Two reviews should be selected for each PR. One reviewer from the creator’s
   team and one reviewer from the integration team. Both reviewers should
