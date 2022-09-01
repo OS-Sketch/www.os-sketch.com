@@ -27,6 +27,11 @@ tags:
 
 ## Virtualization
 
+  - Given the opportunity to describe the processes of the OS virtualizing resources and doing it efficiently.
+  - Identify the main physical parts that make up the PC for the OS to run.
+  - To have some idea of what an OS actually does.
+
+
 ### Processes
 
 ### CPU Scheduling
@@ -41,9 +46,25 @@ Stride scheduling is made without using randomization in mind, why do people use
 
 ### Memory Management
 
+### Segmentation
+
+  - Justify the decision on why hardware uses segment registers during translation.
+  - Compare and contrast fined-grained and coarse-grained segmentation with addresses.
+  - Given the idea of segmentation, explain how solving problems help us build more effective virtualization of memory.
+
 ### Paging
 
+  - To be able to describe how to avoid the problems of segmentation by virtualizing memory with pages.
+  - Given the idea that OS usually keeps a per-process data structure; page table, describe the major role of the page table.
+  - To be able to identify the main purpose of using pages and how you take advantage by using it. 
+
+
 ### Swapping
+
+  - Explain how swap space works for the OS to move pages back and forth.
+  - Be able to describe the page fault work and why hardware does not handle page faults as the OS does. 
+  - Having the ability to explain how replacements occur and how high watermark and low watermark have a big impact on this.
+
 
 ## Concurrency
 
