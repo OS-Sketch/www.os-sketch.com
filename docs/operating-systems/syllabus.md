@@ -132,12 +132,15 @@ These grading categories have the following definitions:
 #### Assignment Submission
 
 All assignments will have a stated due date shared through GitHub, GitHub
-Classroom, and Google Calendar. Electronic versions of the engineering efforts,
-programming projects, and source code surveys must be submitted to the
-instructor through a student's GitHub repository created by GitHub Classroom. No
-credit will be awarded for any course work that you submit to the incorrect
-GitHub repository. Unless special arrangements are made with the instructor, no
-work will be accepted after the published assignment deadline.
+Classroom, and Google Calendar. Electronic versions of the laboratory
+assignments must be submitted to the instructor through a student's GitHub
+repository created by GitHub Classroom. No credit will be awarded for any
+laboratory assignment work that you submit to the incorrect GitHub repository.
+Unless special arrangements are made with the instructor, no work will be
+accepted after the published assignment deadline. Students who are completing
+work for the OS-Sketch web site must do so in accordance with the content
+integration guidelines described in the [learning
+community](/operating-systems/learning-community/) content.
 
 #### Assignment Evaluation
 
