@@ -72,40 +72,44 @@ forum that best connects to your situation, as illustrated with these examples.
 
 ## Integration Guidelines
 
-- In order to properly create a pull request (PR), the user should follow simple syntactic
-  rules so that all requests are uniform:
+- In order to properly create a pull request (PR), the user should follow
+  simple syntactic rules so that all requests are uniform:
 
-  - The first letter of the PR should be capitalized, and the first word should be in the
-  imperative case.
+  - The first letter of the pull request (PR) should be capitalized, and the
+    first word should be in the imperative case.
 
   - There should be no periods.
 
   - The description should be meaningful and concise (less than 50 characters).
 
-- Commit messages should follow the rules found at [this link](https://www.conventionalcommits.org/en/v1.0.0/#summary). An example is shown below:
+- Commit messages should follow the rules found at [this
+  link](https://www.conventionalcommits.org/en/v1.0.0/#summary). An example is
+  shown below:
 
 ```
-@gkapfham
 fix: Add the correct percentages to grading table in syllabus
 ```
 
-- Excessive pushes to pull requests should be avoided if possible. In order to see deployment previews, run them locally with the following process (Works with Linux, Mac, and Windows):
+- Excessive pushes to pull requests should be avoided if possible. In order to
+  see deployment previews, run them locally with the following process (Works
+  with Linux, Mac, and Windows):
 
-  - In the directory of the repository, run `poetry install`, then `poetry run mkdocs serve`.
+  - In the directory of the repository, run `poetry install`, then `poetry run
+    mkdocs serve`.
 
   - To see the local build, copy the link and paste it into your browser.
 
   - In order to leave the local build, use `control + c` in the terminal.
 
-- Add every member of the Integration team as reviewers to every pull request. Make sure that only 2 reviewers are
-  **required** to merge the pull request.
+- Add every member of the Integration team as reviewers to every pull request.
+  Make sure that only 2 reviewers are **required** to merge the pull request.
 
-- Two reviews should be selected for each PR. One reviewer from the creator’s team and one
-  reviewer from the integration team. Both reviewers should utilize the netlify
-  preview feature.
+- Two reviews should be selected for each PR. One reviewer from the creator’s
+  team and one reviewer from the integration team. Both reviewers should
+  utilize the netlify preview feature.
 
-- Once both reviewers have agreed that the PR does not have any issues, the addition will be added.
+- Once both reviewers have agreed that the PR does not have any issues, the
+  addition will be added.
 
-- Github usernames for the integration team:
-
-  > hinckleyc, burgess01, waryankaa, antlet, Yanqiao4396
+- Please tag for reviews one member of your team and one additional individual
+  who has expertise in reviewing the content of your pull request.
