@@ -73,9 +73,9 @@ assigned percentages during the academic semester.
 | Category               | Percentage |
 |------------------------| -----------|
 | Course Participation   |  5%        |
-| Course Web Site        |  15%       |
+| Course Web Site        |  10%       |
 | Midterm Examination    |  10%       |
-| Final Examination      |  10%       |
+| Final Examination      |  15%       |
 | Long-Term Project      |  20%       |
 | Laboratory Assignments |  40%       |
 
@@ -88,31 +88,31 @@ These grading categories have the following definitions:
     miss class or attend late for an excused reason should communicate their
     situation to the course instructor as soon as possible.
 
--   **Midterm Examination**: The midterm is an online cumulative assessment
-    covering all of the material from the class, programming, and laboratory
-    sessions, as outlined on the course schedule. Unless prior arrangements are
-    made with the course instructor, all students will be expected to use their
-    computer to take this test on the scheduled date and complete the test in
-    the stated period of time.
+-   **Course Web Site**: Throughout the semester students are invited to
+    contribute content to the OS-Sketch web site in the form of, for instance,
+    technical diagrams (i.e., the sketches of operating system components),
+    source code segments that comprise part of a laboratory assignment,
+    enhancements to technical writing, and new written content. By the end of
+    the semester, each student should make at least ten contributions &mdash;
+    excluding the merge of a pull request &mdash; to the web site, as evidenced
+    through the GitHub repository's [commit
+    listing](https://github.com/OS-Sketch/www.os-sketch.com/commits/master).
 
--   **Final Examination**: The final is an online cumulative assessment covering
-    all of the material from the class, programming, and laboratory sessions, as
+-   **Midterm Examination**: The midterm is an online cumulative assessment
+    covering all of the material from the class and laboratory sessions, as
     outlined on the course schedule. Unless prior arrangements are made with the
     course instructor, all students will be expected to use their computer to
     take this test on the scheduled date and complete the test in the stated
     period of time.
 
--   **Source Code Surveys**: Graded on a checkmark basis and building on
-    material in the textbook and the content covered during that week's
-    in-person classroom sessions, source code surveys have the following goals:
-    (i) help a learner to demonstrate that they can remember learned material by
-    recalling facts, basic concepts, and answers to questions presented in the
-    textbook and on the course web site and (ii) allow a learner to demonstrate
-    an understanding of facts and ideas by translating, interpreting, and
-    stating the main technical ideas presented through the textbook and course
-    web site.
+-   **Final Examination**: The final is an online cumulative assessment covering
+    all of the material from the class, programming, and laboratory sessions, as
+    outlined on the [course schedule](/operating-systems/schedule/). Unless
+    prior arrangements are made with the course instructor, all students will be
+    expected to use their computer to take this test on the scheduled date and
+    complete the test in the stated period of time.
 
--   **Programming Projects**: Graded on a checkmark basis and building on
+-   **Long-Term Project**: Graded on a checkmark basis and building on
     material available in the textbook and the content covered during that
     week's in-person classroom session, the programming projects further equip a
     learner to solve new problems in the field of data abstraction by applying
