@@ -107,14 +107,22 @@ These grading categories have the following definitions:
     amount of time.
 
 -   **Final Examination**: The final is an online cumulative assessment covering
-    all of the material from the class, programming, and laboratory sessions, as
-    outlined on the [course schedule](/operating-systems/schedule/). Unless
-    prior arrangements are made with the course instructor, all students will be
+    all of the material from the class and laboratory sessions, as outlined on
+    the [course schedule](/operating-systems/schedule/). Unless prior
+    arrangements are made with the course instructor, all students will be
     expected to use their computer to take this test on the scheduled date and
-    complete the test in the stated period of time.
+    to complete it in the stated location while taking no more than the required
+    amount of time.
 
--   **Long-Term Project**: Graded on a checkmark basis and building on
-    material available in the textbook and the content covered during that
+-   **Long-Term Project**: Students will propose, design, implement, test, and
+    experimentally evaluate a significant software component of an operating
+    system as part of this project that will take place over approximately half
+    of the academic semester. The long-term final project will afford learners
+    the opportunity to explore in greater detail some aspect of operating
+    systems referenced on the [course schedule](/operating-systems/schedule/).
+
+    Graded on a checkmark basis and building
+    on material available in the textbook and the content covered during that
     week's in-person classroom session, the programming projects further equip a
     learner to solve new problems in the field of data abstraction by applying
     &mdash; in a new way &mdash; their knowledge of the facts and techniques of
