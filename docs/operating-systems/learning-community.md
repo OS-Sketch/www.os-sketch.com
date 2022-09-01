@@ -103,12 +103,11 @@ forum that best connects to your situation, as illustrated with these examples.
   reviewers. With that said, please note that only two approving reviewers are
   **required** to merge your pull request.
 
-- Two reviews should be selected for each PR. One reviewer from the creator’s
-  team and one reviewer from the integration team. Both reviewers should
-  utilize the netlify preview feature.
+- Two reviews should be selected for each PR. One reviewer should originate
+  from the creator’s team and the other from the integration team. Both of
+  these reviewers should carefully review both the new source code and
+  technical writing and the preview of the web site created by Netlify.
 
-- Once both reviewers have agreed that the PR does not have any issues, the
-  addition will be added.
-
-- Please tag for reviews one member of your team and one additional individual
-  who has expertise in reviewing the content of your pull request.
+- Once both reviewers have agreed that the PR does not have any mistakes, a
+  member of the integration team or the course instructor will merge it and
+  then Netlify's servers will build and deploy the site.
