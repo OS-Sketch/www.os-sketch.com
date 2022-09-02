@@ -81,9 +81,9 @@ programming languages:
       style for the chosen language.
     - Passes an automated test suite, written with an industry-standard
       framework for the chosen language, showing that it correctly implements
-      the specification for the function.
+      the specification for the function or component.
     - Performs the specified operation in an efficient fashion, as determined
-      through experiments that evaluate the a components's performance in
+      through experiments that evaluate the components's performance in
       minutes, seconds, or milliseconds.
     - Correctly uses assignment statements, iteration constructs, conditional
       logic, function invocation, and function recursion in a way that passes
