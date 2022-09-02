@@ -98,8 +98,8 @@ programming languages:
 
 - Use a Docker and/or operating system-based programming environment that
   supports a recent version of the C, Go, and Python programming languages to
-  complete these tasks while implementing a program up to five hundred lines of
-  code:
+  complete these tasks while implementing a program of up to five hundred lines
+  of code:
     - Install, upgrade, and use a recent version of the
       [Python](https://www.python.org/) programming language environment to
       create, run, and debug a Python program with a terminal window, a text
