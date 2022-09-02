@@ -88,7 +88,7 @@ a {
     color: var(--md-default-fg-color);
     font-weight: 600;
     font-size: 2rem;
-    margin-top: .5em;
+    margin-top: .35em;
     margin-bottom: .25em;
     line-height: 1.0;
 }
