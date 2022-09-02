@@ -239,20 +239,19 @@ together to produce large, complex, and ultimately useful software systems.
 Because of this, the Department of Computer Science at Allegheny College
 encourages students to engage in collaboration. However, in the context of
 individual coursework, through which each student must demonstrate their own
-knowledge, there are certain forms of collaboration that are and are not
-acceptable.
+knowledge and skills, there are certain forms of collaboration that
+are and are not acceptable.
 
 - Acceptable forms of collaboration include:
     - Discussing high-level concepts, such as the use cases for `while` loops
-      or the various methods that can add elements to a `list`.
+      or the various ways in which you can modify arrays.
     - Referring someone to a course text book, course slides, or other
       resources that contain helpful information or instructions.
     - Outlining the high-level steps to solving a problem or implementing a
-      feature, without mentioning specific lines of code that need to be
-      written.
+      feature, without writing the necessary lines of code.
 
 - Unacceptable forms of collaboration include:
-    - Sharing details about specific lines of code, including showing your
+    - Sharing specific source code, including showing your
       source code to someone or looking at someone else's code.
     - Copying someone else's source code, technical writing, or program output,
       even with some slight modifications.
