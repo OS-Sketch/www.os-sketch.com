@@ -3,23 +3,23 @@
   @apply h-full grid;
 
   h1 {
-    @apply text-7xl -my-2 leading-20 mb-4 font-bold text-dark-100 text-orange-600;
+    @apply text-7xl -my-2 leading-20 mb-4 font-bold text-orange-600;
   }
 
   h2 {
-    @apply text-5xl m-4 leading-15 font-bold text-blue-600 -mb-5;
+    @apply text-5xl m-4 leading-15 font-bold -mb-5;
+    color: #0288d1;
   }
 
   h3 {
     @apply text-3xl font-bold text-dark-100 opacity-100;
     text-transform: none;
-    letter-spacing: .01em;
+    letter-spacing: 0.01em;
   }
 
   h1 + p {
     @apply opacity-100 -mt-4 text-2xl;
   }
-
 }
 
 .slidev-layout.fact {
