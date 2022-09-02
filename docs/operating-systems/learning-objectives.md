@@ -175,12 +175,12 @@ following technology-mediated learning skills:
   technology in the following fashion:
     - In the correct public channel, post a question that includes source code
       segments, screenshots, and a description of the steps taken in an attempt
-      to solve a problem.
+      to document and then ultimately solve a problem.
     - Answer questions that were posted in a public channel, responding with
       source code segments, screenshots, and links to external references,
-      pointing the proactive programmer who asked the question in the right
-      direction without solving the problem for them and limiting their
-      opportunity to learn more about the topic in question.
+      pointing the person who asked the question in the right direction without
+      solving the problem for them and limiting their opportunity to learn more
+      about the topic in question.
     - Proactively offer to help others who may need to learn scientific,
       mathematical, or technical knowledge and skills that a learner has already
       mastered by sharing the acquired knowledge or skill, how you can be
