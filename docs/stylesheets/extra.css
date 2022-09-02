@@ -97,8 +97,8 @@ a {
     color: var(--md-default-fg-color);
     font-weight: 600;
     font-size: 1.25rem;
-    margin-top: .75em;
-    margin-bottom: .75em;
+    margin-top: .35em;
+    margin-bottom: .25em;
     line-height: 1.0;
 }
 
