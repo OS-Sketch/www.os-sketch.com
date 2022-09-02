@@ -6,6 +6,6 @@ hide:
 
 # Topic List
 
-Follow these links to learn more about the following topics in operating systems:
+Follow these links to learn more about these topics in operating systems:
 
 [TAGS]
