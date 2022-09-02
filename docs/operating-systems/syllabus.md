@@ -188,8 +188,8 @@ Students who are struggling to understand the knowledge and skills developed in
 either a class, laboratory, or programming session are encouraged to seek
 assistance from the course instructor and the student technical leaders.
 Students should, within the bounds of the Honor Code, ask and answer questions
-on the Slack workspace for our course; please request assistance from the
-instructor and student technical leaders first through Slack before sending an
+on the Discord server for our course; please request assistance from the
+instructor and student technical leaders first through Discord before sending an
 email. Students who need the course instructor's assistance must schedule a
 meeting through his web site and come to the virtual meeting with all of the
 details needed to discuss their question. Students can find out the office hour
