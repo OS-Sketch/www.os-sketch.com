@@ -66,7 +66,7 @@ tags:
 ## Advanced Programming
 
 A person who is learning the fundamentals of operating systems should
-demonstrate mastery of the following programming skills in myriad of necessary
+demonstrate mastery of the following programming skills in all of the necessary
 programming languages:
 
 ### Programming
@@ -75,7 +75,7 @@ programming languages:
   characteristics for the chosen programming language:
     - Has function and variable names that adhere to an industry-standard coding
       style for the chosen programming language.
-    - Has descriptive comments for all program components that adhere to an
+    - All program components have descriptive comments that adhere to an
       industry-standard coding style.
     - Features a source code format that adheres to an industry-standard coding
       style for the chosen language.
