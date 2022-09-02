@@ -120,9 +120,9 @@ programming languages:
 
 - Use the [GitHub](https://github.com/) platform and the
   [Git](https://git-scm.com/) version control system in the following fashion:
-    - Clone a GitHub repository without error using either a command in a
-      terminal window or an extension for Git integration in a text editor like
-      VS Code.
+    - Using SSH keys, clone a GitHub repository without error using either a
+      command in a terminal window or an extension for Git integration in a text
+      editor like VS Code.
     - Write short and descriptive commit messages that use the [Conventional
       Commits](https://www.conventionalcommits.org/en/v1.0.0/) standard explain
       the specific way in which a commit changes the source code and
@@ -130,12 +130,16 @@ programming languages:
     - Navigate reports produced by [GitHub
       Actions](https://github.com/features/actions) so as to determine which
       aspects of a GitHub repository do and do not adhere to a project's
-      specification.
+      specification, iteratively fixing broken components until the project
+      works.
     - In either a team-based on individual context, use the [GitHub Flow
       model](https://guides.github.com/introduction/flow/) to implement specific
       features in a branch of a GitHub repository and then merge that branch to
       the main one only after all the checks run by GitHub Actions pass as
-      required and code reviews confirm the code's correctness.
+      required and code reviews confirm the code's correctness. When modifying
+      the source code of the OS-Sketch web site, use a preview build created by
+      [Netlify](https://www.netlify.com/) to survey the site's content and
+      layout.
     - Create and discuss programming and technical writing issues with the
       [GitHub Issue
       Tracker](https://github.com/OS-Sketch/www.os-sketch.com/issues) and the
@@ -143,9 +147,10 @@ programming languages:
       Forum](https://github.com/OS-Sketch/www.os-sketch.com/discussions),
       furnishing descriptive titles and problem descriptions that adhere to
       industry best practices and project templates.
-    - Submit completed projects that pass all of the instructor-provided and
-      industry-standard checks, as evidenced through the report of a passing
-      build by [GitHub Actions](https://github.com/features/actions).
+    - Submit completed projects that pass all of the automated
+      instructor-provided and industry-standard checks, as evidenced through the
+      report of a passing build run in [GitHub
+      Actions](https://github.com/features/actions).
 
 ## Effective Learning
 
