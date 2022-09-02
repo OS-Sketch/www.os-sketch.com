@@ -292,12 +292,12 @@ ensure that approved accommodations are implemented in a timely fashion.
 In reference to software, Frederick P. Brooks, Jr. wrote in chapter one of *The
 Mythical Man Month* that "the magic of myth and legend has come true in our
 time." It is so exciting that we can write programs that "come alive" on our
-computers! Moreover, efficient Python programs that correctly use, store and
-manipulate data have the potential to positively influence the lives of many
-people. Moreover, the design, implementation, evaluation, and documentation of
-Python-based software are exciting and rewarding activities! The course
+computers! It is also both fun and challenging to study the operating system
+&mdash; one of the most complex types of software that humans have ever
+implemented. Moreover, the design, implementation, evaluation, and documentation
+of operating systems is an exciting and rewarding activities. The course
 instructor invites you to pursue, with great enthusiasm and vigor, this
-adventure in rigorous Python programming.
+adventurous exploration of operating systems &mdash; one sketch at a time!
 
 ???+ note
 
