@@ -83,12 +83,11 @@ programming languages:
       framework for the chosen language, showing that it correctly implements
       the specification for the function or component.
     - Performs the specified operation in an efficient fashion, as determined
-      through experiments that evaluate the components's performance in
-      minutes, seconds, or milliseconds.
-    - Correctly uses assignment statements, iteration constructs, conditional
-      logic, function invocation, and function recursion in a way that passes
-      the function's test suite, works efficiently, and conveys the intended
-      function's purpose.
+      through experiments that evaluate the components's performance in minutes,
+      seconds, or milliseconds.
+    - Features functions that correctly use the basic building blocks of the
+      chosen programming language in a way that passes the function's test
+      suite, works efficiently, and conveys the function's intended purpose.
     - Correctly performs file and console input and output, ensuring that all
       input and output is displayed and stored correctly, is not corrupted, and
       is processed efficiently.
