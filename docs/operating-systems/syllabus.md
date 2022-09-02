@@ -86,16 +86,18 @@ These grading categories have the following definitions:
     participation grade will be reduced by half a percentage for each additional
     time they are absent or late in an unexcused fashion. Students who need to
     miss class or attend late for an excused reason should communicate their
-    situation to the course instructor as soon as possible.
+    situation to the course instructor as soon as possible. Students who are
+    sick should communicate their situation to the course instructor at their
+    earliest convenience and not attend any in-person class sessions.
 
 -   **Course Web Site**: Throughout the semester students are invited to
     contribute content to the OS-Sketch web site in the form of, for instance,
-    technical diagrams (i.e., the sketches of operating system components),
-    source code segments that comprise part of a laboratory assignment,
-    enhancements to technical writing, and new written content. By the end of
-    the semester, each student should make at least ten contributions &mdash;
-    excluding the merge of a pull request &mdash; to the web site, as evidenced
-    through the GitHub repository's [commit
+    technical diagrams (i.e., a sketch of an operating system component), source
+    code segments that comprise part of a laboratory assignment, enhancements to
+    technical writing, and new written content. By the end of the semester, each
+    student should make at least ten substantive contributions &mdash; excluding
+    the merge of a pull request &mdash; to the web site, as evidenced through
+    the GitHub repository's [commit
     listing](https://github.com/OS-Sketch/www.os-sketch.com/commits/master).
 
 -   **Midterm Examination**: The midterm is an online cumulative assessment
