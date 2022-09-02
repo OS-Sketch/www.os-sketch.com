@@ -202,11 +202,11 @@ This course will primarily use GitHub and Discord for all course communication,
 as summarized in the list of [community
 connections](/operating-systems/learning-community). We will use GitHub for the
 sharing of both source code and course projects and for reporting issues in
-those materials. We will use two distinct Discord servers for all course
-discussions. The [OS Sketch Discord Server](https://discord.gg/9VfCdqffu6)
-provides a way for members of the proactive community to use text and video to
-chat with each other and will be the main forum for the discussion of technical
-content in discrete structures.
+those materials. We will use a Discord server for all other course discussions:
+the [OS Sketch Discord Server](https://discord.gg/9VfCdqffu6) provides a way for
+members of the proactive community to use text and video to chat with each other
+and will be the main forum for the discussion of technical content in operating
+systems.
 
 #### Using Email
 
