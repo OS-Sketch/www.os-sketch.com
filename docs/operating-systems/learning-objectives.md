@@ -181,20 +181,20 @@ following technology-mediated learning skills:
       pointing the person who asked the question in the right direction without
       solving the problem for them and limiting their opportunity to learn more
       about the topic in question.
-    - Proactively offer to help others who may need to learn scientific,
-      mathematical, or technical knowledge and skills that a learner has already
-      mastered by sharing the acquired knowledge or skill, how you can be
-      contacted, and how you can help.
+    - By sharing the acquired knowledge or skill, how you can be contacted, and
+      how you can help, offer to help others who may need to learn technical
+      knowledge and skills in the field of operating systems that a learner has
+      already mastered.
 
 ## Improving Objectives
 
 As [Robert Talbert](https://rtalbert.org/) explains, a learning objective is
 **clear** when it is "clear from the students' perspective" and **measurable**
 when there is "some way to know whether the objective has been met" or "how far
-away the learner is from meeting it".[^1] Do you see a way in which we can improve
-the learning objectives for data abstraction? If you do, then please participate
-in the [OS Sketch community](../learning-community/) by sharing your ideas for
-improving them!
+away the learner is from meeting it".[^1] Do you see a way in which we can
+improve the learning objectives for the OS-Sketch site? If you do, then please
+participate in the [OS Sketch community](../learning-community/) by sharing your
+ideas for improving them!
 
 [^1]: See [Robert Talbert](https://rtalbert.org/)'s article entitled [How to
 Write Learning
