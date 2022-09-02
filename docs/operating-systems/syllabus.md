@@ -120,8 +120,8 @@ These grading categories have the following definitions:
     experimentally evaluate a significant software component of an operating
     system as part of this project that will take place over approximately half
     of the academic semester. The long-term final project will afford learners
-    the opportunity to explore in greater detail some aspect of operating
-    systems referenced by the course [course
+    the opportunity to explore, in greater detail and in an independent fashion,
+    some aspect of operating systems referenced by the course [course
     schedule](/operating-systems/schedule/).
 
 -   **Laboratory Assignments**: These assignments invite students to explore
