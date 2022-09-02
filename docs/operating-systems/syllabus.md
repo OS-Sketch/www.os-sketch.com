@@ -210,13 +210,12 @@ systems.
 
 #### Using Email
 
-Although we will primarily use Discord for class communication, the course
-instructor will sometimes use email to send announcements about important
-matters such as changes in the schedule. It is your responsibility to check your
-email at least once a day and to ensure that you can reliably send and receive
-emails. This class policy is based on the statement about the use of email that
-appears in *The Compass*, the College's student handbook; please see the
-instructor if you do not have this handbook.
+Although this course primarily uses Discord for communication, the instructor
+may use email to send announcements about important matters. It is your
+responsibility to check your email at least once a day and to ensure that you
+can reliably send and receive emails. This class policy is based on the
+statement about the use of email that appears in *The Compass*, the College's
+student handbook; please see the instructor if you do not have this handbook.
 
 #### Honor Code
 
