@@ -110,7 +110,7 @@ programming languages:
       editor.
     - Install, upgrade, and use a recent version of the [Go](https://go.dev/)
       programming language environment to create, run, test, debug, and format a
-      C program through a terminal window and/or a text editor.
+      Go program through a terminal window and/or a text editor.
     - Use a text editor like [VS Code](https://code.visualstudio.com/) to
       implement, test, debug, document, and manage the source code of a Python
       program, leveraging plugins for workflow enhancement.
