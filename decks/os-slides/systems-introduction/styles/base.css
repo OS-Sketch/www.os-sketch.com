@@ -9,7 +9,7 @@
 }
 
 .slidev-layout {
-  background: #e0e0e0;
+  @apply bg-gray-300;
   height: 100%;
 
   h1 {
