@@ -17,8 +17,8 @@
     color: var(--md-footer-fg-color--light);
 }
 
-a {
-    text-decoration: underline;
+.md-footer__title {
+  text-decoration: none!important;
 }
 
 .md-tabs__link {
@@ -34,6 +34,7 @@ a {
 }
 
 .md-source-file__notify a {
+  text-decoration: underline;
   color: #fff!important;
 }
 
