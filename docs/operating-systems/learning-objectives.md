@@ -95,9 +95,27 @@ Stride scheduling is made without using randomization in mind, why do people use
 
 ### Input/Output Devices
 
-### File Systems
+  - Depending on the operating system, decide whether to lower CPU overhead with interrupts
+  - Depending on the operating system, decide whether to lower PIO overhead with Direct Memory Allocation
+  - Design both methods of device communication, those being I/O instructions and memory-mapped I/O
 
-### Network File Systems
+### Files and Dictionaries
+
+  - Make the correct system calls when trying to create, rename, remove, write to, read from, or get the metadata from a file.
+  - Make the correct system calls when trying to create, read, or remove directories.
+
+### File System Implementation
+
+  - Create an appropriate design of the overall on-disk organization of data in a Very Simple File System.
+  - Given an inode number, calculate the location of that inode in the disk.
+  - Depending on the files being dealt with, decide whether to use direct pointers, indirect pointers, or extents.
+
+### Data Integrity and Protection
+
+  - Given a certain disk failure, identify the failure mode.
+  - Be able to handle the latent sector error failure mode.
+  - Be able to handle the data corruption failure mode.
+  - Given a data corruption failure mode and a data integrity budget, choose the best checksum function.
 
 ## Security
   In order to create and maintain a high quality software, you must have the ability to secure it. From this point onwards, you will learn techniques that can help you with your future projects.
