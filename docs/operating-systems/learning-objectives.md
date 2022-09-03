@@ -33,7 +33,9 @@ tags:
 
 
 ### Processes
-
+  - Being able to define what a process is.
+  - Know what a process API is.
+  - Being able to trace process state in both CPU and I/O.
 ### Direct Execution
 
 - Given a Limited Direct Execution, a student should be able to trace the steps of the execution.
@@ -52,6 +54,10 @@ Stride scheduling is made without using randomization in mind, why do people use
   - Being able to define one clear issue if you use a scheduler.
 
 ### Memory Management
+
+  - Have the basic ability to locate and mix memory issues.
+  - Define reasons on memory mangement issues.
+  - Begin to know the importance of memory in OS.
 
 ### Segmentation
 
@@ -84,7 +90,10 @@ Stride scheduling is made without using randomization in mind, why do people use
 - A student should be able to build mechanisms to support the sleeping and waking interaction between processes.
 
 ### Locks
-
+ 
+ - Demostrate the ability to create and maintain a lock.
+ - Demostrate a key understanding of locks and different techniques required to make a lock.
+ - Explain what compare-and-swap is and compare-and-exchange is.
 ### Semaphores
 
   - Explain what a semaphore is and why it is important to an OS. 
