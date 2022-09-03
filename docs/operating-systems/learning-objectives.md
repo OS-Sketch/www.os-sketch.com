@@ -93,6 +93,9 @@ Stride scheduling is made without using randomization in mind, why do people use
 
 ## Persistence
 
+A person learning about operating systems needs to be able to know the parts of a computer that get preserved after shutdown
+and know how to handle failures in the operating system.
+
 ### Input/Output Devices
 
   - Depending on the operating system, decide whether to lower CPU overhead with interrupts
