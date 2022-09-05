@@ -155,9 +155,16 @@ hide:
     Virtualizing Memory
 
 - Chapter 15
+    Limited Direct Execution (LDE)
+    Address Translation
+    Static Relocation
+    Free List
+    Segmentation
 
 - Chapter 16
-
+    Segmentation Fault
+    Sparse Address Spaces
+    External Fragmentation
 
 ## Learning Opportunities
 
