@@ -48,6 +48,26 @@ hide:
       processor or memory and transforming it into a more general, powerful, and
       easy-to-use virtual form.
 
+## Locks and Conditional Variables
+
+### Technical Questions
+
+- What are locks, and how do they aid in **concurrency**?  What are some problems using locks can cause?  What is the greatest benefit we get from condition variables in relation to locks?  How do these two ideas interact?
+
+### Next Steps
+
+- *Locks* and *Conditional Variables* chapters in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+
+"Technical Concepts" in chapters 28 and 30
+
+      - **Spinning**: a thread being told to wait before the action is executed based on a lock being in place.
+      - **Mutual Exclusion**: if one thread is in the critical section it excludes others from entering.
+      - **Fairness**: does each thread contending for the lock get an equal shot at it?
+      - **Performance**: time added by using the lock.
+      - **Condition variable**: an explicit queue threads can put themselves on when some state of execution is less desirable than another thread.  When it changes state the other threads can be woken up and allowed to continue.
+      - **Wait/Signal**: the actions used in a conditional variable.  The thread waits on a specific condition to be met and then signals the sleeping threads to be executed.
+      - **Bounded Buffer**: a system of multiple producer threads and consumer threads which is shared.
+      
 
 ## Course Timeline
 
