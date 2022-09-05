@@ -84,6 +84,39 @@ hide:
 | 12/13                 | Review For Final                                             |
 
 
+## Important terms
+
+- Chapter 2 
+    Virtualization
+    Concurrency
+    Persistence
+
+- Chapter 4
+    Process 
+    Process API
+    Process state 
+    Process list
+
+- Chapter 5
+    Process Identifier
+    Fork
+    Scheduler
+    Concurrency
+
+- Chapter 14
+    Stack Memory
+    Malloc
+    Buffer Overflow
+    Purify and Valgrind 
+
+- Chapter 6
+    Time Sharing
+    Limited Direct Execution
+    User and Kernel Mode
+    System Call 
+    Context Switch
+
+
 ## Learning Opportunities
 
 Interested in learning more about any of the topics on this schedule? If you
