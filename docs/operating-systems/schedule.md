@@ -67,7 +67,6 @@ hide:
       - **Condition variable**: an explicit queue threads can put themselves on when some state of execution is less desirable than another thread.  When it changes state the other threads can be woken up and allowed to continue.
       - **Wait/Signal**: the actions used in a conditional variable.  The thread waits on a specific condition to be met and then signals the sleeping threads to be executed.
       - **Bounded Buffer**: a system of multiple producer threads and consumer threads which is shared.
-      
 
 ## Course Timeline
 
@@ -103,18 +102,17 @@ hide:
 | 12/8                  | 53. Intro Security                                           |                  |
 | 12/13                 | Review For Final                                             |
 
-
 ## Important terms
 
-- Chapter 2 
+- Chapter 2
     Virtualization
     Concurrency
     Persistence
 
 - Chapter 4
-    Process 
+    Process
     Process API
-    Process state 
+    Process state
     Process list
 
 - Chapter 5
@@ -127,14 +125,38 @@ hide:
     Stack Memory
     Malloc
     Buffer Overflow
-    Purify and Valgrind 
+    Purify and Valgrind
 
 - Chapter 6
     Time Sharing
     Limited Direct Execution
     User and Kernel Mode
-    System Call 
+    System Call
     Context Switch
+
+- Chapter 7
+    Scheduling Policies/Disciplines
+    Workload
+    First In, First Out (FIFO)
+    Shortest Job First (SJF)
+    Round Robin
+
+- Chapter 9
+    Proportional-Share Scheduler
+    Ticket
+    Ticket Currency
+    Ticket Transer
+    Ticket Inflation
+
+- Chapter 13
+    Address Spaces
+    Stack
+    Heap
+    Virtualizing Memory
+
+- Chapter 15
+
+- Chapter 16
 
 
 ## Learning Opportunities
@@ -146,4 +168,3 @@ opportunities. Remember, this course emphasizes building mastery of the course's
 [learning objectives](../learning-objectives) through the process of "learning
 by doing" As such, you can best understand the content on this schedule by
 completing all of the projects on this site!
-
