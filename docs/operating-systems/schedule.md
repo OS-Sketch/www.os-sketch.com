@@ -117,7 +117,7 @@ hide:
 
 ### Technical Questions
 
-- What is a **distributed system** and how do they function while minimizing any communication failures? How do clients and servers communicate with eachother and maximize speed and functionality?
+- What is a **distributed system** and how do they function while minimizing any communication failures? How do clients and servers communicate with each other and maximize speed and functionality?
 
 ### Next Steps
 
@@ -128,7 +128,7 @@ hide:
 
 ### Technical Questions
 
-- What importance does security have in an operating system? How do security failures contribute to reduced security How can security goals be acheived? What mechanisms support general security policies in an operating system?
+- What importance does security have in an operating system? How do security failures contribute to reduced security How can security goals be achieved? What mechanisms support general security policies in an operating system?
 
 ### Next Steps
 - *Intro Security* chapters in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/security-intro.pdf)
@@ -307,7 +307,7 @@ Files and Directories: Chapter 39
 
 File System Implementation: Chapter 40
 
-1. **vsfs (Very Simple File System)** A simplified verison of UNIX and utilizes basic on-disk structures, access methods, and multiple file system.
+1. **vsfs (Very Simple File System)** A simplified version of UNIX and utilizes basic on-disk structures, access methods, and multiple file system.
 2. **Access Methods** The methods which allow for calls to be made. They include actions such as open(), read(), and write().
 3. **Metadeta** Types of data about data. Mainly consists of data about data blocks, file size, owner and access rights, etc.
 4. **Inode** A series of nodes arranged in an array and indexed into when the user is accessing a specific inode.
@@ -320,7 +320,7 @@ Network File Systems: Chapter 49
 2. **Recovery Protocol** A specific protocol where there's enough memory available to tell the server what it needs to know.
 3. **Mount Protocol** The first process through which the clients and servers connect together.
 4. **Virtual File System (VFS)** Allows for the use of multiple file systems to be utilized for a given operating system.
-5. **Write Buffering** The delayed sending of the clients data to the server. The submitted data to the netwrok is first held locally in the client's cache.
+5. **Write Buffering** The delayed sending of the clients data to the server. The submitted data to the network is first held locally in the client's cache.
 
 Data Integrity and Protection: Chapter 45
 
@@ -330,11 +330,11 @@ Data Integrity and Protection: Chapter 45
 4. **Cyclic Redundancy Check (CRC)** Remainder of binary division between a large binary number (D) and an agreed value of (k)
 5. **Lost Write** The device doesn't inform the upper layer that a write finished but the new changes never persisted into the next state, thus exposing the past state before the write.
 
-Distributed Sytems: Chapter 48
+Distributed Systems: Chapter 48
 
 1. **Checksums** Method to detect memory corruption quickly.
 2. **End-to-end argument** Method through which packet loss, aka data loss, is avoided.
-3. **UDP/IP** Common networking stack that involves the use of sockets to communicate with an enpoint, and send datagrams which are short messages.
+3. **UDP/IP** Common networking stack that involves the use of sockets to communicate with an endpoint, and send datagrams which are short messages.
 4. **Distributed Shared Memory (DSM)** Allows for multiple computers on the network to share large virtual address space, akin to how processors have multiple cores which allow for the use of threading.
 5. **Remote Procedure Call (RPC)** Simple and easy way to execute code on a remote machine.
 
