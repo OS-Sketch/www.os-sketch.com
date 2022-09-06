@@ -79,6 +79,55 @@ hide:
 
 - *I/O Devices* and *Files and Directories* chapters in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 
+---
+
+## Locks and Conditional Variables
+
+### Technical Questions
+
+- What are locks, and how do they aid in **concurrency**?  What are some problems using locks can cause?  What is the greatest benefit we get from condition variables in relation to locks?  How do these two ideas interact?
+
+### Next Steps
+
+
+## File System Implementation
+
+### Technical Questions
+
+- How do operating systems manage their files, what data is stored about the data in the file system(s), and where is that meta data stored?
+
+### Next Steps
+- *File System Implementation*[OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/file-implementation.pdf)
+
+## Data Integrity and Protection
+
+### Technical Questions
+
+- How do data sysetms maintain their reliability, and how can they best ensure storage accuracy and safety?
+
+### Next Steps
+- *Data Integrity and Protection* chapters in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/file-integrity.pdf)
+
+## Distributed Systems
+
+### Technical Questions
+
+- What is a **distributed system** and how do they function while minimizing any communication failures? How do clients and servers communicate with eachother and maximize speed and functionality?
+
+### Next Steps
+
+- *Distributed Systems* chapters in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/dist-intro.pdf)
+
+
+## Intro Security
+
+### Technical Questions
+
+- What importance does security have in an operating system? How do security failures contribute to reduced security How can security goals be acheived? What mechanisms support general security policies in an operating system?
+
+### Next Steps
+- *Intro Security* chapters in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/security-intro.pdf)
+
 ## Course Timeline
 
 | Class Date            | Chapter/Topics                                               | Expert/Presenter |
