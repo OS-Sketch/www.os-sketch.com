@@ -107,7 +107,7 @@ hide:
 | 11/17                 | 39/40. Files and Dictionaries and File System Implementation |                  |
 | 11/22                 | Continued                                                    |                  |
 | Thanksgiving Break 🦃 | —                                                            | —                |
-| 11/29                 | *One of the file systems                                     |                  |
+| 11/29                 | Network File Systems                                         |                  |
 | 12/1                  | 45 Data Integrity and Protection                             |                  |
 | 12/6                  | 48. Distributed Systems                                      |                  |
 | 12/8                  | 53. Intro Security                                           |                  |
