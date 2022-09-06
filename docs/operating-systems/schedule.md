@@ -16,6 +16,11 @@ hide:
 
 ## Course Setup
 
+### Technical Experts Duties 
+- Review content with Professsor Kaphammer
+- Make a os diagram
+- Additionally help with adding content
+
 ### Professional Question
 
 - What technical content about operating systems will we cover this semester,
@@ -133,34 +138,33 @@ hide:
 | Class Date            | Chapter/Topics                                               | Expert/Presenter |
 |-----------------------|--------------------------------------------------------------|------------------|
 | 9/1                   | Continued work from lab                                      |                  |
-| 9/6                   | 2/4. Introduction/Processes                                  |                  |
-| 9/8                   | Processes Continued                                          |                  |
-| 9/13                  | 5/14/6. Process API Memory API, Direct Execution             |                  |
-| 9/15                  | Continued                                                    |                  |
-| 9/20                  | 7/9. CPU and Lottery Scheduling                              |                  |
+| 9/13                  | 2/4. Introduction/Processes                                  | Peter            |
+| 9/15                  | Processes Continued                                          |                  |
+| 9/20                  | 5/14/6. Process API Memory API, Direct Execution             | Lex              |
 | 9/22                  | Continued                                                    |                  |
-| 9/27                  | 13/15 Address Spaces, Address mechanism                      |                  |
+| 9/27                  | 7/9. CPU and Lottery Scheduling                              |                  |
 | 9/29                  | Continued                                                    |                  |
-| 10/4                  | 16/18 Segmentation and Intro into Paging                     |                  |
+| 10/4                  | 13/15 Address Spaces, Address mechanism                      |                  |
 | 10/6                  | Continued                                                    |                  |
-| Fall Break 🍂         | —                                                            | —                |
-| 10/13                 | 21/22. Swapping: Mechanisms and Policies                     |                  |
-| 10/18                 | Continued                                                    |                  |
-| 10/20                 | 26 Concurrency (code)                                        |                  |
-| 10/27                 | 27. Thread API (code)                                        |                  |
-| 11/1                  | 28. Locks (Code)                                             |                  |
-| 11/3                  | 30. Condition Variables (code)                               |                  |
-| 11/8                  | 31. Semaphores                                               |                  |
-| 11/10                 | Midterm                                                      |                  |
-| 11/15                 | 36. I/O Devices                                              |                  |
-| 11/17                 | 39/40. Files and Dictionaries and File System Implementation |                  |
-| 11/22                 | Continued                                                    |                  |
-| Thanksgiving Break 🦃 | —                                                            | —                |
-| 11/29                 | Network File Systems                                         |                  |
-| 12/1                  | 45 Data Integrity and Protection                             |                  |
-| 12/6                  | 48. Distributed Systems                                      |                  |
-| 12/8                  | 53. Intro Security                                           |                  |
-| 12/13                 | Review For Final                                             |
+| Fall Break 🍂        | -                                                             |-                 |
+| 10/13                 | 16/18 Segmentation and Intro into Paging                     |                  |
+| 10/18                 | 21/22. Swapping: Mechanisms and Policies                     |                  |
+| 10/20                 | Continued                                                    |                  |
+| 10/27                 | 26 Concurrency (code)                                        |                  |
+| 11/1                  | 27. Thread API (code)                                        |                  |
+| 11/3                  | 28. Locks (Code)                                             |                  |
+| 11/8                  | 30. Condition Variables (code)                               |                  |
+| 11/10                 | 31. Semaphores                                               |                  |
+| 11/15                 | Midterm                                                      |                  |
+| 11/17                 | 36. I/O Devices                                              |                  |
+| 11/22                 | 39/40. Files and Dictionaries and File System Implementation | Dylan            |
+| Thanksgiving Break 🦃| -                                                             | -                |
+| 11/29                 | Continued                                                    |                  |
+| 12/1                  | 49. Network File Systems                                     | Liam             |
+| 12/6                  | 45/53. Data Integrity and Protection and Intro Security      | Jordan           |
+| 12/8                  | 48. Distributed Systems                                      |                  |
+| 12/13                 | Review For Final                                             |                  |
+
 
 ## Important terms
 
