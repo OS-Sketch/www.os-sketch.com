@@ -173,6 +173,36 @@ hide:
 2. **Sparse Address Spaces** - large address spaces with large amounts of unused address space.
 3. **External Fragmentation** - a general problem that arises when physical memory quickly becomes full of little holes of free space, making it difficult to allocate new segments, or to grow existing ones.
 
+- Chapter 18
+1. **Paging** - the process's address space is split into a number of variable-sized units.
+2. **Page Tables** - operating system structure used to store per-process address space.
+3. **Virtual Page Number (VPN)** - virtual address that the process generates.
+4. **Physical Frame Number (PFN)** - where the virtual page number is indexed in the frames.
+5. **Physical Page Number (PPN)** - Same as PFN.
+
+- Chapter 21
+1. **High Watermark (HW)** - a way the that the operating system keeps a small amount of memory free.
+2. **Low Watermark (LW)** - a way the that the operating system keeps a small amount of memory free.
+3. **Swap Daemon** - the process in which the operating system sorts LW amd HW to keep memory free.
+
+- Chapter 22
+1. **Average Memory Access Time (AMAT)** - the number of cache hits and misses that a page is found.
+2. **Temporal Locality** - programs keep locality in their access streams when storing and accessing memory.
+3. **Clock Algorithm** - the way an operating system approximates LRU by randomly picking a page.
+4. **Modified Bit** - a bit that is used in the page-replacement process.
+
+- Chapter 26
+1. **Thread Control Blocks (TCBs)** - stores the state of a thread in a process.
+2. **Disassembler** - shows what assembly instructions were used in the program.
+3. **Transaction** - grouping of many actions into a single atomic action.
+4. **Critical Section** - piece of code that when accesses a shared resource, usually a variable or data structure.
+5. **Race Condition** - arises if multiple threads of execution enter the critical section at roughly the same time.
+
+- Chapter 27
+1. **Function Pointer** - looks for which function threads should start running in.
+2. **Procedure Call** - creates a thread or multiple threads.
+3. **Critical Section** - region of code that needs to be protected for operation.
+
 - Chapter 28
 1. **Spinning** - a thread being told to wait before the action is executed based on a lock being in place.
 2. **Mutual Exclusion**: if one thread is in the critical section it excludes others from entering.
