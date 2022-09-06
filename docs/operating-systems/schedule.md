@@ -234,6 +234,33 @@ hide:
 5. **Hard Link** - An entry in the file system tree.  Takes two arguments (old path name and new) and creates another way to refer to that same file.
 6. **Symbolic (soft) Link** - Different type of link that allows links to files in other disk partitions than the one the original file is in.
 
+- Chapter 40 File System Implementation
+1. **vsfs (Very Simple File System)** - A simplified verison of UNIX and utilizes basic on-disk structures, access methods, and multiple file system.
+2. **Access Methods** - The methods which allow for calls to be made. They include actions such as open(), read(), and write().
+3. **Metadeta** - Types of data about data. Mainly consists of data about data blocks, file size, owner and access rights, etc.
+4. **Inode** - A series of nodes arranged in an array and indexed into when the user is accessing a specific inode.
+5. **Indirect Pointer** - A type of pointer that points to other pointers which direct the program to a specific memory address or another pointer.
+6. **Fixed-Size Cache** - A small amount of fast memory inside of a processor to improve the speed of which computational tasks are completed.
+
+- Chapter 49 Network File Systems
+1. **Stateless Protocol** - Simplistic crash recovery process where the server restarts and works as it did previously. 
+2. **Recovery Protocol** - A specific protocol where there's enough memory available to tell the server what it needs to know.
+3. **Mount Protocol** - The first process through which the clients and servers connect together.
+4. **Virtual File System (VFS)** - Allows for the use of multiple file systems to be utilized for a given operating system.
+5. **Write Buffering** - The delayed sending of the clients data to the server. The submitted data to the netwrok is first held locally in the client's cache.
+
+- Chapter 48 Distributed Sytems
+1. **Checksums** - Method to detect memory corruption quickly. 
+2. **End-to-end argument** - Method through which packet loss, aka data loss, is avoided.
+3. **UDP/IP** - Common networking stack that involves the use of sockets to communicate with an enpoint, and send datagrams which are short messages.
+4. **Distributed Shared Memory (DSM)** - Allows for multiple computers on the network to share large virtual address space, akin to how processors have multiple cores which allow for the use of threading.
+5. **Remote Procedure Call (RPC)** - Simple and easy way to execute code on a remote machine.
+
+- Chapter 53 Intro Security
+1. **Trusted Platform Module (TPM)** - Authenticated to users that they were starting up the operating system and version they had intended to do so. 
+2. **Access Control Mechanisms** - The process through which an operating system determines if the user has the proper authorization to perform the requested action. 
+3. **Non-Repudiation** - The authentication of prior actions in the operating system that cannot be forged. 
+4. **Security Policies** - A list of rules and specifications for ensuring security in an operating system environment. 
 
 ## Learning Opportunities
 
