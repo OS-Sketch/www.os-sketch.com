@@ -115,118 +115,138 @@ hide:
 
 ## Important terms
 
-- Chapter 2
+Chapter 2
+
 1. **Virtualization** - the OS takes a physical resource (such as the processor, or memory, or a disk) and         transforms it into a more general powerful, and easy-to-use virtual form of itself.
 2. **Concurrency** - When multiple computations are happening at the same time
 3. **Persistence** - The context of storing data in a computer system, this means that the data survives after the process with which it was created has ended.
 
-- Chapter 4
+Chapter 4
+
 1. **Process** - It is the operating system that takes these bytes and gets them running transforming the program into something useful.
 2. **Process API** - consists of calls programs can make related to processes. Typically, this includes creation, destruction, and other useful calls.
 3. **Process state** -  Including running, ready to run, and blocked. Different events (e.g., getting
 scheduled or descheduled, or waiting for an I/O to complete) transition a process from one of these states to the other.
 4. **Process list** - Contains information about all processes in the system.
 
-- Chapter 5
+Chapter 5
+
 1. **Process Identifier** - Used to name the process if one wants to do something with the process, such as (for example) stop it from running. 
 2. **Fork** - Is used in UNIX systems to create a new process.
 3. **Scheduler** - Determines which process runs at a given moment in time.
 4. **Superuser** - Controls all processes (and indeed do many other things); this role should be assumed infrequently and with caution for security reasons.
 
-- Chapter 14
+Chapter 14
+
 1. **Stack Memory** - Allocations and deallocations
 of it are managed implicitly by the compiler for you.  
 2. **Buffer Overflow** - A related error is not allocating enough memory.
 3. **Purify and Valgrind** - Both are excellent at helping you locate the source of your memory-related problems
 
-- Chapter 6
+Chapter 6
+
 1. **Time Sharing** - When you run one process for a little while,then run another one, and so forth. 
 2. **Limited Direct Execution** - To make a program run as fast as one might expect.
-3. **User and Kernel Mode** - The approach we take is to introduce a new processor mode. The operating system runs in. 
+3. **User and Kernel Mode** - The approach we take is to introduce a new processor mode. The operating system runs in.
 4. **Context Switch** - When the OS, during a timer interrupt or system call, might wish to switch from running the current process to a different one.
 
-- Chapter 7
+Chapter 7
+
 1. **Workload** - simplifying assumptions about the processes running in the system
 2. **First In, First Out (FIFO)** - means the first element in, is the first element out
 3. **Shortest Job First (SJF)** - runs the shortest job first, then the next shortest, and so on
 
-- Chapter 9
+Chapter 9
+
 1. **Proportional-Share** - instead of optimizing for turnaround or response time, a scheduler might instead try to guarantee that each job obtains a certain percentage of CPU time
 2. **Ticket** - used to represent the share of a resource that a process should receive
 3. **Ticket Currency** - allows a user with a set of tickets to allocate tickets among their own jobs in whatever currency they would like
 4. **Ticket Transer** - a process can temporarily hand off its tickets to another process
 5. **Ticket Inflation** - a process can temporarily raise or lower the number of tickets it owns
 
-- Chapter 13
+Chapter 13
+
 1. **Stack** - a linear data structure that follows the principal of Last In First Out (LIFO). This means the last element inserted inside the stack is removed first.
 2. **Heap** - an area of pre-reserved computer main storage (memory) that a program process can use to store data in some variable amount that won't be known until the program is running
 3. **Virtualizing Memory** - the system can load larger or multiple programs running at the same time, enable each on eot operate as if it has more space, without having to purchase more RAM
 
-- Chapter 15
+Chapter 15
+
 1. **Limited Direct Execution (LDE)** - letting the program run directly on the hardware; however at certain key points in time, arrange so that the OS gets involved and makes sure the "right" thing happens.
 2. **Address Translation** - the hardware transforms each memory access, changing the virtual address provided by the instruction to a physical address where the desired information is actually located.
 3. **Static Relocation** - which a piece of software known as the loader takes an executable that is about to be run and rewrites its addresses to the desired offset in physical memory
 4. **Free List** - a list of the ranges of the physical memory which are not currently in use.
 
-- Chapter 16
+Chapter 16
+
 1. **Segmentation Fault** - arises from a memory access on a segmented machine to an illegal address.
 2. **Sparse Address Spaces** - large address spaces with large amounts of unused address space.
 3. **External Fragmentation** - a general problem that arises when physical memory quickly becomes full of little holes of free space, making it difficult to allocate new segments, or to grow existing ones.
 
-- Chapter 18
+Chapter 18
+
 1. **Paging** - the process's address space is split into a number of variable-sized units.
 2. **Page Tables** - operating system structure used to store per-process address space.
 3. **Virtual Page Number (VPN)** - virtual address that the process generates.
 4. **Physical Frame Number (PFN)** - where the virtual page number is indexed in the frames.
 5. **Physical Page Number (PPN)** - Same as PFN.
 
-- Chapter 21
+Chapter 21
+
 1. **High Watermark (HW)** - a way the that the operating system keeps a small amount of memory free.
 2. **Low Watermark (LW)** - a way the that the operating system keeps a small amount of memory free.
 3. **Swap Daemon** - the process in which the operating system sorts LW amd HW to keep memory free.
 
-- Chapter 22
+Chapter 22
+
 1. **Average Memory Access Time (AMAT)** - the number of cache hits and misses that a page is found.
 2. **Temporal Locality** - programs keep locality in their access streams when storing and accessing memory.
 3. **Clock Algorithm** - the way an operating system approximates LRU by randomly picking a page.
 4. **Modified Bit** - a bit that is used in the page-replacement process.
 
-- Chapter 26
+Chapter 26
+
 1. **Thread Control Blocks (TCBs)** - stores the state of a thread in a process.
 2. **Disassembler** - shows what assembly instructions were used in the program.
 3. **Transaction** - grouping of many actions into a single atomic action.
 4. **Critical Section** - piece of code that when accesses a shared resource, usually a variable or data structure.
 5. **Race Condition** - arises if multiple threads of execution enter the critical section at roughly the same time.
 
-- Chapter 27
+Chapter 27
+
 1. **Function Pointer** - looks for which function threads should start running in.
 2. **Procedure Call** - creates a thread or multiple threads.
 3. **Critical Section** - region of code that needs to be protected for operation.
 
-- Chapter 28
+Chapter 28
+
 1. **Spinning** - a thread being told to wait before the action is executed based on a lock being in place.
 2. **Mutual Exclusion**: if one thread is in the critical section it excludes others from entering.
 3. **Fairness**: does each thread contending for the lock get an equal shot at it.
 4. **Performance**: time added by using the lock.
 
-- Chapter 30
+Chapter 30
+
 1. **Condition variable**: an explicit queue threads can put themselves on when some state of execution is less desirable than another thread.  When it changes state the other threads can be woken up and allowed to continue.
 2. **Wait/Signal**: the actions used in a conditional variable.  The thread waits on a specific condition to be met and then signals the sleeping threads to be executed.
 3. **Bounded Buffer**: a system of multiple producer threads and consumer threads which is shared.
 
-- Chapter 31
+Chapter 31
+
 1. **Deadlock** - A problem that occurs when a consumer thread is called before the producer when trying to use mutual exclusion.
 2. **Throttling** - An imposed limit to the number of threads that can be simultaneously executed on a piece of code.  Used to keep the system from bogging down.
 3. **Zemaphore** - An easier-to-implement version of the semaphore where we don’t maintain the value of the semaphore, when negative, reflects the number of waiting threads.
 4. **Hill’s Law** - Sometimes simple and dumb is better.  Just because you can make something sophisticated to solve a problem doesn’t mean it’s the best answer.
 
-- Chapter 36
+Chapter 36
+
 1. **DMA (direct memory access)** - a device within a system that orchestrates transfers between devices and memory without much CPU intervention.
 2. **Memory-mapped I/O** - Another method to interact with devices.  With this version the hardware makes device registers available as if they were memory locations.  Helpful because no new instructions are needed to support it.
 3. **Hardware Interface** - The way for the software to communicate and interact with the hardware system.
 4. **Internal Structure** - Responsible for implementing the abstraction the device presents to the system.
 
-- Chapter 39
+Chapter 39
+
 1. **Persistent Storage** - A permanent storage device that keeps information intact after a loss of power.
 2. **File** - An array of bytes that can be created, read, written and deleted.  Low level name is i-number.
 3. **Directory** - An array of tuples, each containing a human-readable and low-level name to which it is mapped.
@@ -245,7 +265,7 @@ Chapter 40 File System Implementation
 
 Chapter 49 Network File Systems
 
-1. **Stateless Protocol** Simplistic crash recovery process where the server restarts and works as it did previously. 
+1. **Stateless Protocol** Simplistic crash recovery process where the server restarts and works as it did previously.
 2. **Recovery Protocol** A specific protocol where there's enough memory available to tell the server what it needs to know.
 3. **Mount Protocol** The first process through which the clients and servers connect together.
 4. **Virtual File System (VFS)** Allows for the use of multiple file systems to be utilized for a given operating system.
@@ -261,7 +281,7 @@ Chapter 45 Data Integrity and Protection
 
 Chapter 48 Distributed Sytems
 
-1. **Checksums** Method to detect memory corruption quickly. 
+1. **Checksums** Method to detect memory corruption quickly.
 2. **End-to-end argument** Method through which packet loss, aka data loss, is avoided.
 3. **UDP/IP** Common networking stack that involves the use of sockets to communicate with an enpoint, and send datagrams which are short messages.
 4. **Distributed Shared Memory (DSM)** Allows for multiple computers on the network to share large virtual address space, akin to how processors have multiple cores which allow for the use of threading.
@@ -271,8 +291,8 @@ Chapter 53 Intro Security
 
 1. **Trusted Platform Module (TPM)** Authenticated to users that they were starting up the operating system and version they had intended to do so.
 2. **Access Control Mechanisms** The process through which an operating system determines if the user has the proper authorization to perform the requested action. 
-3. **Non-Repudiation** The authentication of prior actions in the operating system that cannot be forged. 
-4. **Security Policies** A list of rules and specifications for ensuring security in an operating system environment. 
+3. **Non-Repudiation** The authentication of prior actions in the operating system that cannot be forged.
+4. **Security Policies** A list of rules and specifications for ensuring security in an operating system environment.
 
 ## Learning Opportunities
 
