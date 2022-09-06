@@ -116,34 +116,34 @@ hide:
 ## Important terms
 
 - Chapter 2
-    Virtualization
-    Concurrency
-    Persistence
+1. **Virtualization** - the OS takes a physical resource (such as the processor, or memory, or a disk) and         transforms it into a more general powerful, and easy-to-use virtual form of itself.
+2. **Concurrency** - When multiple computations are happening at the same time
+3. **Persistence** - The context of storing data in a computer system, this means that the data survives after the process with which it was created has ended.
 
 - Chapter 4
-    Process
-    Process API
-    Process state
-    Process list
+1. **Process** - It is the operating system that takes these bytes and gets them running transforming the program into something useful.
+2. **Process API** - consists of calls programs can make related to processes. Typically, this includes creation, destruction, and other useful calls.
+3. **Process state** -  Including running, ready to run, and blocked. Different events (e.g., getting
+scheduled or descheduled, or waiting for an I/O to complete) transition a process from one of these states to the other.
+4. **Process list** - Contains information about all processes in the system.
 
 - Chapter 5
-    Process Identifier
-    Fork
-    Scheduler
-    Concurrency
+1. **Process Identifier** - Used to name the process if one wants to do something with the process, such as (for example) stop it from running. 
+2. **Fork** - Is used in UNIX systems to create a new process.
+3. **Scheduler** - Determines which process runs at a given moment in time.
+4. **Superuser** - Controls all processes (and indeed do many other things); this role should be assumed infrequently and with caution for security reasons.
 
 - Chapter 14
-    Stack Memory
-    Malloc
-    Buffer Overflow
-    Purify and Valgrind
+1. **Stack Memory** - Allocations and deallocations
+of it are managed implicitly by the compiler for you.  
+2. **Buffer Overflow** - A related error is not allocating enough memory.
+3. **Purify and Valgrind** - Both are excellent at helping you locate the source of your memory-related problems
 
 - Chapter 6
-    Time Sharing
-    Limited Direct Execution
-    User and Kernel Mode
-    System Call
-    Context Switch
+1. **Time Sharing** - When you run one process for a little while,then run another one, and so forth. 
+2. **Limited Direct Execution** - To make a program run as fast as one might expect.
+3. **User and Kernel Mode** - The approach we take is to introduce a new processor mode. The operating system runs in. 
+4. **Context Switch** - When the OS, during a timer interrupt or system call, might wish to switch from running the current process to a different one.
 
 - Chapter 7
 1. **Workload** - simplifying assumptions about the processes running in the system
