@@ -103,6 +103,8 @@ forum that best connects to your situation, as illustrated with these examples.
   reviewers. With that said, please note that only two approving reviewers are
   **required** to merge your pull request.
 
+- If your PR is a work in progress, mark it by putting 'WIP:' at the beginning of your PR name. Make sure you also make your PR a draft by clicking the draft button on the right side of the screen under the reviewers section. When you are ready to have your PR merged, remove the WIP in the PR name and mark it as Open by clicking the 'Ready for review' button in the merge box at the bottom of the PR.
+
 - Two reviews should be selected for each PR. One reviewer should originate
   from the creator’s team and the other from the integration team. Both of
   these reviewers should carefully review both the new source code and
