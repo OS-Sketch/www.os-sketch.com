@@ -126,37 +126,33 @@ hide:
     Context Switch
 
 - Chapter 7
-    Scheduling Policies/Disciplines
-    Workload
-    First In, First Out (FIFO)
-    Shortest Job First (SJF)
-    Round Robin
+1. **Workload** - simplifying assumptions about the processes running in the system
+2. **First In, First Out (FIFO)** - means the first element in, is the first element out
+3. **Shortest Job First (SJF)** - runs the shortest job first, then the next shortest, and so on
 
 - Chapter 9
-    Proportional-Share Scheduler
-    Ticket
-    Ticket Currency
-    Ticket Transer
-    Ticket Inflation
+1. **Proportional-Share** - instead of optimizing for turnaround or response time, a scheduler might instead try to guarantee that each job obtains a certain percentage of CPU time
+2. **Ticket** - used to represent the share of a resource that a process should receive
+3. **Ticket Currency** - allows a user with a set of tickets to allocate tickets among their own jobs in whatever currency they would like
+4. **Ticket Transer** - a process can temporarily hand off its tickets to another process
+5. **Ticket Inflation** - a process can temporarily raise or lower the number of tickets it owns
 
 - Chapter 13
-    Address Spaces
-    Stack
-    Heap
-    Virtualizing Memory
+1. **Stack** - a linear data structure that follows the principal of Last In First Out (LIFO). This means the last element inserted inside the stack is removed first.
+2. **Heap** - an area of pre-reserved computer main storage (memory) that a program process can use to store data in some variable amount that won't be known until the program is running
+3. **Virtualizing Memory** - the system can load larger or multiple programs running at the same time, enable each on eot operate as if it has more space, without having to purchase more RAM
 
 - Chapter 15
-    Limited Direct Execution (LDE)
-    Address Translation
-    Static Relocation
-    Free List
-    Segmentation
+1. **Limited Direct Execution (LDE)** - letting the program run directly on the hardware; however at certain key points in time, arrange so that the OS gets involved and makes sure the "right" thing happens.
+2. **Address Translation** - the hardware transforms each memory access, changing the virtual address provided by the instruction to a physical address where the desired information is actually located.
+3. **Static Relocation** - which a piece of software known as the loader takes an executable that is about to be run and rewrites its addresses to the desired offset in physical memory
+4. **Free List** - a list of the ranges of the physical memory which are not currently in use.
 
 - Chapter 16
-    Segmentation Fault
-    Sparse Address Spaces
-    External Fragmentation
-    
+1. **Segmentation Fault** - arises from a memory access on a segmented machine to an illegal address.
+2. **Sparse Address Spaces** - large address spaces with large amounts of unused address space.
+3. **External Fragmentation** - a general problem that arises when physical memory quickly becomes full of little holes of free space, making it difficult to allocate new segments, or to grow existing ones.
+
 - Chapter 28
 1. **Spinning** - a thread being told to wait before the action is executed based on a lock being in place.
 2. **Mutual Exclusion**: if one thread is in the critical section it excludes others from entering.
