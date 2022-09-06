@@ -50,7 +50,7 @@ hide:
 
 ## Locks and Conditional Variables
 
-### Technical Questions (chapters 28 and 30)
+### Technical Questions
 
 - What are locks, and how do they aid in **concurrency**?  What are some problems using locks can cause?  What is the greatest benefit we get from condition variables in relation to locks?  How do these two ideas interact?
 
@@ -58,6 +58,26 @@ hide:
 
 - *Locks* and *Conditional Variables* chapters in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 
+## Semaphores
+
+### Technical Questions
+
+- What are we lacking from conditional variables and locks that Semaphores solve?  How does this fit into concurrency?
+
+### Next Steps
+
+- *Semaphores* chapter in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+
+## I/O Devices, Files and Directories
+
+### Technical Questions
+
+- How should I/O be integrated into the system?  How can we make them efficient?
+- How should the OS manage a persistent device? What are the APIs?  What are the important aspects of the implementation?
+
+### Next Steps
+
+- *I/O Devices* and *Files and Directories* chapters in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 
 ## Course Timeline
 
