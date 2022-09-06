@@ -8,7 +8,7 @@
 
 html:not(.dark) {
   --prism-foreground: #212121;
-  --prism-background: #E0E0E0;
+  --prism-background: rgba(209, 213, 219, var(--tw-bg-opacity));
   --prism-comment: #9E9E9E;
   --prism-string: #43A047;
   --prism-literal: #039BE5;
