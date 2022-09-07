@@ -66,7 +66,7 @@ hide:
 | Class Date            | Chapter/Topics                                               | Expert/Presenter |
 |-----------------------|--------------------------------------------------------------|------------------|
 | 9/1                   | Continued work from lab                                      |                  |
-| 9/13                  | 2/4. Introduction/Processes                                  | Peter            |
+| 9/13                  | 2/4. Introduction/Processes                                  | Peter, Anthony   |
 | 9/15                  | Processes Continued                                          |                  |
 | 9/20                  | 5/14/6. Process API Memory API, Direct Execution             | Lex, Caden       |
 | 9/22                  | Continued                                                    |                  |
@@ -82,7 +82,7 @@ hide:
 | 11/1                  | 27. Thread API (code)                                        | Zackery          |
 | 11/3                  | 28. Locks (Code)                                             | Michael          |
 | 11/8                  | 30. Condition Variables (code)                               | Gary             |
-| 11/10                 | 31. Semaphores                                               |                  |
+| 11/10                 | 31. Semaphores                                               | Yanqiao          |
 | 11/15                 | Midterm                                                      |-                 |
 | 11/17                 | 36. I/O Devices                                              | Kyrie            |
 | 11/22                 | 39/40. Files and Dictionaries and File System Implementation | Dylan, Kobe      |
