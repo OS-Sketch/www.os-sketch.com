@@ -39,7 +39,7 @@ A person learning about operating systems needs to be able to know that *virtual
 - List and describe the typical APIs available across many modern OS
 - Explain the lifecycle of a process, delineating each state of a process, and what causes a shift in the state
 - Identify the UNIX interface used to create a new process and define the Processes Identifier, describing how it relates to this interface
-- Compare the UNIX interfaces: **fork()**, **wait()**, and **exec()** and outline the differences in how the parent and child processes are used in each interface
+- Compare the UNIX interfaces: fork(), wait(), and exec() and outline the differences in how the parent and child processes are used in each interface
 - List and explain the interfaces and/or user privileges that can be used to control processes
 
 ### Direct Execution
