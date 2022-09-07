@@ -33,9 +33,12 @@ tags:
 
 ### Processes
 
-- Being able to define what a process is.
-- Know what a process API is.
-- Being able to trace process state in both CPU and I/O.
+- State the steps an OS should take in order to run a program (or process)
+- List and describe the typical APIs available across many modern OS
+- Explain the lifecycle of a process, delineating each state of a process, and what causes a shift in the state
+- Identify the UNIX interface used to create a new process and define the Processes Identifier, describing how it relates to this interface
+- Compare the UNIX interfaces: **fork()**, **wait()**, and **exec()** and outline the differences in how the parent and child processes are used in each interface
+- List and explain the interfaces and/or user privileges that can be used to control processes
 
 ### Direct Execution
 
