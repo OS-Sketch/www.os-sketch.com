@@ -49,8 +49,6 @@ tags:
 
 ### CPU Scheduling
 
-Stride scheduling is made without using randomization in mind, why do people use stride scheduling? And why is it so straightforward?
-
 - A person reading chapter 9 must know the importance of stride scheduling and master the concept of fairness metric.
 - Having the ability to define the main differences between lottery scheduling, stride scheduling, and the Completely Fair Scheduling of Linux.
 - Have the ability to recognize the real scheduler vs. the fake.
