@@ -32,6 +32,7 @@ hide:
 - Review and participate in all the discussions in the [OS Sketch Issue
   Tracker](https://github.com/OS-Sketch/www.os-sketch.com/issues) for more
   details.
+- [click here](#course-timeline) to go to our course timeline!
 
 ## Systems Introduction
 
