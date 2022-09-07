@@ -67,9 +67,9 @@ Stride scheduling is made without using randomization in mind, why do people use
 
 ### Paging
 
-- Avoid the problems of segmentation by virtualizing memory with pages.
-- Describe the major role of the page table having in mind the idea that OS keeps a per-process data structure.
-- Identify the main purpose of using pages and how you take advantage by using it.
+- Avoid the problems of segmentation by virtualizing memory with pages
+- Describe the major role of the page table having in mind the idea that OS keeps a per-process data structure
+- Identify the main purpose of using pages and how you take advantage by using it
 
 ### Swapping
 
