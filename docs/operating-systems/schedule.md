@@ -223,8 +223,9 @@ hide:
 | 12/1                  | 49. Network File Systems                                     | Liam             |
 | 12/6                  | 45/53. Data Integrity and Protection and Intro Security      | Jordan           |
 | 12/8                  | 48. Distributed Systems                                      | Bill, Andre      |
-| 12/13                 | Review For Final                                             |                  |
+| 12/13                 | Review For Final                                             |                  |  
 
+[return to top of the page](#course-schedule)
 
 ## Important terms
 
