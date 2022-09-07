@@ -58,4 +58,6 @@ instructions for the type of machine you are using.
 
 ### Golang
 
+### pipx / poetry / gatorgrade
+
 ## Installing the required tools for Linux
