@@ -85,6 +85,42 @@ hide:
 - Check out the [course slides](/slides/operating-systems/systems-introduction/) for a detailed investigation of these chapters!
 - [Click here](#important-terms) to find definitions for key terms for the week's readings (chapters 13 and 15)!
 
+## Segmentation and Paging
+
+### Technical Questions
+
+-Experts add their technical question here
+
+### Expert Added Content
+
+- *Segmentation* and *Paging* chapters in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+- Check out the [course slides](/slides/operating-systems/systems-introduction/) for a detailed investigation of these chapters!
+- [Click here](#important-terms) to find definitions for key terms for the week's readings (chapters 16 and 18)!
+
+## Swapping
+
+### Technical Questions
+
+-Experts add their technical question here
+
+### Expert Added Content
+
+- *Swapping Mechanisms* and *Swapping Policies* chapters in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+- Check out the [course slides](/slides/operating-systems/systems-introduction/) for a detailed investigation of these chapters!
+- [Click here](#important-terms) to find definitions for key terms for the week's readings (chapters 21 and 22)!
+
+## Concurrency
+
+### Technical Questions
+
+-Experts add their technical question here
+
+### Expert Added Content
+
+- *Concurrency* chapter in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+- Check out the [course slides](/slides/operating-systems/systems-introduction/) for a detailed investigation of these chapters!
+- [Click here](#important-terms) to find definitions for key terms for the week's reading (chapter 26)!
+
 ## Course Timeline
 
 | Class Date            | Chapter/Topics                                               | Expert/Presenter |
@@ -194,7 +230,8 @@ Segmentation: Chapter 16
 
 1. **Segmentation Fault** - arises from a memory access on a segmented machine to an illegal address
 2. **Sparse Address Spaces** - large address spaces with large amounts of unused address space
-3. **External Fragmentation** - a general problem that arises when physical memory quickly becomes full of little holes of free space, making it difficult to allocate new segments, or to grow existing ones
+3. **External Fragmentation** - a general problem that arises when physical memory quickly becomes full of little holes of free space, making it difficult to allocate new segments, or to grow existing ones  
+[Return](#segmentation-and-paging) to *Segmentation and Paging*
 
 Introduction To Paging: Chapter 18
 
@@ -202,20 +239,23 @@ Introduction To Paging: Chapter 18
 2. **Page Tables** - operating system structure used to store per-process address space
 3. **Virtual Page Number (VPN)** - virtual address that the process generates
 4. **Physical Frame Number (PFN)** - where the virtual page number is indexed in the frames
-5. **Physical Page Number (PPN)** - Same as PFN
+5. **Physical Page Number (PPN)** - Same as PFN  
+[Return](#segmentation-and-paging) to *Segmentation and Paging*
 
 Swapping Mechanisms: Chapter 21
 
 1. **High Watermark (HW)** - a way the that the operating system keeps a small amount of memory free
 2. **Low Watermark (LW)** - a way the that the operating system keeps a small amount of memory free
-3. **Swap Daemon** - the process in which the operating system sorts LW amd HW to keep memory free
+3. **Swap Daemon** - the process in which the operating system sorts LW amd HW to keep memory free  
+[Return](#swapping) to *Swapping*
 
 Swapping Policies: Chapter 22
 
 1. **Average Memory Access Time (AMAT)** - the number of cache hits and misses that a page is found
 2. **Temporal Locality** - programs keep locality in their access streams when storing and accessing memory
 3. **Clock Algorithm** - the way an operating system approximates LRU by randomly picking a page
-4. **Modified Bit** - a bit that is used in the page-replacement process
+4. **Modified Bit** - a bit that is used in the page-replacement process  
+[Return](#swapping) to *Swapping*
 
 Concurrency and Threads: Chapter 26
 
