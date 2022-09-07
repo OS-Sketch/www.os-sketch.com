@@ -197,31 +197,31 @@ hide:
 
 | Class Date            | Chapter/Topics                                               | Expert/Presenter |
 |-----------------------|--------------------------------------------------------------|------------------|
-| 9/13                  | <span style="background-color: #f88117">2/4. Introduction/Processes</span>                                   | Peter, Anthony   |
-| 9/15                  | <span style="background-color: #f88117">Processes Continued </span>                                          |                  |
-| 9/20                  | <span style="background-color: #f88117">5/14/6. Process API Memory API, Direct Execution</span>              | Lex, Caden       |
+| 9/13                  | <span style="background-color: #f88117">2/4. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/intro.pdf" target="_blank"; style="color:000000;text-decoration:none">Introduction</a>/ <a href="" target="_blank" style="color:000000;text-decoration:none">Processes</a></span>                                   | Peter, Anthony   |
+| 9/15                  | <span style="background-color: #f88117"><a href="" target="_blank"; style="color:000000;text-decoration:none">Processes Continued</span>                                          |                  |
+| 9/20                  | <span style="background-color: #f88117">5/14/6. <a href="" target="_blank"; style="color:000000;text-decoration:none">Process API</a> <a href="" target="_blank"; style="color:000000;text-decoration:none">Memory API</a>, <a href="" target="_blank"; style="color:000000;text-decoration:none">Direct Execution</a></span>              | Lex, Caden       |
 | 9/22                  | <span style="background-color: #f88117">Continued </span>                                                   |                  |
-| 9/27                  | <span style="background-color: #f88117">7/9. CPU and Lottery Scheduling</span>                              | Favour, Katie    |
+| 9/27                  | <span style="background-color: #f88117">7/9. <a href="" target="_blank"; style="color:000000;text-decoration:none">CPU</a> and <a href="" target="_blank"; style="color:000000;text-decoration:none">Lottery</a> <a href="" target="_blank"; style="color:000000;text-decoration:none">Scheduling</a></span>                              | Favour, Katie    |
 | 9/29                  | <span style="background-color: #f88117">Continued</span>                                                    |                  |
-| 10/4                  | <span style="background-color: #f88117">13/15 Address Spaces, Address mechanism</span>                      | Thomas, Abagail  |
+| 10/4                  | <span style="background-color: #f88117">13/15 <a href="" target="_blank"; style="color:000000;text-decoration:none">Address Spaces</a>, <a href="" target="_blank"; style="color:000000;text-decoration:none">Address Mechanism<a></span>                      | Thomas, Abagail  |
 | 10/6                  | <span style="background-color: #f88117">Continued</span>                                                    |                  |
 |                       | 🍂 Fall Break 🍂                                                                                             |                 |
-| 10/13                 | <span style="background-color: #f88117">16/18 Segmentation and Intro into Paging</span>                     | Estaban          |
-| 10/18                 | <span style="background-color: #f88117">21/22. Swapping: Mechanisms and Policies</span>                     | Jeff             |
+| 10/13                 | <span style="background-color: #f88117">16/18 <a href="" target="_blank"; style="color:000000;text-decoration:none">Segmentation<a> and <a href="" target="_blank"; style="color:000000;text-decoration:none">Intro into Paging<a></span>                     | Estaban          |
+| 10/18                 | <span style="background-color: #f88117">21/22. <a href="" target="_blank"; style="color:000000;text-decoration:none">Swapping: Mechanisms</a> and <a href="" target="_blank"; style="color:000000;text-decoration:none">Policies</a></span>                     | Jeff             |
 | 10/20                 | <span style="background-color: #f88117">Continued</span>                                                    |                  |
-| 10/27                 | <span style="background-color: #23abcc">26 Concurrency (code)</span>                                       | Paige            |
-| 11/1                  | <span style="background-color: #23abcc">27. Thread API (code)</span>                                        | Zackery          |
-| 11/3                  | <span style="background-color: #23abcc">28. Locks (Code) </span>                                            | Michael          |
-| 11/8                  | <span style="background-color: #23abcc">30. Condition Variables (code)</span>                               | Gary             |
-| 11/10                 | <span style="background-color: #23abcc">31. Semaphores</span>                                               | Yanqiao          |
+| 10/27                 | <span style="background-color: #23abcc">26. <a href="" target="_blank"; style="color:000000;text-decoration:none">Concurrency<a> <a href="" target="_blank"; style="color:000000;text-decoration:none">(code)</a></span>                                       | Paige            |
+| 11/1                  | <span style="background-color: #23abcc">27. <a href="" target="_blank"; style="color:000000;text-decoration:none">Thread API</a> <a href="" target="_blank"; style="color:000000;text-decoration:none">(code)</a></span>                                        | Zackery          |
+| 11/3                  | <span style="background-color: #23abcc">28. <a href="" target="_blank"; style="color:000000;text-decoration:none">Locks</a> <a href="" target="_blank"; style="color:000000;text-decoration:none">(Code)</a></span>                                            | Michael          |
+| 11/8                  | <span style="background-color: #23abcc">30. <a href="" target="_blank"; style="color:000000;text-decoration:none">Condition Variables</a> <a href="" target="_blank"; style="color:000000;text-decoration:none">(code)</a></span>                               | Gary             |
+| 11/10                 | <span style="background-color: #23abcc">31. <a href="" target="_blank"; style="color:000000;text-decoration:none">Semaphores</a></span>                                               | Yanqiao          |
 | 11/15                 | Midterm                                                      |-                 |
-| 11/17                 | <span style="background-color: #4dc516">36. I/O Devices</span>                                              | Kyrie            |
-| 11/22                 | <span style="background-color: #4dc516">39/40. Files and Directories and File System Implementation</span> | Dylan, Kobe      |
+| 11/17                 | <span style="background-color: #4dc516">36. <a href="" target="_blank"; style="color:000000;text-decoration:none">I/O Devices</a></span>                                              | Kyrie            |
+| 11/22                 | <span style="background-color: #4dc516">39/40. <a href="" target="_blank"; style="color:000000;text-decoration:none">Files and Directories</a> and <a href="" target="_blank"; style="color:000000;text-decoration:none">File System Implementation</a></span> | Dylan, Kobe      |
 |                       | 🦃 Thanksgiving Break 🦃                                                                                    |                 |
 | 11/29                 | <span style="background-color: #4dc516">Continued</span>                                                   |                  |
-| 12/1                  | <span style="background-color: #4dc516">49. Network File Systems</span>                                     | Liam             |
-| 12/6                  | <span style="background-color: #4dc516">45/53. Data Integrity and Protection </span> and <span style="background-color: #3ea89e">Intro Security</span>     | Jordan           |
-| 12/8                  | <span style="background-color: #4dc516">48. Distributed Systems</span>                                      | Bill, Andre      |
+| 12/1                  | <span style="background-color: #4dc516">49. <a href="" target="_blank"; style="color:000000;text-decoration:none">Network File Systems</a></span>                                     | Liam             |
+| 12/6                  | <span style="background-color: #4dc516">45/53. <a href="" target="_blank"; style="color:000000;text-decoration:none">Data Integrity</a> and <a href="" target="_blank"; style="color:000000;text-decoration:none">Protection</a></span> and <span style="background-color: #3ea89e">Intro Security</span>     | Jordan           |
+| 12/8                  | <span style="background-color: #4dc516">48. <a href="" target="_blank"; style="color:000000;text-decoration:none">Distributed Systems</a></span>                                      | Bill, Andre      |
 | 12/13                 | Review For Final                                             |                  |  
 
 [return to top of the page](#course-schedule)
