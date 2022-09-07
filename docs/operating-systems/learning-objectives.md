@@ -39,10 +39,10 @@ tags:
 
 ### Direct Execution
 
-- Given a Limited Direct Execution, a student should be able to trace the steps of the execution.
-- When provided with a system call, a student should be able to measure its estimated cost.
-- A student should be able to trace the steps of Context Switch code.
-- Given context switch code, a student should be able to measure its cost using the lmbench tool.
+- Trace the steps of a Limited Direct Execution
+- Measure the estimated cost of a given system call
+- Trace the steps of Context Switch code
+- Measure the cost of context switch code using the lmbench tool
 
 ### CPU Scheduling
 
@@ -81,11 +81,11 @@ Stride scheduling is made without using randomization in mind, why do people use
 
 ### Threads
 
-- A student should be able to articulate the value and purpose of threads.
-- A student should be able to write and execute the code necessary to create threads.
-- Additionally, a student should be able to pass arguments to threads.
-- Given a situation in which threads access shared data, a student should be able to address the issue through building support for synchronized primitives to support atomicity.
-- A student should be able to build mechanisms to support the sleeping and waking interaction between processes.
+- Articulate the value and purpose of threads
+- Write and execute the code necessary to create threads
+- Pass arguments to threads
+- Address the issue of shared data through building support for synchronized primitives to support atomicity
+- Build mechanisms to support the sleeping and waking interaction between processes 
 
 ### Locks
 
