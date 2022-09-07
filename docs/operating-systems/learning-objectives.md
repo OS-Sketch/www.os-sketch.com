@@ -27,9 +27,9 @@ tags:
 
 ## Virtualization
 
-- Given the opportunity to describe the processes of the OS virtualizing resources and doing it efficiently.
-- Identify the main physical parts that make up the PC for the OS to run.
-- To have some idea of what an OS actually does.
+- Describe the processes of the OS virtualizing resources and doing it efficiently
+- Identify the main physical parts that make up the PC for the OS to run
+- Articulate the function of an operating system
 
 ### Processes
 
@@ -49,11 +49,11 @@ tags:
 
 ### CPU Scheduling
 
-Stride scheduling is made without using randomization in mind, why do people use stride scheduling? And why is it so straightforward? 
+Stride scheduling is made without using randomization in mind, why do people use stride scheduling? And why is it so straightforward?
 
 - A person reading chapter 9 must know the importance of stride scheduling and master the concept of fairness metric.
 - Having the ability to define the main differences between lottery scheduling, stride scheduling, and the Completely Fair Scheduling of Linux.
-- Have the ability to recognize the real scheduler vs. the fake. 
+- Have the ability to recognize the real scheduler vs. the fake.
 - Being able to define one clear issue if you use a scheduler.
 
 ### Memory Management
@@ -64,21 +64,21 @@ Stride scheduling is made without using randomization in mind, why do people use
 
 ### Segmentation
 
-- Justify the decision on why hardware uses segment registers during translation.
-- Compare and contrast fined-grained and coarse-grained segmentation with addresses.
-- Given the idea of segmentation, explain how solving problems help us build more effective virtualization of memory.
+- Justify the decision on why hardware uses segment registers during translation
+- Compare and contrast fined-grained and coarse-grained segmentation with addresses
+- Solve problems using segmentation, to build a more effective virtualization memory
 
 ### Paging
 
-- To be able to describe how to avoid the problems of segmentation by virtualizing memory with pages.
-- Given the idea that OS usually keeps a per-process data structure; page table, describe the major role of the page table.
-- To be able to identify the main purpose of using pages and how you take advantage by using it. 
+- Avoid the problems of segmentation by virtualizing memory with pages
+- Describe the major role of the page table having in mind the idea that OS keeps a per-process data structure
+- Identify the main purpose of using pages and how you take advantage by using it
 
 ### Swapping
 
-- Explain how swap space works for the OS to move pages back and forth.
-- Be able to describe the page fault work and why hardware does not handle page faults as the OS does. 
-- Having the ability to explain how replacements occur and how high watermark and low watermark have a big impact on this.
+- Swap space for the OS to move pages back and forth
+- Describe the page fault work and why hardware does not handle page faults as the OS does
+- Perform replacements and using high watermark and low watermark
 
 ## Concurrency
 
@@ -88,7 +88,7 @@ Stride scheduling is made without using randomization in mind, why do people use
 - Write and execute the code necessary to create threads
 - Pass arguments to threads
 - Address the issue of shared data through building support for synchronized primitives to support atomicity
-- Build mechanisms to support the sleeping and waking interaction between processes 
+- Build mechanisms to support the sleeping and waking interaction between processes
 
 ### Locks
 
@@ -98,9 +98,9 @@ Stride scheduling is made without using randomization in mind, why do people use
 
 ### Semaphores
 
-- Explain what a semaphore is and why it is important to an OS. 
+- Explain what a semaphore is and why it is important to an OS.
 - Define the different types of semaphores.
-- Shows proficiency in using semaphores. 
+- Shows proficiency in using semaphores.
 
 ## Persistence
 
@@ -136,32 +136,32 @@ In order to create and maintain a high quality software, you must have the abili
 
 ### Authentication
 
-Authentication is one of the most important topics covered in chapter 54. To display proficiency in this chapter, the reader must be able to tell the difference between authentication and authorization. 
+Authentication is one of the most important topics covered in chapter 54. To display proficiency in this chapter, the reader must be able to tell the difference between authentication and authorization.
 
 - Correctly identify the difference between agent, principal, credential, and object in OS.
-- Correctly identify the 3 main ways to authenticate users. 
-- Correctly identify the 3 main ways to authenticate users. 
+- Correctly identify the 3 main ways to authenticate users.
+- Correctly identify the 3 main ways to authenticate users.
 - Explain the importance of hashes, cryptographic hashes, and what does it prevent.
 - Demonstrate the ability to authentication by what you know.
-- Demonstrate the ability to authentication by what you have. 
+- Demonstrate the ability to authentication by what you have.
 - Demonstrate the ability to authentication by what you are.
 
 ### Access Control
 
-- Have the ability to figure out if a request fits within your security policy, if it does, operate, if not, do not operate. 
-- Explain the difference between authorization and authentication. 
+- Have the ability to figure out if a request fits within your security policy, if it does, operate, if not, do not operate.
+- Explain the difference between authorization and authentication.
 - Have the ability to explain the difference between capability-based systems and access control list systems. (ch 55, pg4)
 
 ## Cryptography
 
-- Correctly explain the meaning of cryptography. (ch 56, pg 1) 
-- Explain what a cipher and a key is. 
+- Correctly explain the meaning of cryptography. (ch 56, pg 1)
+- Explain what a cipher and a key is.
 - Explain the meaning behind “The cryptography's benefit relies entirely on the secrecy of the key.”
 - Differentiate between private and public keys in cryptography.
 
-### Distributed System Security 
+### Distributed System Security
 
-- Explain the importance of distributed systems to modern computing. 
+- Explain the importance of distributed systems to modern computing.
 - Explain the reason behind using symmetric cryptography to transport data.
 - Define other authentication approaches.
 
