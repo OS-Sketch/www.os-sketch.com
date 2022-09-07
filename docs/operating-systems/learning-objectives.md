@@ -49,7 +49,7 @@ A person learning about operating systems needs to be able to know that *virtual
 - Trace the steps of a Limited Direct Execution
 - Measure the estimated cost of a given system call
 - Trace the steps of Context Switch code
-- Measure the cost of context switch code using the lmbench tool
+- Measure the cost of context switch code using the `lmbench` tool
 
 ### CPU Scheduling
 
@@ -142,25 +142,25 @@ A person learning security must be able to implement an basic security system th
 ### Authentication
 
 - Implement basic knowledge of agent, principal, credential, and object into an OS
-- Implement an working authentication by using sensitivity and hashes as an basic concept
+- Implement and working authentication by using sensitivity and hashes as a basic concept
 - Be able to label weakness of each hashes method within an OS
 
 ### Access Control
 
 - Summarize the two most important step within access control
 - Differentiate between authorization and authentication within access control
-- Givin a list of scenario, be able to distinguish if they are discretionary or mandatory access control
+- Given a list of scenario, be able to distinguish if they are discretionary or mandatory access control
 
 ## Cryptography
 
 - Implement a basic cypher within your OS
 - User need to memorize this statement “The cryptography's benefit relies entirely on the secrecy of the key.”
-- User can implement an cryptographic hashes to protect OS from potential attack
+- User can implement cryptographic hashes to protect OS from potential attack
 
 ### Distributed System Security
 
-- Givin a list of websites, be able to tell if they are secure or not
-- User are able to create an secure distributed system
+- Given a list of websites, be able to tell if they are secure or not
+- User are able to create and secure distributed system
 - From a list of 5 definitions, being able to pick out authentication approaches within them
 
 ## Advanced Programming
