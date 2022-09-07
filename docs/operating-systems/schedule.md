@@ -42,25 +42,23 @@ hide:
   system? How does virtualization influence the way in which I program and use
   an operating system?
 
-### Introduction and Processes Expert Added Content
+### Systems Introduction Expert Added Content
 
 - *Introduction* and *Processes* chapters in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Check out the [course slides](/slides/operating-systems/systems-introduction/) for a detailed investigation of these chapters!
 - [Click here](#important-terms) to find definitions for key terms for the week's readings (chapters 2 and 4)!
 
-???+ note "Technical Concepts"
-
-    - **Virtualization**: the process of taking a physical resource such as a
-      processor or memory and transforming it into a more general, powerful, and
-      easy-to-use virtual form.
+## APIs and Execution
 
 ### Technical Questions
 
--
+-Experts add their technical question here
 
-### Expert Added Content
+### APIs and Execution Expert Added Content
 
--
+- *Process API*, *Memory API* and *Direct Execution* chapters in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+- Check out the [course slides](/slides/operating-systems/systems-introduction/) for a detailed investigation of these chapters!
+- [Click here](#important-terms) to find definitions for key terms for the week's readings (chapters 5, 6 and 14)!
 
 ## Course Timeline
 
@@ -102,7 +100,7 @@ Introduction: Chapter 2
 1. **Virtualization** - the OS takes a physical resource (such as the processor, or memory, or a disk) and transforms it into a more general powerful, and easy-to-use virtual form of itself.
 2. **Concurrency** - When multiple computations are happening at the same time
 3. **Persistence** - The context of storing data in a computer system, this means that the data survives after the process with which it was created has ended.
-[Return](#introduction-and-processes-expert-added-content) to *Expert Added Content*
+[Return](#systems-introduction-expert-added-content) to *Systems Introduction*
 
 Processes: Chapter 4
 
@@ -110,6 +108,7 @@ Processes: Chapter 4
 2. **Process API** - consists of calls programs can make related to processes. Typically, this includes creation, destruction, and other useful calls.
 3. **Process state** -  Including running, ready to run, and blocked. Different events (e.g., getting scheduled or descheduled, or waiting for an I/O to complete) transition a process from one of these states to the other.
 4. **Process list** - Contains information about all processes in the system.
+[Return](#systems-introduction-expert-added-content) to *Systems Introduction*
 
 Process API: Chapter 5
 
