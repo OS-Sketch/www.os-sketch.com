@@ -117,9 +117,45 @@ hide:
 
 ### Expert Added Content
 
-- *Concurrency* chapter in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+- *Concurrency and Threads* chapter in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Check out the [course slides](/slides/operating-systems/systems-introduction/) for a detailed investigation of these chapters!
 - [Click here](#important-terms) to find definitions for key terms for the week's reading (chapter 26)!
+
+## Thread API and Locks
+
+### Technical Questions
+
+-Experts add their technical question here
+
+### Expert Added Content
+
+- *Thread API* and *Locks* chapters in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+- Check out the [course slides](/slides/operating-systems/systems-introduction/) for a detailed investigation of these chapters!
+- [Click here](#important-terms) to find definitions for key terms for the week's readings (chapters 27 and 28)!
+
+## Variations of Locks
+
+### Technical Questions
+
+-Experts add their technical question here
+
+### Expert Added Content
+
+- *Conditional Variables* and *Semaphores* chapters in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+- Check out the [course slides](/slides/operating-systems/systems-introduction/) for a detailed investigation of these chapters!
+- [Click here](#important-terms) to find definitions for key terms for the week's readings (chapters 30 and 31)!
+
+## I/O Devices
+
+### Technical Questions
+
+-Experts add their technical question here
+
+### Expert Added Content
+
+- *I/O Devices* chapter in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+- Check out the [course slides](/slides/operating-systems/systems-introduction/) for a detailed investigation of these chapters!
+- [Click here](#important-terms) to find definitions for key terms for the week's reading (chapter 36)!
 
 ## Course Timeline
 
@@ -145,7 +181,7 @@ hide:
 | 11/10                 | 31. Semaphores                                               | Yanqiao          |
 | 11/15                 | Midterm                                                      |-                 |
 | 11/17                 | 36. I/O Devices                                              | Kyrie            |
-| 11/22                 | 39/40. Files and Dictionaries and File System Implementation | Dylan, Kobe      |
+| 11/22                 | 39/40. Files and Directories and File System Implementation | Dylan, Kobe      |
 | Thanksgiving Break 🦃| -                                                             |-                 |
 | 11/29                 | Continued                                                    |                  |
 | 12/1                  | 49. Network File Systems                                     | Liam             |
@@ -263,40 +299,46 @@ Concurrency and Threads: Chapter 26
 2. **Disassembler** - shows what assembly instructions were used in the program
 3. **Transaction** - grouping of many actions into a single atomic action
 4. **Critical Section** - piece of code that when accesses a shared resource, usually a variable or data structure
-5. **Race Condition** - arises if multiple threads of execution enter the critical section at roughly the same time
+5. **Race Condition** - arises if multiple threads of execution enter the critical section at roughly the same time  
+[Return](#concurrency) to *Concurrency*
 
 Thread API: Chapter 27
 
 1. **Function Pointer** - looks for which function threads should start running in
 2. **Procedure Call** - creates a thread or multiple threads
-3. **Critical Section** - region of code that needs to be protected for operation
+3. **Critical Section** - region of code that needs to be protected for operation  
+[Return](#thread-api-and-locks) to *Thread API and Locks*
 
 Locks: Chapter 28
 
 1. **Spinning** - a thread being told to wait before the action is executed based on a lock being in place
 2. **Mutual Exclusion**: if one thread is in the critical section it excludes others from entering
 3. **Fairness**: does each thread contending for the lock get an equal shot at it
-4. **Performance**: time added by using the lock
+4. **Performance**: time added by using the lock  
+[Return](#thread-api-and-locks) to *Thread API and Locks*
 
 Condition Variables: Chapter 30
 
 1. **Condition variable**: an explicit queue threads can put themselves on when some state of execution is less desirable than another thread.  When it changes state the other threads can be woken up and allowed to continue
 2. **Wait/Signal**: the actions used in a conditional variable.  The thread waits on a specific condition to be met and then signals the sleeping threads to be executed
-3. **Bounded Buffer**: a system of multiple producer threads and consumer threads which is shared
+3. **Bounded Buffer**: a system of multiple producer threads and consumer threads which is shared  
+[Return](#variations-of-locks) to *Variations of Locks*
 
 Semaphores: Chapter 31
 
 1. **Deadlock** - A problem that occurs when a consumer thread is called before the producer when trying to use mutual exclusion
 2. **Throttling** - An imposed limit to the number of threads that can be simultaneously executed on a piece of code.  Used to keep the system from bogging down
 3. **Zemaphore** - An easier-to-implement version of the semaphore where we don’t maintain the value of the semaphore, when negative, reflects the number of waiting threads
-4. **Hill’s Law** - Sometimes simple and dumb is better.  Just because you can make something sophisticated to solve a problem doesn’t mean it’s the best answer
+4. **Hill’s Law** - Sometimes simple and dumb is better.  Just because you can make something sophisticated to solve a problem doesn’t mean it’s the best answer  
+[Return](#variations-of-locks) to *Variations of Locks*
 
 I/O Devices: Chapter 36
 
 1. **DMA (direct memory access)** - a device within a system that orchestrates transfers between devices and memory without much CPU intervention
 2. **Memory-mapped I/O** - Another method to interact with devices.  With this version the hardware makes device registers available as if they were memory locations  Helpful because no new instructions are needed to support it
 3. **Hardware Interface** - The way for the software to communicate and interact with the hardware system
-4. **Internal Structure** - Responsible for implementing the abstraction the device presents to the system
+4. **Internal Structure** - Responsible for implementing the abstraction the device presents to the system  
+[Return](#i/o-devices) to *I/O Devices*
 
 Files and Directories: Chapter 39
 
