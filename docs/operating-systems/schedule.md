@@ -61,6 +61,18 @@ hide:
 - Check out the [course slides](/slides/operating-systems/systems-introduction/) for a detailed investigation of these chapters!
 - [Click here](#important-terms) to find definitions for key terms for the week's readings (chapters 5, 6 and 14)!
 
+## Scheduling
+
+### Technical Questions
+
+-Experts add their technical question here
+
+### Expert Added Content
+
+- *CPU* and *Lottery Scheduling* chapters in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+- Check out the [course slides](/slides/operating-systems/systems-introduction/) for a detailed investigation of these chapters!
+- [Click here](#important-terms) to find definitions for key terms for the week's readings (chapters 7 and 9)!
+
 ## Course Timeline
 
 | Class Date            | Chapter/Topics                                               | Expert/Presenter |
