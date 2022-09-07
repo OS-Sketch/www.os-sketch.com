@@ -82,6 +82,9 @@ A person learning about operating systems needs to be able to know that *virtual
 
 ## Concurrency
 
+A person learning about operating systems needs to be able to add features to an operating system so that
+multiple processes can be run at the same time
+
 ### Threads
 
 - Articulate the value and purpose of threads
