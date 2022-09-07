@@ -140,25 +140,25 @@ hide:
 | 9/1                   | Continued work from lab                                      |                  |
 | 9/13                  | 2/4. Introduction/Processes                                  | Peter            |
 | 9/15                  | Processes Continued                                          |                  |
-| 9/20                  | 5/14/6. Process API Memory API, Direct Execution             | Lex              |
+| 9/20                  | 5/14/6. Process API Memory API, Direct Execution             | Lex, Caden       |
 | 9/22                  | Continued                                                    |                  |
-| 9/27                  | 7/9. CPU and Lottery Scheduling                              |                  |
+| 9/27                  | 7/9. CPU and Lottery Scheduling                              | Favour, Katie    |
 | 9/29                  | Continued                                                    |                  |
-| 10/4                  | 13/15 Address Spaces, Address mechanism                      |                  |
+| 10/4                  | 13/15 Address Spaces, Address mechanism                      | Thomas, Abagail  |
 | 10/6                  | Continued                                                    |                  |
 | Fall Break 🍂        | -                                                             |-                 |
-| 10/13                 | 16/18 Segmentation and Intro into Paging                     |                  |
-| 10/18                 | 21/22. Swapping: Mechanisms and Policies                     |                  |
+| 10/13                 | 16/18 Segmentation and Intro into Paging                     | Estaban          |
+| 10/18                 | 21/22. Swapping: Mechanisms and Policies                     | Jeff             |
 | 10/20                 | Continued                                                    |                  |
-| 10/27                 | 26 Concurrency (code)                                        |                  |
-| 11/1                  | 27. Thread API (code)                                        |                  |
-| 11/3                  | 28. Locks (Code)                                             |                  |
-| 11/8                  | 30. Condition Variables (code)                               |                  |
+| 10/27                 | 26 Concurrency (code)                                        | Paige            |
+| 11/1                  | 27. Thread API (code)                                        | Zackery          |
+| 11/3                  | 28. Locks (Code)                                             | Michael          |
+| 11/8                  | 30. Condition Variables (code)                               | Gary             |
 | 11/10                 | 31. Semaphores                                               |                  |
-| 11/15                 | Midterm                                                      |                  |
-| 11/17                 | 36. I/O Devices                                              |                  |
-| 11/22                 | 39/40. Files and Dictionaries and File System Implementation | Dylan            |
-| Thanksgiving Break 🦃| -                                                             | -                |
+| 11/15                 | Midterm                                                      |-                 |
+| 11/17                 | 36. I/O Devices                                              | Kyrie            |
+| 11/22                 | 39/40. Files and Dictionaries and File System Implementation | Dylan, Kobe      |
+| Thanksgiving Break 🦃| -                                                             |-                 |
 | 11/29                 | Continued                                                    |                  |
 | 12/1                  | 49. Network File Systems                                     | Liam             |
 | 12/6                  | 45/53. Data Integrity and Protection and Intro Security      | Jordan           |
