@@ -15,7 +15,6 @@ for course projects and laboratory assignments. The
 
 - A full shell environment with all Linux commands
 - Python 3.8.10
-- `poetry`
 - A complete `gcc` toolchain
 
 `dockasketch` in its current state has plenty of room for improvement.
@@ -24,6 +23,7 @@ operating systems would benefit from:
 
 - Updated Python (at least 3.10)
 - `pipx`
+- `poetry`
 - Golang 1.19
 
 As it currently stands, `dockasketch` is a suitable container
