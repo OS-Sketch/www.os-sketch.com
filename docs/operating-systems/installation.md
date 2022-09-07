@@ -63,4 +63,10 @@ instructions for the type of machine you are using.
 
 ### pipx / poetry / gatorgrade
 
+1. install pipx using the command ```python3 -m pip install --user pipx``` and then ```python3 -m pipx ensurepath```.
+
+2. you can then install gatorgrade using pipx using the command ```pipx install gatorgrade```.
+
+3. Use the ```curl -sSL https://install.python-poetry.org | python3 -``` command to install poetry.
+
 ## Installing the required tools for Linux
