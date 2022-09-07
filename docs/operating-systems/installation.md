@@ -19,13 +19,13 @@ instructions for the type of machine you are using.
 
 ### gcc & ```make``` command
 
-1. Do not install MinGW directly, go to https://www.msys2.org/ and download MSYS2
-2. Search for the MSYS2 MinGW x64 environment and open it
-3. Write ```pacman -Syuu``` to update the environment
-4. Write ```pacman -S mingw-w64-x86_64-toolchain``` to install the toolchain, which contains gcc and the make command
-5. Verify the installation worked by entering ```gcc —version``` in your terminal. If it is working it should return the version of gcc you installed
-6. In order to use the gcc toolchain, you have to add this to your path environment variable: <MSYS2 location>/mingw64/bin
-7. You can also change the name of make from mingw32-make to make to make it easier to execute in the terminal
+1. Do not install MinGW directly, go to https://www.msys2.org/ and download MSYS2.
+2. Search for the MSYS2 MinGW x64 environment and open it.
+3. Write ```pacman -Syuu``` to update the environment.
+4. Write ```pacman -S mingw-w64-x86_64-toolchain``` to install the toolchain, which contains gcc and the make command.
+5. Verify the installation worked by entering ```gcc —version``` in your terminal. If it is working it should return the version of gcc you installed.
+6. In order to use the gcc toolchain, you have to add this to your path environment variable: <MSYS2 location>/mingw64/bin .
+7. You can also change the name of make from mingw32-make to make to make it easier to execute in the terminal.
 8. In order to test everything went correctly, create two new files in a directory named hello.c and makefile.
     1. Hello.c should contain:
       ``` #include <stdio.h>
@@ -48,15 +48,18 @@ instructions for the type of machine you are using.
 9. Navigate to the directory in your terminal, enter make and see the program run!
 
 ### Docker
-- Navigate to https://docs.docker.com/desktop/install/windows-install/, get the installer, and follow the instructions
+- Navigate to https://docs.docker.com/desktop/install/windows-install/, get the installer, and follow the instructions.
 
 ### Python 3.10
-1. Go to the Microsoft Store app, search ```Python 3.10``` and install
-2. Can check this worked by using the ```python --version``` command
-
-### C
+1. Go to the Microsoft Store app, search ```Python 3.10``` and install.
+2. Can check this worked by using the ```python --version``` command.
 
 ### Golang
+1. Download Go from the official website (https://go.dev/dl/).
+2. Follow the installer's instructions and wait while it is downloaded onto your laptop.
+3. Search for ```env``` on your computer and open environment variables.
+4. Copy the path for Go and paste it into your user variable editing window.
+5. Test that go is working by typing ```go version``` into your terminal.
 
 ### pipx / poetry / gatorgrade
 
