@@ -27,7 +27,7 @@ tags:
 
 ## Virtualization
 
-A person learning about operating systems needs to be able to know that *virtualization* allows a single physical CPU to simulate multiple virtual CPUs, which maximizes a machine's capacity to handle running applications.
+A person learning about operating systems needs to be able to know that *virtualization* allows a single physical CPU to simulate the functionality of multiple virtual CPUs, which maximizes a machine's capacity in handling applications.
 
 ### Introduction
 
@@ -94,15 +94,15 @@ A person learning about operating systems needs to be able to know that *virtual
 
 ### Locks
 
-- Demonstrate the ability to create and maintain a lock.
-- Demonstrate a key understanding of locks and different techniques required to make a lock.
-- Explain what compare-and-swap is and compare-and-exchange is.
+- Create and maintain a lock
+- Articulate the purpose of locks and different techniques required to make a lock
+- Explain what compare-and-swap is and compare-and-exchange is
 
 ### Semaphores
 
-- Explain what a semaphore is and why it is important to an OS.
-- Define the different types of semaphores.
-- Shows proficiency in using semaphores.
+- Explain what a semaphore is and why it is important to an OS
+- Define the different types of semaphores
+- Show proficiency in using semaphores
 
 ## Persistence
 
