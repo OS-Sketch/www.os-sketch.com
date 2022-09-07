@@ -61,3 +61,44 @@ instructions for the type of machine you are using.
 ### pipx / poetry / gatorgrade
 
 ## Installing the required tools for Linux
+
+### Python3.10 or above
+
+[Python 3.10](https://computingforgeeks.com/how-to-install-python-on-ubuntu-linux-system/)  or above is expected. Please copy the commands below to download Python 3.10. Feel free to download the newest version if possible
+
+```
+sudo apt install python3.10
+```
+
+### [Pipx](https://pypa.github.io/pipx/installation/)
+Install Pipx with commands below:
+```
+$ python3 -m pip install --user pipx
+$ python3 -m pipx ensurepath
+```
+
+### Gatorgrade
+After installing pipx, you are ready to install another tool called [Gatorgrade](https://github.com/GatorEducator/gatorgrade) by using pipx
+Install Gatorgrade by:
+```
+$ pipx install gatorgrade
+```
+
+### Poetry
+
+[Poetry](https://python-poetry.org/docs/) can be downloaded by the commands below.  On some systems, python may still refer to Python 2 instead of Python 3. Better python3 binary to avoid ambiguity.
+```
+curl -sSL https://install.python-poetry.org | python3 -
+```
+### Docker
+Install [Docker](https://docs.docker.com/engine/install/ubuntu/):
+```
+$ sudo apt-get update
+$ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+```
+### C and gcc:
+ 
+C and gcc should be installed by default in Linux distributors
+
+### Go
+In order to download [Go](https://go.dev/doc/install) on Linux click this link https://go.dev/dl/  and click the LINUX button that is underneath the feature downloads header. Once that is downloaded follow the directions that it gives you in order to complete the download
