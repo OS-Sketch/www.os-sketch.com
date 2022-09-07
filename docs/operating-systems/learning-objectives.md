@@ -26,6 +26,7 @@ tags:
 # Learning Objectives
 
 ## Virtualization
+A person learning about operating systems needs to be able to know that *virtualization* allows a single physical CPU to simulate multiple virtual CPUs, which maximizes a machine's capacity to handle running applications.
 
 - Describe the processes of the OS virtualizing resources and doing it efficiently
 - Identify the main physical parts that make up the PC for the OS to run
