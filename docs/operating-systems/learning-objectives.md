@@ -135,6 +135,27 @@ In order to create and maintain a high quality software, you must have the abili
 
 ### Authentication
 
+<<<<<<< HEAD
+Authentication is one of the most important topics covered in chapter 54. To display proficiency in this chapter, the reader must be able to tell the difference between authentication and authorization, give example on how to authentication by what you know, have, and are. Also the user have to be able to add it to an operating system.   
+
+- Implement basic knowledge of agent, principal, credential, and object into an OS
+- Implement an working authentication by using sensitivity and hases as an basic concept
+- Be able to lable weakness of each hases method within an OS
+
+example: decide what to do givin a certain situation: do something: 
+
+### Access Control
+
+- Summarize the two most important step within access control
+- Differentiate between authorization and authentication within access control
+- Givin a list of scenario, be able to distinquish if they are discretionary or mandatory access control
+
+## Cryptography
+
+- Implement a basic cypher within your OS
+- User need to memorize this statement “The cryptography's benefit relies entirely on the secrecy of the key.”
+- User can implement an cryptographic hashes to protect OS from potential attack
+=======
 Authentication is one of the most important topics covered in chapter 54. To display proficiency in this chapter, the reader must be able to tell the difference between authentication and authorization.
 
 - Correctly identify the difference between agent, principal, credential, and object in OS.
@@ -157,12 +178,19 @@ Authentication is one of the most important topics covered in chapter 54. To dis
 - Explain what a cipher and a key is.
 - Explain the meaning behind “The cryptography's benefit relies entirely on the secrecy of the key.”
 - Differentiate between private and public keys in cryptography.
+>>>>>>> 231cbaf72b51a855cd246a3f0ef6ccd190f92347
 
 ### Distributed System Security
 
+<<<<<<< HEAD
+- Givin a list of websites, be able to tell if they are secure or not
+- User are able to create an secure distributed system
+- From a list of 5 definitions, being able to pick out authentication approaches within them
+=======
 - Explain the importance of distributed systems to modern computing.
 - Explain the reason behind using symmetric cryptography to transport data.
 - Define other authentication approaches.
+>>>>>>> 231cbaf72b51a855cd246a3f0ef6ccd190f92347
 
 ## Advanced Programming
 
