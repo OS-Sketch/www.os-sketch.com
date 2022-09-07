@@ -165,9 +165,33 @@ hide:
 
 ### Expert Added Content
 
-- *I/O Devices* chapter in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+- *File Systems and Directories*, *File System Implementation* and *Network File Systems* chapters in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Check out the [course slides](/slides/operating-systems/systems-introduction/) for a detailed investigation of these chapters!
-- [Click here](#important-terms) to find definitions for key terms for the week's reading (chapter 36)!
+- [Click here](#important-terms) to find definitions for key terms for the week's reading (chapters 39, 40 and 49)!  
+
+## Data Integrity and Security
+
+### Technical Questions
+
+-Experts add their technical question here
+
+### Expert Added Content
+
+- *Data Integrity and Protection* and *Intro Security* chapters in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+- Check out the [course slides](/slides/operating-systems/systems-introduction/) for a detailed investigation of these chapters!
+- [Click here](#important-terms) to find definitions for key terms for the week's reading (chapters 49 and 53)!
+
+## Distributed Systems
+
+### Technical Questions
+
+-Experts add their technical question here
+
+### Expert Added Content
+
+- *Distributed Systems* chapter in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+- Check out the [course slides](/slides/operating-systems/systems-introduction/) for a detailed investigation of these chapters!
+- [Click here](#important-terms) to find definitions for key terms for the week's reading (chapters 48)!
 
 ## Course Timeline
 
@@ -387,7 +411,18 @@ Data Integrity and Protection: Chapter 45
 2. **Silent Faults** When the storage drive disk doesn't give any appearance of a problem when the data returned is corrupted
 3. **Misdirected Write** When data is written correctly to the disk storage but in the wrong memory address
 4. **Cyclic Redundancy Check (CRC)** Remainder of binary division between a large binary number (D) and an agreed value of (k)
-5. **Lost Write** The device doesn't inform the upper layer that a write finished but the new changes never persisted into the next state, thus exposing the past state before the write
+5. **Lost Write** The device doesn't inform the upper layer that a write finished but the new changes never persisted into the next state, thus exposing the past state before the write  
+[Return](#data-integrity-and-security) to *Data Integrity and Security*  
+
+
+Intro Security: Chapter 53
+
+1. **Trusted Platform Module (TPM)** Authenticated to users that they were starting up the operating system and version they had intended to do so
+2. **Access Control Mechanisms** The process through which an operating system determines if the user has the proper authorization to perform the requested action 
+3. **Non-Repudiation** The authentication of prior actions in the operating system that cannot be forged
+4. **Security Policies** A list of rules and specifications for ensuring security in an operating system environment  
+[Return](#data-integrity-and-security) to *Data Integrity and Security*
+
 
 Distributed Systems: Chapter 48
 
@@ -395,14 +430,8 @@ Distributed Systems: Chapter 48
 2. **End-to-end argument** Method through which packet loss, aka data loss, is avoided
 3. **UDP/IP** Common networking stack that involves the use of sockets to communicate with an endpoint, and send datagrams which are short messages
 4. **Distributed Shared Memory (DSM)** Allows for multiple computers on the network to share large virtual address space, akin to how processors have multiple cores which allow for the use of threading
-5. **Remote Procedure Call (RPC)** Simple and easy way to execute code on a remote machine
-
-Intro Security: Chapter 53
-
-1. **Trusted Platform Module (TPM)** Authenticated to users that they were starting up the operating system and version they had intended to do so
-2. **Access Control Mechanisms** The process through which an operating system determines if the user has the proper authorization to perform the requested action 
-3. **Non-Repudiation** The authentication of prior actions in the operating system that cannot be forged
-4. **Security Policies** A list of rules and specifications for ensuring security in an operating system environment
+5. **Remote Procedure Call (RPC)** Simple and easy way to execute code on a remote machine  
+[Return](#distributed-systems) to *Distributed Systems*
 
 ## Learning Opportunities
 
