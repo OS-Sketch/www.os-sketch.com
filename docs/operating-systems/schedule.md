@@ -145,7 +145,19 @@ hide:
 - Check out the [course slides](/slides/operating-systems/systems-introduction/) for a detailed investigation of these chapters!
 - [Click here](#important-terms) to find definitions for key terms for the week's readings (chapters 30 and 31)!
 
-## I/O Devices
+## IO Devices
+
+### Technical Questions
+
+-Experts add their technical question here
+
+### Expert Added Content
+
+- *I/O Devices* chapter in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+- Check out the [course slides](/slides/operating-systems/systems-introduction/) for a detailed investigation of these chapters!
+- [Click here](#important-terms) to find definitions for key terms for the week's reading (chapter 36)!  
+
+## File Systems and Directories
 
 ### Technical Questions
 
@@ -338,7 +350,7 @@ I/O Devices: Chapter 36
 2. **Memory-mapped I/O** - Another method to interact with devices.  With this version the hardware makes device registers available as if they were memory locations  Helpful because no new instructions are needed to support it
 3. **Hardware Interface** - The way for the software to communicate and interact with the hardware system
 4. **Internal Structure** - Responsible for implementing the abstraction the device presents to the system  
-[Return](#i/o-devices) to *I/O Devices*
+[Return](#io-devices) to *I/O Devices*
 
 Files and Directories: Chapter 39
 
@@ -347,7 +359,8 @@ Files and Directories: Chapter 39
 3. **Directory** - An array of tuples, each containing a human-readable and low-level name to which it is mapped
 4. **Directory Tree** - Organizes all files into a tree, starting with the root.
 5. **Hard Link** - An entry in the file system tree.  Takes two arguments (old path name and new) and creates another way to refer to that same file
-6. **Symbolic (soft) Link** - Different type of link that allows links to files in other disk partitions than the one the original file is in
+6. **Symbolic (soft) Link** - Different type of link that allows links to files in other disk partitions than the one the original file is in  
+[Return](#file-systems-and-directories) to *File Systems and Directories*
 
 File System Implementation: Chapter 40
 
@@ -356,7 +369,8 @@ File System Implementation: Chapter 40
 3. **Metadeta** Types of data about data. Mainly consists of data about data blocks, file size, owner and access rights, etc.
 4. **Inode** A series of nodes arranged in an array and indexed into when the user is accessing a specific inode.
 5. **Indirect Pointer** A type of pointer that points to other pointers which direct the program to a specific memory address or another pointer
-6. **Fixed-Size Cache** A small amount of fast memory inside of a processor to improve the speed of which computational tasks are completed
+6. **Fixed-Size Cache** A small amount of fast memory inside of a processor to improve the speed of which computational tasks are completed  
+[Return](#file-systems-and-directories) to *File Systems and Directories*
 
 Network File Systems: Chapter 49
 
@@ -364,7 +378,8 @@ Network File Systems: Chapter 49
 2. **Recovery Protocol** A specific protocol where there's enough memory available to tell the server what it needs to know
 3. **Mount Protocol** The first process through which the clients and servers connect together
 4. **Virtual File System (VFS)** Allows for the use of multiple file systems to be utilized for a given operating system
-5. **Write Buffering** The delayed sending of the clients data to the server. The submitted data to the network is first held locally in the client's cache
+5. **Write Buffering** The delayed sending of the clients data to the server. The submitted data to the network is first held locally in the client's cache  
+[Return](#file-systems-and-directories) to *File Systems and Directories*
 
 Data Integrity and Protection: Chapter 45
 
