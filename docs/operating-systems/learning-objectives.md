@@ -99,11 +99,11 @@ multiple processes can be run at the same time
 
 - Create and maintain a lock
 - Articulate the purpose of locks and different techniques required to make a lock
-- Explain what compare-and-swap is and compare-and-exchange is
+- Implement a compare-and-swap and compare-and-exchange in a OS
 
 ### Semaphores
 
-- Explain what a semaphore is and why it is important to an OS
+- Define what a semaphore is and why it is important to an OS
 - Define the different types of semaphores
 - Show proficiency in using semaphores
 
@@ -137,7 +137,7 @@ A person learning about operating systems needs to be able to know the parts of 
 
 ## Security
 
-In order to create and maintain a high quality software, the user must implement an basic security system that can prevent attacks from getting information on your consumers. Within the security section, users are able to learn key concepts and techniques required to model an top of the line security system for an OS.
+A person learning security must be able to implement an basic security system that can prevent attacks from getting information on your consumers. Within the security section, users are able to learn key concepts and techniques required to model an top of the line security system for an OS.
 
 ### Authentication
 
