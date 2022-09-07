@@ -51,16 +51,16 @@ A person learning about operating systems needs to be able to know that *virtual
 
 ### CPU Scheduling
 
-- Describe the importance of stride scheduling and master the concept of fairness metric.
-- Having the ability to define the main differences between lottery scheduling, stride scheduling, and the Completely Fair Scheduling of Linux.
-- Have the ability to recognize the real scheduler vs. the fake.
-- Being able to define one clear issue if you use a scheduler.
+- A person reading chapter 9 must know the importance of stride scheduling and master the concept of fairness metric
+- Having the ability to define the main differences between lottery scheduling, stride scheduling, and the Completely Fair Scheduling of Linux
+- Have the ability to recognize the real scheduler vs. the fake
+- Being able to define one clear issue if you use a scheduler
 
 ### Memory Management
 
-- Have the basic ability to locate and mix memory issues.
-- Define reasons on memory management issues.
-- Begin to know the importance of memory in OS.
+- Have the basic ability to locate and mix memory issues
+- Define reasons on memory management issues
+- Begin to know the importance of memory in OS
 
 ### Segmentation
 
@@ -139,6 +139,8 @@ In order to create and maintain a high quality software, the user must implement
 
 ### Authentication
 
+Authentication is one of the most important topics covered in chapter 54. To display proficiency in this chapter, the reader must be able to tell the difference between authentication and authorization, give example on how to authentication by what you know, have, and are. Also the user have to be able to add it to an operating system.
+
 - Implement basic knowledge of agent, principal, credential, and object into an OS
 - Implement an working authentication by using sensitivity and hashes as an basic concept
 - Be able to label weakness of each hashes method within an OS
@@ -155,7 +157,7 @@ In order to create and maintain a high quality software, the user must implement
 - User need to memorize this statement “The cryptography's benefit relies entirely on the secrecy of the key.”
 - User can implement an cryptographic hashes to protect OS from potential attack
 
-### Distributed System Security 
+### Distributed System Security
 
 - Givin a list of websites, be able to tell if they are secure or not
 - User are able to create an secure distributed system
