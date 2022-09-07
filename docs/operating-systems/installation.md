@@ -91,6 +91,14 @@ If you haven't installed go click the link and follow [the instructions](https:/
 
 Make sure you click the right chip that your laptop has.
 
+If you choose the right version and it still isn't working, follow these instructions:
+1. type in the command ```nano ~/.zshrc``` into your terminal
+2. add in the following 2 paths into the file that pops up in your terminal:
+  - ```export PATH=$PATH:/usr/local/go/bin```
+  - ```export PATH=$PATH:$GOPATH/bin```
+3. After you save the changes in that file, source the file using the command ```. ~/.zshrc```.
+4. Check if go is now working using the ```go version``` command.
+
 
 ### GCC installation process:
 
