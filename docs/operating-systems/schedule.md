@@ -205,7 +205,7 @@ hide:
 | 9/29                  | <span style="background-color: #f88117">Continued</span>                                                    |                  |
 | 10/4                  | <span style="background-color: #f88117">13/15 Address Spaces, Address mechanism</span>                      | Thomas, Abagail  |
 | 10/6                  | <span style="background-color: #f88117">Continued</span>                                                    |                  |
-| Fall Break 🍂        | -                                                             |-                 |
+|                       | 🍂 Fall Break 🍂                                                                                             |                 |
 | 10/13                 | <span style="background-color: #f88117">16/18 Segmentation and Intro into Paging</span>                     | Estaban          |
 | 10/18                 | <span style="background-color: #f88117">21/22. Swapping: Mechanisms and Policies</span>                     | Jeff             |
 | 10/20                 | <span style="background-color: #f88117">Continued</span>                                                    |                  |
@@ -217,7 +217,7 @@ hide:
 | 11/15                 | Midterm                                                      |-                 |
 | 11/17                 | <span style="background-color: #4dc516">36. I/O Devices</span>                                              | Kyrie            |
 | 11/22                 | <span style="background-color: #4dc516">39/40. Files and Directories and File System Implementation</span> | Dylan, Kobe      |
-| Thanksgiving Break 🦃| -                                                             |-                 |
+|                       | 🦃 Thanksgiving Break 🦃                                                                                    |                 |
 | 11/29                 | <span style="background-color: #4dc516">Continued</span>                                                   |                  |
 | 12/1                  | <span style="background-color: #4dc516">49. Network File Systems</span>                                     | Liam             |
 | 12/6                  | <span style="background-color: #4dc516">45/53. Data Integrity and Protection </span> and <span style="background-color: #3ea89e">Intro Security</span>     | Jordan           |
