@@ -15,12 +15,12 @@ instructions for the type of machine you are using.
 
 ## Installing the required tools for Mac
 
-## Docker installation process:
+### Docker installation process:
 
 [Click the link](https://docs.docker.com/desktop/install/mac-install/) and follow the process 
 in order to ensure that the installation works.
 
-## Python installation process:
+### Python installation process:
 
 Go to your terminal and type 
 
@@ -33,7 +33,7 @@ If the output says you have a different version type this command:
 You should go to [this website](https://www.python.org/downloads/) and download the mac version. 
 
 
-## Pipx installation process:
+### Pipx installation process:
 
 Using Homebrew, pipx can be installed with:
 
@@ -57,7 +57,7 @@ The version can be verified with:
 
 `pipx --version`
 
-## Poetry installation process:
+### Poetry installation process:
 
 
 In your terminal window type:
@@ -78,21 +78,21 @@ Once poetry is installed then retype
 
 `poetry –version`
 
-## Gatorade installation process:
+### Gatorade installation process:
 
 If you haven’t installed gatorgrade type this command:
 
 `pipx install gatorgrade`
 
 
-## Go installation process:
+### Go installation process:
 
 If you haven't installed go click the link and follow [the instructions](https://go.dev/dl/)
 
 Make sure you click the right chip that your laptop has.
 
 
-## GCC installation process:
+### GCC installation process:
 
 GCC might already be installed on your computer since you have a mac. To check type:
 
