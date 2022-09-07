@@ -27,9 +27,9 @@ tags:
 
 ## Virtualization
 
-- Describe the processes of the OS virtualizing resources and doing it efficiently.
-- Identify the main physical parts that make up the PC for the OS to run.
-- Articulate the function of an operating system.
+- Describe the processes of the OS virtualizing resources and doing it efficiently
+- Identify the main physical parts that make up the PC for the OS to run
+- Articulate the function of an operating system
 
 ### Processes
 
