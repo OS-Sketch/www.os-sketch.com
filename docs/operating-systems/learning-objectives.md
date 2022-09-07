@@ -138,36 +138,35 @@ A person learning about operating systems needs to be able to know the parts of 
 
 In order to create and maintain a high quality software, you must have the ability to secure it. From this point onwards, you will learn techniques that can help you with your future projects.
 
+## Security
+In order to create and maintain a high quality software, you must have the ability to secure it. From this point onwards, you will learn techniques that can help you with your future projects.
 ### Authentication
 
-Authentication is one of the most important topics covered in chapter 54. To display proficiency in this chapter, the reader must be able to tell the difference between authentication and authorization.
+Authentication is one of the most important topics covered in chapter 54. To display proficiency in this chapter, the reader must be able to tell the difference between authentication and authorization, give example on how to authentication by what you know, have, and are. Also the user have to be able to add it to an operating system.   
 
-- Correctly identify the difference between agent, principal, credential, and object in OS.
-- Correctly identify the 3 main ways to authenticate users.
-- Correctly identify the 3 main ways to authenticate users.
-- Explain the importance of hashes, cryptographic hashes, and what does it prevent.
-- Demonstrate the ability to authentication by what you know.
-- Demonstrate the ability to authentication by what you have.
-- Demonstrate the ability to authentication by what you are.
+- Implement basic knowledge of agent, principal, credential, and object into an OS
+- Implement an working authentication by using sensitivity and hases as an basic concept
+- Be able to lable weakness of each hases method within an OS
+
+example: decide what to do givin a certain situation: do something: 
 
 ### Access Control
 
-- Have the ability to figure out if a request fits within your security policy, if it does, operate, if not, do not operate.
-- Explain the difference between authorization and authentication.
-- Have the ability to explain the difference between capability-based systems and access control list systems. (ch 55, pg4)
+- Summarize the two most important step within access control
+- Differentiate between authorization and authentication within access control
+- Givin a list of scenario, be able to distinquish if they are discretionary or mandatory access control
 
 ## Cryptography
 
-- Correctly explain the meaning of cryptography. (ch 56, pg 1)
-- Explain what a cipher and a key is.
-- Explain the meaning behind “The cryptography's benefit relies entirely on the secrecy of the key.”
-- Differentiate between private and public keys in cryptography.
+- Implement a basic cypher within your OS
+- User need to memorize this statement “The cryptography's benefit relies entirely on the secrecy of the key.”
+- User can implement an cryptographic hashes to protect OS from potential attack
 
-### Distributed System Security
+### Distributed System Security 
 
-- Explain the importance of distributed systems to modern computing.
-- Explain the reason behind using symmetric cryptography to transport data.
-- Define other authentication approaches.
+- Givin a list of websites, be able to tell if they are secure or not
+- User are able to create an secure distributed system
+- From a list of 5 definitions, being able to pick out authentication approaches within them
 
 ## Advanced Programming
 
