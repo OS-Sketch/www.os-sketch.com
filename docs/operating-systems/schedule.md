@@ -99,7 +99,7 @@ Introduction: Chapter 2
 
 1. **Virtualization** - the OS takes a physical resource (such as the processor, or memory, or a disk) and transforms it into a more general powerful, and easy-to-use virtual form of itself.
 2. **Concurrency** - When multiple computations are happening at the same time
-3. **Persistence** - The context of storing data in a computer system, this means that the data survives after the process with which it was created has ended.
+3. **Persistence** - The context of storing data in a computer system, this means that the data survives after the process with which it was created has ended.   
 [Return](#systems-introduction-expert-added-content) to *Systems Introduction*
 
 Processes: Chapter 4
@@ -107,7 +107,7 @@ Processes: Chapter 4
 1. **Process** - It is the operating system that takes these bytes and gets them running transforming the program into something useful.
 2. **Process API** - consists of calls programs can make related to processes. Typically, this includes creation, destruction, and other useful calls.
 3. **Process state** -  Including running, ready to run, and blocked. Different events (e.g., getting scheduled or descheduled, or waiting for an I/O to complete) transition a process from one of these states to the other.
-4. **Process list** - Contains information about all processes in the system.
+4. **Process list** - Contains information about all processes in the system.   
 [Return](#systems-introduction-expert-added-content) to *Systems Introduction*
 
 Process API: Chapter 5
