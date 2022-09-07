@@ -29,8 +29,6 @@ tags:
 
 A person learning about operating systems needs to be able to know that *virtualization* allows a single physical CPU to simulate the functionality of multiple virtual CPUs, which maximizes a machine's capacity in handling applications.
 
-### Introduction
-
 - Describe the processes of the OS virtualizing resources and doing it efficiently
 - Identify the main physical parts that make up the PC for the OS to run
 - Articulate the function of an operating system
@@ -133,11 +131,7 @@ A person learning about operating systems needs to be able to know the parts of 
 - Choose the best checksum function given a data corruption failure mode and a data integrity budget
 
 ## Security
-
-In order to create and maintain a high quality software, you must have the ability to secure it. From this point onwards, you will learn techniques that can help you with your future projects.
-
-## Security
-In order to create and maintain a high quality software, you must have the ability to secure it. From this point onwards, you will learn techniques that can help you with your future projects.
+In order to create and maintain a high quality software, the user must implement an basic security system that can prevent attacks from getting information on your cunsumers. Within the security section, users are able to learn key concepts and techniques required to model an top of the line security system for an OS.
 ### Authentication
 
 Authentication is one of the most important topics covered in chapter 54. To display proficiency in this chapter, the reader must be able to tell the difference between authentication and authorization, give example on how to authentication by what you know, have, and are. Also the user have to be able to add it to an operating system.   
@@ -145,8 +139,6 @@ Authentication is one of the most important topics covered in chapter 54. To dis
 - Implement basic knowledge of agent, principal, credential, and object into an OS
 - Implement an working authentication by using sensitivity and hases as an basic concept
 - Be able to lable weakness of each hases method within an OS
-
-example: decide what to do givin a certain situation: do something: 
 
 ### Access Control
 
