@@ -17,10 +17,8 @@ instructions for the type of machine you are using.
 
 ## Docker installation process:
 
-https://docs.docker.com/desktop/install/mac-install/
-
-Click the link and follow the process in order to ensure that the installation works.
-
+[Click the link](https://docs.docker.com/desktop/install/mac-install/) and follow the process 
+in order to ensure that the installation works.
 
 ## Python installation process:
 
