@@ -61,9 +61,9 @@ Stride scheduling is made without using randomization in mind, why do people use
 
 ### Segmentation
 
-- Justify the decision on why hardware uses segment registers during translation.
-- Compare and contrast fined-grained and coarse-grained segmentation with addresses.
-- Solve problems using segmentation, to build a more effective virtualization memory.
+- Justify the decision on why hardware uses segment registers during translation
+- Compare and contrast fined-grained and coarse-grained segmentation with addresses
+- Solve problems using segmentation, to build a more effective virtualization memory
 
 ### Paging
 
