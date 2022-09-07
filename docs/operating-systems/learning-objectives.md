@@ -138,15 +138,13 @@ A person learning about operating systems needs to be able to know the parts of 
 
 In order to create and maintain a high quality software, you must have the ability to secure it. From this point onwards, you will learn techniques that can help you with your future projects.
 
-## Security
-In order to create and maintain a high quality software, you must have the ability to secure it. From this point onwards, you will learn techniques that can help you with your future projects.
 ### Authentication
 
 Authentication is one of the most important topics covered in chapter 54. To display proficiency in this chapter, the reader must be able to tell the difference between authentication and authorization, give example on how to authentication by what you know, have, and are. Also the user have to be able to add it to an operating system.   
 
 - Implement basic knowledge of agent, principal, credential, and object into an OS
-- Implement an working authentication by using sensitivity and hases as an basic concept
-- Be able to lable weakness of each hases method within an OS
+- Implement an working authentication by using sensitivity and hashes as an basic concept
+- Be able to label weakness of each hashes method within an OS
 
 example: decide what to do givin a certain situation: do something: 
 
@@ -154,7 +152,7 @@ example: decide what to do givin a certain situation: do something:
 
 - Summarize the two most important step within access control
 - Differentiate between authorization and authentication within access control
-- Givin a list of scenario, be able to distinquish if they are discretionary or mandatory access control
+- Givin a list of scenario, be able to distinguish if they are discretionary or mandatory access control
 
 ## Cryptography
 
