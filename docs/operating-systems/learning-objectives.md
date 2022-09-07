@@ -53,7 +53,7 @@ A person learning about operating systems needs to be able to know that *virtual
 
 ### CPU Scheduling
 
-- A person reading chapter 9 must know the importance of stride scheduling and master the concept of fairness metric
+- Describe the importance of stride scheduling and master the concept of fairness metric
 - Having the ability to define the main differences between lottery scheduling, stride scheduling, and the Completely Fair Scheduling of Linux
 - Have the ability to recognize the real scheduler vs. the fake
 - Being able to define one clear issue if you use a scheduler
