@@ -73,9 +73,9 @@ Stride scheduling is made without using randomization in mind, why do people use
 
 ### Swapping
 
-- Swap space for the OS to move pages back and forth.
-- Describe the page fault work and why hardware does not handle page faults as the OS does.
-- Perform replacements and using high watermark and low watermark.
+- Swap space for the OS to move pages back and forth
+- Describe the page fault work and why hardware does not handle page faults as the OS does
+- Perform replacements and using high watermark and low watermark
 
 ## Concurrency
 
