@@ -31,11 +31,12 @@ tags:
 - Identify the main physical parts that make up the PC for the OS to run.
 - To have some idea of what an OS actually does.
 
-
 ### Processes
+
 - Being able to define what a process is.
 - Know what a process API is.
 - Being able to trace process state in both CPU and I/O.
+
 ### Direct Execution
 
 - Given a Limited Direct Execution, a student should be able to trace the steps of the execution.
@@ -49,14 +50,13 @@ Stride scheduling is made without using randomization in mind, why do people use
 
 - A person reading chapter 9 must know the importance of stride scheduling and master the concept of fairness metric.
 - Having the ability to define the main differences between lottery scheduling, stride scheduling, and the Completely Fair Scheduling of Linux.
-
 - Have the ability to recognize the real scheduler vs. the fake. 
 - Being able to define one clear issue if you use a scheduler.
 
 ### Memory Management
 
 - Have the basic ability to locate and mix memory issues.
-- Define reasons on memory mangement issues.
+- Define reasons on memory management issues.
 - Begin to know the importance of memory in OS.
 
 ### Segmentation
@@ -71,13 +71,11 @@ Stride scheduling is made without using randomization in mind, why do people use
 - Given the idea that OS usually keeps a per-process data structure; page table, describe the major role of the page table.
 - To be able to identify the main purpose of using pages and how you take advantage by using it. 
 
-
 ### Swapping
 
 - Explain how swap space works for the OS to move pages back and forth.
 - Be able to describe the page fault work and why hardware does not handle page faults as the OS does. 
 - Having the ability to explain how replacements occur and how high watermark and low watermark have a big impact on this.
-
 
 ## Concurrency
 
@@ -91,9 +89,10 @@ Stride scheduling is made without using randomization in mind, why do people use
 
 ### Locks
 
-- Demostrate the ability to create and maintain a lock.
-- Demostrate a key understanding of locks and different techniques required to make a lock.
+- Demonstrate the ability to create and maintain a lock.
+- Demonstrate a key understanding of locks and different techniques required to make a lock.
 - Explain what compare-and-swap is and compare-and-exchange is.
+
 ### Semaphores
 
 - Explain what a semaphore is and why it is important to an OS. 
@@ -129,7 +128,9 @@ A person learning about operating systems needs to be able to know the parts of 
 - Given a data corruption failure mode and a data integrity budget, choose the best checksum function.
 
 ## Security
+
 In order to create and maintain a high quality software, you must have the ability to secure it. From this point onwards, you will learn techniques that can help you with your future projects.
+
 ### Authentication
 
 Authentication is one of the most important topics covered in chapter 54. To display proficiency in this chapter, the reader must be able to tell the difference between authentication and authorization. 
