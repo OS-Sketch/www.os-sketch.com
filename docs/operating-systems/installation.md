@@ -48,6 +48,7 @@ instructions for the type of machine you are using.
 9. Navigate to the directory in your terminal, enter make and see the program run!
 
 ### Docker
+- Navigate to https://docs.docker.com/desktop/install/windows-install/, get the installer, and follow the instructions
 
 ### Python 3.10
 1. Go to the Microsoft Store app, search ```Python 3.10``` and install
