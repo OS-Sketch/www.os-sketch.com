@@ -17,4 +17,34 @@ instructions for the type of machine you are using.
 
 ## Installing the required tools for Windows
 
+### gcc & ```make``` command
+
+1. Do not install MinGW directly, go to https://www.msys2.org/ and download MSYS2
+2. Search for the MSYS2 MinGW x64 environment and open it
+3. Write ```pacman -Syuu``` to update the environment
+4. Write ```pacman -S mingw-w64-x86_64-toolchain``` to install the toolchain, which contains gcc and the make command
+5. Verify the installation worked by entering ```gcc —version``` in your terminal. If it is working it should return the version of gcc you installed
+6. In order to use the gcc toolchain, you have to add this to your path environment variable: <MSYS2 location>/mingw64/bin
+7. You can also change the name of make from mingw32-make to make to make it easier to execute in the terminal
+8. In order to test everything went correctly, create two new files in a directory named hello.c and makefile.
+    1. Hello.c should contain:
+      ``` #include <stdio.h>
+ 
+      int main() {
+          printf("Hello, world!\n");
+          return 0;
+      }```
+    2. Makefile should contain:
+      ``` all: hello.exe
+
+      hello.exe: hello.o
+          gcc -o hello.exe hello.o
+
+      hello.o: hello.c
+          gcc -c hello.c
+          
+      clean:
+          rm hello.o hello.exe```
+9. Navigate to the directory in your terminal, enter make and see the program run!
+
 ## Installing the required tools for Linux
