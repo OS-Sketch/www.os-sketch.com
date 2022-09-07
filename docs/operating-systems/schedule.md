@@ -100,7 +100,7 @@ Introduction: Chapter 2
 1. **Virtualization** - the OS takes a physical resource (such as the processor, or memory, or a disk) and transforms it into a more general powerful, and easy-to-use virtual form of itself.
 2. **Concurrency** - When multiple computations are happening at the same time
 3. **Persistence** - The context of storing data in a computer system, this means that the data survives after the process with which it was created has ended.   
-[Return](#systems-introduction-expert-added-content) to *Systems Introduction*
+[Return](#systems-introduction) to *Systems Introduction*
 
 Processes: Chapter 4
 
@@ -108,14 +108,15 @@ Processes: Chapter 4
 2. **Process API** - consists of calls programs can make related to processes. Typically, this includes creation, destruction, and other useful calls.
 3. **Process state** -  Including running, ready to run, and blocked. Different events (e.g., getting scheduled or descheduled, or waiting for an I/O to complete) transition a process from one of these states to the other.
 4. **Process list** - Contains information about all processes in the system.   
-[Return](#systems-introduction-expert-added-content) to *Systems Introduction*
+[Return](#systems-introduction) to *Systems Introduction*
 
 Process API: Chapter 5
 
 1. **Process Identifier** - Used to name the process if one wants to do something with the process, such as (for example) stop it from running. 
 2. **Fork** - Is used in UNIX systems to create a new process.
 3. **Scheduler** - Determines which process runs at a given moment in time.
-4. **Superuser** - Controls all processes (and indeed do many other things); this role should be assumed infrequently and with caution for security reasons.
+4. **Superuser** - Controls all processes (and indeed do many other things); this role should be assumed infrequently and with caution for security reasons.   
+[Return](#apis-and-execution) to *APIs and Execution
 
 Direct Execution: Chapter 6
 
