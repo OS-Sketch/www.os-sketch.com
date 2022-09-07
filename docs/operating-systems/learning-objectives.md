@@ -105,8 +105,8 @@ A person learning about operating systems needs to be able to know the parts of 
 
 ### Input/Output Devices
 
-- Depending on the operating system, decide whether to lower CPU overhead with interrupts
-- Depending on the operating system, decide whether to lower PIO overhead with Direct Memory Allocation
+- Decide whether to lower CPU overhead with interrupts depending on the operating system
+- Decide whether to lower PIO overhead with Direct Memory Allocation depending on the operating system
 - Design both methods of device communication, those being I/O instructions and memory-mapped I/O
 
 ### Files and Dictionaries
@@ -117,15 +117,15 @@ A person learning about operating systems needs to be able to know the parts of 
 ### File System Implementation
 
 - Create an appropriate design of the overall on-disk organization of data in a Very Simple File System
-- Given an inode number, calculate the location of that inode in the disk
+- Calculate the location of that inode in the disk given an inode number
 - Depending on the files being dealt with, decide whether to use direct pointers, indirect pointers, or extents
 
 ### Data Integrity and Protection
 
-- Given a certain disk failure, identify the failure mode
-- Be able to handle the latent sector error failure mode
-- Be able to handle the data corruption failure mode
-- Given a data corruption failure mode and a data integrity budget, choose the best checksum function
+- Identify the failure mode given a certain disk failure
+- Handle the latent sector error failure mode
+- Handle the data corruption failure mode
+- Choose the best checksum function given a data corruption failure mode and a data integrity budget
 
 ## Security
 
