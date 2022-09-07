@@ -220,8 +220,8 @@ hide:
 |                       | 🦃 Thanksgiving Break 🦃                                                                                    |                 |
 | 11/29                 | <span style="background-color: #4dc516">Continued</span>                                                   |                  |
 | 12/1                  | <span style="background-color: #4dc516">49. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/dist-nfs.pdf" target="_blank"; style="color:000000;text-decoration:none">Network File Systems</a></span>                                     | Liam             |
-| 12/6                  | <span style="background-color: #4dc516">45/53. <a href="" target="_blank"; style="color:000000;text-decoration:none">Data Integrity</a> and <a href="" target="_blank"; style="color:000000;text-decoration:none">Protection</a></span> and <span style="background-color: #3ea89e">Intro Security</span>     | Jordan           |
-| 12/8                  | <span style="background-color: #4dc516">48. <a href="" target="_blank"; style="color:000000;text-decoration:none">Distributed Systems</a></span>                                      | Bill, Andre      |
+| 12/6                  | <span style="background-color: #4dc516">45/53. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/file-integrity.pdf" target="_blank"; style="color:000000;text-decoration:none">Data Integrity and Protection</a> </span> and <span style="background-color: #3ea89e"><a href="https://pages.cs.wisc.edu/~remzi/OSTEP/security-intro.pdf" target="_blank"; style="color:000000;text-decoration:none">Intro Security</a></span>     | Jordan           |
+| 12/8                  | <span style="background-color: #4dc516">48. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/dist-intro.pdf" target="_blank"; style="color:000000;text-decoration:none">Distributed Systems</a></span>                                      | Bill, Andre      |
 | 12/13                 | Review For Final                                             |                  |  
 
 [return to top of the page](#course-schedule)
