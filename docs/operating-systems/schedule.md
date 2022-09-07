@@ -46,6 +46,7 @@ hide:
 
 - *Introduction* and *Processes* chapters in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Check out the [course slides](/slides/operating-systems/systems-introduction/) for a detailed investigation of these chapters!
+- [Click here](#important-terms) to find definitions for key terms for the week's readings (chapters 2 and 4)!
 
 ???+ note "Technical Concepts"
 
