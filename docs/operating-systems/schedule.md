@@ -42,7 +42,7 @@ hide:
   system? How does virtualization influence the way in which I program and use
   an operating system?
 
-### Expert Added Content
+### Introduction and Processes Expert Added Content
 
 - *Introduction* and *Processes* chapters in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Check out the [course slides](/slides/operating-systems/systems-introduction/) for a detailed investigation of these chapters!
@@ -102,6 +102,7 @@ Introduction: Chapter 2
 1. **Virtualization** - the OS takes a physical resource (such as the processor, or memory, or a disk) and transforms it into a more general powerful, and easy-to-use virtual form of itself.
 2. **Concurrency** - When multiple computations are happening at the same time
 3. **Persistence** - The context of storing data in a computer system, this means that the data survives after the process with which it was created has ended.
+[Return](#introduction-and-processes-expert-added-content) to *Expert Added Content*
 
 Processes: Chapter 4
 
