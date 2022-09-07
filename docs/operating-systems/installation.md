@@ -54,4 +54,8 @@ instructions for the type of machine you are using.
 1. Go to the Microsoft Store app, search ```Python 3.10``` and install
 2. Can check this worked by using the ```python --version``` command
 
+### C
+
+### Golang
+
 ## Installing the required tools for Linux
