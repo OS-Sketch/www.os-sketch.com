@@ -139,8 +139,6 @@ In order to create and maintain a high quality software, the user must implement
 
 ### Authentication
 
-Authentication is one of the most important topics covered in chapter 54. To display proficiency in this chapter, the reader must be able to tell the difference between authentication and authorization, give example on how to authentication by what you know, have, and are. Also the user have to be able to add it to an operating system.   
-
 - Implement basic knowledge of agent, principal, credential, and object into an OS
 - Implement an working authentication by using sensitivity and hashes as an basic concept
 - Be able to label weakness of each hashes method within an OS
