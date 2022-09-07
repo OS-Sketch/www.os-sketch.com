@@ -15,6 +15,96 @@ instructions for the type of machine you are using.
 
 ## Installing the required tools for Mac
 
+## Docker installation process:
+
+https://docs.docker.com/desktop/install/mac-install/
+
+Click the link and follow the process in order to ensure that the installation works.
+
+
+## Python installation process:
+
+Go to your terminal and type 
+
+`python –version`
+
+If the output says python 3.10 you are all set.
+
+If the output says you have a different version type this command:
+
+You should go to [this website](https://www.python.org/downloads/) and download the mac version. 
+
+
+## Pipx installation process:
+
+Using Homebrew, pipx can be installed with:
+
+
+`brew install pipx`
+
+The path can be ensured with:
+
+
+`pipx ensurepath`
+
+Using pip, pipx can be installed with:
+
+`python3 -m pip install --user pipx`
+
+The path can be ensured with:
+
+`python3 -m pipx ensurepath`
+
+The version can be verified with:
+
+`pipx --version`
+
+## Poetry installation process:
+
+
+In your terminal window type:
+
+`poetry –version`
+
+If your output looks like 
+
+`poetry (version 1.2.0)`
+
+You are good to go. 
+
+Otherwise, type this command 
+
+`pip install poetry`
+
+Once poetry is installed then retype 
+
+`poetry –version`
+
+## Gatorade installation process:
+
+If you haven’t installed gatorgrade type this command:
+
+`pipx install gatorgrade`
+
+
+## Go installation process:
+
+If you haven't installed go click the link and follow [the instructions](https://go.dev/dl/)
+
+Make sure you click the right chip that your laptop has.
+
+
+## GCC installation process:
+
+GCC might already be installed on your computer since you have a mac. To check type:
+
+`gcc –version`
+
+You want your output to say you have the clang version.
+
+
+
+
 ## Installing the required tools for Windows
 
 ### gcc & ```make``` command
