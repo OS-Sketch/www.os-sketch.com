@@ -42,7 +42,7 @@ hide:
   system? How does virtualization influence the way in which I program and use
   an operating system?
 
-### Systems Introduction Expert Added Content
+### Expert Added Content
 
 - *Introduction* and *Processes* chapters in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Check out the [course slides](/slides/operating-systems/systems-introduction/) for a detailed investigation of these chapters!
@@ -54,7 +54,7 @@ hide:
 
 -Experts add their technical question here
 
-### APIs and Execution Expert Added Content
+### Expert Added Content
 
 - *Process API*, *Memory API* and *Direct Execution* chapters in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Check out the [course slides](/slides/operating-systems/systems-introduction/) for a detailed investigation of these chapters!
