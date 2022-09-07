@@ -197,7 +197,6 @@ hide:
 
 | Class Date            | Chapter/Topics                                               | Expert/Presenter |
 |-----------------------|--------------------------------------------------------------|------------------|
-| 9/1                   | Continued work from lab                                      |                  |
 | 9/13                  | 2/4. Introduction/Processes                                  | Peter, Anthony   |
 | 9/15                  | Processes Continued                                          |                  |
 | 9/20                  | 5/14/6. Process API Memory API, Direct Execution             | Lex, Caden       |
