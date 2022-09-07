@@ -29,8 +29,6 @@ tags:
 
 A person learning about operating systems needs to be able to know that *virtualization* allows a single physical CPU to simulate the functionality of multiple virtual CPUs, which maximizes a machine's capacity in handling applications.
 
-### Introduction
-
 - Describe the processes of the OS virtualizing resources and doing it efficiently
 - Identify the main physical parts that make up the PC for the OS to run
 - Articulate the function of an operating system
@@ -52,8 +50,6 @@ A person learning about operating systems needs to be able to know that *virtual
 - Measure the cost of context switch code using the lmbench tool
 
 ### CPU Scheduling
-
-Stride scheduling is made without using randomization in mind, why do people use stride scheduling? And why is it so straightforward?
 
 - A person reading chapter 9 must know the importance of stride scheduling and master the concept of fairness metric.
 - Having the ability to define the main differences between lottery scheduling, stride scheduling, and the Completely Fair Scheduling of Linux.
@@ -136,7 +132,7 @@ A person learning about operating systems needs to be able to know the parts of 
 
 ## Security
 
-In order to create and maintain a high quality software, you must have the ability to secure it. From this point onwards, you will learn techniques that can help you with your future projects.
+In order to create and maintain a high quality software, the user must implement an basic security system that can prevent attacks from getting information on your consumers. Within the security section, users are able to learn key concepts and techniques required to model an top of the line security system for an OS.
 
 ### Authentication
 
@@ -145,8 +141,6 @@ Authentication is one of the most important topics covered in chapter 54. To dis
 - Implement basic knowledge of agent, principal, credential, and object into an OS
 - Implement an working authentication by using sensitivity and hashes as an basic concept
 - Be able to label weakness of each hashes method within an OS
-
-example: decide what to do givin a certain situation: do something: 
 
 ### Access Control
 
