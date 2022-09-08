@@ -68,8 +68,8 @@ A person learning about operating systems needs to be able to know that *virtual
 ### Paging
 
 - Avoid the problems of segmentation by virtualizing memory with pages
-- Describe the major role of the page table having in mind the idea that OS keeps a per-process data structure
-- Identify the main purpose of using pages and how you take advantage by using it
+- Virtualize memory via paging with minimal space and time overheads
+- Design the address translation process from the virtual address to the physical address
 
 ### Swapping
 
