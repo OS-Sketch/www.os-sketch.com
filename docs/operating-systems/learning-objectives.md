@@ -55,9 +55,9 @@ A person learning about operating systems needs to be able to know that *virtual
 
 ### Memory Management
 
-- Have the basic ability to locate and mix memory issues
-- Define reasons on memory management issues
-- Begin to know the importance of memory in OS
+- Locate and fix memory issues in an operating system
+- Get around the issues of fragmentation when memory is requested
+- Come up with the best situational strategy for managing space in general
 
 ### Segmentation
 
