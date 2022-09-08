@@ -64,9 +64,9 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
         {% include ".icons/material/progress-question.svg" %}
       </span>
       <div class="footertext">
-      Create a <a
+      Create an <a
         href="https://github.com/OS-Sketch/www.os-sketch.com/issues/new/?title=[Feedback]+{{title}}+-+{{url}}"
-        target="_blank" and rel="noopener noreferrer">new
+        target="_blank" and rel="noopener noreferrer">
         issue</a> to share feedback on "{{ display_title }}"
       </div>
     </span>
@@ -97,16 +97,15 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
       <span class="md-icon">
         {% include ".icons/material/account.svg" %}
       </span>
+      <!-- Only display a single most recent author to preserve -->
+      <!-- the responsive design on a single line on small-screen devices -->
       <div class="footertext">
-    {% set maximum = 1 %}
-    {% set count = 0 %}
-    Recent Author:
-    {%- for user in committers -%}
-      {% if count < maximum %}
-         {{ user.name }} &nbsp;
-         {% set count = count + 1 %}
-      {% endif %}
-    {%- endfor -%}
+        Recent Author:
+        {% for user in committers %}
+          {% if loop.first %}
+            {{ user.name }} &nbsp;
+          {% endif %}
+        {% endfor %}
       </div>
     </span>
   </small>
