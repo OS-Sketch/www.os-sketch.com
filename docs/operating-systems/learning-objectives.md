@@ -91,9 +91,9 @@ multiple processes can be run at the same time
 
 ### Locks
 
-- Create and maintain a lock
-- Articulate the purpose of locks and different techniques required to make a lock
-- Implement a compare-and-swap and compare-and-exchange in a OS
+- Create and maintain an efficient lock
+- Properly evaluate the efficacy of locks
+- Implement a compare-and-swap and compare-and-exchange in an OS
 
 ### Semaphores
 
