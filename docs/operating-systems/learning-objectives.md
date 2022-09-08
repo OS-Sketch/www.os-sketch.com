@@ -152,9 +152,8 @@ A person learning security must be able to implement a basic security system tha
 
 ### Distributed System Security
 
-- Given a list of websites, be able to tell if they are secure or not
-- User are able to create and secure distributed system
-- From a list of 5 definitions, being able to pick out authentication approaches within them
+- Determine in a list what websites are secure and insecure
+- Create and secure a distributed system in multiple approaches
 
 ## Advanced Programming
 
