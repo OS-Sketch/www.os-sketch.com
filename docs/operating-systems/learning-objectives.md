@@ -124,7 +124,6 @@ A person learning about operating systems needs to be able to know the parts of 
 
 ### Data Integrity and Protection
 
-- Identify the failure mode given a certain disk failure
 - Handle the latent sector error failure mode
 - Handle the data corruption failure mode
 - Choose the best checksum function given a data corruption failure mode and a data integrity budget
