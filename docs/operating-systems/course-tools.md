@@ -15,6 +15,7 @@ for course projects and laboratory assignments. The
 
 - A full shell environment with all Linux commands
 - Python 3.8.10
+- `poetry`
 - A complete `gcc` toolchain
 
 `dockasketch` in its current state has plenty of room for improvement.
@@ -23,7 +24,6 @@ operating systems would benefit from:
 
 - Updated Python (at least 3.10)
 - `pipx`
-- `poetry`
 - Golang 1.19
 
 As it currently stands, `dockasketch` is a suitable container
@@ -45,23 +45,9 @@ Copy that command and run it in a terminal window,
 and you'll have successfully pulled the Dockerfile
 to your local machine.
 
-### Building a `dockasketch` Container
-
-Once you've pulled the Dockerfile to your local machine,
-you'll need to actually *build* a container using
-the `dockasketch` Dockerfile. Regardless of your
-operating system, the command is as follows:
-
-```
-docker build -t dockasketch .
-```
-
-The building process can take some time to complete.
-This is normal.
-
 ### Running a `dockasketch` Container
 
-Once the container has been successfully built,
+Once the container has been successfully pulled,
 you'll then need to *run* the container to actually
 work within the container's workspace.
 
@@ -72,7 +58,7 @@ follows:
 **Mac/Ubuntu:**
 
 ```
-docker run --rm -it -v "$PWD:/root" dockasketch
+docker run --rm -it -v "$PWD:/root" hancea/dockasketch
 ```
 
 **Windows:**
@@ -81,7 +67,7 @@ The below command must be run in the Command Prompt,
 it will not work as expected if using PowerShell.
 
 ```
-docker run --rm -it -v "%cd%:/root" dockasketch
+docker run --rm -it -v "%cd%:/root" hancea/dockasketch
 ```
 
 Within moments you should be in your own instance
