@@ -49,10 +49,9 @@ A person learning about operating systems needs to be able to know that *virtual
 
 ### CPU Scheduling
 
-- Describe the importance of stride scheduling and master the concept of fairness metric
-- Having the ability to define the main differences between lottery scheduling, stride scheduling, and the Completely Fair Scheduling of Linux
-- Have the ability to recognize the real scheduler vs. the fake
-- Being able to define one clear issue if you use a scheduler
+- Develop a scheduling policy based on workloads and scheduling metric priorities
+- Design any scheduling algorithm with jobs being run over a certain period of time
+- Design an STCF scheduler with overlap between the CPU and the disk over a certain period of time
 
 ### Memory Management
 
