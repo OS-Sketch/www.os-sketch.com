@@ -84,7 +84,6 @@ multiple processes can be run at the same time
 
 ### Threads
 
-- Articulate the value and purpose of threads
 - Write and execute the code necessary to create threads
 - Pass arguments to threads
 - Address the issue of shared data through building support for synchronized primitives to support atomicity
