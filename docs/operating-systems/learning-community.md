@@ -73,15 +73,6 @@ forum that best connects to your situation, as illustrated with these examples.
 ## Integration Guidelines
 
 ### Commit Messages
-- To ensure the creation of uniform pull requests (PR), you should follow these
-  syntactic rules:
-
-    - The first letter of the pull request (PR) title should be capitalized,
-      and the first word should be in the imperative case.
-    - There should not be a period at the end of the PR's title.
-    - The description should be meaningful and concise (less than 50
-      characters).
-
 - Commit messages should follow the rules described by the [Conventional
   Commits Standard](https://www.conventionalcommits.org/en/v1.0.0/#summary).
   Here is an example:
@@ -89,7 +80,16 @@ forum that best connects to your situation, as illustrated with these examples.
     ```
     fix: Add the correct percentages to grading table in syllabus
     ```
+
 ### Pull Requests (PR)
+- To ensure the creation of uniform pull requests (PR), you should follow these syntactic rules:
+
+    - The first letter of the pull request (PR) title should be capitalized,
+      and the first word should be in the imperative case.
+    - There should not be a period at the end of the PR's title.
+    - The description should be meaningful and concise (less than 50
+      characters).
+
 - So as to avoid unnecessary builds on Netlify, excessive pushes to pull
   requests should be avoided if possible. In order to preview your changes to
   the web site, please adopt the following process that requires
