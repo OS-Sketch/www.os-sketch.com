@@ -120,7 +120,7 @@ A person learning about operating systems needs to be able to know the parts of 
 
 - Create an appropriate design of the overall on-disk organization of data in a Very Simple File System
 - Calculate the location of that inode in the disk given an inode number
-- Depending on the files being dealt with, decide whether to use direct pointers, indirect pointers, or extents
+- Decide whether to use direct pointers, indirect pointers, or extents depending on the files being dealt with
 
 ### Data Integrity and Protection
 
@@ -130,7 +130,7 @@ A person learning about operating systems needs to be able to know the parts of 
 
 ## Security
 
-A person learning security must be able to implement an basic security system that can prevent attacks from getting information on your consumers. Within the security section, users are able to learn key concepts and techniques required to model an top of the line security system for an OS.
+A person learning security must be able to implement a basic security system that can prevent attacks from getting information on your consumers. Within the security section, users are able to learn key concepts and techniques required to model an top of the line security system for an OS.
 
 ### Authentication
 
@@ -140,9 +140,9 @@ A person learning security must be able to implement an basic security system th
 
 ### Access Control
 
-- Summarize the two most important step within access control
-- Differentiate between authorization and authentication within access control
-- Given a list of scenario, be able to distinguish if they are discretionary or mandatory access control
+- Make the correct decision on performing an operation based on a security policy and a request of that operation
+- Implement a reference monitor correctly
+- Given an access priority for an operating system, decide whether to use discretionary or mandatory access control
 
 ## Cryptography
 
