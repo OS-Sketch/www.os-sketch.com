@@ -81,8 +81,7 @@ forum that best connects to your situation, as illustrated with these examples.
     fix: Add the correct percentages to grading table in syllabus
     ```
 ### Pull Requests (PR)
-- To ensure the creation of uniform pull requests (PR), you should follow these
-  syntactic rules:
+- To ensure the creation of uniform pull requests (PR), you should follow these syntactic rules:
 
     - The first letter of the pull request (PR) title should be capitalized,
       and the first word should be in the imperative case.
