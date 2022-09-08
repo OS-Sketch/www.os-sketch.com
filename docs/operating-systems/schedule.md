@@ -224,7 +224,7 @@ hide:
 | 12/8                  | <span style="background-color: #4dc516">48. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/dist-intro.pdf" target="_blank"; style="color:#000000;text-decoration:none">Distributed Systems</a></span>                                      | Bill, Andre      |
 | 12/13                 | 📝 Review For Final 📝                                            |                  |  
 
-[return to top of the page](#course-schedule)
+[Return to top of the page](#course-schedule)
 
 ## Important terms
 
