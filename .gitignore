@@ -137,3 +137,15 @@ _output
 ### Jupyter Notebooks ###
 .jupyterlite.doit.db
 .ipynb_checkpoints
+
+### macOS ###
+.DS_Store
+.AppleDouble
+.LSOverride
+
+### VSCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
