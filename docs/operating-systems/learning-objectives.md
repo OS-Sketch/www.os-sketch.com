@@ -27,7 +27,7 @@ tags:
 
 ## Virtualization
 
-A person learning about operating systems needs to be able to know that *virtualization* allows a single physical CPU to simulate the functionality of multiple virtual CPUs, which maximizes a machine's capacity in handling applications.
+A person who is learning about operating systems needs to be able to know that *virtualization* allows a single physical CPU to simulate the functionality of multiple virtual CPUs, which maximizes a machine's capacity in handling applications.
 
 ### Introduction
 
