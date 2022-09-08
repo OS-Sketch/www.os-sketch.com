@@ -61,9 +61,9 @@ A person learning about operating systems needs to be able to know that *virtual
 
 ### Segmentation
 
-- Justify the decision on why hardware uses segment registers during translation
-- Compare and contrast fined-grained and coarse-grained segmentation with addresses
-- Solve problems using segmentation, to build a more effective virtualization memory
+- Design address spaces before and after segmentation
+- Avoid segmentation faults when referring to addresses
+- Determine the segment that an address is in based on how that address was formed
 
 ### Paging
 
