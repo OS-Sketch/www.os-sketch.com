@@ -74,7 +74,7 @@ A person learning about operating systems needs to be able to know that *virtual
 ### Swapping
 
 - Swap space for the OS to move pages back and forth
-- Describe the page fault work and why hardware does not handle page faults as the OS does
+- Write page-fault handler code
 - Perform replacements and using high watermark and low watermark
 
 ## Concurrency
