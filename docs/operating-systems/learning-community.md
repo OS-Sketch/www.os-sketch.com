@@ -72,6 +72,7 @@ forum that best connects to your situation, as illustrated with these examples.
 
 ## Integration Guidelines
 
+### Commit Messages
 - To ensure the creation of uniform pull requests (PR), you should follow these
   syntactic rules:
 
@@ -88,7 +89,7 @@ forum that best connects to your situation, as illustrated with these examples.
     ```
     fix: Add the correct percentages to grading table in syllabus
     ```
-
+### Pull Requests (PR)
 - So as to avoid unnecessary builds on Netlify, excessive pushes to pull
   requests should be avoided if possible. In order to preview your changes to
   the web site, please adopt the following process that requires
