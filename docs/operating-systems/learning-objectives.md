@@ -36,12 +36,9 @@ A person who is learning about operating systems needs to be able to know that *
 
 ### Processes
 
-- State the steps an Operating System should take in order to run a program (or process).
-- List and describe the typical APIs available across many modern operating systems.
-- Explain the lifecycle of a process, delineating each state of a process and what causes a shift in the state.
-- Identify the UNIX interface used to create a new process and define the Process Identifier and describe how it relates to this interface.
-- Compare the UNIX interfaces: fork(), wait(), + exec() and outline the difference in how the parent and child processes are used in each interface.
-- List and explain the interfaces and/or user privileges that can be used to control processes.
+- Design the lifecycle of a process
+- Choose what process would run first based on a scheduling policy and a list of processes
+- Trace multiple processes going through states
 
 ### Direct Execution
 
@@ -147,7 +144,7 @@ A person who is learning security must be able to implement a basic security sys
 - Implement a reference monitor correctly
 - Given an access priority for an operating system, decide whether to use discretionary or mandatory access control
 
-### Cryptography
+## Cryptography
 
 - Implement a basic cypher within your OS
 - Maintain secrecy of the key for your cryptography
