@@ -147,8 +147,8 @@ A person learning security must be able to implement a basic security system tha
 ## Cryptography
 
 - Implement a basic cypher within your OS
-- User need to memorize this statement “The cryptography's benefit relies entirely on the secrecy of the key.”
-- User can implement cryptographic hashes to protect OS from potential attack
+- Maintain secrecy of the key for your cryptography
+- Decide whether to use a private key or a public key given a certain scenario
 
 ### Distributed System Security
 
