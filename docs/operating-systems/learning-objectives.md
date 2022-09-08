@@ -79,7 +79,7 @@ A person learning about operating systems needs to be able to know that *virtual
 
 ## Concurrency
 
-A person learning about operating systems needs to be able to add features to an operating system so that
+A person who is learning about operating systems needs to be able to add features to an operating system so that
 multiple processes can be run at the same time
 
 ### Threads
@@ -103,7 +103,7 @@ multiple processes can be run at the same time
 
 ## Persistence
 
-A person learning about operating systems needs to be able to know the parts of a computer that persists after shutdown and know how to handle failures in the operating system.
+A person who is learning about operating systems needs to be able to know the parts of a computer that persists after shutdown and know how to handle failures in the operating system.
 
 ### Input/Output Devices
 
@@ -130,7 +130,7 @@ A person learning about operating systems needs to be able to know the parts of 
 
 ## Security
 
-A person learning security must be able to implement a basic security system that can prevent attacks from getting information on your consumers. Within the security section, users are able to learn key concepts and techniques required to model and top of the line security system for an OS.
+A person who is learning security must be able to implement a basic security system that can prevent attacks from getting information on your consumers. Within the security section, users are able to learn key concepts and techniques required to model and top of the line security system for an OS.
 
 ### Authentication
 
