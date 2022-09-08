@@ -97,9 +97,9 @@ multiple processes can be run at the same time
 
 ### Semaphores
 
-- Define what a semaphore is and why it is important to an OS
-- Define the different types of semaphores
-- Show proficiency in using semaphores
+- Build and initialize a semaphore
+- Use a semaphore as a lock and an ordering mechanism
+- Solve the bounded buffer problem with semaphores
 
 ## Persistence
 
