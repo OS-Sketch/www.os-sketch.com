@@ -147,25 +147,6 @@ extra:
     # Discord server invitation (open publicly)
     - icon: fontawesome/brands/discord
       link: https://discord.gg/9VfCdqffu6
-  # add Google analytics to support receiving feedback through the site
-  analytics:
-    provider: google
-    property: G-BT7YZ6G7ZC
-    feedback:
-      title: Was this page helpful?
-      ratings:
-        - icon: material/emoticon-happy-outline
-          name: This page was helpful
-          data: 1
-          note: >-
-            Thanks for your positive feedback! Share what you like about this
-            page through the <a href = "https://github.com/OS-Sketch/www.os-sketch.com/issues">issue tracker</a> or <a href = "https://github.com/OS-Sketch/www.os-sketch.com/discussions">discussions</a> in our project's <a href = "https://github.com/OS-Sketch/www.os-sketch.com">GitHub repository</a>.
-        - icon: material/emoticon-sad-outline
-          name: This page could be improved
-          data: 0
-          note: >-
-            Thanks for your feedback! Share your suggestions for improving this
-            page through the <a href = "https://github.com/OS-Sketch/www.os-sketch.com/issues">issue tracker</a> or <a href = "https://github.com/OS-Sketch/www.os-sketch.com/discussions">discussions</a> in our project's <a href = "https://github.com/OS-Sketch/www.os-sketch.com">GitHub repository</a>.
 
 # Load the stylesheet that overrides parts of the material for mkdocs theme
 extra_css:
