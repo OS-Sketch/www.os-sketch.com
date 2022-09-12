@@ -60,8 +60,8 @@ fonts:
 
 > How can does the operating system use the principle of **virtualization** to
 > manage the resources of a computer such as the process, memory, and file
-> system? How does virtualization influence the way in which I implement
-> programs and use an operating system?
+> system? How do virtualization **policies** and **mechanisms** influence the way in
+> which I implement programs and use an operating system?
 
 </div>
 
@@ -72,8 +72,8 @@ fonts:
 ## Learning Objectives
 
 > To **remember** and **understand** some of the foundations of operating
-> systems, grasping the abstractions and implementation strategies that enable a
-> programs to run on a computer through an operating system.
+> systems, grasping the abstractions and implementation strategies that enable
+> programs to effectively run on a computer through an operating system.
 
 </div>
 
@@ -81,7 +81,7 @@ fonts:
 
 ---
 
-[//]: # (Slide Start {{{)
+[//]: # "Slide Start {{{"
 
 <div class="flex row">
 
@@ -133,4 +133,41 @@ What does an OS do when a program runs?
 
 </div>
 
-[//]: # (Slide End }}})
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
+# Virtualization in Operating Systems
+
+<v-clicks>
+
+- **Goal**: simplify access to physical resources through abstract interfaces
+
+- What are the **benefits** of using virtualization in an operating system?
+
+  - Abstract away details about specific hardware modules
+  - Offer a uniform interface to hardware modules of specific class
+  - Enable simulation of more physical resources than are available
+  - Enforce rules about the accessing of physical hardware resources
+
+- The operating system is a **resource manager** running as a virtual machine
+
+- Separate the **policy** for resource management from the **mechanism**!
+
+- What does an operating system virtualize? CPU, Disk, Memory, Network!
+
+<div class="flex row">
+
+<mdi-help-box class="text-6xl ml-4 mt-0 text-blue-600" />
+
+<div class="text-4xl text-true-gray-700 font-bold mt-4 ml-4">
+Questions about the role of virtualization?
+</div>
+
+</div>
+
+</v-clicks>
+
+[//]: # "Slide End }}}"
