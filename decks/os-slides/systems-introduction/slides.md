@@ -252,3 +252,28 @@ int main(int argc, char *argv[]) {
 </div>
 
 [//]: # "Slide End }}}"
+
+---
+
+# Go Program: Console Input and Output
+
+<div class="-ml-4 -mt-2">
+
+```go {all|1|2-5|6|7-10|11|all}
+import "fmt"
+import "os"
+import "time"
+
+func main() {
+	var done bool
+	done = false
+	for !done {
+		time.Sleep(1 * time.Second)
+		fmt.Println("Run", os.Args[0], " ", os.Args[1])
+	}
+}
+```
+
+</div>
+
+[//]: # "Slide End }}}"
