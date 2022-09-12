@@ -228,3 +228,27 @@ What hardware resources can an OS virtualize?
 
 [//]: # "Slide End }}}"
 
+---
+
+# C Program: Console Input and Output
+
+<div class="-ml-1 -mt-2">
+
+```c {all|1|2-5|6|7-10|11|all}
+int main(int argc, char *argv[]) {
+  if (argc != 2) {
+    fprintf(stderr, "usage: cpu <string>\n");
+    exit(1);
+  }
+  char *str = argv[1];
+  while (1) {
+    printf("%s\n", str);
+    Spin(1);
+  }
+  return 0;
+}
+```
+
+</div>
+
+[//]: # "Slide End }}}"
