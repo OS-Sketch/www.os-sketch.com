@@ -3,7 +3,7 @@
   @apply h-full grid;
 
   h1 {
-    @apply text-7xl -my-2 leading-20 mb-4 font-bold text-orange-600;
+    @apply text-7xl -my-2 leading-20 mb-4 font-bold text-red-600;
   }
 
   h2 {
