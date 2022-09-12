@@ -309,7 +309,6 @@ Insights for C program's syntax and semantics?
 
 [//]: # "Slide End }}}"
 
-
 ---
 
 # Go Program: Console Input and Output
@@ -334,3 +333,60 @@ func main() {
 </div>
 
 [//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
+<div class="flex row">
+
+<div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
+Insights for Go program's syntax and semantics?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-grid class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+<tt>main</tt> function defines program entry point
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-grid class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+<tt>while (1)</tt> implements a "busy wait" loop
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-grid class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+<tt>fprintf</tt> and <tt>printf</tt> produce console output
+</div>
+
+</div>
+
+</div>
+
+[//]: # "Slide End }}}"
+
