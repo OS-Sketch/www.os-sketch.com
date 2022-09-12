@@ -86,7 +86,7 @@ fonts:
 <div class="flex row">
 
 <div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
-What happens on an OS when we run a program?
+What does an OS do when a program runs?
 </div>
 
 </div>
@@ -98,21 +98,7 @@ What happens on an OS when we run a program?
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-<b>Fetch</b>:
-</div>
-
-</div>
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-<b>Decode</b>:
+<b>Fetch</b>: retrieve an instruction from memory
 </div>
 
 </div>
@@ -126,7 +112,21 @@ What happens on an OS when we run a program?
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-<b>Execute</b>:
+<b>Decode</b>: determine what the instruction should do
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+<b>Execute</b>: run the instruction and then repeat process
 </div>
 
 </div>
