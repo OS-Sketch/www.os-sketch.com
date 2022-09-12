@@ -72,7 +72,8 @@ fonts:
 ## Learning Objectives
 
 > To **remember** and **understand** some of the foundations of operating
-> systems
+> systems, seeing the abstractions and implementation strategies that enable a
+> programs to run on a computer.
 
 </div>
 
