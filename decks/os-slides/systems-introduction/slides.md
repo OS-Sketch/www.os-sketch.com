@@ -112,7 +112,7 @@ What happens on an OS when we run a program?
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Iteration constructs support repeated operations
+<b>Decode</b>:
 </div>
 
 </div>
@@ -126,7 +126,7 @@ Iteration constructs support repeated operations
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Variables support the storage of data values
+<b>Execute</b>:
 </div>
 
 </div>
@@ -134,4 +134,3 @@ Variables support the storage of data values
 </div>
 
 [//]: # (Slide End }}})
-
