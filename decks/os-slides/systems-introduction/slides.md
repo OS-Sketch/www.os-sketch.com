@@ -43,7 +43,7 @@ fonts:
 
 [//]: # "Slide Start {{{"
 
-# <em>Okay</em>, what is this about?
+# ✨ Sketching the Key Ideas
 
 <style>
   h2 {
