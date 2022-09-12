@@ -286,7 +286,7 @@ Insights for C program's syntax and semantics?
 <uim-grid class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-<tt>while (1)</tt> implements a "busy wait" loop
+<tt>while (1) </tt> implements a "busy wait" loop
 </div>
 
 </div>
@@ -367,7 +367,7 @@ Insights for Go program's syntax and semantics?
 <uim-grid class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-<tt>while (1)</tt> implements a "busy wait" loop
+<tt>for !done </tt> implements a "busy wait" loop
 </div>
 
 </div>
@@ -381,7 +381,7 @@ Insights for Go program's syntax and semantics?
 <uim-grid class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-<tt>fprintf</tt> and <tt>printf</tt> produce console output
+<tt>fmt.Println</tt> produces console output
 </div>
 
 </div>
@@ -390,3 +390,42 @@ Insights for Go program's syntax and semantics?
 
 [//]: # "Slide End }}}"
 
+---
+
+[//]: # "Slide Start {{{"
+
+# Programs and Processes
+
+<v-clicks>
+
+- **Program**: source code with syntax and semantics for target language
+
+- **Process**: program in execution managed by the operating system
+
+- How do you create a process in the **C programming language**?
+
+  - Run the compiler: `gcc -o bin/cpu cpu.c -Wall`
+
+  - Run the program: `./bin/cpu A`
+
+- How do you create a process in the **Go programming language**?
+
+  - Run the compiler: `go build --o bin`
+
+  - Run the program: `./bin/cpu A`
+
+- Running a program is **the same** regardless of the programming language!
+
+<div class="flex row">
+
+<mdi-help-box class="text-6xl ml-4 mt-0 text-blue-600" />
+
+<div class="text-4xl text-true-gray-700 font-bold mt-4 ml-4">
+Questions about programs and processes?
+</div>
+
+</div>
+
+</v-clicks>
+
+[//]: # "Slide End }}}"
