@@ -727,7 +727,7 @@ int main(int argc, char *argv[]) {
 
 [//]: # (Slide Start {{{)
 
-# Long-Running Program Execution
+# Memory Behavior Across Multiple Runs
 
 <style>
   h2 {
@@ -795,7 +795,7 @@ What is the meaning of the memory output?
 
 <div class="flex row">
 
-<uim-cube class="text-6xl ml-8 mt-6 text-blue-600" />
+<uim-cube class="text-6xl ml-2 mt-6 text-blue-600" />
 
 <div class="text-5xl font-bold mt-8 ml-4">
 Number in parentheses is the PID
@@ -809,10 +809,10 @@ Number in parentheses is the PID
 
 <div class="flex row">
 
-<uim-cube class="text-6xl ml-8 mt-6 text-blue-600" />
+<uim-cube class="text-6xl ml-2 mt-6 text-blue-600" />
 
 <div class="text-5xl font-bold mt-8 ml-4">
-Hexadecimal is a memory addr
+Hexadecimal is a memory address
 </div>
 
 </div>
@@ -832,5 +832,56 @@ Why do memory addresses vary?
 </div>
 
 </div>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Address Space Randomization
+
+<style>
+  h2 {
+    font-size: 42px;
+    @apply text-red-600 mb-4;
+  }
+  li {
+    @apply bg-gray-300;
+    font-size: 28px;
+    margin-top: 4px;
+    margin-bottom: 9px;
+  }
+</style>
+
+<v-clicks>
+
+- Output after disabling address space randomization:
+
+<div class="border-2 rounded-2xl border-gray-700 bg-gray-300 p-5 mt-6 mb-8">
+
+<pre>
+$ echo 0 | sudo tee /proc/sys/kernel/randomize_va_space
+[sudo] password for gkapfham:
+0
+
+$ ./bin/mem 1000
+(307231) addr pointed to by p: 0x5555555592a0
+(307231) value of p: 1001
+(307231) value of p: 1002
+^C
+
+$ ./bin/mem 1000
+(307271) addr pointed to by p: 0x5555555592a0
+(307271) value of p: 1001
+(307271) value of p: 1002
+^C
+</pre>
+
+</div>
+
+**What are the benefits and drawbacks of using ADSR in an operating system?**
+
+</v-clicks>
 
 [//]: # (Slide End }}})
