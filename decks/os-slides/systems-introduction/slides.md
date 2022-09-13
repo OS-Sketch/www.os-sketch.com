@@ -578,3 +578,59 @@ What are ways to accomplish these tasks?
 </v-clicks>
 
 [//]: # "Slide End }}}"
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
+Virtualization and memory management
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-layer-group class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-5xl font-bold mt-8 ml-4">
+C: explicit (de-)allocation
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-repeat class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-5xl font-bold mt-8 ml-4">
+Go: garbage collection
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-grid class="text-6xl ml-8 mt-10 text-blue-600" />
+
+<div class="text-3xl font-bold mt-14 ml-4">
+What are the trade-offs of these two approaches?
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
