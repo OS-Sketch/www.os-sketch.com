@@ -746,7 +746,7 @@ int main(int argc, char *argv[]) {
 
 - Output from first run of the C program:
 
-<div class="border-2 rounded-2xl border-gray-700 bg-gray-300 p-5 mt-5 mb-5">
+<div class="border-2 rounded-2xl border-gray-700 bg-gray-300 p-5 mt-3 mb-8">
 
 <pre>
 $ ./bin/mem 1000
@@ -761,7 +761,7 @@ $ ./bin/mem 1000
 
 - Output from second run of the C program:
 
-<div class="border-2 rounded-2xl border-gray-700 bg-gray-300 p-5 mt-5 mb-5">
+<div class="border-2 rounded-2xl border-gray-700 bg-gray-300 p-5 mt-3 mb-5">
 
 <pre>
 $ ./bin/mem 1000
@@ -779,3 +779,58 @@ $ ./bin/mem 1000
 
 [//]: # (Slide End }}})
 
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
+What is the meaning of the memory output?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-cube class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-5xl font-bold mt-8 ml-4">
+Number in parentheses is the PID
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-cube class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-5xl font-bold mt-8 ml-4">
+Hexadecimal is a memory addr
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-exclamation-octagon class="text-6xl ml-4 mt-10 text-blue-600" />
+
+<div class="text-5xl font-bold mt-14 ml-4">
+Why do memory addresses vary?
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
