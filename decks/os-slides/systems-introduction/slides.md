@@ -233,6 +233,8 @@ What hardware resources can an OS virtualize?
 
 ---
 
+[//]: # "Slide Start {{{"
+
 # C Program: Console Input and Output
 
 <div class="-ml-1 -mt-2">
@@ -313,6 +315,8 @@ Insights for C program's syntax and semantics?
 [//]: # "Slide End }}}"
 
 ---
+
+[//]: # "Slide Start {{{"
 
 # Go Program: Console Input and Output
 
@@ -691,3 +695,87 @@ What are the trade-offs of these two approaches?
 </div>
 
 [//]: # (Slide End }}})
+
+---
+
+[//]: # "Slide Start {{{"
+
+# Memory Allocation in C
+
+<div class="-ml-2 -mt-2">
+
+```c {all|1|2-5|6-10|11|all}
+int main(int argc, char *argv[]) {
+  int *p;
+  p = malloc(sizeof(int));
+  printf("(%d) p --> addr: %p\n", (int)getpid(), p);
+  *p = atoi(argv[1]);
+  while (1) {
+    Spin(1);
+    *p = *p + 1;
+    printf("(%d) value of p: %d\n", getpid(), *p);
+  }
+  return 0;
+}
+```
+
+</div>
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Long-Running Program Execution
+
+<style>
+  h2 {
+    font-size: 42px;
+    @apply text-red-600 mb-4;
+  }
+  li {
+    @apply bg-gray-300;
+    font-size: 28px;
+    margin-top: 4px;
+    margin-bottom: 9px;
+  }
+</style>
+
+<v-clicks>
+
+- Output from first run of the C program:
+
+<div class="border-2 rounded-2xl border-gray-700 bg-gray-300 p-5 mt-5 mb-5">
+
+<pre>
+$ ./bin/mem 1000
+(304143) addr pointed to by p: 0x562ced0e92a0
+(304143) value of p: 1001
+(304143) value of p: 1002
+(304143) value of p: 1003
+^C
+</pre>
+
+</div>
+
+- Output from second run of the C program:
+
+<div class="border-2 rounded-2xl border-gray-700 bg-gray-300 p-5 mt-5 mb-5">
+
+<pre>
+$ ./bin/mem 1000
+./bin/mem 1000
+(306361) addr pointed to by p: 0x55e8d5aa32a0
+(306361) value of p: 1001
+(306361) value of p: 1002
+(306361) value of p: 1003
+^C
+</pre>
+
+</div>
+
+</v-clicks>
+
+[//]: # (Slide End }}})
+
