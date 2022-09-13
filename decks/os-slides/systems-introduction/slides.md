@@ -998,3 +998,39 @@ Livelock, deadlock, TOCTOU, ... oh my!
 
 [//]: # "Slide End }}}"
 
+---
+
+[//]: # "Slide Start {{{"
+
+# Supporting Process Persistence
+
+<v-clicks>
+
+- **Goal**: simply access to physical disk drives, regardless of their type
+
+- Abstract the **differences** between spinning-platter and SSD disks
+
+- Additional details about persistence managed by the operating system:
+
+  - Ensure that processes can checkpoint their state to a disk
+  - Once a process stores data on the disk, data loss should be rare
+  - File systems should enable manipulation of both directories and files
+  - Device drivers offer smooth interaction between processes and disks
+  - Coordinate communication between processes through the file system
+
+- Processes should be able to create a file, write to it, and read from it!
+
+<div class="flex row">
+
+<mdi-help-box class="text-6xl ml-4 mt-0 text-blue-600" />
+
+<div class="text-4xl text-true-gray-700 font-bold mt-4 ml-4">
+How does a C program write a file to the disk?
+</div>
+
+</div>
+
+</v-clicks>
+
+[//]: # "Slide End }}}"
+
