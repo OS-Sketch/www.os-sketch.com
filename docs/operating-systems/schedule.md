@@ -38,10 +38,14 @@ hide:
 
 ### Technical Questions
 
-- How can does the operating system use the principle of **virtualization** to
+- How does the operating system use the principle of **virtualization** to
   manage the resources of a computer such as the process, memory, and file
   system? How does virtualization influence the way in which I program and use
   an operating system?
+- Why is the OS so important?
+- What would happen if the OS failed?
+- What would happen if the context switch option in the OS failed?
+- Why is it important to have the Process API in your OS?
 
 ### Expert Added Content
 
