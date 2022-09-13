@@ -46,6 +46,9 @@ fonts:
 # ✨ Sketching the Key Ideas
 
 <style>
+  h1 {
+    @apply mb-0 -mt-1;
+  }
   h2 {
     font-size: 36px;
     @apply text-red-600 mb-4;
@@ -541,3 +544,41 @@ cpu: cpu.go bin
 </v-clicks>
 
 [//]: # (Slide End }}})
+
+---
+
+[//]: # "Slide Start {{{"
+
+# Virtualization of the CPU
+
+<v-clicks>
+
+- Programmers can create programs without knowing details about the CPU
+
+- The operating system turns a program into a process that it manages
+
+- Virtualization creates the illusion that the process has entire CPU
+
+- What are other tasks that the operating system must tackle?
+
+  - Abstract away details about specific hardware modules
+  - Offer a uniform interface to hardware modules of specific class
+  - Enable simulation of more physical resources than are available
+  - Enforce rules about the accessing of physical hardware resources
+
+- Test
+
+<div class="flex row">
+
+<mdi-help-box class="text-6xl ml-4 mt-0 text-blue-600" />
+
+<div class="text-4xl text-true-gray-700 font-bold mt-4 ml-4">
+Questions about virtualization of the CPU?
+</div>
+
+</div>
+
+</v-clicks>
+
+[//]: # "Slide End }}}"
+
