@@ -553,27 +553,24 @@ cpu: cpu.go bin
 
 <v-clicks>
 
-- Programmers can create programs without knowing details about the CPU
+- Programmers can create programs **without knowing details** about the CPU
+- The operating system turns a **program** into a **process** that it can manage
+- Virtualization creates the **illusion** that the process has entire CPU
 
-- The operating system turns a program into a process that it manages
+- What are other **tasks** that the operating system must tackle?
+  - Decide which process to place onto and remove from the CPU
+  - Checkpoint/retrieve state of a processes during CPU transfer
+  - Decide how long a process can run on the CPU before evicting it
+  - Ensure that one process does not interfere with another process
 
-- Virtualization creates the illusion that the process has entire CPU
-
-- What are other tasks that the operating system must tackle?
-
-  - Abstract away details about specific hardware modules
-  - Offer a uniform interface to hardware modules of specific class
-  - Enable simulation of more physical resources than are available
-  - Enforce rules about the accessing of physical hardware resources
-
-- Test
+- The operating systems is a **resource manager** for the central processing unit!
 
 <div class="flex row">
 
 <mdi-help-box class="text-6xl ml-4 mt-0 text-blue-600" />
 
 <div class="text-4xl text-true-gray-700 font-bold mt-4 ml-4">
-Questions about virtualization of the CPU?
+What are ways to accomplish these tasks?
 </div>
 
 </div>
@@ -581,4 +578,3 @@ Questions about virtualization of the CPU?
 </v-clicks>
 
 [//]: # "Slide End }}}"
-
