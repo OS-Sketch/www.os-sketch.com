@@ -941,3 +941,60 @@ $ ./bin/mem 1000
 </v-clicks>
 
 [//]: # (Slide End }}})
+
+---
+
+[//]: # "Slide Start {{{"
+
+<div class="flex row">
+
+<div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
+Benefits and challenges of process concurrency?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-grid class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-4xl font-bold mt-10 ml-4">
+Increase throughput and reduce latency
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-grid class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-4xl font-bold mt-10 ml-4">
+Rely on the operating system to manage
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-grid class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-4xl font-bold mt-10 ml-4">
+Livelock, deadlock, TOCTOU, ... oh my!
+</div>
+
+</div>
+
+</div>
+
+[//]: # "Slide End }}}"
+
