@@ -429,3 +429,58 @@ Questions about programs and processes?
 </v-clicks>
 
 [//]: # "Slide End }}}"
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Long-Running Program Execution
+
+<style>
+  h2 {
+    font-size: 42px;
+    @apply text-red-600 mb-4;
+  }
+  li {
+    @apply bg-gray-300;
+    font-size: 28px;
+    margin-top: 4px;
+    margin-bottom: 9px;
+  }
+</style>
+
+<v-clicks>
+
+- Output from running the C program:
+
+<div class="border-2 rounded-2xl border-gray-700 bg-gray-300 p-5 mt-5 mb-5">
+
+<pre>
+$ ./bin/cpu A
+A
+A
+A
+^C
+</pre>
+
+</div>
+
+- Output from running the Go program:
+
+<div class="border-2 rounded-2xl border-gray-700 bg-gray-300 p-5 mt-5">
+
+<pre>
+$ ./bin/cpu A
+Run ./bin/cpu  with  A
+Run ./bin/cpu  with  A
+Run ./bin/cpu  with  A
+^C
+</pre>
+
+</div>
+
+&nbsp; **Can you enhance the C program so that it print its name like the Go program?**
+
+</v-clicks>
+
+[//]: # (Slide End }}})
