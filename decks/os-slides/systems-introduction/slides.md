@@ -1034,3 +1034,115 @@ How does a C program write a file to the disk?
 
 [//]: # "Slide End }}}"
 
+---
+
+[//]: # "Slide Start {{{"
+
+# Creating and Writing a File in C
+
+<div class="-ml-2 -mt-2">
+
+```c {all|1|2-3|4|5-6|7-10|11|all}
+int main(int argc, char *argv[]) {
+  int fd = open("/tmp/file", O_WRONLY | O_CREAT |
+                O_TRUNC, S_IRUSR | S_IWUSR);
+  assert(fd >= 0);
+  char buffer[20];
+  sprintf(buffer, "hello world\n");
+  int rc = write(fd, buffer, strlen(buffer));
+  assert(rc == (strlen(buffer)));
+  fsync(fd);
+  close(fd);
+  return 0;
+}
+```
+
+</div>
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
+<div class="flex row">
+
+<div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
+Summary of steps for file creation in C programs?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-line-spacing class="text-7xl ml-8 mt-4 text-blue-600" />
+
+<div class="text-4xl font-bold mt-10 ml-4">
+Create a connection to a file
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-line-spacing class="text-7xl ml-8 mt-4 text-blue-600" />
+
+<div class="text-4xl font-bold mt-10 ml-4">
+Write a data buffer to the file
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-line-spacing class="text-7xl ml-8 mt-4 text-blue-600" />
+
+<div class="text-4xl font-bold mt-10 ml-4">
+Sync the file buffer and close it
+</div>
+
+</div>
+
+</div>
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
+# Design Goals for an Operating System
+
+<v-clicks>
+
+- **Goal**: virtualize access to physical resources for **simplicity** and **sharing**
+
+- **Goal**: ensure that processes can **efficiently** perform all operations
+
+  - Memory overhead
+  - Execution time
+  - Energy efficiency
+
+- **Goal**: protect processes from each other and from malicious attacks
+
+  - Defects in programs
+  - Attacks from hackers
+  - Different languages
+
+- **Goal**: address up-and-coming challenges like **mobility** and **data centers**
+
+**Can you "sketch" all of these key components of an operating system?**
+
+</v-clicks>
+
+[//]: # "Slide End }}}"
