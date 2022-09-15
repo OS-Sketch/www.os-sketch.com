@@ -80,8 +80,7 @@ Concurrency: This takes processes from the process before it can hit the
 process list, These processes get split into multiple smaller processes and
 then fed to the process list.
 
-
-
+???+ note
 
     This course currently uses the free, online, open-access textbook [Operating
     Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP/) by
