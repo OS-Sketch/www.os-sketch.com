@@ -1400,3 +1400,13 @@ What are the three main states of a process?
 </div>
 
 [//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
+# ✨ Sketching the Key Ideas
+
+<img src="/os-sketch-process.svg" class="m-0 h-100" />
+
+[//]: # "Slide End }}}"
