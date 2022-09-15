@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-![Terminal Window](/img/OS-Diagram-1.svg#only-light){width="70%"}
+![Terminal Window](/img/OS-Diagram.svg#only-light){width="70%"}
 ![Terminal Window](/img/OS-Diagram-Inverted.svg#only-dark){width="70%"}
 
 # Introduction
