@@ -1407,6 +1407,6 @@ What are the three main states of a process?
 
 # ✨ Sketching the Key Ideas
 
-<img src="/os-sketch-process.svg" class="m-0 h-100" />
+<img src="/os-sketch-process.svg" class="ml-10 mt-8 h-100" />
 
 [//]: # "Slide End }}}"
