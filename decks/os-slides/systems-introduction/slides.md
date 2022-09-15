@@ -1352,7 +1352,7 @@ What are the three file descriptors for a process?
 <div class="flex row">
 
 <div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
-What are the three states of a process?
+What are the three main states of a process?
 </div>
 
 </div>
