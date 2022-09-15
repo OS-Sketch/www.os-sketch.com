@@ -1146,3 +1146,361 @@ Sync the file buffer and close it
 </v-clicks>
 
 [//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
+<div class="flex row">
+
+<div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
+What state is associated with process abstraction?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Each process has virtual address space
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Store the program counter and all instructions
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Store the frame pointer and all state
+</div>
+
+</div>
+
+</div>
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
+# Operating System Offers a Process API
+
+<v-clicks>
+
+- **Create**: construct a new process and bring it into existence
+
+- **Destroy**: (perhaps insistently) delete a process and all of its state
+
+- **Wait**: wait until a process is finished executing and then destroy it
+
+- **Miscellaneous**: suspend a process or perform other extra operations
+
+- **Status**: query information about the state of current process
+
+- How do the operating system **create a process out of a program**?
+
+  - Load source code and static program data from the disk
+  - Allocate source code and static data to memory
+  - Create an activation record for the process in memory
+  - Fetch-decode-execute the instructions in the process
+  - Continue running until scheduler dictates removal
+
+</v-clicks>
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
+<div class="flex row">
+
+<div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
+What is stored on the run-time stack?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-grid class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-4xl font-bold mt-10 ml-4">
+Local variables created within a function
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-grid class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-4xl font-bold mt-10 ml-4">
+Function parameters received when called
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-grid class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-4xl font-bold mt-10 ml-4">
+Function return values and return addresses
+</div>
+
+</div>
+
+</div>
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
+<div class="flex row">
+
+<div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
+What are the three file descriptors for a process?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-grid class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-4xl font-bold mt-10 ml-4">
+<tt>stderr</tt>: offers program error reports
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-grid class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-4xl font-bold mt-10 ml-4">
+<tt>stdin</tt>: offers input to a program
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-grid class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-4xl font-bold mt-10 ml-4">
+<tt>stdout</tt>: program shares its output
+</div>
+
+</div>
+
+</div>
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
+<div class="flex row">
+
+<div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
+What are the three main states of a process?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-grid class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-4xl font-bold mt-10 ml-4">
+<tt>running</tt>: process is using the CPU
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-grid class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-4xl font-bold mt-10 ml-4">
+<tt>ready</tt>: can run by not chosen to do so
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-grid class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-4xl font-bold mt-10 ml-4">
+<tt>blocked</tt>: must wait until ready again
+</div>
+
+</div>
+
+</div>
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
+# Data Structures to Manage Processes
+
+<v-clicks>
+
+- **Process list**: keep track of basic details about all ready processes
+
+- **Register context**: store information about registers in non-ready processes
+
+- **Process Identifier**: unique code assigned to each running program
+
+- Update all data structures across every **context switch** driven by scheduler
+
+<div class="border-2 rounded-2xl border-gray-700 bg-gray-300 p-5 mt-6 mb-8">
+
+<pre>
+136792 gkapfham  20   0  359672 244584  12352 S   7.6   0.8 nvim
+529373 gkapfham  20   0   75.2g 601888 365688 S   3.3   1.9 Discord
+569083 gkapfham  20   0  199848  88348  12976 S   3.0   0.3 nvim
+  2061 gkapfham  20   0 1381644  97916  60620 S   1.7   0.3 alacritty
+  2362 gkapfham  20   0   26552  20336   2560 S   1.7   0.1 tmux: server
+588482 gkapfham  20   0 1363824  93760  58216 S   1.7   0.3 alacritty
+  1862 gkapfham  20   0 2648536   1.1g   1.1g S   1.3   3.7 Xorg
+634310 gkapfham  20   0  153344  43072   7184 S   1.0   0.1 nvim
+  1087 root      20   0  332272  20824  17128 S   0.7   0.1 NetworkManager
+  1088 root      20   0   15560  10464   9076 S   0.7   0.0 wpa_supplicant
+</pre>
+
+</div>
+
+</v-clicks>
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
+<div class="flex row">
+
+<div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
+Key insights about operating systems?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Process is an abstraction of a program in execution
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+OS-supported virtualization aids programming
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Operating system manages the execution of programs
+</div>
+
+</div>
+
+</div>
+
+[//]: # "Slide End }}}"
+
+
+---
+
+[//]: # "Slide Start {{{"
+
+# ✨ Sketching the Key Ideas
+
+<img src="/os-sketch-process.svg" class="ml-10 mt-8 h-100" />
+
+[//]: # "Slide End }}}"
