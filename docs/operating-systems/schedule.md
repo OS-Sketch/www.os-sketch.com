@@ -7,8 +7,9 @@ hide:
 
 ## Course Setup
 
-### Technical Experts Duties 
-- Review content with Professsor Kaphammer
+### Technical Experts Duties
+
+- Review content with Professor Kapfhammer
 - Make a OS diagram
 - Additionally, help with adding content and key technical questions
 
