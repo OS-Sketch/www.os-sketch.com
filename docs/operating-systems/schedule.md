@@ -25,7 +25,8 @@ hide:
 - Review and participate in all the discussions in the [OS Sketch Issue
   Tracker](https://github.com/OS-Sketch/www.os-sketch.com/issues) for more
   details.
-- [click here](#course-timeline) to go to our course timeline!
+- Review the [course timeline](#course-timeline) for more details about reading
+  assignments.
 
 ## Systems Introduction
 
@@ -40,11 +41,14 @@ hide:
 - What would happen if the context switch option in the OS failed?
 - Why is it important to have the Process API in your OS?
 
-### Expert Added Content
+### Next Steps
 
-- *Introduction* and *Processes* chapters in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
-- Check out the [course slides](/slides/operating-systems/systems-introduction/) for a detailed investigation of these chapters!
-- [Click here](#important-terms) to find definitions for key terms for the week's readings (chapters 2 and 4)!
+- Read the *Introduction* and *Processes* chapters in
+  [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+- Check out the [course slides](/slides/operating-systems/systems-introduction/)
+  for a detailed investigation of these chapters!
+- [Review](#important-terms) to find definitions for key terms for the
+  week's readings (chapters 2 and 4)!
 
 ## APIs and Execution
 
