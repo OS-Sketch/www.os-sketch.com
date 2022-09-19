@@ -7,5 +7,5 @@ hide:
 
 ## Systems Introduction
 
-![Terminal Window](/img/os-sketch-systems-introduction.svg#only-light){width="70%"}
-![Terminal Window](/img/OS-Diagram-Inverted.svg#only-dark){width="70%"}
+![Systems Introduction](/img/os-sketch-systems-introduction.svg#only-light){width="80%"}
+![Systems Introduction](/img/os-sketch-systems-introduction-inverted.svg#only-dark){width="80%"}
