@@ -261,14 +261,24 @@ hide:
 
 [Return to top of the page](#course-schedule)
 
-## Important terms
+## Important Terms
 
-Introduction: Chapter 2
+### Introduction: Chapter 2
 
-1. **Virtualization** - the OS takes a physical resource (such as the processor, or memory, or a disk) and transforms it into a more general powerful, and easy-to-use virtual form of itself
-2. **Concurrency** - When multiple computations are happening at the same time
-3. **Persistence** - The context of storing data in a computer system, this means that the data survives after the process with which it was created has ended
-[Return](#systems-introduction) to *Systems Introduction*
+???+ note "Technical Concepts"
+
+    - **Virtualization**: The process by which the operating system takes a
+      physical resource (such as the processor, or memory, or a disk) and
+      transforms it into a more general, more powerful, more secure, and
+      easier-to-use virtual version of itself.
+    - **Concurrency**: Managed by the operating system and/or the programming
+      langauge, the situation in which multiple computations happen at the same
+      time.
+    - **Persistence**: As a way of ensuring that data survives after the process
+      with which it was created has ended, the process of storing data in a
+      computer system.
+
+    ###### [Return](#systems-introduction) to the *Systems Introduction* module
 
 Processes: Chapter 4
 
