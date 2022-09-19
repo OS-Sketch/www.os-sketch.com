@@ -43,8 +43,8 @@ hide:
   4) in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Check out the [course slides](/slides/operating-systems/systems-introduction/)
   for a detailed investigation of these chapters
-- Review the [important terms](#important-terms) to find definitions for the key
-  terms associated with the assigned chapters
+- Review the [important terms](#important-terms) for definitions of the
+  key terms associated with the assigned chapters
 
 ## Process Execution
 
@@ -59,10 +59,10 @@ hide:
 - Ready the chapters called *Process API* (Chapter 5), *Direct Execution*
   (Chapter 6), and *Memory API* (Chapter 14)
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
-- Check out the [course slides](/slides/operating-systems/systems-introduction/)
+- Check out the [course slides](/slides/operating-systems/process-execution/)
   for a detailed investigation of these chapters!
-- Review the [important terms](#important-terms) to find definitions for the key
-  terms associated with the assigned chapters
+- Review the [important terms](#important-terms) for definitions of the
+  key terms associated with the assigned chapters
 
 ## Scheduling
 
