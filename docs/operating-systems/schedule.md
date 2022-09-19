@@ -36,8 +36,8 @@ hide:
 
 - How does the operating system use the principle of **virtualization** to
   manage the resources of a computer such as the process, memory, and file
-  system? How does virtualization influence the way in which I program and use
-  an operating system?
+  system? How does virtualization influence the way in which I write programs
+  and use an operating system?
 
 ### Next Steps
 
