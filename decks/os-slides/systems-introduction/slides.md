@@ -1501,6 +1501,6 @@ Operating system manages the execution of programs
 
 # ✨ Sketching the Key Ideas
 
-<img src="/os-sketch-process.svg" class="ml-10 mt-8 h-100" />
+<img src="/os-sketch-systems-introduction.svg" class="ml-10 mt-8 h-100" />
 
 [//]: # "Slide End }}}"
