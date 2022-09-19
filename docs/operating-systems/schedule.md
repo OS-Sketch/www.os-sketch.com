@@ -9,7 +9,7 @@ hide:
 
 ### Technical Experts Duties
 
-- Review content with Professor Kapfhammer
+- Review technical content for the assignment module with Professor Kapfhammer
 - Create a technical diagram that "sketches" all content for that module
 - Assist with creating and proof-reading technical content for that module
 - Present the technical diagram and answer any questions about presented content
