@@ -27,8 +27,6 @@ hide:
   details
 - Review the [course timeline](#course-timeline) for more details about reading
   assignments
-- Check out the [operating system sketch](/operating-systems/sketches/)
-  associated with this module
 
 ## Systems Introduction
 
@@ -47,6 +45,8 @@ hide:
   for a detailed investigation of these chapters
 - Review the [important terms](#important-terms) for definitions of the
   key terms associated with the assigned chapters
+- Check out the [operating system sketch](/operating-systems/sketches/)
+  associated with this module
 
 ## Process Execution
 
