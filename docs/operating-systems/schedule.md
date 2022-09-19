@@ -274,19 +274,26 @@ hide:
     - **Concurrency**: Managed by the operating system and/or the programming
       langauge, the situation in which multiple computations happen at the same
       time.
-    - **Persistence**: As a way of ensuring that data survives after the process
-      with which it was created has ended, the process of storing data in a
-      computer system.
+    - **Persistence**: The process of storing data in a computer system, as a
+      way of ensuring that data survives after the ending of the process that
+      created it.
 
     ###### [Return](#systems-introduction) to the *Systems Introduction* module
 
-Processes: Chapter 4
+### Processes: Chapter 4
 
-1. **Process** - It is the operating system that takes these bytes and gets them running transforming the program into something useful
-2. **Process API** - consists of calls programs can make related to processes. Typically, this includes creation, destruction, and other useful calls
-3. **Process state** -  Including running, ready to run, and blocked. Different events (e.g., getting scheduled or descheduled, or waiting for an I/O to complete) transition a process from one of these states to the other
-4. **Process list** - Contains information about all processes in the system
-[Return](#systems-introduction) to *Systems Introduction*
+???+ note "Technical Concepts"
+
+    - **Process**: It is the operating system that takes these bytes and gets them
+      running transforming the program into something useful
+    - **Process API**: consists of calls programs can make related to processes.
+      Typically, this includes creation, destruction, and other useful calls
+    - **Process state**:  Including running, ready to run, and blocked. Different
+      events (e.g., getting scheduled or de-scheduled, or waiting for an I/O to
+      complete) transition a process from one of these states to the other.
+    - **Process list**: Contains information about all processes in the system
+
+    ###### [Return](#systems-introduction) to the *Systems Introduction* module
 
 Process API: Chapter 5
 
