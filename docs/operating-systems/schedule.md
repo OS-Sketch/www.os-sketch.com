@@ -27,7 +27,7 @@ hide:
   details
 - Review the [course timeline](#course-timeline) for more details about reading
   assignments
-- Study the [operating system sketch](/operating-systems/sketches/) associated with this module
+- Check out the [operating system sketch](/operating-systems/sketches/) associated with this module
 
 ## Systems Introduction
 
