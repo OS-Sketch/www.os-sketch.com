@@ -1,7 +1,7 @@
 # Details about the site
 site_name: "OS Sketch"
 site_url: https://www.os-sketch.com
-# repo_url: https://github.com/OS-Sketch/www.os-sketch.com
+repo_url: https://github.com/OS-Sketch/www.os-sketch.com
 copyright: Default
 
 # Definition of the theme
