@@ -39,12 +39,12 @@ hide:
 
 ### Next Steps
 
-- Read the *Introduction* and *Processes* chapters in
-  [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+- Read the chapters called *Introduction* (Chapter 2) and *Processes* (Chapter
+  4) in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Check out the [course slides](/slides/operating-systems/systems-introduction/)
   for a detailed investigation of these chapters!
-- [Review](#important-terms) to find definitions for key terms for the
-  week's readings (chapters 2 and 4)!
+- Review the [course timeline](#important-terms) to find definitions for the key
+  terms associated with the assigned chapters
 
 ## APIs and Execution
 
