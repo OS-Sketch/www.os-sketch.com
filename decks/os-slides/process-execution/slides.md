@@ -123,7 +123,7 @@ What are system calls in the process API?
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-<code>exec</code> : run program different than calling one
+<code>exec</code> : run program different than the calling one
 </div>
 
 </div>
