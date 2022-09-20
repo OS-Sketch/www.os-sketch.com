@@ -408,6 +408,207 @@ Questions about the process API in an OS?
 
 ---
 
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
+Memory allocation with the operating system
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-layer-group class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-5xl font-bold mt-8 ml-4">
+Stack: known-size local variables
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-repeat class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-5xl font-bold mt-8 ml-4">
+Heap: varying-sized variables
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<div class="text-4xl font-bold mt-10 ml-10">
+What are the trade-offs of these two approaches?
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+
+---
+
+[//]: # "Slide Start {{{"
+
+<div class="flex row">
+
+<div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
+What are system calls in the memory API?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+<code>malloc</code> : allocate new memory for a structure
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+<code>free</code> : de-allocate memory for a prior structure
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+<code>sizeof</code> : calculate memory use for a structure
+</div>
+
+</div>
+
+</div>
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
+# Common Memory Allocation Mistakes
+
+<v-clicks>
+
+- Memory allocation mistakes:
+
+  - Forget to allocate enough memory
+  - Not allocating enough memory
+  - Forget to initialize allocated memory
+  - Forget to free allocated memory
+  - Free memory before it is not in use
+  - Free memory repeatedly
+  - Free memory incorrectly
+
+- Which of these mistakes could lead to a program crash?
+
+- Can tools help to detect any of these memory mistakes?
+
+<div class="flex row">
+
+<mdi-help-box class="text-6xl ml-4 mt-0 text-blue-600" />
+
+<div class="text-4xl text-true-gray-700 font-bold mt-4 ml-4">
+Questions about the memory API in an OS?
+</div>
+
+</div>
+
+</v-clicks>
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
+Virtualization and memory management
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-layer-group class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-5xl font-bold mt-8 ml-4">
+C: explicit (de-)allocation
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-repeat class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-5xl font-bold mt-8 ml-4">
+Go: garbage collection
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<div class="text-4xl font-bold mt-14 ml-4">
+What are the trade-offs of these two approaches?
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
 [//]: # "Slide Start {{{"
 
 # ✨ Sketching the Key Ideas
