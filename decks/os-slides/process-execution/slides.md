@@ -97,7 +97,7 @@ Questions about the goals for this module?
 <div class="flex row">
 
 <div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
-What does an OS do when a program runs?
+What are key functions in the process API?
 </div>
 
 </div>
@@ -109,21 +109,7 @@ What does an OS do when a program runs?
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-<b>Fetch</b>: retrieve an instruction from memory
-</div>
-
-</div>
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-<b>Decode</b>: determine what the instruction should do
+<code>fork</code> : create a new process from existing one
 </div>
 
 </div>
@@ -137,7 +123,21 @@ What does an OS do when a program runs?
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-<b>Execute</b>: run the instruction and then repeat process
+<code>exec</code> : run program different than calling one
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+<code>wait</code> : delay execution until child process finishes
 </div>
 
 </div>
