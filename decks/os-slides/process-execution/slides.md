@@ -74,7 +74,7 @@ fonts:
 ## Learning Objectives
 
 > To **remember** and **understand** some of the foundations of the way in which
-> an operating system creates and manages processes on behalf of a user.
+> an operating system creates and manages resources on behalf of a user.
 
 </div>
 
