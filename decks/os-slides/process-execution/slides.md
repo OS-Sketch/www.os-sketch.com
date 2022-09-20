@@ -97,7 +97,7 @@ Questions about the goals for this module?
 <div class="flex row">
 
 <div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
-What are key functions in the process API?
+What are system calls in the process API?
 </div>
 
 </div>
