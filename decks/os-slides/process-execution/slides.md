@@ -230,6 +230,88 @@ Hello, I am child (pid:131477)
 
 [//]: # (Slide End }}})
 
+---
+
+[//]: # "Slide Start {{{"
+
+# Process Creation in C with `wait`
+
+<div class="-ml-2 -mt-2">
+
+```c {all}
+int main(int argc, char *argv[]) {
+  printf("Hello world (pid:%d)\n", (int)getpid());
+  int rc = fork();
+  if (rc < 0) {
+    fprintf(stderr, "failure\n");
+    exit(1);
+  } else if (rc == 0) {
+    printf("c (pid:%d)\n", (int)getpid());
+  } else {
+    printf("p of %d (pid:%d)\n", rc,(int)getpid());
+  }
+}
+```
+
+</div>
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
+<div class="flex row">
+
+<div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
+What happens when you run a program?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Create a new C file using your terminal and text editor
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Compile the source code using the <code>gcc</code> compiler
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Run the binary multiple times and observe the output
+</div>
+
+</div>
+
+</div>
+
+[//]: # "Slide End }}}"
 
 ---
 
