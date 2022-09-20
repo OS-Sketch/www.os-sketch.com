@@ -61,10 +61,9 @@ fonts:
 
 ## Key Question
 
-> How can does the operating system use the principle of **virtualization** to
-> manage the resources of a computer such as the process, memory, and file
-> system? How do virtualization **policies** and **mechanisms** influence the way in
-> which I implement programs and use an operating system?
+> How does the operating system manage the **execution** of processes and enable
+>  processes to **access memory**? How does this behavior of the operating system
+>  influence the ways in which I program and use software?
 
 </div>
 
@@ -74,9 +73,18 @@ fonts:
 
 ## Learning Objectives
 
-> To **remember** and **understand** some of the foundations of operating
-> systems, grasping the abstractions and implementation strategies that enable
-> programs to effectively run on a computer through an operating system.
+> To **remember** and **understand** some of the foundations of the way in which
+> an operating system creates and manages processes on behalf of a user.
+
+</div>
+
+<div class="flex row">
+
+<mdi-help-box class="text-6xl ml-4 mt-5 text-blue-600" />
+
+<div class="text-4xl text-true-gray-700 font-bold mt-9 ml-4">
+Questions about the goals for this module?
+</div>
 
 </div>
 
