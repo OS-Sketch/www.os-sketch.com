@@ -390,7 +390,7 @@ Run the binary multiple times and observe the output
 
 - The shell uses a combination of all three system calls when running
 
-- Different Programming languages provide similar system call wrappers
+- Different programming languages provide similar system call wrappers
 
 <div class="flex row">
 
