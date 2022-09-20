@@ -156,7 +156,7 @@ What are system calls in the process API?
 
 ```c {all}
 int main(int argc, char *argv[]) {
-  printf("hello world (pid:%d)\n", (int)getpid());
+  printf("Hello world (pid:%d)\n", (int)getpid());
   int rc = fork();
   if (rc < 0) {
     fprintf(stderr, "failure\n");
@@ -172,6 +172,63 @@ int main(int argc, char *argv[]) {
 </div>
 
 [//]: # "Slide End }}}"
+
+---
+
+[//]: # (Slide Start {{{)
+
+#  Behavior of `fork` Across Multiple Runs
+
+<style>
+  h2 {
+    font-size: 42px;
+    @apply text-red-600 mb-4;
+  }
+  li {
+    @apply bg-gray-300;
+    font-size: 28px;
+    margin-top: 4px;
+    margin-bottom: 9px;
+  }
+</style>
+
+### Output from three runs of the same program
+
+<v-clicks>
+
+<div class="border-2 rounded-2xl border-gray-700 bg-gray-300 p-5 mt-3 mb-10">
+
+<pre>
+Hello world (pid:131398)
+Hello, I am parent of 131399 (pid:131398)
+Hello, I am child (pid:131399)
+</pre>
+
+</div>
+
+<div class="border-2 rounded-2xl border-gray-700 bg-gray-300 p-5 mt-3 mb-10">
+
+<pre>
+Hello world (pid:131476)
+Hello, I am parent of 131477 (pid:131476)
+Hello, I am child (pid:131477)
+</pre>
+
+</div>
+
+<div class="border-2 rounded-2xl border-gray-700 bg-gray-300 p-5 mt-3 mb-10">
+
+<pre>
+Hello world (pid:131476)
+Hello, I am parent of 131477 (pid:131476)
+Hello, I am child (pid:131477)
+</pre>
+
+</div>
+
+</v-clicks>
+
+[//]: # (Slide End }}})
 
 
 ---
