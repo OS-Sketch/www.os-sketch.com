@@ -150,6 +150,34 @@ What are system calls in the process API?
 
 [//]: # "Slide Start {{{"
 
+# Process Creation in C with `fork`
+
+<div class="-ml-2 -mt-2">
+
+```c {all}
+int main(int argc, char *argv[]) {
+  printf("hello world (pid:%d)\n", (int)getpid());
+  int rc = fork();
+  if (rc < 0) {
+    fprintf(stderr, "failure\n");
+    exit(1);
+  } else if (rc == 0) {
+    printf("c (pid:%d)\n", (int)getpid());
+  } else {
+    printf("p of %d (pid:%d)\n", rc,(int)getpid());
+  }
+}
+```
+
+</div>
+
+[//]: # "Slide End }}}"
+
+
+---
+
+[//]: # "Slide Start {{{"
+
 # ✨ Sketching the Key Ideas
 
 <img src="/os-sketch-systems-introduction.svg" class="ml-10 mt-8 h-100" />
