@@ -406,7 +406,6 @@ Questions about the process API in an OS?
 
 [//]: # "Slide End }}}"
 
-
 ---
 
 [//]: # "Slide Start {{{"
