@@ -1,6 +1,7 @@
 {
   "name": "os-slides-workspace",
   "workspaces": [
-    "systems-introduction"
+    "systems-introduction",
+    "process-execution"
   ]
 }

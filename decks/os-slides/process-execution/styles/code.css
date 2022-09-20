@@ -1,0 +1,91 @@
+@import 'prism-theme-vars/base.css';
+@import 'codemirror-theme-vars/base.css';
+@import 'prism-theme-vars/to-codemirror.css';
+
+:root {
+  --prism-font-family: var(--slidev-code-font-family);
+}
+
+html:not(.dark) {
+  --prism-foreground: #212121;
+  --prism-background: rgba(209, 213, 219, var(--tw-bg-opacity));
+  --prism-comment: #9E9E9E;
+  --prism-string: #43A047;
+  --prism-literal: #039BE5;
+  --prism-keyword: #5E35B1;
+  --prism-boolean: #039BE5;
+  --prism-number: #D81B60;
+  --prism-variable: #d19a66;
+  --prism-function: #1E88E5;
+  --prism-deleted: #a14f55;
+  --prism-class: #c18401;
+  --prism-builtin: #F4511E;
+  --prism-property: #986801;
+  --prism-namespace: #db889a;
+  --prism-punctuation: #212121;
+  --prism-decorator: #00897B;
+  --prism-regex: #50a14f;
+  --prism-selector: #50a14f;
+  --prism-important: #61aeee;
+  --prism-json-property: #986801;
+}
+
+html.dark {
+  --prism-scheme: dark;
+  --prism-foreground: #abb2bf;
+  --prism-background: #282c34;
+  --prism-comment: #5c6370;
+  --prism-string: #98c379;
+  --prism-literal: #56b6c2;
+  --prism-keyword: #c678dd;
+  --prism-boolean: #56b6c2;
+  --prism-number: #d19a66;
+  --prism-variable: #d19a66;
+  --prism-function: #61aeee;
+  --prism-deleted: #a14f55;
+  --prism-class: #e6c07b;
+  --prism-builtin: #e06c75;
+  --prism-property: #d19a66;
+  --prism-namespace: #db889a;
+  --prism-punctuation: #858585;
+  --prism-decorator: #bd8f8f;
+  --prism-regex: #98c379;
+  --prism-selector: #98c379;
+  --prism-important: #61aeee;
+  --prism-json-property: #d19a66;
+  --prism-line-number: #888888;
+  --prism-line-number-gutter: #eeeeee;
+  --prism-line-highlight-background: #444444;
+  --prism-selection-background: #444444;
+}
+
+pre[class*='language-'] {
+  @apply p-2;
+}
+
+.slidev-layout pre {
+    display: inline-block !important;
+    margin-right: 0.1em;
+    font-size: 1.0em;
+}
+
+:not(pre) > code {
+  font-size: 1.9em;
+  background: var(--prism-background);
+  @apply font-light py-0.10 px-2.5 rounded border-dark-100 border-2;
+}
+
+:not(pre) > code:before,
+:not(pre) > code:after {
+  content: '';
+  opacity: 0.50;
+}
+
+/* :not(pre) > code:before { */
+/*   margin-left: .05em; */
+/*   margin-right: .15em; */
+/* } */
+
+.token.important {
+  color: var(--prism-important);
+}

@@ -1494,7 +1494,6 @@ Operating system manages the execution of programs
 
 [//]: # "Slide End }}}"
 
-
 ---
 
 [//]: # "Slide Start {{{"
