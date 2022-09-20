@@ -259,6 +259,63 @@ int main(int argc, char *argv[]) {
 
 ---
 
+[//]: # (Slide Start {{{)
+
+#  Behavior of `wait` Across Multiple Runs
+
+<style>
+  h2 {
+    font-size: 42px;
+    @apply text-red-600 mb-4;
+  }
+  li {
+    @apply bg-gray-300;
+    font-size: 28px;
+    margin-top: 4px;
+    margin-bottom: 9px;
+  }
+</style>
+
+### Output from three runs of the same program
+
+<v-clicks>
+
+<div class="border-2 rounded-2xl border-gray-700 bg-gray-300 p-5 mt-3 mb-10">
+
+<pre>
+Hello world (pid:143366)
+Hello, I am child (pid:143367)
+Hello, I am parent of 143367 (wc:143367) (pid:143366)
+</pre>
+
+</div>
+
+<div class="border-2 rounded-2xl border-gray-700 bg-gray-300 p-5 mt-3 mb-10">
+
+<pre>
+Hello world (pid:143406)
+Hello, I am child (pid:143407)
+Hello, I am parent of 143407 (wc:143407) (pid:143406)
+</pre>
+
+</div>
+
+<div class="border-2 rounded-2xl border-gray-700 bg-gray-300 p-5 mt-3 mb-10">
+
+<pre>
+hello world (pid:143445)
+hello, I am child (pid:143446)
+hello, I am parent of 143446 (wc:143446) (pid:143445)
+</pre>
+
+</div>
+
+</v-clicks>
+
+[//]: # (Slide End }}})
+
+---
+
 [//]: # "Slide Start {{{"
 
 <div class="flex row">
@@ -312,6 +369,43 @@ Run the binary multiple times and observe the output
 </div>
 
 [//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
+# Key Parts of the Process API
+
+<v-clicks>
+
+- Each process has a unique identifier abbreviated as the **PID**
+
+- Key insights about the three main system calls:
+
+  - The `fork` system call allows a parent to create a child process
+
+  - The `wait` system call allows a parent wait for child process
+
+  - The `exec` system call allows a child process to leave parent
+
+- The shell uses a combination of all three system calls when running
+
+- Different Programming languages provide similar system call wrappers
+
+<div class="flex row">
+
+<mdi-help-box class="text-6xl ml-4 mt-0 text-blue-600" />
+
+<div class="text-4xl text-true-gray-700 font-bold mt-4 ml-4">
+Questions about the process API in an OS?
+</div>
+
+</div>
+
+</v-clicks>
+
+[//]: # "Slide End }}}"
+
 
 ---
 
