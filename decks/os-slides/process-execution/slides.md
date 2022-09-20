@@ -264,7 +264,7 @@ int main(int argc, char *argv[]) {
 <div class="flex row">
 
 <div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
-What happens when you run a program?
+What happens when you run the C system calls?
 </div>
 
 </div>
