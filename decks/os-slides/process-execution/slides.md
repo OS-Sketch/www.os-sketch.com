@@ -240,17 +240,17 @@ Hello, I am child (pid:131477)
 
 ```c {all}
 int main(int argc, char *argv[]) {
-  printf("Hello world (pid:%d)\n", (int)getpid());
   int rc = fork();
   if (rc < 0) {
-    fprintf(stderr, "failure\n");
-    exit(1);
+    fprintf(stderr, "fork failed\n"); exit(1);
   } else if (rc == 0) {
     printf("c (pid:%d)\n", (int)getpid());
+    sleep(1);
   } else {
-    printf("p of %d (pid:%d)\n", rc,(int)getpid());
-  }
-}
+    int wc = wait(NULL);
+    printf("p of %d (wc:%d) (pid:%d)\n", rc, wc,
+           (int)getpid());
+  } }
 ```
 
 </div>
