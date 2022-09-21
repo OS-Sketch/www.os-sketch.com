@@ -53,7 +53,9 @@ hide:
 
 ### Technical Questions
 
--Experts add their technical question here
+- What three commands do UNIX shells commonly use?
+- When running a program, how do memory API system calls and process API calls differ? Which part of the memory does it affect?
+- What is a limited direct execution protocol?
 
 ### Expert Added Content
 
