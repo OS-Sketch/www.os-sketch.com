@@ -333,7 +333,7 @@ What happens when you run the C system calls?
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Create a new C file using your terminal and text editor
+Create a new C file using your terminal and editor
 </div>
 
 </div>
@@ -361,7 +361,7 @@ Compile the source code using the <code>gcc</code> compiler
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Run the binary multiple times and observe the output
+Run the binary multiple times and see output
 </div>
 
 </div>
@@ -451,7 +451,7 @@ Heap: varying-sized variables
 <div class="flex row">
 
 <div class="text-4xl font-bold mt-10 ml-10">
-What are the trade-offs of these two approaches?
+What are the trade-offs of approaches?
 </div>
 
 </div>
@@ -676,7 +676,7 @@ Use the process API to create and run units of work
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Use the memory API to manipulation transient storage
+Use the memory API to modify transient storage
 </div>
 
 </div>
@@ -744,7 +744,7 @@ Switching between processes
 <div class="flex row">
 
 <div class="text-4xl font-bold mt-10 ml-4">
-Why are these hard? How to solve these problems?
+Why are these hard? How to solve them?
 </div>
 
 </div>
@@ -859,7 +859,7 @@ Appreciate how virtualization helps programmers
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Acknowledge the need to balance competing concerns
+See the need to balance competing concerns
 </div>
 
 </div>
