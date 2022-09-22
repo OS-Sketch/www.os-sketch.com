@@ -706,7 +706,7 @@ How does the operating system manage processes?
 <div class="flex row">
 
 <div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
-Challenges During Process Execution?
+Challenges during process execution?
 </div>
 
 </div>
