@@ -874,6 +874,6 @@ Acknowledge the need to balance competing concerns
 
 # ✨ Sketching the Key Ideas
 
-<img src="/os-sketch-systems-introduction.svg" class="ml-10 mt-8 h-100" />
+<img src="/os-sketch-process-execution.svg" class="ml-10 mt-8 h-100" />
 
 [//]: # "Slide End }}}"
