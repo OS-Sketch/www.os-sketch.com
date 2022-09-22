@@ -786,6 +786,36 @@ Why are these hard? How to solve these problems?
 
 [//]: # "Slide Start {{{"
 
+# Switching Between Processes
+
+<v-clicks>
+
+- Cooperative approach would **wait** for **system calls** to take place
+
+- However, a user program could abuse the trust of the operating system!
+
+- Alternatively, the operating system can take control over processes:
+
+  - Operating system sets a timer for each process
+  - Process can interrupt early due to an interrupt
+  - When the timer expires the OS interrupts the process
+  - The operating system must save and restore context
+  - Context switch between current process and the next one
+
+- What are the **challenges** faced by this approach?
+
+  - How does the operating system decide what process to execute?
+  - What happens if processes operating in concurrent fashion?
+  - What happens if an interrupt occurs during interrupt handling?
+
+</v-clicks>
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
 # ✨ Sketching the Key Ideas
 
 <img src="/os-sketch-systems-introduction.svg" class="ml-10 mt-8 h-100" />
