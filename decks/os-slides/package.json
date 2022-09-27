@@ -2,6 +2,7 @@
   "name": "os-slides-workspace",
   "workspaces": [
     "systems-introduction",
-    "process-execution"
+    "process-execution",
+    "cpu-scheduling"
   ]
 }

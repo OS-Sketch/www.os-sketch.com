@@ -59,28 +59,31 @@ hide:
 
 ### Next Steps
 
-- Ready the chapters called *Process API* (Chapter 5), *Direct Execution*
-  (Chapter 6), and *Memory API* (Chapter 14)
+- Read the chapters called *Process API* (Chapter 5), *Direct Execution*
+  (Chapter 6), and *Memory API* (Chapter 14) in
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Study the [course slides](/slides/operating-systems/process-execution/)
   for a detailed investigation of these chapters!
 - Review the [important terms](#important-terms) for definitions of the
   key terms associated with the assigned chapters
 
-## Scheduling
+## CPU Scheduling
 
 ### Technical Questions
 
--Experts add their technical question here
+- How does the operating system separate **policy** from **mechanism** and make
+  decisions for which **process** to **execute**? How does this behavior of the
+  operating system influence the ways in which I program and use software?
 
-### Expert Added Content
+### Next Steps
 
-- *CPU Scheduling* and *Lottery Scheduling* chapters in
-  [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
-- Check out the [course slides](/slides/operating-systems/systems-introduction/)
-  for a detailed investigation of these chapters!
-- [Click here](#important-terms) to find definitions for key terms for the
-  week's readings (chapters 7 and 9)!
+- Read the chapters called *CPU Scheduling* (Chapter 7) and *Lottery
+  Scheduling* (Chapter 9) in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+- Check out the [course
+  slides](/slides/operating-systems/cpu-scheduling/) for a detailed
+  investigation of these chapters!
+- Review the [important terms](#important-terms) for definitions of the
+  terms associated with the assigned chapters
 
 ## Addresses
 
