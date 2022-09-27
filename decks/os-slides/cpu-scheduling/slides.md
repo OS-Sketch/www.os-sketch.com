@@ -269,6 +269,92 @@ Fairness: all processes have a change to use the CPU
 
 [//]: # "Slide End }}}"
 
+---
+
+[//]: # "Slide Start {{{"
+
+# Scheduling 101: FCFS and SJF
+
+<v-clicks>
+
+- **FCFS**: For every job that arrives in the OS, take these steps:
+
+  - When a job arrives, schedule that job for CPU execution
+  - Once the job completes, pick the next job in the waiting queue
+  - Continue this process until all jobs have been executed
+
+- **SJF**: For every job that arrives in the OS, take these steps:
+
+  - When a job arrives, record the duration for which it will execute
+  - Order the waiting queue of jobs according to their execution time
+  - The next job to run is always the one that needs the least CPU time
+  - Once a job completes, pick the next job in the waiting queue
+  - Continue this process until all jobs have been executed
+
+- **Benefits**: both of these policies are simple to **implement** and **describe**
+
+- **Metrics**: calculate the **average turnaround time** for a job in the workload
+
+</v-clicks>
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
+Pathological worst-case for CPU scheduling?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-cube class="text-6xl ml-2 mt-6 text-blue-600" />
+
+<div class="text-4xl font-bold mt-8 ml-4">
+FIFO succumbs to the convoy effect
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-cube class="text-6xl ml-2 mt-6 text-blue-600" />
+
+<div class="text-4xl font-bold mt-8 ml-4">
+SJF succumbs to problem of late arrivals
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-exclamation-octagon class="text-6xl ml-4 mt-8 text-blue-600" />
+
+<div class="text-4xl font-bold mt-12 ml-4">
+Relaxing assumption shows policy need!
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
 
 ---
 
