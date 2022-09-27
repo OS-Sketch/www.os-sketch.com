@@ -97,7 +97,7 @@ Questions about the goals for this module?
 <div class="flex row">
 
 <div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
-What are system calls in the process API?
+Separate scheduling policy from mechanism!
 </div>
 
 </div>
@@ -109,21 +109,7 @@ What are system calls in the process API?
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-<code>fork</code> : create a new process from existing one
-</div>
-
-</div>
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-<code>exec</code> : run program different than the calling one
+Policy: algorithms for making scheduling decisions
 </div>
 
 </div>
@@ -137,7 +123,21 @@ What are system calls in the process API?
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-<code>wait</code> : delay execution until child process finishes
+Mechanism: technique for enacting policy decisions
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+What are the key assumptions for CPU scheduling?
 </div>
 
 </div>
@@ -150,26 +150,29 @@ What are system calls in the process API?
 
 [//]: # "Slide Start {{{"
 
-# Process Creation in C with `fork`
+# Process Workloads Assumptions 😂
 
-<div class="-ml-2 -mt-2">
+<v-clicks>
 
-```c {all}
-int main(int argc, char *argv[]) {
-  printf("Hello world (pid:%d)\n", (int)getpid());
-  int rc = fork();
-  if (rc < 0) {
-    fprintf(stderr, "failure\n");
-    exit(1);
-  } else if (rc == 0) {
-    printf("c (pid:%d)\n", (int)getpid());
-  } else {
-    printf("p of %d (pid:%d)\n", rc,(int)getpid());
-  }
-}
-```
+- The **workload** is the set of processes scheduled by the operating system
 
-</div>
+- Different workloads will influence scheduler effectiveness:
+
+  - CPU-bound or I/O-bound
+  - Interactive or server
+  - Mobile or data-center
+
+- Assumptions about **jobs** entering the operating system:
+
+  - Each job runs for the same amount of time
+  - All jobs arrive at the same time
+  - Once started, each job runs to completion
+  - All jobs only use the CPU (i.e., no I/O permitted)
+  - The run-time of each job is known
+
+- If these **assumptions** are not **realistic** why are they **useful**?
+
+</v-clicks>
 
 [//]: # "Slide End }}}"
 
