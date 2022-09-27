@@ -355,6 +355,97 @@ Relaxing assumption shows policy need!
 
 [//]: # (Slide End }}})
 
+---
+
+[//]: # "Slide Start {{{"
+
+# Enhanced Scheduling Algorithms
+
+<v-clicks>
+
+- Broadly, scheduling algorithms can be divided into two categories:
+
+  - **Non-Preemptive**: schedulers do not interrupt executing jobs
+  - **Preemptive**: schedules can interrupt jobs and remove from CPU
+
+- **Shortest Time-to-Completion First** uses preemption to its advantage!
+
+  - When a job arrives, record the time it needs to finish execution
+  - Order the waiting queue of jobs according to time-to-completion
+  - The next job to run is the one that needs the least CPU time to finish
+  - Preempt the current job on the CPU if another has less time-to-completion
+  - Keep track of the remaining time that each job needs on the CPU
+  - Continue this process until all jobs have been executed
+
+<div class="flex row">
+
+<uim-exclamation-octagon class="text-6xl ml-4 mt-6 text-blue-600" />
+
+<div class="text-4xl font-bold mt-10 ml-4">
+Assuming that all jobs arrive at same time!
+</div>
+
+</div>
+
+</v-clicks>
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Job Arrival is Unpredictable!
+
+<style>
+  h2 {
+    font-size: 42px;
+    @apply text-red-600 mb-4;
+  }
+  li {
+    @apply bg-gray-300;
+    font-size: 28px;
+    margin-top: 4px;
+    margin-bottom: 9px;
+  }
+</style>
+
+<v-clicks>
+
+- Run a C program with an infinite loop:
+
+<div class="border-2 rounded-2xl border-gray-700 bg-gray-300 p-5 mt-3 mb-6">
+
+<pre>
+$ ./bin/mem 1000
+(304143) addr pointed to by p: 0x562ced0e92a0
+(304143) value of p: 1001
+(304143) value of p: 1002
+(304143) value of p: 1003
+^C
+</pre>
+
+</div>
+
+- Run the C program program with an infinite loop again:
+
+<div class="border-2 rounded-2xl border-gray-700 bg-gray-300 p-5 mt-3 mb-5">
+
+<pre>
+$ ./bin/mem 1000
+./bin/mem 1000
+(306361) addr pointed to by p: 0x55e8d5aa32a0
+(306361) value of p: 1001
+(306361) value of p: 1002
+(306361) value of p: 1003
+^C
+</pre>
+
+</div>
+
+</v-clicks>
+
+[//]: # (Slide End }}})
 
 ---
 
