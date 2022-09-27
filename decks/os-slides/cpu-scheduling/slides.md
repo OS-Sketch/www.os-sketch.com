@@ -27,7 +27,7 @@ fonts:
 
 # Operating Systems
 
-## Process Execution
+## CPU Scheduling
 
 <div class="container my-5">
   &nbsp;
@@ -61,9 +61,9 @@ fonts:
 
 ## Key Question
 
-> How does the operating system manage the **execution** of processes and enable
->  processes to **access memory**? How does this behavior of the operating system
->  influence the ways in which I program and use software?
+> How does the operating system separate **policy** from **mechanism** and make
+> decisions for which **process** to **execute**? How does this behavior of the
+> operating system influence the ways in which I program and use software?
 
 </div>
 
@@ -74,7 +74,7 @@ fonts:
 ## Learning Objectives
 
 > To **remember** and **understand** some of the foundations of the way in which
-> an operating system creates and manages resources on behalf of a user.
+> an operating system's scheduler makes process execution decisions.
 
 </div>
 
