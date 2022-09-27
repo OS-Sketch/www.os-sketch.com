@@ -67,7 +67,7 @@ hide:
 - Review the [important terms](#important-terms) for definitions of the
   key terms associated with the assigned chapters
 
-## Scheduling
+## CPU Scheduling
 
 ### Technical Questions
 
