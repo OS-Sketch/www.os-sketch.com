@@ -599,6 +599,196 @@ Balance effectiveness according to all metrics
 
 [//]: # "Slide Start {{{"
 
+<div class="flex row">
+
+<div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
+Methods if scheduling is "pure overhead"?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-cube class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Google: 5% of CPU time devoted to scheduling
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-cube class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Use randomness or other quick-to-calculate metrics
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-cube class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Engineer schedulers to make rapid job decisions
+</div>
+
+</div>
+
+</div>
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
+# Scheduling Jobs with a Lottery
+
+<v-clicks>
+
+- Use tickets assigned to jobs to represent their entitled share of the CPU
+
+- Hold a lottery every time slice and pick the job that moves to the CPU
+
+- A job that has more tickets is more likely to be selected for running
+
+- Running the lottery involves the use of a **random number generator**
+
+- What are the benefits of lottery scheduling?
+
+  - Randomness avoids unforeseen implications of scheduling policies
+  - Random number generators can quickly generate a new number
+  - Easy to implement the mechanism to put this policy into practice
+
+<div class="flex row">
+
+<uim-exclamation-octagon class="text-6xl ml-4 mt-6 text-blue-600" />
+
+<div class="text-4xl font-bold mt-10 ml-4">
+Wait, do we really need randomness?
+</div>
+
+</div>
+
+</v-clicks>
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
+<div class="flex row">
+
+<div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
+Stride scheduling = tickets - randomness
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Tickets nicely represent scheduling likelihood
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+The stride is the inverse of the number of tickets
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Increment the pass value by the job's stride value
+</div>
+
+</div>
+
+</div>
+
+[//]: # "Slide End }}}"
+
+
+---
+
+[//]: # "Slide Start {{{"
+
+# Completely Fair Scheduling in Linux
+
+<v-clicks>
+
+- **Switch jobs frequently**: fairness increases but overhead does as well
+
+- **Switch jobs infrequently**: fairness decreases but overhead does as well
+
+- Determine the **time slice** for a process by:
+
+  - Pick a scheduling latency value
+  - Detect number of processes
+  - The time slice is scheduling latency divided by number of processes
+
+- Set a **minimum granularity** to ensure that scheduling does not outweigh jobs
+
+- Additional features of the CFS scheduling implementation:
+
+  - Set a niceness parameter between -20 and 10, with a default of 0
+  - Give priority to jobs willing to be more nice to other jobs
+  - Avoid using linear data structures inside the scheduler
+
+<div class="flex row">
+
+<uim-exclamation-octagon class="text-6xl ml-4 mt-6 text-blue-600" />
+
+<div class="text-4xl font-bold mt-10 ml-4">
+Wait, do we really need randomness?
+</div>
+
+</div>
+
+</v-clicks>
+
+[//]: # "Slide End }}}"
+
+
+---
+
+[//]: # "Slide Start {{{"
+
 # ✨ Sketching the Key Ideas
 
 <img src="/os-sketch-cpu-scheduling.svg" class="ml-20 mt-4 h-105" />
