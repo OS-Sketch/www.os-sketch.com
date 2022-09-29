@@ -509,6 +509,6 @@ Response time is arrival time to time first scheduled
 
 # ✨ Sketching the Key Ideas
 
-<img src="/os-sketch-process-execution.svg" class="ml-10 mt-8 h-100" />
+<img src="/os-sketch-cpu-scheduling.svg" class="ml-20 mt-4 h-105" />
 
 [//]: # "Slide End }}}"
