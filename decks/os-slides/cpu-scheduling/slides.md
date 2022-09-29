@@ -507,6 +507,98 @@ Response time is arrival time to time first scheduled
 
 [//]: # "Slide Start {{{"
 
+# Round-Robin Scheduling
+
+<v-clicks>
+
+- Run a job for a **time slice** (or a **quantum**) and then switch to next job
+
+- Attempts to be **fair** to all of the processes in the system
+
+- Scheduling policies like round-robin always present a **trade-off**:
+
+  - Even division of the CPU is fair for all of the jobs
+  - Response time improves when each job gets a slice of the CPU
+  - With that said, the turnaround time suffers for all of the jobs
+  - It is a trade-off between response time and turnaround time!
+
+<div class="flex row">
+
+<uim-exclamation-octagon class="text-10xl ml-4 -mt-0 text-blue-600" />
+
+<div class="text-4xl font-bold mt-10 ml-4">
+Wait, there are still some assumptions to relax!
+Jobs <em>do</em> perform I/O and we <em>don't</em> know their execution time!
+New approach needed?
+</div>
+
+
+</div>
+
+</v-clicks>
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
+<div class="flex row">
+
+<div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
+Realistic process scheduling strategies
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-cube class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Interleave processes when one performs I/O
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-cube class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Use past job behavior to predict future behavior
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-cube class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Balance effectiveness according to all metrics
+</div>
+
+</div>
+
+</div>
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
 # ✨ Sketching the Key Ideas
 
 <img src="/os-sketch-cpu-scheduling.svg" class="ml-20 mt-4 h-105" />
