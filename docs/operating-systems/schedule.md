@@ -85,7 +85,7 @@ hide:
 - Review the [important terms](#important-terms) for definitions of the
   terms associated with the assigned chapters
 
-## Addresses
+## Address Spaces
 
 ### Technical Questions
 
@@ -93,12 +93,13 @@ hide:
 
 ### Expert Added Content
 
-- *Address Spaces* and *Address Mechanisms* chapters in
-  [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
-- Check out the [course slides](/slides/operating-systems/systems-introduction/)
-  for a detailed investigation of these chapters!
-- [Click here](#important-terms) to find definitions for key terms for the
-  week's readings (chapters 13 and 15)!
+- Read the chapters called *Address Spaces* (Chapter 13) and *Address
+  Mechanisms* (Chapter 15) in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+- Check out the [course
+  slides](/slides/operating-systems/address-spaces/) for a detailed
+  investigation of these chapters!
+- Review the [important terms](#important-terms) for definitions of the
+  terms associated with the assigned chapters (chapters 13 and 15)
 
 ## Segmentation and Paging
 
