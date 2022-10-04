@@ -3,6 +3,7 @@
   "workspaces": [
     "systems-introduction",
     "process-execution",
-    "cpu-scheduling"
+    "cpu-scheduling",
+    "address-spaces"
   ]
 }
