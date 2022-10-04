@@ -57,7 +57,7 @@ fonts:
 
 <br>
 
-<div v-click>
+<v-click>
 
 ## Key Question
 
@@ -65,18 +65,20 @@ fonts:
 > facilitate **memory access ** for processes**? How does this behavior of the
 > operating system influence the ways in which I program and use software?
 
-</div>
+</v-click>
 
 <br>
 
-<div v-click>
+<v-click>
 
 ## Learning Objectives
 
 > To **remember** and **understand** some of the foundations of the way in which
 > an operating system allocates and manages memory on behalf of a user.
 
-</div>
+</v-click>
+
+<v-click>
 
 <div class="flex row">
 
@@ -87,6 +89,8 @@ Questions about the goals for this module?
 </div>
 
 </div>
+
+</v-click>
 
 [//]: # "Slide End }}}"
 
