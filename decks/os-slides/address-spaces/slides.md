@@ -159,8 +159,11 @@ Interactive computing on a share computer
 <v-clicks>
 
 - Store the source code and data associated with the operating system
-
 - Store the source code and data for a single running program
+
+</v-clicks>
+
+<v-clicks>
 
 - Limitations of basic memory management techniques:
 
@@ -168,9 +171,17 @@ Interactive computing on a share computer
   - Inexpensive to context switch for register-level state in the CPU
   - Saving the memory state of a process can be very expensive
 
+</v-clicks>
+
+<v-clicks>
+
 - **Goal**: a mechanism by which multiple processes can exist in memory
 
 - **Goal**: ensure that processes are isolated for security and reliability
+
+</v-clicks>
+
+<v-clicks>
 
 <div class="flex row">
 
@@ -201,6 +212,10 @@ Questions about basic memory management?
 - Operating system should translate **virtual** addresses to **physical** ones
 
 - Allow many programs from many users to run on a single computer
+
+</v-clicks>
+
+<v-clicks>
 
 - Three key goals for modern memory management:
 
