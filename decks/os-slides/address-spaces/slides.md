@@ -237,7 +237,6 @@ Questions about memory management goals?
 
 [//]: # "Slide End }}}"
 
-
 ---
 
 [//]: # (Slide Start {{{)
@@ -283,7 +282,7 @@ Heap: varying-sized variables
 <div class="flex row">
 
 <div class="text-4xl font-bold mt-10 ml-10">
-Both regions needed for modern programs
+Both regions needed for modern programs!
 </div>
 
 </div>
@@ -399,7 +398,7 @@ Insights from repeated program run output?
 <mdi-wrench class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Process memory stored in different regions
+Process memory types stored in different regions
 </div>
 
 </div>
@@ -427,7 +426,7 @@ Location of process regions differs across runs
 <mdi-wrench class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Yet, these addresses are all virtual addresses!
+Remember, these addresses are virtual addresses!
 </div>
 
 </div>
@@ -446,7 +445,7 @@ Yet, these addresses are all virtual addresses!
 
 - Operating System must balance concerns about **performance** and **control**
 
-- Direct execution protocol without limits:
+- Direct execution protocol with limits:
 
   - Create entry for process list
   - Allocate memory for program
@@ -454,12 +453,13 @@ Yet, these addresses are all virtual addresses!
   - Setup stack with <tt>argc</tt> and <tt>argv</tt>
   - Clear registers on the CPU
   - Execute the main function in the program
+  - Repeatedly schedule processes according to policy
 
-- Context switch requires saving and changing program state
+- Context switch requires **saving** and **changing** program state
 
-- The memory of a processes must be protected from other processes
+- The memory of a **processes** must be **protected** from other processes
 
-- The memory of the kernel must be protected from other processes
+- The memory of the **kernel** must be **protected** from other processes
 
 </v-clicks>
 
