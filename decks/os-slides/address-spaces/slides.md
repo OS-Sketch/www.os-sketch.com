@@ -655,7 +655,7 @@ Disassembly of section .text:
   - The computed physical address must be within the bound
   - Operating system generates a fault when address is out of bounds
 
-- Operating system has a memory management unit (MMU) taking these steps!
+- Operating system has a **memory management unit** (MMU) taking these steps!
 
 </v-clicks>
 
@@ -669,11 +669,47 @@ Disassembly of section .text:
 
 <v-clicks>
 
-- Memory management responsibilities:
+- **Memory management responsibilities**:
 
   - Allocate memory for a new process
   - Reclaim memory from a completed process
   - Manage memory through the free list
+
+</v-clicks>
+
+<v-clicks>
+
+- **Base and bounds registers**:
+
+  - Protected from all other processes
+  - Only used for memory management
+  - Set every time there is a context switch
+
+</v-clicks>
+
+<v-clicks>
+
+- **Exception handling**:
+
+  - Pre-define code to run to handle exceptions
+  - Ensure that exception handling code is protected
+  - Execute exception handling code to handle problems
+
+</v-clicks>
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
+# Memory Management Data Structures
+
+<v-clicks>
+
+- **Stack** stores static record of memory for each program
+
+- **Heap** stores dynamically allocated program data structures
 
 </v-clicks>
 
@@ -687,7 +723,18 @@ Disassembly of section .text:
 
 </v-clicks>
 
+<v-clicks>
+
+- Exception handling:
+
+  - Pre-define code to run to handle exceptions
+  - Ensure that exception handling code is protected
+  - Execute exception handling code to handle problems
+
+</v-clicks>
+
 [//]: # "Slide End }}}"
+
 
 ---
 
