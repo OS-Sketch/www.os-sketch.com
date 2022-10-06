@@ -802,6 +802,6 @@ See how memory management hits performance
 
 # ✨ Sketching the Key Ideas
 
-<img src="/os-sketch-process-execution.svg" class="ml-10 mt-8 h-100" />
+<img src="/os-sketch-address-spaces.svg" class="ml-2 mt-8 h-100" />
 
 [//]: # "Slide End }}}"
