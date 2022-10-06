@@ -537,7 +537,7 @@ Assumptions about memory management
 
 <div class="flex row">
 
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+<mdi-diamond  class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
 Address space is less than size of physical memory
@@ -551,7 +551,7 @@ Address space is less than size of physical memory
 
 <div class="flex row">
 
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+<mdi-diamond class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
 Address space is arranged contiguously in memory
@@ -565,7 +565,7 @@ Address space is arranged contiguously in memory
 
 <div class="flex row">
 
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+<mdi-diamond class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
 All address spaces are of the same size
@@ -630,6 +630,64 @@ Disassembly of section .text:
 </v-clicks>
 
 [//]: # (Slide End }}})
+
+---
+
+[//]: # "Slide Start {{{"
+
+# Dynamic (Hardware-Based) Relocation
+
+<v-clicks>
+
+- Leverage hardware registers in the CPU to manage computer's memory
+
+- Program asks for a **virtual address** and the OS translates to **physical one**!
+
+- OS uses physical address to fetch contents of memory and return to program
+
+- Controls the process of fetching both source code and data
+
+- **Base** and **bound** address translation:
+
+  - Physical address = virtual address + base
+  - Base defines where address space actually starts
+  - Bound ensures that a process cannot go beyond its address space
+  - The computed physical address must be within the bound
+  - Operating system generates a fault when address is out of bounds
+
+- Operating system has a memory management unit (MMU) taking these steps!
+
+</v-clicks>
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
+# Operating System Responsibilities
+
+<v-clicks>
+
+- Memory management responsibilities:
+
+  - Allocate memory for a new process
+  - Reclaim memory from a completed process
+  - Manage memory through the free list
+
+</v-clicks>
+
+<v-clicks>
+
+- Base and bounds registers:
+
+  - Protected from all other processes
+  - Only used for memory management
+  - Set every time there is a context switch
+
+</v-clicks>
+
+[//]: # "Slide End }}}"
 
 ---
 
