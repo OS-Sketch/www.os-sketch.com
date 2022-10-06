@@ -179,6 +179,8 @@ Interactive computing on a share computer
 
 - **Goal**: ensure that processes are isolated for security and reliability
 
+- Make restrictive assumptions and then progressively relax them
+
 </v-clicks>
 
 <v-clicks>
@@ -705,36 +707,38 @@ Disassembly of section .text:
 
 # Memory Management Data Structures
 
-<v-clicks>
+<v-click>
 
 - **Stack** stores static record of memory for each program
 
 - **Heap** stores dynamically allocated program data structures
 
-</v-clicks>
+</v-click>
 
-<v-clicks>
+<v-click>
 
-- Base and bounds registers:
+- **Free list** stores ranges of physical memory not in use
 
-  - Protected from all other processes
-  - Only used for memory management
-  - Set every time there is a context switch
+- **Process control block** stores all details about a process
 
-</v-clicks>
+- **Trap table** to various protected trap handlers
 
-<v-clicks>
+</v-click>
 
-- Exception handling:
+<v-click>
 
-  - Pre-define code to run to handle exceptions
-  - Ensure that exception handling code is protected
-  - Execute exception handling code to handle problems
+- Remember, all of these structures represent memory overhead!
 
-</v-clicks>
+  - Pick a structure that is easy to implement and test
+  - Ensure that accessing and updating structure is fast
+  - Avoid internal fragmentation of memory as appropriate
+
+- **Trade-off**: overhead and convenience of the operating system
+
+</v-click>
+
 
 [//]: # "Slide End }}}"
-
 
 ---
 
