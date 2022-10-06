@@ -579,6 +579,60 @@ All address spaces are of the same size
 
 ---
 
+[//]: # (Slide Start {{{)
+
+# Storing Program Source Code
+
+<style>
+  h2 {
+    font-size: 42px;
+    @apply text-red-600 mb-4;
+  }
+  li {
+    @apply bg-gray-300;
+    font-size: 28px;
+    margin-top: 4px;
+    margin-bottom: 9px;
+  }
+</style>
+
+<v-clicks>
+
+<div class="border-2 rounded-2xl border-gray-700 bg-gray-300 p-5 mt-3 mb-10">
+
+<pre>
+va:     file format elf64-x86-64
+
+Disassembly of section .init:
+
+0000000000001000 init:
+    1000:   f3 0f 1e fa             endbr64
+    1004:   48 83 ec 08             sub    $0x8,%rsp
+    1008:   48 8b 05 d9 2f 00 00    mov    0x2fd9(%rip),%rax
+    100f:   48 85 c0                test   %rax,%rax
+    1012:   74 02                   je     1016 init+0x16
+    1014:   ff d0                   call   *%rax
+    1016:   48 83 c4 08             add    $0x8,%rsp
+    101a:   c3                      ret
+
+Disassembly of section .text:
+
+0000000000001060 start:
+    1060:   f3 0f 1e fa             endbr64
+    1064:   31 ed                   xor    %ebp,%ebp
+    1066:   49 89 d1                mov    %rdx,%r9
+    1069:   5e                      pop    %rsi
+    106a:   48 89 e2                mov    %rsp,%rdx
+</pre>
+
+</div>
+
+</v-clicks>
+
+[//]: # (Slide End }}})
+
+---
+
 [//]: # "Slide Start {{{"
 
 <div class="flex row">
