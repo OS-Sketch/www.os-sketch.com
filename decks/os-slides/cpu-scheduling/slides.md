@@ -786,23 +786,13 @@ Increment the pass value by the job's stride value
 
 <v-clicks>
 
-- **Switch jobs frequently**: fairness increases but overhead does as well
+- The Linux CFS is an implementation of a **weighted fair queue** (WFQ) scheduler
 
-- **Switch jobs infrequently**: fairness decreases but overhead does as well
+- **Goal**: CFS divides CPU cycles among processes according to their weight
 
-- Determine the **time slice** for a process by:
+- Like other schedulers, CFS **time-slices** the CPU among the existing processes
 
-  - Pick a scheduling latency value
-  - Detect number of processes
-  - The time slice is scheduling latency divided by number of processes
-
-- Set a **minimum granularity** to ensure that scheduling does not outweigh jobs
-
-- Additional features of the CFS scheduling implementation:
-
-  - Set a niceness parameter between -20 and 10, with a default of 0
-  - Give priority to jobs willing to be more nice to other jobs
-  - Avoid using linear data structures inside the scheduler
+- CFS defines a **fixed time interval** during which each process must run once
 
 </v-clicks>
 
