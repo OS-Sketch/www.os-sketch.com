@@ -13,7 +13,7 @@ hide:
 - Create a technical question that is the focal point for the assigned module
 - Create a technical diagram that "sketches" all content for that module
 - Assist with creating and proof-reading technical content for that module
-- Present the technical diagram and answer any questions about presented content
+- Present the technical diagram and answer any questions about the presented content
 
 ### Professional Question
 
