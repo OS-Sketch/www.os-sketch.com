@@ -694,7 +694,7 @@ Use the memory API to modify transient storage
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-How does the operating system manage processes?
+Rely on the operating system to schedule processes
 </div>
 
 </div>
