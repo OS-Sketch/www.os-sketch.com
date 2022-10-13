@@ -78,12 +78,16 @@ fonts:
 
 </div>
 
+<div v-click>
+
 <div class="flex row">
 
 <mdi-help-box class="text-6xl ml-4 mt-5 text-blue-600" />
 
 <div class="text-4xl text-true-gray-700 font-bold mt-9 ml-4">
 Questions about the goals for this module?
+</div>
+
 </div>
 
 </div>
