@@ -86,6 +86,8 @@ hide:
   investigation of these chapters!
 - Review the [important terms](#important-terms) for definitions of the
   terms associated with the assigned chapters
+- Check out the [operating system sketch](/operating-systems/sketches/#cpu-scheduling)
+  associated with this module
 
 ## Address Spaces
 
