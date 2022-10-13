@@ -796,9 +796,9 @@ Why are these hard? How to solve them?
 
 - Cooperative approach would **wait** for **system calls** to take place
 
-- However, a user program could abuse the trust of the operating system!
+- However, a user program could **abuse** the **trust** of the operating system!
 
-- Alternatively, the operating system can take control over processes:
+- Alternatively, the operating system can **take control** over processes:
 
   - Operating system sets a timer for each process
   - Process can interrupt early due to an interrupt
