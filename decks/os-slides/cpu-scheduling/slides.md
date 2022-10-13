@@ -768,26 +768,45 @@ Increment the pass value by the job's stride value
 
 - Set a **minimum granularity** to ensure that scheduling does not outweigh jobs
 
+- Additional features of the scheduling implementation of CFS in Linux:
+
+  - Set a niceness parameter between -20 and 10, with a default of 0
+  - Give priority to jobs willing to be more nice to other jobs
+  - Avoid using linear data structures inside the CPU scheduler
+
+</v-clicks>
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
+# CFS is "Easy" --- No, Wait! It's "Hard"
+
+<v-clicks>
+
+- **Switch jobs frequently**: fairness increases but overhead does as well
+
+- **Switch jobs infrequently**: fairness decreases but overhead does as well
+
+- Determine the **time slice** for a process by:
+
+  - Pick a scheduling latency value
+  - Detect number of processes
+  - The time slice is scheduling latency divided by number of processes
+
+- Set a **minimum granularity** to ensure that scheduling does not outweigh jobs
+
 - Additional features of the CFS scheduling implementation:
 
   - Set a niceness parameter between -20 and 10, with a default of 0
   - Give priority to jobs willing to be more nice to other jobs
   - Avoid using linear data structures inside the scheduler
 
-<div class="flex row">
-
-<uim-exclamation-octagon class="text-6xl ml-4 mt-6 text-blue-600" />
-
-<div class="text-4xl font-bold mt-10 ml-4">
-Wait, do we really need randomness?
-</div>
-
-</div>
-
 </v-clicks>
 
 [//]: # "Slide End }}}"
-
 
 ---
 
