@@ -46,7 +46,7 @@ hide:
   for a detailed investigation of these chapters
 - Review the [important terms](#important-terms) for definitions of the
   key terms associated with the assigned chapters
-- Check out the [operating system sketch](/operating-systems/sketches/)
+- Check out the [operating system sketch](/operating-systems/sketches/#systems-introduction)
   associated with this module
 
 ## Process Execution
@@ -66,6 +66,8 @@ hide:
   for a detailed investigation of these chapters!
 - Review the [important terms](#important-terms) for definitions of the
   key terms associated with the assigned chapters
+- Check out the [operating system sketch](/operating-systems/sketches/#process-execution)
+  associated with this module
 
 ## CPU Scheduling
 
