@@ -786,13 +786,22 @@ Increment the pass value by the job's stride value
 
 <v-clicks>
 
-- The Linux CFS is an implementation of a **weighted fair queue** (WFQ) scheduler
+- Using Lozi et al. in EuroSys 2016 to review CFS implementation in Linux:
 
-- **Goal**: CFS divides CPU cycles among processes according to their weight
+  - The Linux CFS is an implementation of a **weighted fair queue** (WFQ) scheduler
+  - **Goal**: CFS divides CPU cycles among processes according to their weight
+  - Like other schedulers, CFS **time-slices** the CPU among the existing processes
+  - CFS defines a **fixed time interval** during which each process must run once
+  - Interval is divided among all processes according to weights (i.e., niceness)
+  - A process with a lower niceness has higher weights and vice versa
+  - When running a process accumulates <tt>vruntime</tt> (i.e., runtime divided by weight)
+  - Once <tt>vruntime</tt> exceeds its time-slice, CFS will preempt it for another process
+  - CFS can also preempt a process if another one arrives with less <tt>vruntime</tt>
+  - CFS implements a queue of processes using the red-black tree data structure
 
-- Like other schedulers, CFS **time-slices** the CPU among the existing processes
+- Scheduling processes with CFS is "easy" on single-CPU, single-core systems
 
-- CFS defines a **fixed time interval** during which each process must run once
+- CFS is "hard" to implement correctly on multiple-CPU, multiple-core systems
 
 </v-clicks>
 
