@@ -316,22 +316,29 @@ hide:
     - **Fork** - Is used in UNIX systems to create a new process
     - **Scheduler** - Determines which process runs at a given moment in time
     - **Superuser** - Controls all processes (and indeed do many other things); this role should be assumed infrequently and with caution for security reasons
-    [Return](#apis-and-execution) to *APIs and Execution*
 
-Direct Execution: Chapter 6
+    ###### [Return](#apis-and-execution) to the *Process Execution* module
 
-1. **Time Sharing** - When you run one process for a little while,then run another one, and so forth
-2. **Limited Direct Execution** - To make a program run as fast as one might expect
-3. **User and Kernel Mode** - The approach we take is to introduce a new processor mode. The operating system runs in
-4. **Context Switch** - When the OS, during a timer interrupt or system call, might wish to switch from running the current process to a different one
-[Return](#apis-and-execution) to *APIs and Execution*
+### Direct Execution: Chapter 6
 
-Memory API: Chapter 14
+???+ note "Technical Concepts"
 
-1. **Stack Memory** - Allocations and deallocations of it are managed implicitly by the compiler for you
-2. **Buffer Overflow** - A related error is not allocating enough memory
-3. **Purify and Valgrind** - Both are excellent at helping you locate the source of your memory-related problems
-[Return](#apis-and-execution) to *APIs and Execution*
+    - **Time Sharing** - When you run one process for a little while,then run another one, and so forth
+    - **Limited Direct Execution** - To make a program run as fast as one might expect
+    - **User and Kernel Mode** - The approach we take is to introduce a new processor mode. The operating system runs in
+    - **Context Switch** - When the OS, during a timer interrupt or system call, might wish to switch from running the current process to a different one
+
+    ###### [Return](#apis-and-execution) to the *Process Execution* module
+
+### Memory API: Chapter 14
+
+???+ note "Technical Concepts"
+
+    - **Stack Memory** - Allocations and deallocations of it are managed implicitly by the compiler for you
+    - **Buffer Overflow** - A related error is not allocating enough memory
+    - **Purify and Valgrind** - Both are excellent at helping you locate the source of your memory-related problems
+
+    ###### [Return](#apis-and-execution) to *Process Execution*
 
 CPU Scheduling: Chapter 7
 
