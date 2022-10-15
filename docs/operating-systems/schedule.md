@@ -317,7 +317,7 @@ hide:
     - **Scheduler** - Determines which process runs at a given moment in time
     - **Superuser** - Controls all processes (and indeed do many other things); this role should be assumed infrequently and with caution for security reasons
 
-    ###### [Return](#apis-and-execution) to the *Process Execution* module
+    ###### [Return](#process-execution) to the *Process Execution* module
 
 ### Direct Execution: Chapter 6
 
@@ -328,7 +328,7 @@ hide:
     - **User and Kernel Mode** - The approach we take is to introduce a new processor mode. The operating system runs in
     - **Context Switch** - When the OS, during a timer interrupt or system call, might wish to switch from running the current process to a different one
 
-    ###### [Return](#apis-and-execution) to the *Process Execution* module
+    ###### [Return](#process-execution) to the *Process Execution* module
 
 ### Memory API: Chapter 14
 
@@ -338,23 +338,29 @@ hide:
     - **Buffer Overflow** - A related error is not allocating enough memory
     - **Purify and Valgrind** - Both are excellent at helping you locate the source of your memory-related problems
 
-    ###### [Return](#apis-and-execution) to *Process Execution*
+    ###### [Return](#process-execution) to the *Process Execution* module
 
-CPU Scheduling: Chapter 7
+### CPU Scheduling: Chapter 7
 
-1. **Workload** - simplifying assumptions about the processes running in the system
-2. **First In, First Out (FIFO)** - means the first element in, is the first element out
-3. **Shortest Job First (SJF)** - runs the shortest job first, then the next shortest, and so on
-[Return](#scheduling) to *Scheduling*
+???+ note "Technical Concepts"
 
-Lottery Scheduling: Chapter 9
+    - **Workload** - simplifying assumptions about the processes running in the system
+    - **First In, First Out (FIFO)** - means the first element in, is the first element out
+    - **Shortest Job First (SJF)** - runs the shortest job first, then the next shortest, and so on
 
-1. **Proportional-Share** - instead of optimizing for turnaround or response time, a scheduler might instead try to guarantee that each job obtains a certain percentage of CPU time
-2. **Ticket** - used to represent the share of a resource that a process should receive
-3. **Ticket Currency** - allows a user with a set of tickets to allocate tickets among their own jobs in whatever currency they would like
-4. **Ticket Transer** - a process can temporarily hand off its tickets to another process
-5. **Ticket Inflation** - a process can temporarily raise or lower the number of tickets it owns
-[Return](#scheduling) to *Scheduling*
+    ###### [Return](#cpu-scheduling) to the *CPU Scheduling* module
+
+### Lottery Scheduling: Chapter 9
+
+???+ note "Technical Concepts"
+
+    - **Proportional-Share** - instead of optimizing for turnaround or response time, a scheduler might instead try to guarantee that each job obtains a certain percentage of CPU time
+    - **Ticket** - used to represent the share of a resource that a process should receive
+    - **Ticket Currency** - allows a user with a set of tickets to allocate tickets among their own jobs in whatever currency they would like
+    - **Ticket Transfer** - a process can temporarily hand off its tickets to another process
+    - **Ticket Inflation** - a process can temporarily raise or lower the number of tickets it owns
+
+    ###### [Return](#scheduling) to *Scheduling*
 
 Address Spaces: Chapter 13
 
