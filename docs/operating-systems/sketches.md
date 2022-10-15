@@ -19,3 +19,8 @@ hide:
 
 ![CPU Scheduling](/img/os-sketch-cpu-scheduling.svg#only-light){width="80%"}
 ![CPU Scheduling](/img/os-sketch-cpu-scheduling-inverted.svg#only-dark){width="80%"}
+
+## Address Spaces
+
+![Address Spaces](/img/os-sketch-address-spaces.svg#only-light){width="80%"}
+![Address Spaces](/img/os-sketch-address-spaces-inverted.svg#only-dark){width="80%"}
