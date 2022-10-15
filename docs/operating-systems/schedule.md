@@ -104,6 +104,8 @@ hide:
   investigation of these chapters!
 - Review the [important terms](#important-terms) for definitions of the
   terms associated with the assigned chapters (chapters 13 and 15)
+- Check out the [operating system sketch](/operating-systems/sketches/#address-spaces)
+  associated with this module
 
 ## Segmentation and Paging
 
