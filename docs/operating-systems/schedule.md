@@ -360,23 +360,28 @@ hide:
     - **Ticket Transfer** - a process can temporarily hand off its tickets to another process
     - **Ticket Inflation** - a process can temporarily raise or lower the number of tickets it owns
 
-    ###### [Return](#scheduling) to *Scheduling*
+    ###### [Return](#cpu-scheduling) to the *CPU Scheduling* module
 
-Address Spaces: Chapter 13
+### Address Spaces: Chapter 13
 
-1. **Stack** - a linear data structure that follows the principal of Last In First Out (LIFO). This means the last element inserted inside the stack is removed first
-2. **Heap** - an area of pre-reserved computer main storage (memory) that a program process can use to store data in some variable amount that won't be known until the program is running
-3. **Virtualizing Memory** - the system can load larger or multiple programs running at the same time, enable each on eot operate as if it has more space, without having to purchase more RAM
-[Return](#addresses) to *Addresses*
+???+ note "Technical Concepts"
 
+    - **Stack** - a linear data structure that follows the principal of Last In First Out (LIFO). This means the last element inserted inside the stack is removed first
+    - **Heap** - an area of pre-reserved computer main storage (memory) that a program process can use to store data in some variable amount that won't be known until the program is running
+    - **Virtualizing Memory** - the system can load larger or multiple programs running at the same time, enable each one to operate as if it has more space, without having to purchase more RAM
 
-Address Translation: Chapter 15
+    ###### [Return](#address-spaces) to the *Addresses Spaces* module
 
-1. **Limited Direct Execution (LDE)** - letting the program run directly on the hardware; however at certain key points in time, arrange so that the OS gets involved and makes sure the "right" thing happens
-2. **Address Translation** - the hardware transforms each memory access, changing the virtual address provided by the instruction to a physical address where the desired information is actually located
-3. **Static Relocation** - which a piece of software known as the loader takes an executable that is about to be run and rewrites its addresses to the desired offset in physical memory
-4. **Free List** - a list of the ranges of the physical memory which are not currently in use
-[Return](#addresses) to *Addresses*
+### Address Translation: Chapter 15
+
+???+ note "Technical Concepts"
+
+    - **Limited Direct Execution (LDE)** - letting the program run directly on the hardware; however at certain key points in time, arrange so that the OS gets involved and makes sure the "right" thing happens
+    - **Address Translation** - the hardware transforms each memory access, changing the virtual address provided by the instruction to a physical address where the desired information is actually located
+    - **Static Relocation** - which a piece of software known as the loader takes an executable that is about to be run and rewrites its addresses to the desired offset in physical memory
+    - **Free List** - a list of the ranges of the physical memory which are not currently in use
+
+    ###### [Return](#address-spaces) to the *Addresses Spaces* module
 
 Segmentation: Chapter 16
 
