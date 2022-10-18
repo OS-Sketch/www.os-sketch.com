@@ -93,9 +93,11 @@ hide:
 
 ### Technical Questions
 
--Experts add their technical question here
+- What are the policies and mechanisms that the operating system uses to
+ facilitate **memory access** for processes? How does this behavior of the
+ operating system influence the **ways** in which we program and use software?
 
-### Expert Added Content
+### Next Steps
 
 - Read the chapters called *Address Spaces* (Chapter 13) and *Address
   Mechanisms* (Chapter 15) in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
@@ -103,7 +105,7 @@ hide:
   slides](/slides/operating-systems/address-spaces/) for a detailed
   investigation of these chapters!
 - Review the [important terms](#important-terms) for definitions of the
-  terms associated with the assigned chapters (chapters 13 and 15)
+  terms associated with the assigned chapters
 - Check out the [operating system sketch](/operating-systems/sketches/#address-spaces)
   associated with this module
 
@@ -115,9 +117,9 @@ hide:
 
 ### Expert Added Content
 
-- *Segmentation* and *Paging* chapters in
+- *Segmentation* (Chapter 16) and *Paging* (Chapter 18) chapters in
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
-- Check out the [course slides](/slides/operating-systems/systems-introduction/)
+- Check out the [course slides](/slides/operating-systems/segmentation-paging/)
   for a detailed investigation of these chapters!
 - [Click here](#important-terms) to find definitions for key terms for the
   week's readings (chapters 16 and 18)!
