@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "slidev",
-    "build": "slidev build --base /slides/operating-systems/address-spaces/ --out ../../../site/slides/operating-systems/address-spaces",
+    "build": "slidev build --base /slides/operating-systems/segmentation-paging/ --out ../../../site/slides/operating-systems/segmentation-paging",
     "export": "slidev export"
   },
   "dependencies": {
