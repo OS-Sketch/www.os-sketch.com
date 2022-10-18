@@ -192,6 +192,77 @@ Added complexity for improve memory utilization
 
 [//]: # "Slide Start {{{"
 
+# Memory Fragmentation
+
+<v-clicks>
+
+- What happens when a segment of memory needs to grow?
+
+  - A call to <tt>malloc</tt> may require the heap to grow beyond current space
+  - In this situation, the operating system must relocate heap to new physical memory
+  - A key challenges: how to pick the new location in memory? what to do with old space?
+  - Alternatively, the operating system could reject the request for more heap memory
+
+</v-clicks>
+
+<v-clicks>
+
+- Challenges that may arise when relocating memory segments after growth:
+
+  - External fragmentation means that there are many small regions of free space
+  - Internal fragmentation means that there is wasted space inside of a segment
+  - Compaction can combine external fragments but at the cost of a memory-wide process
+  - Difficult for the operating system to pick when region to give to a segment
+
+</v-clicks>
+
+<v-clicks>
+
+- It is common for a process to outgrow its region in the heap!
+
+- Best way to handle memory fragmentation and improve memory utilization?
+
+</v-clicks>
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
+# Memory Allocation Strategies
+
+<v-clicks>
+
+- Free-list management strategies help the operating system pick new region:
+
+  - **Best fit**: keep a list of free spaces and pick one closest to requested size
+  - **Worst fit**: keep a list of free spaces and pick one that best over-compensates
+  - **First fit**: keep a list of free spaces and pick first one that fits best
+
+</v-clicks>
+
+<v-clicks>
+
+- Which approach is the best? We don't know! Depends on workload!
+
+- Run simulation studies or experiments to determine which best approach
+
+- External fragmentation will still arise and the operating system must address
+
+- Variable-sized segments are necessary and realistic but also a complication;
+  operating systems must efficiently and transparently manage memory
+
+- **Questions about how the operating system uses segmentation?**
+
+</v-clicks>
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
 # ✨ Sketching the Key Ideas
 
 <img src="/os-sketch-address-spaces.svg" class="ml-2 mt-8 h-100" />
