@@ -4,6 +4,7 @@
     "systems-introduction",
     "process-execution",
     "cpu-scheduling",
-    "address-spaces"
+    "address-spaces",
+    "segmentation-paging"
   ]
 }
