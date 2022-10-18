@@ -78,12 +78,16 @@ fonts:
 
 </div>
 
+<div v-click>
+
 <div class="flex row">
 
 <mdi-help-box class="text-6xl ml-4 mt-5 text-blue-600" />
 
 <div class="text-4xl text-true-gray-700 font-bold mt-9 ml-4">
 Questions about the goals for this module?
+</div>
+
 </div>
 
 </div>
@@ -690,7 +694,7 @@ Use the memory API to modify transient storage
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-How does the operating system manage processes?
+Rely on the operating system to schedule processes
 </div>
 
 </div>
@@ -792,9 +796,9 @@ Why are these hard? How to solve them?
 
 - Cooperative approach would **wait** for **system calls** to take place
 
-- However, a user program could abuse the trust of the operating system!
+- However, a user program could **abuse** the **trust** of the operating system!
 
-- Alternatively, the operating system can take control over processes:
+- Alternatively, the operating system can **take control** over processes:
 
   - Operating system sets a timer for each process
   - Process can interrupt early due to an interrupt

@@ -78,12 +78,16 @@ fonts:
 
 </div>
 
+<div v-click>
+
 <div class="flex row">
 
 <mdi-help-box class="text-6xl ml-4 mt-5 text-blue-600" />
 
 <div class="text-4xl text-true-gray-700 font-bold mt-9 ml-4">
 Questions about the goals for this module?
+</div>
+
 </div>
 
 </div>
@@ -764,23 +768,98 @@ Increment the pass value by the job's stride value
 
 - Set a **minimum granularity** to ensure that scheduling does not outweigh jobs
 
-- Additional features of the CFS scheduling implementation:
+- Additional features of the scheduling implementation of CFS in Linux:
 
   - Set a niceness parameter between -20 and 10, with a default of 0
   - Give priority to jobs willing to be more nice to other jobs
-  - Avoid using linear data structures inside the scheduler
+  - Avoid using linear data structures inside the CPU scheduler
+
+</v-clicks>
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
+# CFS is "Easy" --- No, Wait! It's "Hard"
+
+<v-clicks>
+
+- Using Lozi et al. in EuroSys 2016 to review CFS implementation in Linux:
+
+  - The Linux CFS is an implementation of a **weighted fair queue** (WFQ) scheduler
+  - **Goal**: CFS divides CPU cycles among processes according to their weight
+  - Like other schedulers, CFS **time-slices** the CPU among the existing processes
+  - CFS defines a **fixed time interval** during which each process must run once
+  - Interval is divided among all processes according to weights (i.e., niceness)
+  - A process with a lower niceness has higher weights and vice versa
+  - When running a process accumulates <tt>vruntime</tt> (i.e., runtime divided by weight)
+  - Once <tt>vruntime</tt> exceeds its time-slice, CFS will preempt it for another process
+  - CFS can also preempt a process if another one arrives with less <tt>vruntime</tt>
+  - CFS implements a queue of processes using the red-black tree data structure
+
+- Scheduling processes with CFS is "easy" on single-CPU, single-core systems
+
+- CFS is "hard" to implement correctly on multiple-CPU, multiple-core systems
+
+</v-clicks>
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
 
 <div class="flex row">
 
-<uim-exclamation-octagon class="text-6xl ml-4 mt-6 text-blue-600" />
-
-<div class="text-4xl font-bold mt-10 ml-4">
-Wait, do we really need randomness?
+<div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
+Adopt the operating system's perspective!
 </div>
 
 </div>
 
-</v-clicks>
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Appreciate how CPU scheduling aids programming
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Understand the challenges of CPU scheduling
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Assess scheduling impacts in different environments
+</div>
+
+</div>
+
+</div>
 
 [//]: # "Slide End }}}"
 

@@ -13,7 +13,7 @@ hide:
 - Create a technical question that is the focal point for the assigned module
 - Create a technical diagram that "sketches" all content for that module
 - Assist with creating and proof-reading technical content for that module
-- Present the technical diagram and answer any questions about presented content
+- Present the technical diagram and answer any questions about the presented content
 
 ### Professional Question
 
@@ -46,7 +46,7 @@ hide:
   for a detailed investigation of these chapters
 - Review the [important terms](#important-terms) for definitions of the
   key terms associated with the assigned chapters
-- Check out the [operating system sketch](/operating-systems/sketches/)
+- Check out the [operating system sketch](/operating-systems/sketches/#systems-introduction)
   associated with this module
 
 ## Process Execution
@@ -66,6 +66,8 @@ hide:
   for a detailed investigation of these chapters!
 - Review the [important terms](#important-terms) for definitions of the
   key terms associated with the assigned chapters
+- Check out the [operating system sketch](/operating-systems/sketches/#process-execution)
+  associated with this module
 
 ## CPU Scheduling
 
@@ -84,14 +86,18 @@ hide:
   investigation of these chapters!
 - Review the [important terms](#important-terms) for definitions of the
   terms associated with the assigned chapters
+- Check out the [operating system sketch](/operating-systems/sketches/#cpu-scheduling)
+  associated with this module
 
 ## Address Spaces
 
 ### Technical Questions
 
--Experts add their technical question here
+- What are the policies and mechanisms that the operating system uses to
+ facilitate **memory access** for processes? How does this behavior of the
+ operating system influence the **ways** in which we program and use software?
 
-### Expert Added Content
+### Next Steps
 
 - Read the chapters called *Address Spaces* (Chapter 13) and *Address
   Mechanisms* (Chapter 15) in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
@@ -99,7 +105,9 @@ hide:
   slides](/slides/operating-systems/address-spaces/) for a detailed
   investigation of these chapters!
 - Review the [important terms](#important-terms) for definitions of the
-  terms associated with the assigned chapters (chapters 13 and 15)
+  terms associated with the assigned chapters
+- Check out the [operating system sketch](/operating-systems/sketches/#address-spaces)
+  associated with this module
 
 ## Segmentation and Paging
 
@@ -109,9 +117,9 @@ hide:
 
 ### Expert Added Content
 
-- *Segmentation* and *Paging* chapters in
+- *Segmentation* (Chapter 16) and *Paging* (Chapter 18) chapters in
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
-- Check out the [course slides](/slides/operating-systems/systems-introduction/)
+- Check out the [course slides](/slides/operating-systems/segmentation-paging/)
   for a detailed investigation of these chapters!
 - [Click here](#important-terms) to find definitions for key terms for the
   week's readings (chapters 16 and 18)!
@@ -302,60 +310,80 @@ hide:
 
     ###### [Return](#systems-introduction) to the *Systems Introduction* module
 
-Process API: Chapter 5
+### Process API: Chapter 5
 
-1. **Process Identifier** - Used to name the process if one wants to do something with the process, such as (for example) stop it from running
-2. **Fork** - Is used in UNIX systems to create a new process
-3. **Scheduler** - Determines which process runs at a given moment in time
-4. **Superuser** - Controls all processes (and indeed do many other things); this role should be assumed infrequently and with caution for security reasons
-[Return](#apis-and-execution) to *APIs and Execution*
+???+ note "Technical Concepts"
 
-Direct Execution: Chapter 6
+    - **Process Identifier** - Used to name the process if one wants to do something with the process, such as (for example) stop it from running
+    - **Fork** - Is used in UNIX systems to create a new process
+    - **Scheduler** - Determines which process runs at a given moment in time
+    - **Superuser** - Controls all processes (and indeed do many other things); this role should be assumed infrequently and with caution for security reasons
 
-1. **Time Sharing** - When you run one process for a little while,then run another one, and so forth
-2. **Limited Direct Execution** - To make a program run as fast as one might expect
-3. **User and Kernel Mode** - The approach we take is to introduce a new processor mode. The operating system runs in
-4. **Context Switch** - When the OS, during a timer interrupt or system call, might wish to switch from running the current process to a different one
-[Return](#apis-and-execution) to *APIs and Execution*
+    ###### [Return](#process-execution) to the *Process Execution* module
 
-Memory API: Chapter 14
+### Direct Execution: Chapter 6
 
-1. **Stack Memory** - Allocations and deallocations of it are managed implicitly by the compiler for you
-2. **Buffer Overflow** - A related error is not allocating enough memory
-3. **Purify and Valgrind** - Both are excellent at helping you locate the source of your memory-related problems
-[Return](#apis-and-execution) to *APIs and Execution*
+???+ note "Technical Concepts"
 
-CPU Scheduling: Chapter 7
+    - **Time Sharing** - When you run one process for a little while,then run another one, and so forth
+    - **Limited Direct Execution** - To make a program run as fast as one might expect
+    - **User and Kernel Mode** - The approach we take is to introduce a new processor mode. The operating system runs in
+    - **Context Switch** - When the OS, during a timer interrupt or system call, might wish to switch from running the current process to a different one
 
-1. **Workload** - simplifying assumptions about the processes running in the system
-2. **First In, First Out (FIFO)** - means the first element in, is the first element out
-3. **Shortest Job First (SJF)** - runs the shortest job first, then the next shortest, and so on
-[Return](#scheduling) to *Scheduling*
+    ###### [Return](#process-execution) to the *Process Execution* module
 
-Lottery Scheduling: Chapter 9
+### Memory API: Chapter 14
 
-1. **Proportional-Share** - instead of optimizing for turnaround or response time, a scheduler might instead try to guarantee that each job obtains a certain percentage of CPU time
-2. **Ticket** - used to represent the share of a resource that a process should receive
-3. **Ticket Currency** - allows a user with a set of tickets to allocate tickets among their own jobs in whatever currency they would like
-4. **Ticket Transer** - a process can temporarily hand off its tickets to another process
-5. **Ticket Inflation** - a process can temporarily raise or lower the number of tickets it owns
-[Return](#scheduling) to *Scheduling*
+???+ note "Technical Concepts"
 
-Address Spaces: Chapter 13
+    - **Stack Memory** - Allocations and deallocations of it are managed implicitly by the compiler for you
+    - **Buffer Overflow** - A related error is not allocating enough memory
+    - **Purify and Valgrind** - Both are excellent at helping you locate the source of your memory-related problems
 
-1. **Stack** - a linear data structure that follows the principal of Last In First Out (LIFO). This means the last element inserted inside the stack is removed first
-2. **Heap** - an area of pre-reserved computer main storage (memory) that a program process can use to store data in some variable amount that won't be known until the program is running
-3. **Virtualizing Memory** - the system can load larger or multiple programs running at the same time, enable each on eot operate as if it has more space, without having to purchase more RAM
-[Return](#addresses) to *Addresses*
+    ###### [Return](#process-execution) to the *Process Execution* module
 
+### CPU Scheduling: Chapter 7
 
-Address Translation: Chapter 15
+???+ note "Technical Concepts"
 
-1. **Limited Direct Execution (LDE)** - letting the program run directly on the hardware; however at certain key points in time, arrange so that the OS gets involved and makes sure the "right" thing happens
-2. **Address Translation** - the hardware transforms each memory access, changing the virtual address provided by the instruction to a physical address where the desired information is actually located
-3. **Static Relocation** - which a piece of software known as the loader takes an executable that is about to be run and rewrites its addresses to the desired offset in physical memory
-4. **Free List** - a list of the ranges of the physical memory which are not currently in use
-[Return](#addresses) to *Addresses*
+    - **Workload** - simplifying assumptions about the processes running in the system
+    - **First In, First Out (FIFO)** - means the first element in, is the first element out
+    - **Shortest Job First (SJF)** - runs the shortest job first, then the next shortest, and so on
+
+    ###### [Return](#cpu-scheduling) to the *CPU Scheduling* module
+
+### Lottery Scheduling: Chapter 9
+
+???+ note "Technical Concepts"
+
+    - **Proportional-Share** - instead of optimizing for turnaround or response time, a scheduler might instead try to guarantee that each job obtains a certain percentage of CPU time
+    - **Ticket** - used to represent the share of a resource that a process should receive
+    - **Ticket Currency** - allows a user with a set of tickets to allocate tickets among their own jobs in whatever currency they would like
+    - **Ticket Transfer** - a process can temporarily hand off its tickets to another process
+    - **Ticket Inflation** - a process can temporarily raise or lower the number of tickets it owns
+
+    ###### [Return](#cpu-scheduling) to the *CPU Scheduling* module
+
+### Address Spaces: Chapter 13
+
+???+ note "Technical Concepts"
+
+    - **Stack** - a linear data structure that follows the principal of Last In First Out (LIFO). This means the last element inserted inside the stack is removed first
+    - **Heap** - an area of pre-reserved computer main storage (memory) that a program process can use to store data in some variable amount that won't be known until the program is running
+    - **Virtualizing Memory** - the system can load larger or multiple programs running at the same time, enable each one to operate as if it has more space, without having to purchase more RAM
+
+    ###### [Return](#address-spaces) to the *Addresses Spaces* module
+
+### Address Translation: Chapter 15
+
+???+ note "Technical Concepts"
+
+    - **Limited Direct Execution (LDE)** - letting the program run directly on the hardware; however at certain key points in time, arrange so that the OS gets involved and makes sure the "right" thing happens
+    - **Address Translation** - the hardware transforms each memory access, changing the virtual address provided by the instruction to a physical address where the desired information is actually located
+    - **Static Relocation** - which a piece of software known as the loader takes an executable that is about to be run and rewrites its addresses to the desired offset in physical memory
+    - **Free List** - a list of the ranges of the physical memory which are not currently in use
+
+    ###### [Return](#address-spaces) to the *Addresses Spaces* module
 
 Segmentation: Chapter 16
 
