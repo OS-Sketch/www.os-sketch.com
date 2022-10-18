@@ -154,46 +154,35 @@ Added complexity for improve memory utilization
 
 [//]: # "Slide Start {{{"
 
-# Basic Memory Management
+# Segmentation of Memory
 
 <v-clicks>
 
-- Store the source code and data associated with the operating system
-- Store the source code and data for a single running program
+- Basic insights about memory segmentation:
+
+  - Define a base/bound pair for each of the three segments of memory
+  - The code, stack, and heap will each have their own base/bound pairs
+  - Allow for the independent placement of each segment in memory
+  - Segments may grow in different directions and thus we store extra bit
 
 </v-clicks>
 
 <v-clicks>
 
-- Limitations of basic memory management techniques:
+- Challenges that may arise when using segmentation for memory:
 
-  - Switching from one program to the next program can be very costly!
-  - Inexpensive to context switch for register-level state in the CPU
-  - Saving the memory state of a process can be very expensive
-
-</v-clicks>
-
-<v-clicks>
-
-- **Goal**: a mechanism by which multiple processes can exist in memory
-
-- **Goal**: ensure that processes are isolated for security and reliability
-
-- Make restrictive assumptions and then progressively relax them
+  - Program attempts to incorrectly access one of the memory segments
+  - Segmentation fault occurs when there is an illegal access of memory
+  - Term persists in a wide variety of programming environments!
 
 </v-clicks>
 
 <v-clicks>
 
-<div class="flex row">
+- Opportunities for making memory management more realistic:
 
-<mdi-help-box class="text-6xl ml-2 mt-0 text-blue-600" />
-
-<div class="text-4xl text-true-gray-700 font-bold mt-4 ml-4">
-Questions about basic memory management?
-</div>
-
-</div>
+  - Use protection bits to illustrate which code is sharable with other processes
+  - Trade-off between coarse- and fine-grained protection of memory
 
 </v-clicks>
 
