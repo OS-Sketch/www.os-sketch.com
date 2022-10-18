@@ -258,13 +258,3 @@ Added complexity for improve memory utilization
 </v-clicks>
 
 [//]: # "Slide End }}}"
-
----
-
-[//]: # "Slide Start {{{"
-
-# ✨ Sketching the Key Ideas
-
-<img src="/os-sketch-address-spaces.svg" class="ml-2 mt-8 h-100" />
-
-[//]: # "Slide End }}}"
