@@ -27,7 +27,7 @@ fonts:
 
 # Operating Systems
 
-## Address Spaces
+## Segmentation and Paging
 
 <div class="container my-5">
   &nbsp;
@@ -61,9 +61,9 @@ fonts:
 
 ## Key Question
 
-> What are the policies and mechanisms that the operating system uses to
-> facilitate **memory access** for processes? How does this behavior of the
-> operating system influence the **ways** in which I program and use software?
+> What are the general-purpose policies and mechanisms that the operating
+> system uses to facilitate **memory access** for processes? How does this
+> behavior influence the **ways** in which I program and use software?
 
 </v-click>
 
