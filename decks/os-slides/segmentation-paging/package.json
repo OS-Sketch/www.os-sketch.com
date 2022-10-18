@@ -10,5 +10,5 @@
     "@slidev/theme-default": "*",
     "@slidev/theme-seriph": "*"
   },
-  "name": "address-spaces"
+  "name": "segmentation-paging"
 }
