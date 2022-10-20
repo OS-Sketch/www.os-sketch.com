@@ -296,3 +296,60 @@ Added complexity for improve memory utilization
 </v-clicks>
 
 [//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
+<div class="flex row">
+
+<div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
+Trade-offs with managing memory free-list?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-cube class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Does the approach require exhaustive search?
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-cube class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+How will the method cause fragmentation?
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-cube class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Need to study through simulation and execution!
+</div>
+
+</div>
+
+</div>
+
+[//]: # "Slide End }}}"
+
