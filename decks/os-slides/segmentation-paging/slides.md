@@ -617,7 +617,14 @@ The `RES` column designates the amount of memory allocated to a process
 
 </v-clicks>
 
-
-
 [//]: # (Slide End }}})
 
+---
+
+[//]: # "Slide Start {{{"
+
+# ✨ Sketching the Key Ideas
+
+<img src="/os-sketch-segmentation-paging.svg" class="ml-2 mt-8 h-100" />
+
+[//]: # "Slide End }}}"
