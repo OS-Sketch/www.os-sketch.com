@@ -117,7 +117,7 @@ hide:
   uses to facilitate **memory access** for processes? How does this behavior
   influence the **ways** in which I program and use software?
 
-### Expert Added Content
+### Next Steps
 
 - *Segmentation* (Chapter 16) and *Paging* (Chapter 18) chapters in
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
