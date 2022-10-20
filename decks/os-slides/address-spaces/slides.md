@@ -516,8 +516,6 @@ The `RES` column designates the amount of memory allocated to a process
 
 </v-clicks>
 
-
-
 [//]: # (Slide End }}})
 
 ---
