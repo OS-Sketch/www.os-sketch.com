@@ -258,3 +258,41 @@ Added complexity for improve memory utilization
 </v-clicks>
 
 [//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
+# Managing Free Space in Memory
+
+<v-clicks>
+
+- **Best fit** strategy for managing free space:
+
+  - Search free list and find memory chunks as big as or bigger than needed
+  - Pick the smallest memory chunk out of the ones returned from the search
+  - Requires one pass through the free list to find the best fit memory block
+
+</v-clicks>
+
+<v-clicks>
+
+- **Worst fit** strategy for managing free space:
+
+  - Search free list and find memory chunks as big as or bigger than needed
+  - Pick the largest memory chunk out of the ones returned from the search
+  - Requires one pass through the free list to find the best fit memory block
+
+</v-clicks>
+
+<v-clicks>
+
+- **First fit** strategy for managing free space:
+
+  - Search free list and find the first memory chunk that is big enough
+  - Requires partial pass through the free list to find suitable memory block
+  - The order in which the free list addresses memory can cause concerns
+
+</v-clicks>
+
+[//]: # "Slide End }}}"
