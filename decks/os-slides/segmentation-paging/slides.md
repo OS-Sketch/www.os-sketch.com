@@ -253,7 +253,7 @@ Added complexity for improve memory utilization
 - Variable-sized segments are necessary and realistic but also a complication;
   operating systems must efficiently and transparently manage memory
 
-- **Questions about how the operating system uses segmentation?**
+**Questions about how the operating system uses segmentation?**
 
 </v-clicks>
 
@@ -467,15 +467,15 @@ May cause an increase in time and space overhead
 
 <v-clicks>
 
-- Split the virtual address into the virtual page number and the offset
+- Split the virtual address into the virtual **page number** and the **offset**
 
 - At the offset inside of the page table, find the physical address
 
-- Split the physical address into a physical page number and an offset
+- Split the physical address into a physical **page number** and an **offset**
 
-- Lookup the requested code or data at the physical address and return it
+- Lookup the requested **code** or **data** at the physical address and **return** it
 
-- Without optimizations, the per-process page table consumes a lot memory!
+- Without optimizations, the per-process page table **consumes** a lot **memory**!
 
 </v-clicks>
 
