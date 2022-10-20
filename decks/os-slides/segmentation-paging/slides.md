@@ -353,3 +353,40 @@ Need to study through simulation and execution!
 
 [//]: # "Slide End }}}"
 
+---
+
+[//]: # "Slide Start {{{"
+
+# Memory Virtualization with Pages
+
+<v-clicks>
+
+- Summary of challenges with memory virtualization through segmentation:
+
+  - Segmentation creates varying sized chunks that leads to fragmentation
+  - Fragmentation may require compacting and challenging free-list management
+  - Memory virtualization with paging attempts to solve these problems
+
+</v-clicks>
+
+<v-clicks>
+
+- Intuitive understanding of virtualization through paging:
+
+  - Don't divide memory into varying sized segments related to code, heap, and stack
+  - Divide up the virtual memory into fixed-size pages that store varying contents
+  - Avoid making assumptions about growth direction of the heap and stack
+
+</v-clicks>
+
+<v-clicks>
+
+- Wait, the use of paging has additional trade-offs to consider!
+
+  - Enables the sparse use of a computer's complete address space
+  - Requires a --- large and potentially slow! --- page table to index memory pages
+  - Incorrect implementation can lead to both time and space overheads
+
+</v-clicks>
+
+[//]: # "Slide End }}}"
