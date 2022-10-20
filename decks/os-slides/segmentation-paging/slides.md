@@ -446,3 +446,178 @@ May cause an increase in time and space overhead
 </div>
 
 [//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
+# Using the Page Table
+
+<v-clicks>
+
+- Page table is a **per-process** data structure to support address translation
+
+  - All pages in memory are of the same size
+  - Use any page for the code, stack, or heap of a process
+  - Do not require contiguous storage of pages for a process
+  - Lookup a virtual address in the table to retrieve the physical address
+  - Access the requested code, stack or heap at the physical address
+
+</v-clicks>
+
+<v-clicks>
+
+- Split the virtual address into the virtual page number and the offset
+
+- At the offset inside of the page table, find the physical address
+
+- Split the physical address into a physical page number and an offset
+
+- Lookup the requested code or data at the physical address and return it
+
+- Without optimizations, the per-process page table consumes a lot memory!
+
+</v-clicks>
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
+<div class="flex row">
+
+<div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
+Segmentation and paging take-home points?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-rocket class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Operating system transparently manages memory
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-rocket class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Each programming language must interoperate
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-rocket class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Demonstrate correctness, time, and space trade-offs
+</div>
+
+</div>
+
+</div>
+
+[//]: # "Slide End }}}"
+
+
+---
+
+[//]: # "Slide Start {{{"
+
+# Memory Allocation in Go Programs
+
+<v-clicks>
+
+- Go compiler allocates to either the heap or stack as it determines
+
+- Each variable in Go exists as long as there is a reference to it
+
+- Compiler's chosen storage location does not influence correct execution
+
+- Storage location can influence the efficiency of a Go program:
+
+  - When possible, allocate local function variables to stack frame
+  - If compiler cannot prove that variables does not escape, allocate to heap
+  - Always aim to avoid the creation of dangling pointer errors at runtime
+  - Very large variables may be better allocated to heap than the stack
+
+- Try `top` and `RES` (Linux) or `RSIZE` to see process memory use!
+
+- See `https://go.dev/doc/faq` for more details!
+
+</v-clicks>
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Using `top` to Gauge Memory Use
+
+<style>
+  h2 {
+    font-size: 42px;
+    @apply text-red-600 mb-4;
+  }
+  li {
+    @apply bg-gray-300;
+    font-size: 28px;
+    margin-top: 4px;
+    margin-bottom: 9px;
+  }
+</style>
+
+<v-clicks>
+
+<div class="border-2 rounded-2xl border-gray-700 bg-gray-300 p-5 mt-3 mb-7">
+
+<pre>
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 144075 gkapfham  20   0  245968 134284   8580 S   5.6   0.4  13:42.17 nvim
+ 175667 gkapfham  20   0  261184 149692  10180 S   3.0   0.5   0:55.96 nvim
+  89252 gkapfham  20   0  254908 143688   9464 S   2.7   0.4  20:02.73 nvim
+  84220 gkapfham  20   0  299352 186752   8356 S   1.0   0.6  12:22.88 nvim
+ 144218 gkapfham  20   0  178116 100468   7460 S   0.7   0.3   0:54.02 nvim
+     14 root      -2   0       0      0      0 I   0.3   0.0   0:31.17 rcu_pre
+   1877 root      20   0 1713776  30672  21948 S   0.3   0.1   3:10.13 contai
+   2475 gkapfham  20   0 1364600  84412  58360 S   0.3   0.3   3:14.18 alacrit
+   3220 gkapfham  20   0   32.9g 516348 227440 S   0.3   1.6  15:05.94 brave
+   3263 gkapfham  20   0   32.4g 126176  91924 S   0.3   0.4   4:56.39 brave
+   7055 gkapfham  20   0 1113912  20380  17224 S   0.3   0.1   1:38.63 polybar
+  16765 gkapfham  20   0  136116   2828   2520 S   0.3   0.0   0:01.04 gitstat
+  52964 gkapfham  20   0 1367488  88388  59600 S   0.3   0.3   1:31.80 alacrit
+  87220 root      20   0  273372  11296  10068 S   0.3   0.0   1:31.33 thermald
+ 142977 gkapfham  20   0  185320 106516   8500 S   0.3   0.3   1:00.07 nvim
+ 174736 gkapfham  20   0   10.9g 141444  35548 S   0.3   0.4   0:08.40 node
+ 174753 gkapfham  20   0  722096  12104   7220 S   0.3   0.0   0:00.83 esbuild
+</pre>
+
+</div>
+
+The `RES` column designates the amount of memory allocated to a process
+
+</v-clicks>
+
+
+
+[//]: # (Slide End }}})
+
