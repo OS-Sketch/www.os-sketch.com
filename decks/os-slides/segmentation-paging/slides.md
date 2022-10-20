@@ -677,6 +677,56 @@ Use a profiler or eBPF tracing to identify problems
 
 ---
 
+[//]: # (Slide Start {{{)
+
+# Using `stress-ng` for Understanding
+
+<style>
+  h2 {
+    font-size: 42px;
+    @apply text-red-600 mb-4;
+  }
+  li {
+    @apply bg-gray-300;
+    font-size: 28px;
+    margin-top: 4px;
+    margin-bottom: 9px;
+  }
+</style>
+
+<v-clicks>
+
+<div class="border-2 rounded-2xl border-gray-700 bg-gray-300 p-5 mt-3 mb-7">
+
+<pre>
+setting to a 60 second run per stressor
+dispatching hogs: 4 cpu, 2 vm, 1 hdd, 8 fork
+stressor       bogo ops real time  usr time  sys time
+                           (secs)    (secs)    (secs)
+cpu              169050     60.00    210.08      0.11
+vm              2030676     60.16    102.22      3.38
+hdd              572824     60.93     25.91     24.70
+fork             153037     60.00     28.30     36.50
+successful run completed in 60.93s (1 min, 0.93 secs)
+</pre>
+
+</div>
+
+- See: `https://github.com/ColinIanKing/stress-ng`
+
+- Why does the `cpu` task mostly take up user time and not system time?
+
+- Also possible to run benchmarks for virtual memory, storage, and system API
+
+- Reports `RSS-MAX` in KB for each of the stressors, with `vm` greatest
+
+</v-clicks>
+
+[//]: # (Slide End }}})
+
+
+---
+
 [//]: # "Slide Start {{{"
 
 <div class="flex row">
