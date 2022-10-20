@@ -304,7 +304,7 @@ Added complexity for improve memory utilization
 <div class="flex row">
 
 <div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
-Trade-offs with managing memory free-list?
+Trade-offs with the memory free-list?
 </div>
 
 </div>
@@ -488,7 +488,7 @@ May cause an increase in time and space overhead
 <div class="flex row">
 
 <div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
-Segmentation and paging take-home points?
+Segmentation and paging key points?
 </div>
 
 </div>
