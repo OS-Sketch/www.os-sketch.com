@@ -113,7 +113,9 @@ hide:
 
 ### Technical Questions
 
--Experts add their technical question here
+- What are the general-purpose policies and mechanisms that the operating system
+  uses to facilitate **memory access** for processes? How does this behavior
+  influence the **ways** in which I program and use software?
 
 ### Expert Added Content
 
@@ -121,8 +123,8 @@ hide:
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Check out the [course slides](/slides/operating-systems/segmentation-paging/)
   for a detailed investigation of these chapters!
-- [Click here](#important-terms) to find definitions for key terms for the
-  week's readings (chapters 16 and 18)!
+- Review the [important terms](#important-terms) for definitions of the terms
+  associated with the assigned chapters
 
 ## Swapping
 
