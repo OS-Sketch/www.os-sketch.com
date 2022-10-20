@@ -384,9 +384,65 @@ Need to study through simulation and execution!
 - Wait, the use of paging has additional trade-offs to consider!
 
   - Enables the sparse use of a computer's complete address space
-  - Requires a --- large and potentially slow! --- page table to index memory pages
+  - Yet, requires a --- large and potentially slow! --- page table to index memory pages
   - Incorrect implementation can lead to both time and space overheads
 
 </v-clicks>
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
+<div class="flex row">
+
+<div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
+Intuition behind the use of memory paging?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-process class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Avoids fragmentation that plagued segmentation
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-process class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Flexible way to store code, heap, and stack
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-process class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+May cause an increase in time and space overhead
+</div>
+
+</div>
+
+</div>
 
 [//]: # "Slide End }}}"
