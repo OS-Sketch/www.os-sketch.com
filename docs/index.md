@@ -18,11 +18,25 @@ though many software engineers do not need to implement their own operating
 system, there are significant benefits to understanding how operating systems
 work.
 
+# Hardware Terms
+
 - **Disk:** The disk drive consists of sectors (512 byte blocks), each that can be
 read or written. They are numbered from 0 to n-1 which are its address spaces
 of the drive. The disk stores the static data and the program code for the
 operating system and the disk is used by the RAM in order to load this static
 data and the program code into this memory system.
+
+- **CPU:** The CPU or central processing unit, is responsible for processing actions
+that the kernel needs to perform in a timely fashion. The process code gets
+sent over to the scheduler after the CPU goes through it and makes the changes
+accordingly.
+
+- **RAM:** The RAM, or address space, is the computer's memory that is used to store
+working data or machine code, this refers to live actions that the computer's
+memory needs to recall from the system. The RAM uses segmentation to split the
+static data into different sections of the memory.
+
+# Software Terms
 
 - **File System:** The file system is a software system to keep all of your files
 easily stored/ sorted and accessible by the operating system.
@@ -31,29 +45,27 @@ easily stored/ sorted and accessible by the operating system.
 parts of an operating system. It works on your behalf to do what needs to be
 done without you, the user, having to initiate these processes.
 
-- **CPU:** The CPU or central processing unit, is responsible for processing actions
-that the kernel needs to perform in a timely fashion. The process code gets
-sent over to the scheduler after the CPU goes through it and makes the changes
-accordingly.
-
 - **Scheduler:** The scheduler is responsible for determining the order that the
 processes are run through the use of policies. The scheduler (policies) pushes
 the newly sorted order of processes from the process list onto the CPU who will
 execute these actions.
+
+- **Process:** The process takes in a running program; as well as the state/ status
+and the registers/info. The CPU can change the process with the help of the
+scheduler. Also the process gets affected by the RAM to allocate memory
+depending on the loaded data. After all processes are computed they are sent to
+the process list in a neatly organized fashion.
 
 - **Process List:** The process list is a pre-ordered list of processes that have
 been sent over from the process block of the OS system. These processes still
 need to be sorted and ran through the CPU in order to get specific things done
 for the operating system.
 
-- **RAM:** The RAM, or address space, is the computer's memory that is used to store
-working data or machine code, this refers to live actions that the computer's
-memory needs to recall from the system. The RAM uses segmentation to split the
-static data into different sections of the memory.
-
 - **Process API:** The process API is a part of the software, it is code that calls
 on/ manages processes on the file system. With the help of the file system,
 processes get identified and sent to the process list.
+
+# Concepts
 
 - **Security:** The security of the OS is the big body guard that can protect the
 different components of the OS from unauthorized access. The security can
@@ -69,12 +81,6 @@ processes to and from the scheduler and the CPU.
 
 - **Segmentation:** Segmentation is splitting up the static data into different
 sections in the memory. The RAM uses segmentation the most.
-
-- **Process:** The process takes in a running program; as well as the state/ status
-and the registers/info. The CPU can change the process with the help of the
-scheduler. Also the process gets affected by the RAM to allocate memory
-depending on the loaded data. After all processes are computed they are sent to
-the process list in a neatly organized fashion.
 
 - **Concurrency:** This takes processes from the process before it can hit the
 process list, These processes get split into multiple smaller processes and
