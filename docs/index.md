@@ -21,7 +21,7 @@ work.
 **Disk:** The disk drive consists of sectors (512 byte blocks), each that can be
 read or written. They are numbered from 0 to n-1 which are its address spaces
 of the drive. The disk stores the static data and the program code for the
-operating system and the disk is used by the ram i in order to load this static
+operating system and the disk is used by the RAM in order to load this static
 data and the program code into this memory system.
 
 **File System:** The file system is a software system to keep all of your files
@@ -41,14 +41,14 @@ processes are run through the use of policies. The scheduler (policies) pushes
 the newly sorted order of processes from the process list onto the CPU who will
 execute these actions.
 
-**Process list:** The process list is a pre-ordered list of processes that have
+**Process List:** The process list is a pre-ordered list of processes that have
 been sent over from the process block of the OS system. These processes still
 need to be sorted and ran through the CPU in order to get specific things done
 for the operating system.
 
-**Ram:** The ram, or address space, is the computer's memory that is used to store
+**RAM:** The RAM, or address space, is the computer's memory that is used to store
 working data or machine code, this refers to live actions that the computer's
-memory needs to recall from the system. The ram uses segmentation to split the
+memory needs to recall from the system. The RAM uses segmentation to split the
 static data into different sections of the memory.
 
 **Process API:** The process API is a part of the software, it is code that calls
@@ -56,7 +56,7 @@ on/ manages processes on the file system. With the help of the file system,
 processes get identified and sent to the process list.
 
 **Security:** The security of the OS is the big body guard that can protect the
-different components of the OS from unauthorized access. The Security can
+different components of the OS from unauthorized access. The security can
 examine and or alter any process memory. Also the OS gets read, written,
 deleted or corrupt any type of file on any writeable persistent storage medium,
 including any internal or external drives. Another important part of the
@@ -68,11 +68,11 @@ that will be covered this semester.
 processes to and from the scheduler and the CPU.
 
 **Segmentation:** Segmentation is splitting up the static data into different
-sections in the memory. The ram uses segmentation the most.
+sections in the memory. The RAM uses segmentation the most.
 
 **Process:** The process takes in a running program; as well as the state/ status
 and the registers/info. The CPU can change the process with the help of the
-scheduler. Also the Process gets affected by the Ram to allocate memory
+scheduler. Also the process gets affected by the RAM to allocate memory
 depending on the loaded data. After all processes are computed they are sent to
 the process list in a neatly organized fashion.
 
