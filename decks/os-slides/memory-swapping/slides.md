@@ -101,7 +101,7 @@ Questions about the goals for this module?
 <div class="flex row">
 
 <div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
-Trade-offs with memory segmentation?
+Address space does not fit into physical memory?
 </div>
 
 </div>
@@ -113,21 +113,7 @@ Trade-offs with memory segmentation?
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Have multiple base/bounds for memory segments
-</div>
-
-</div>
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-Support sparse address spaces with little contents
+Avoid artificial constraint of process memory size
 </div>
 
 </div>
@@ -141,7 +127,21 @@ Support sparse address spaces with little contents
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Added complexity for improve memory utilization
+Trade-off speed and size in memory heirarchy
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Move pages between physical memory and disk
 </div>
 
 </div>
