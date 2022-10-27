@@ -255,6 +255,40 @@ Uphold the illusion with acceptable performance!
 
 [//]: # "Slide Start {{{"
 
+# Creating and Using Swap Space
+
+<v-clicks>
+
+- Operating system will manage **swap space** on the disk for memory pages
+
+- How do we **pick** the right **size** of the swap space on the disk? Trade-offs?
+
+- Support translation from a virtual to a physical address in the same fashion
+
+- Use additional **present bit** to indicate if the page is in physical memory
+
+- A **page fault** occurs when the present bit shows that page is not in memory
+
+</v-clicks>
+
+<v-clicks>
+
+- How does the operating system handle a page fault during a memory access?
+
+  - Load the page from the disk, using existing disk access routines
+  - Store the page in physical memory, evicting a page as needed
+  - Change the present bit for the memory page to indicate new location
+  - Perform this operation transparently without program interaction
+  - Process that page faulted in blocked for I/O during these steps!
+
+</v-clicks>
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
 # ✨ Sketching the Key Ideas
 
 <img src="/os-sketch-memory-swapping.svg" class="ml-50 mt-8 h-100" />
