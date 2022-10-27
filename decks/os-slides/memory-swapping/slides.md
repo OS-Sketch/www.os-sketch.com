@@ -339,7 +339,7 @@ none        /proc    proc   defaults        0	0
 
 [//]: # "Slide Start {{{"
 
-# Page Replacement Strategies
+# Page Replacement Mechanisms
 
 <v-clicks>
 
@@ -364,6 +364,40 @@ none        /proc    proc   defaults        0	0
   - Depending on memory access patterns, clustering pages may help
 
 - How will the swap daemon decide which pages to evict from memory?
+
+</v-clicks>
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
+# Page Replacement Policies
+
+<v-clicks>
+
+- Need a policy that helps the operating system decide what to evict!
+
+- The optimal page replacement algorithm proposed by Belady:
+
+  - Aim to have the fewest misses when looking for pages in memory
+  - Discard the memory page that is access the farthest in the future
+  - Pages stored in memory are more important if needed sooner
+  - Wait, how can we determine when a memory page will be needed?
+  - Optimal page replacement algorithms are useful comparison points
+
+</v-clicks>
+
+<v-clicks>
+
+- Assessing a policy for memory page replacement:
+
+  - Trace the policy to indicate whether there is a hit or a miss
+  - Record which pages are evicted according to the policy
+  - Track the state of the pages stored in physical memory
+
+- Page replacement policies are better if they require fewer evictions! Why?
 
 </v-clicks>
 
