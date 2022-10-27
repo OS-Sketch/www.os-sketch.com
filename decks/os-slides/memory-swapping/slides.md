@@ -154,37 +154,44 @@ Move pages between physical memory and disk
 
 [//]: # "Slide Start {{{"
 
-# Segmentation of Memory
+# Exploring Memory Swapping
 
 <v-clicks>
 
-- Basic insights about memory segmentation:
+- Programs need to store their executable code and their data!
 
-  - Define a base/bound pair for each of the three segments of memory
-  - The code, stack, and heap will each have their own base/bound pairs
-  - Allow for the independent placement of each segment in memory
-  - Segments may grow in different directions and thus we store extra bit
+- Exploring the memory hierarchy in a modern computer:
+
+  - The CPU's registers are a fast but very small storage location
+  - Random access memory (RAM) is larger than registers and yet slower
+  - A process can exhaust the amount of RAM is was given by the OS
+  - The hard disk (e.g., HDD or SSD) is larger than RAM and yet slower
 
 </v-clicks>
 
 <v-clicks>
 
-- Challenges that may arise when using segmentation for memory:
+- Challenges that may arise when using memory swapping:
 
-  - Program attempts to incorrectly access one of the memory segments
-  - Segmentation fault occurs when there is an illegal access of memory
-  - Term persists in a wide variety of programming environments!
-
-</v-clicks>
-
-<v-clicks>
-
-- Opportunities for making memory management more realistic:
-
-  - Use protection bits to illustrate which code is sharable with other processes
-  - Trade-off between coarse- and fine-grained protection of memory
+  - Avoid requiring a programmer to explicitly manage where data exists
+  - Support an address space larger than what physical memory provides
+  - Must track where a page currently exists in memory heirarchy
 
 </v-clicks>
+
+<v-click>
+
+<div class="flex row">
+
+<mdi-help-box class="text-6xl ml-4 mt-3 text-blue-600" />
+
+<div class="text-4xl text-true-gray-700 font-bold mt-6 ml-4">
+Questions on basics of memory swapping?
+</div>
+
+</div>
+
+</v-click>
 
 [//]: # "Slide End }}}"
 
