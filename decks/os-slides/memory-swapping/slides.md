@@ -287,6 +287,57 @@ Uphold the illusion with acceptable performance!
 
 ---
 
+[//]: # (Slide Start {{{)
+
+#  Swap Space Specification with `fstab`
+
+<style>
+  h2 {
+    font-size: 42px;
+    @apply text-red-600 mb-4;
+  }
+  li {
+    @apply bg-gray-300;
+    font-size: 28px;
+    margin-top: 4px;
+    margin-bottom: 9px;
+  }
+</style>
+
+<v-clicks>
+
+<div class="border-2 rounded-2xl border-gray-700 bg-gray-300 p-5 mt-3 mb-7">
+
+<pre>
+/dev/hda5   /        ext3   defaults        1	1
+/dev/hda1   /boot    ext2   defaults        1	2
+none        /dev/pts devpts gid=5,mode=620  0	0
+none        /proc    proc   defaults        0	0
+/dev/hda7   /usr     ext3   defaults        1	2
+/dev/hda6   swap     swap   defaults        0	0
+
+/dev/hda6   none     swap   sw,pri=3        0	0
+/dev/hdb2   none     swap   sw,pri=2        0	0
+/dev/hdc2   none     swap   sw,pri=1        0	0
+</pre>
+
+</div>
+
+- Each row in this file specifies a disk partition
+
+- What is the purpose of each partition in this example?
+
+- Which of these partitions defines the swap space?
+
+- Also possible to set priorities for space space! What are the benefits?
+
+</v-clicks>
+
+[//]: # (Slide End }}})
+
+
+---
+
 [//]: # "Slide Start {{{"
 
 # ✨ Sketching the Key Ideas
