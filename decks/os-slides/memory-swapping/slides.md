@@ -27,7 +27,7 @@ fonts:
 
 # Operating Systems
 
-## Segmentation and Paging
+## Memory Swapping
 
 <div class="container my-5">
   &nbsp;
@@ -62,7 +62,7 @@ fonts:
 ## Key Question
 
 > What are the general-purpose policies and mechanisms that the operating
-> system uses to facilitate **memory access** for processes? How does this
+> system uses to move **memory** units from physical memory to the disk? How does this
 > behavior influence the **ways** in which I program and use software?
 
 </v-click>
