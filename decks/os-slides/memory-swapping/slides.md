@@ -335,6 +335,39 @@ none        /proc    proc   defaults        0	0
 
 [//]: # (Slide End }}})
 
+---
+
+[//]: # "Slide Start {{{"
+
+# Page Replacement Strategies
+
+<v-clicks>
+
+- When moving a page from swap to physical memory space may be limited
+
+- Bad decisions about page replacement can make memory access very slow!
+
+- The page replacement policy will define which pages to remove from memory
+
+- System should not wait until the last minute to evict pages! Why?
+
+</v-clicks>
+
+<v-clicks>
+
+- Strategies for performing memory page replacements:
+
+  - Aim to always keep a small amount of physical memory free
+  - Maintain a high-water (HW) mark and a low-water (LW) mark for memory
+  - A swap daemon will monitory physical memory to see if it hits LW
+  - This daemon will evict pages from memory until hitting the HW
+  - Depending on memory access patterns, clustering pages may help
+
+- How will the swap daemon decide which pages to evict from memory?
+
+</v-clicks>
+
+[//]: # "Slide End }}}"
 
 ---
 
