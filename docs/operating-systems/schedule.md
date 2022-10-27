@@ -119,14 +119,14 @@ hide:
 
 ### Next Steps
 
-- *Segmentation* (Chapter 16) and *Paging* (Chapter 18) chapters in
-  [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+- Read the chapters called *Segmentation* (Chapter 16) and *Paging* (Chapter
+  18) chapters in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Check out the [course slides](/slides/operating-systems/segmentation-paging/)
   for a detailed investigation of these chapters!
 - Review the [important terms](#important-terms) for definitions of the terms
   associated with the assigned chapters
 
-## Swapping
+## Memory Swapping
 
 ### Technical Questions
 
@@ -134,12 +134,13 @@ hide:
 
 ### Expert Added Content
 
-- *Swapping Mechanisms* and *Swapping Policies* chapters in
-  [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
-- Check out the [course slides](/slides/operating-systems/systems-introduction/)
-  for a detailed investigation of these chapters!
-- [Click here](#important-terms) to find definitions for key terms for the
-  week's readings (chapters 21 and 22)!
+- Read the chapters called *Swapping Mechanisms* (Chapter 21) and *Swapping
+  Policies* (Chapter 22) in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+- Check out the [course
+  slides](/slides/operating-systems/systems-introduction/) for a detailed
+  investigation of these chapters!
+- Review the [important terms](#important-terms) to find definitions of the
+  terms associated with the assigned chapters
 
 ## Concurrency
 
