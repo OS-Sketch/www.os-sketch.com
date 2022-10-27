@@ -130,7 +130,10 @@ hide:
 
 ### Technical Questions
 
--Experts add their technical question here
+- What are the general-purpose policies and mechanisms that the operating
+  system uses to move **memory** units from physical memory to the disk? How
+  does this behavior influence the **ways** in which I program and use
+  software?
 
 ### Expert Added Content
 
