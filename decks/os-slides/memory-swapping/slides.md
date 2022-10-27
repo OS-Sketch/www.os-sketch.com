@@ -407,6 +407,81 @@ none        /proc    proc   defaults        0	0
 
 [//]: # "Slide Start {{{"
 
+# Comparing Page Replacement Policies
+
+- Ground rules for comparing page replacement policies:
+
+  - Page replacement policies have trade-offs for feasibility and cache hit rate
+  - Page replacement policies are better when they yield higher cache hit rates
+  - Generally, policies should do better when given more physical memory to manage
+
+<v-clicks>
+
+- **FIFO** cache replacement policy:
+
+  - The first page into the memory is the first one to be evicted
+  - The policy is simple to implement and describe, yet performs worse than optimal
+  - Certain page replacement sequences yield worse performance for larger sizes
+
+</v-clicks>
+
+<v-clicks>
+
+- **LRU** cache replacement policy:
+
+  - The page that was use the longest time ago is the first one to be evicted
+  - The policy is simple to implement and describe, yet performs worse than optimal
+  - Performs better as you continue to increase the size of physical memory
+
+</v-clicks>
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
+# Approximating LRU Replacement
+
+- Algorithms like Random and FIFO require little work by the operating system
+
+- But, there is a serious **downside** associated with using LRU! What is it?
+
+- Want to avoid a page replacement policy that needs to scan memory!
+
+- The **clock algorithm** approximates LRU without requiring memory scans
+
+<v-clicks>
+
+- Additional considerations about when implementing memory paging:
+
+  - Avoid a situation in which memory thrashing limits about of completed work
+  - Thrashing occurs when the system only loads, evicts, and reloads!
+  - A system that is thrashing only does memory management --- which is overhead!
+  - System can resolve thrashing by halting the execution of processes. Which one?
+
+</v-clicks>
+
+<v-click>
+
+<div class="flex row">
+
+<mdi-help-box class="text-6xl ml-4 mt-3 text-blue-600" />
+
+<div class="text-4xl text-true-gray-700 font-bold mt-6 ml-4">
+Questions about the policies for swapping?
+</div>
+
+</div>
+
+</v-click>
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
 # ✨ Sketching the Key Ideas
 
 <img src="/os-sketch-memory-swapping.svg" class="ml-50 mt-8 h-100" />
