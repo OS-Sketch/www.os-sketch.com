@@ -140,7 +140,7 @@ hide:
 - Read the chapters called *Swapping Mechanisms* (Chapter 21) and *Swapping
   Policies* (Chapter 22) in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Check out the [course
-  slides](/slides/operating-systems/systems-introduction/) for a detailed
+  slides](/slides/operating-systems/memory-swapping/) for a detailed
   investigation of these chapters!
 - Review the [important terms](#important-terms) to find definitions of the
   terms associated with the assigned chapters
