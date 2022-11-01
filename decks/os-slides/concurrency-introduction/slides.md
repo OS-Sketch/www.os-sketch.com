@@ -208,7 +208,7 @@ Concurrent threads share the same address space!
 
 - Threads in the same address space can share data and support fast switches
 
-- What are the **benefits** associated with support threads in the OS?
+- What are the benefits associated with support threads in the OS?
 
   - Speed up a computation by supporting parallelism in computations
   - Avoid blocking a program's progress due to slow input/output devices
