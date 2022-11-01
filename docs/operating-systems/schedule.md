@@ -149,7 +149,9 @@ hide:
 
 ### Technical Questions
 
--Experts add their technical question here
+- What are the trade-offs associated with implementing support for **concurrency**
+  in the operating system and programming languages? How does the use of
+  concurrency primitives influence the **ways** in which I program and test software?
 
 ### Expert Added Content
 
