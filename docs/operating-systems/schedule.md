@@ -145,7 +145,7 @@ hide:
 - Review the [important terms](#important-terms) to find definitions of the
   terms associated with the assigned chapters
 
-## Concurrency
+## Introducing Concurrency
 
 ### Technical Questions
 
@@ -155,12 +155,13 @@ hide:
 
 ### Expert Added Content
 
-- *Concurrency and Threads* chapter in
+- Read the chapters called *Concurrency: An Introduction* chapter in
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
-- Check out the [course slides](/slides/operating-systems/systems-introduction/)
-  for a detailed investigation of these chapters!
-- [Click here](#important-terms) to find definitions for key terms for the
-  week's reading (chapter 26)!
+- Check out the [course
+  slides](/slides/operating-systems/concurrency-introduction/) for a detailed
+  investigation of these chapters!
+- Review the [important terms](#important-terms) to find definitions of the
+  terms associated with the assigned chapters
 
 ## Thread API and Locks
 
