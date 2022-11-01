@@ -89,7 +89,7 @@ fonts:
 <div class="flex row">
 
 <div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
-Trade-offs associated with use of concurrency?
+Trade-offs with the use of concurrency?
 </div>
 
 </div>
@@ -145,7 +145,7 @@ Introduces subtle classes of defects into programs
 <div class="flex row">
 
 <div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
-Using concurrency with threads and processes?
+Concurrency with threads and processes?
 </div>
 
 </div>
@@ -264,7 +264,7 @@ Operating system supports execution of processes
 <uim-grid class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Programming languages offers threads and processes
+Languages offers thread and process support
 </div>
 
 </div>
