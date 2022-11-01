@@ -6,6 +6,7 @@
     "cpu-scheduling",
     "address-spaces",
     "segmentation-paging",
-    "memory-swapping"
+    "memory-swapping",
+    "concurrency-introduction"
   ]
 }
