@@ -235,6 +235,48 @@ Questions about the role of threads?
 
 [//]: # "Slide Start {{{"
 
+<div class="flex row">
+
+<div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
+What systems support concurrency with both threads and processes?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-grid class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Operating system supports execution of processes
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-grid class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Programming languages offers threads and processes
+</div>
+
+</div>
+
+</div>
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
 # ✨ Sketching the Key Ideas
 
 <img src="/os-sketch-systems-introduction.svg" class="ml-10 mt-8 h-100" />
