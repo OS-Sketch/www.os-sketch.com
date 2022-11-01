@@ -27,7 +27,7 @@ fonts:
 
 # Operating Systems
 
-## Systems Introduction
+## Concurrency Introduction
 
 <div class="container my-5">
   &nbsp;
@@ -61,10 +61,10 @@ fonts:
 
 ## Key Question
 
-> How can does the operating system use the principle of **virtualization** to
-> manage the resources of a computer such as the process, memory, and file
-> system? How do virtualization **policies** and **mechanisms** influence the way in
-> which I implement programs and use an operating system?
+> What are the trade-offs associated with implementing support for
+> **concurrency** in the operating system and programming languages? How does
+> concurrency influence the behavior of a program? How does the use of
+> concurrency primitives influence the **ways** in which I create software?
 
 </div>
 
@@ -74,9 +74,9 @@ fonts:
 
 ## Learning Objectives
 
-> To **remember** and **understand** some of the foundations of operating
-> systems, grasping the abstractions and implementation strategies that enable
-> programs to effectively run on a computer through an operating system.
+> To **remember** and **understand** some of the foundations of concurrency,
+> grasping the abstractions and implementation strategies that enable programs
+> to concurrently run on a computer aided by the operating system.
 
 </div>
 
