@@ -198,6 +198,43 @@ Concurrent threads share the same address space!
 
 [//]: # "Slide Start {{{"
 
+# Benefits of Using Threads?
+
+<v-clicks>
+
+- Multi-threaded program has more than one point of execution
+
+- Each thread is like a separate process, except that it shares an address space
+
+- Threads in the same address space can share data and support fast switches
+
+- What are the **benefits** associated with support threads in the OS?
+
+  - Speed up a computation by supporting parallelism in computations
+  - Avoid blocking a program's progress due to slow input/output devices
+  - When a process is blocked due to disk access, threads can overlap
+
+- Threading allows for an overlap within programs in the same way that
+  multi-programming supported it across programs! Different level of stack!
+
+<div class="flex row">
+
+<mdi-help-box class="text-6xl ml-4 -mt-2 text-blue-600" />
+
+<div class="text-4xl text-true-gray-700 font-bold mt-2 ml-4">
+Questions about the role of threads?
+</div>
+
+</div>
+
+</v-clicks>
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
 # ✨ Sketching the Key Ideas
 
 <img src="/os-sketch-systems-introduction.svg" class="ml-10 mt-8 h-100" />
