@@ -18,7 +18,7 @@ though many software engineers do not need to implement their own operating
 system, there are significant benefits to understanding how operating systems
 work.
 
-# Hardware Terms
+## Hardware Terms
 
 - **Disk:** The disk drive consists of sectors (512 byte blocks), each that can be
 read or written. They are numbered from 0 to n-1 which are its address spaces
@@ -36,7 +36,7 @@ working data or machine code, this refers to live actions that the computer's
 memory needs to recall from the system. The RAM uses segmentation to split the
 static data into different sections of the memory.
 
-# Software Terms
+## Software Terms
 
 - **File System:** The file system is a software system to keep all of your files
 easily stored/ sorted and accessible by the operating system.
@@ -65,7 +65,7 @@ for the operating system.
 on/ manages processes on the file system. With the help of the file system,
 processes get identified and sent to the process list.
 
-# Concepts
+## Concepts
 
 - **Security:** The security of the OS is the big body guard that can protect the
 different components of the OS from unauthorized access. The security can
