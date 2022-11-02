@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build --base /slides/operating-systems/memory-swapping/ --out ../../../site/slides/operating-systems/memory-swapping",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.22.7",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*"
+  },
+  "name": "memory-swapping"
+}

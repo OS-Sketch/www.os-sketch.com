@@ -5,6 +5,8 @@
     "process-execution",
     "cpu-scheduling",
     "address-spaces",
-    "segmentation-paging"
+    "segmentation-paging",
+    "memory-swapping",
+    "concurrency-introduction"
   ]
 }

@@ -119,42 +119,49 @@ hide:
 
 ### Next Steps
 
-- *Segmentation* (Chapter 16) and *Paging* (Chapter 18) chapters in
-  [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+- Read the chapters called *Segmentation* (Chapter 16) and *Paging* (Chapter
+  18) chapters in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Check out the [course slides](/slides/operating-systems/segmentation-paging/)
   for a detailed investigation of these chapters!
 - Review the [important terms](#important-terms) for definitions of the terms
   associated with the assigned chapters
 
-## Swapping
+## Memory Swapping
 
 ### Technical Questions
 
--Experts add their technical question here
+- What are the general-purpose policies and mechanisms that the operating
+  system uses to move **memory** units from physical memory to the disk? How
+  does this behavior influence the **ways** in which I program and use
+  software?
 
 ### Expert Added Content
 
-- *Swapping Mechanisms* and *Swapping Policies* chapters in
-  [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
-- Check out the [course slides](/slides/operating-systems/systems-introduction/)
-  for a detailed investigation of these chapters!
-- [Click here](#important-terms) to find definitions for key terms for the
-  week's readings (chapters 21 and 22)!
+- Read the chapters called *Swapping Mechanisms* (Chapter 21) and *Swapping
+  Policies* (Chapter 22) in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+- Check out the [course
+  slides](/slides/operating-systems/memory-swapping/) for a detailed
+  investigation of these chapters!
+- Review the [important terms](#important-terms) to find definitions of the
+  terms associated with the assigned chapters
 
-## Concurrency
+## Introducing Concurrency
 
 ### Technical Questions
 
--Experts add their technical question here
+- What are the trade-offs associated with implementing support for **concurrency**
+  in the operating system and programming languages? How does the use of
+  concurrency primitives influence the **ways** in which I program and test software?
 
 ### Expert Added Content
 
-- *Concurrency and Threads* chapter in
+- Read the chapters called *Concurrency: An Introduction* chapter in
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
-- Check out the [course slides](/slides/operating-systems/systems-introduction/)
-  for a detailed investigation of these chapters!
-- [Click here](#important-terms) to find definitions for key terms for the
-  week's reading (chapter 26)!
+- Check out the [course
+  slides](/slides/operating-systems/concurrency-introduction/) for a detailed
+  investigation of these chapters!
+- Review the [important terms](#important-terms) to find definitions of the
+  terms associated with the assigned chapters
 
 ## Thread API and Locks
 
