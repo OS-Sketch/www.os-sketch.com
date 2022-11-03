@@ -89,7 +89,7 @@ fonts:
 <div class="flex row">
 
 <div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
-Trade-offs with the use of concurrency?
+Concurrency and parallelism Trade-offs?
 </div>
 
 </div>
