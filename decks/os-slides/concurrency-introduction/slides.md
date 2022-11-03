@@ -453,6 +453,62 @@ while 1:
 
 [//]: # "Slide End }}}"
 
+---
+
+[//]: # "Slide Start {{{"
+
+<div class="flex row">
+
+<div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
+Run tasks sequentially or in parallel!
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-loop class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Task is an effective way to decompose problem
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-loop class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Tasks do not necessarily have to run in parallel
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-loop class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Parallelism normally has fundamental trade-offs!
+</div>
+
+</div>
+
+</div>
+
+[//]: # "Slide End }}}"
+
 
 ---
 
