@@ -275,12 +275,96 @@ Languages offers thread and process support
 
 ---
 
+[//]: # "Slide Start {{{"
+
+# Challenges of Using Threads?
+
+<v-clicks>
+
+- A multi-threaded program may have **non-deterministic** behavior when run
+
+- This means that threads make programs hard to reason about and trace
+
+- **Data race**: program results depend on the timing execution of threads
+
+- What are the problematic regions inside of a multi-threaded program?
+
+- **Critical section**: region of code that accesses a share variable
+
+- Want **mutual exclusion** to ensure thread accesses critical section at a time
+
+- Overall, what are the trade-offs associated with multi-threaded programs?
+
+  - Multi-threaded programs can decrease response time and increase throughput
+  - But, multiple threads can cause a program's execution to be non-deterministic
+  - More critical sections increase determinism by make program less performant
+
+</v-clicks>
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
+<div class="flex row">
+
+<div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
+Wait, we need to synchronize our watches!
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-cube class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Synchronize access to memory shared among threads
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-cube class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Aim to balance performance and correctness concerns
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-cube class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Pick primitives easy for programmers to understand
+</div>
+
+</div>
+
+</div>
+
+[//]: # "Slide End }}}"
+
 ---
 
 [//]: # "Slide Start {{{"
 
 # ✨ Sketching the Key Ideas
 
-<img src="/os-sketch-systems-introduction.svg" class="ml-10 mt-8 h-100" />
+<img src="/os-sketch-concurrency-introduction.svg" class="ml-10 mt-8 h-100" />
 
 [//]: # "Slide End }}}"
