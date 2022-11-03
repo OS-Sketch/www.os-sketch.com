@@ -363,6 +363,33 @@ Pick primitives easy for programmers to understand
 
 [//]: # "Slide Start {{{"
 
+# Program with Separate Tasks
+
+<div class="-ml-4 -mt-2 mb-2">
+
+```python
+def job():
+    print("Parse the CSV file")
+
+schedule.every(10).minutes.do(job)
+schedule.every().hour.do(job)
+schedule.every().day.at("10:30").do(job)
+
+while True:
+    schedule.run_pending()
+    time.sleep(1)
+```
+
+</div>
+
+## Wait, does this program execute tasks *sequentially* or *in parallel*?
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
 # ✨ Sketching the Key Ideas
 
 <img src="/os-sketch-concurrency-introduction.svg" class="ml-10 mt-8 h-100" />
