@@ -517,35 +517,82 @@ Parallelism normally has fundamental trade-offs!
 
 <v-clicks>
 
-- Multi-threaded program has more than one point of execution
+- POSIX standard defines way to implement and use "P-threads" in C programs
 
-- Each thread is like a separate process, except that it shares an address space
+- `pthread_create` allows program to create a new thread in a process
 
-- Threads in the same address space can share data and support fast switches
+- `pthread_join` allows program to wait for a thread to finish execution
 
-- What are the benefits associated with support threads in the OS?
+- Maintaining mutual exclusion inside of a P-thread program:
 
-  - Speed up a computation by supporting parallelism in computations
-  - Avoid blocking a program's progress due to slow input/output devices
-  - When a process is blocked due to disk access, threads can overlap
+  - `pthread_mutex_lock` enters a critical sections
 
-- Threading allows for an overlap within programs in the same way that
-  multi-programming supported it across programs! Different level of stack!
+  - `pthread_mutex_unlock` leaves a critical section
 
-<div class="flex row">
+  - P-threads also have **condition variables** for the sending of signals
 
-<mdi-help-box class="text-6xl ml-4 -mt-2 text-blue-600" />
-
-<div class="text-4xl text-true-gray-700 font-bold mt-2 ml-4">
-Questions about the role of threads?
-</div>
-
-</div>
+- Yikes! C, Python, and Go all provide their own API for creating and controlling
+  threads! Your initial focus should be on learning the API and avoiding defects.
 
 </v-clicks>
 
 [//]: # "Slide End }}}"
 
+---
+
+[//]: # "Slide Start {{{"
+
+<div class="flex row">
+
+<div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
+Compare concurrency and parallelism?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-code class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Concurrent programming is a way of thinking
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-code class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+A goroutine is a problem decomposition
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-code class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Concurrent and parallel are not the same!
+</div>
+
+</div>
+
+</div>
+
+[//]: # "Slide End }}}"
 
 ---
 
