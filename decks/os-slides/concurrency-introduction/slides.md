@@ -390,6 +390,36 @@ while True:
 
 [//]: # "Slide Start {{{"
 
+# Parallel Execution of Tasks
+
+<div class="-ml-4 -mt-2 mb-2">
+
+```python
+def job():
+    print("Thread %s" % threading.current_thread())
+
+def run_threaded(job_func):
+    job_thread = threading.Thread(target=job_func)
+    job_thread.start()
+
+schedule.every(10).seconds.do(run_threaded, job)
+schedule.every(10).seconds.do(run_threaded, job)
+
+while 1:
+    schedule.run_pending() time.sleep(1)
+```
+
+</div>
+
+## Wait, does this program execute tasks *sequentially* or *in parallel*?
+
+[//]: # "Slide End }}}"
+
+
+---
+
+[//]: # "Slide Start {{{"
+
 # ✨ Sketching the Key Ideas
 
 <img src="/os-sketch-concurrency-introduction.svg" class="ml-10 mt-8 h-100" />
