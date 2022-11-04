@@ -56,7 +56,7 @@ on/ manages processes on the file system. With the help of the file system,
 processes get identified and sent to the process list.
 
 Security: The security of the OS is the big body guard that can protect the
-different components of the OS from unauthorized access. The Security can
+different components of the OS from unauthorized access. The security can
 examine and or alter any process memory. Also the OS gets read, written,
 deleted or corrupt any type of file on any writeable persistent storage medium,
 including any internal or external drives. Another important part of the
@@ -72,7 +72,7 @@ sections in the memory. The ram uses segmentation the most.
 
 Process: The process takes in a running program; as well as the state/ status
 and the registers/info. The CPU can change the process with the help of the
-scheduler. Also the Process gets affected by the Ram to allocate memory
+scheduler. Also the process gets affected by the Ram to allocate memory
 depending on the loaded data. After all processes are computed they are sent to
 the process list in a neatly organized fashion.
 
