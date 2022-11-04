@@ -31,7 +31,7 @@ out the following resources and let us know what you think!
 - [OS Sketch Discord Server](https://discord.gg/9VfCdqffu6) provides a way for
   members of the OS Sketch community to use text and video to chat with each
   other. To get started, click the link and accept the invitation to join the
-  community. After you have setup your account and connected it to your email
+  community. After you have set up your account and connected it to your email
   address, you can start to participate in the discussion.
 
 ## Community Advice
