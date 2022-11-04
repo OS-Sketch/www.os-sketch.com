@@ -55,7 +55,7 @@ Process API: The process API is a part of the software, it is code that calls
 on/ manages processes on the file system. With the help of the file system,
 processes get identified and sent to the process list.
 
-Security: The security of the OS is the big body guard that can protect the
+Security: The security of the OS is the big bodyguard that can protect the
 different components of the OS from unauthorized access. The security can
 examine and or alter any process memory. Also the OS gets read, written,
 deleted or corrupt any type of file on any writeable persistent storage medium,
