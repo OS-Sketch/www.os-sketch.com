@@ -12,7 +12,7 @@ tags:
 ## Resource Links
 
 The OS Sketch community offers several ways in which you can grow in your
-knowledge of operating system and your technical and engineering skills. Try
+knowledge of operating systems and your technical and engineering skills. Try
 out the following resources and let us know what you think!
 
 - [GitHub Issue
