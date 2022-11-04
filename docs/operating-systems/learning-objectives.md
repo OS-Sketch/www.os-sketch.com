@@ -106,7 +106,7 @@ multiple processes can be run at the same time
 
 ## Persistence
 
-A person who is learning about operating systems needs to be able to know the parts of a computer that persists after shutdown and know how to handle failures in the operating system.
+A person who is learning about operating systems needs to be able to know the parts of a computer that persists after shutdown and know how to handle failures in an operating system.
 
 ### Input/Output Devices
 
