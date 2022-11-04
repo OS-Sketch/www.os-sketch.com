@@ -139,7 +139,7 @@ A person who is learning security must be able to implement a basic security sys
 
 - Implement basic knowledge of agent, principal, credential, and object into an OS
 - Implement and working authentication by using sensitivity and hashes as a basic concept
-- Be able to label weakness of each hashing method within an OS
+- Be able to label the weakness of each hashing method within an OS
 
 ### Access Control
 
