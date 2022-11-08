@@ -172,6 +172,35 @@ Locks return control back to programmers!
 
 [//]: # "Slide Start {{{"
 
+# Building and Evaluating Locks
+
+<v-clicks>
+
+- Key questions and concerns associated with the implementation of a lock:
+
+  - How to engineer the lock so that it is **correct** and **efficient**?
+  - How will the computer's **hardware** have to support the lock?
+  - How will the **operating system** have to support the lock?
+  - How will the **programming language** work with hardware and the system?
+  - What API will the **programmer** use for creating a lock?
+  - How will the lock ensure **fairness** to all threads and processes?
+
+- The easiest way to implement locks is to disable interrupts! Any concerns?
+
+  - A programming language thread now has to perform a privileged operation
+  - Interrupt disabling does not work on a computer system with multi-processors
+  - Disabling of interrupts may introduce fundamental defects into the system
+  - This approach is inefficient and may limit parallelism in the system
+
+</v-clicks>
+
+[//]: # "Slide End }}}"
+
+
+---
+
+[//]: # "Slide Start {{{"
+
 <div class="flex row">
 
 <div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
