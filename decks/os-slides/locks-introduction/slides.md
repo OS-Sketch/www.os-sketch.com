@@ -27,7 +27,7 @@ fonts:
 
 # Operating Systems
 
-## Concurrency Introduction
+## Locks Introduction
 
 <div class="container my-5">
   &nbsp;
@@ -61,7 +61,7 @@ fonts:
 
 ## Key Question
 
-> What are the trade-offs associated with implementing support for
+> How can the use of **locks** support mutual exclusion and reliable
 > **concurrency** in the operating system and programming languages? How does
 > concurrency influence the behavior of a program? How does the use of
 > concurrency primitives influence the **ways** in which I create software?
