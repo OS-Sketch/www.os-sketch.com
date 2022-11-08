@@ -185,17 +185,17 @@ Locks return control back to programmers!
   - What API will the **programmer** use for creating a lock?
   - How will the lock ensure **fairness** to all threads and processes?
 
-- The easiest way to implement locks is to disable interrupts! Any concerns?
+- The easiest way to implement locks is to **disable interrupts**! Any concerns?
 
   - A programming language thread now has to perform a privileged operation
   - Interrupt disabling does not work on a computer system with multi-processors
   - Disabling of interrupts may introduce fundamental defects into the system
   - This approach is inefficient and may limit parallelism in the system
+  - Ultimately, disabling interrupts only works in limited contexts!
 
 </v-clicks>
 
 [//]: # "Slide End }}}"
-
 
 ---
 
