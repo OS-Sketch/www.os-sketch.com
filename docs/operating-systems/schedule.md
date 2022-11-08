@@ -135,7 +135,7 @@ hide:
   does this behavior influence the **ways** in which I program and use
   software?
 
-### Expert Added Content
+### Next Steps
 
 - Read the chapters called *Swapping Mechanisms* (Chapter 21) and *Swapping
   Policies* (Chapter 22) in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
@@ -153,7 +153,7 @@ hide:
   in the operating system and programming languages? How does the use of
   concurrency primitives influence the **ways** in which I program and test software?
 
-### Expert Added Content
+### Next Steps
 
 - Read the chapters called *Concurrency: An Introduction* chapter in
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
@@ -167,16 +167,19 @@ hide:
 
 ### Technical Questions
 
--Experts add their technical question here
+- How can the use of **locks** support mutual exclusion and reliable
+  **concurrency** in the operating system and programming languages? How does
+  concurrency influence the behavior of a program? How does the use of
+  concurrency primitives influence the **ways** in which I create software?
 
-### Expert Added Content
+### Next Steps
 
-- *Thread API* and *Locks* chapters in
+- Read the chapters called *Thread API* (Chapter 27) and *Locks* (Chapter 28) chapters in
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
-- Check out the [course slides](/slides/operating-systems/systems-introduction/)
+- Check out the [course slides](/slides/operating-systems/locks-introduction/)
   for a detailed investigation of these chapters!
-- [Click here](#important-terms) to find definitions for key terms for the
-  week's readings (chapters 27 and 28)!
+- Review the [important terms](#important-terms) to find definitions of the
+  terms associated with the assigned chapters
 
 ## Variations of Locks
 
