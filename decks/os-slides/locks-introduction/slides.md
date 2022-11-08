@@ -204,7 +204,7 @@ Locks return control back to programmers!
 <div class="flex row">
 
 <div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
-Concurrency with threads and processes?
+Key insights into lock building for software?
 </div>
 
 </div>
@@ -216,21 +216,7 @@ Concurrency with threads and processes?
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Process is a heavyweight abstraction of execution
-</div>
-
-</div>
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-Thread is a lightweight abstraction of execution
+The mutex is a heavily use concurrency primitive
 </div>
 
 </div>
@@ -244,7 +230,21 @@ Thread is a lightweight abstraction of execution
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Concurrent threads share the same address space!
+A mutex must be both correct and efficient
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Hardware often works in conjunction with software
 </div>
 
 </div>
@@ -287,331 +287,6 @@ Questions about the role of threads?
 </div>
 
 </v-clicks>
-
-[//]: # "Slide End }}}"
-
----
-
-[//]: # "Slide Start {{{"
-
-<div class="flex row">
-
-<div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
-What systems support concurrency with both threads and processes?
-</div>
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<uim-grid class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-Operating system supports execution of processes
-</div>
-
-</div>
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<uim-grid class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-Languages offers thread and process support
-</div>
-
-</div>
-
-</div>
-
-[//]: # "Slide End }}}"
-
----
-
-[//]: # "Slide Start {{{"
-
-# Challenges of Using Threads?
-
-<v-clicks>
-
-- A multi-threaded program may have **non-deterministic** behavior when run
-
-- This means that threads make programs hard to reason about and trace
-
-- **Data race**: program results depend on the timing execution of threads
-
-- What are the problematic regions inside of a multi-threaded program?
-
-- **Critical section**: region of code that accesses a share variable
-
-- Want **mutual exclusion** to ensure thread accesses critical section at a time
-
-- Overall, what are the trade-offs associated with multi-threaded programs?
-
-  - Multi-threaded programs can decrease response time and increase throughput
-  - But, multiple threads can cause a program's execution to be non-deterministic
-  - More critical sections increase determinism by make program less performant
-
-</v-clicks>
-
-[//]: # "Slide End }}}"
-
----
-
-[//]: # "Slide Start {{{"
-
-<div class="flex row">
-
-<div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
-Wait, we need to synchronize our watches!
-</div>
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<mdi-cube class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-Synchronize access to memory shared among threads
-</div>
-
-</div>
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<mdi-cube class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-Aim to balance performance and correctness concerns
-</div>
-
-</div>
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<mdi-cube class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-Pick primitives easy for programmers to understand
-</div>
-
-</div>
-
-</div>
-
-[//]: # "Slide End }}}"
-
----
-
-[//]: # "Slide Start {{{"
-
-# Program with Separate Tasks
-
-<div class="-ml-4 -mt-2 mb-2">
-
-```python
-def job():
-    print("Parse the CSV file")
-
-schedule.every(10).minutes.do(job)
-schedule.every().hour.do(job)
-schedule.every().day.at("10:30").do(job)
-
-while True:
-    schedule.run_pending()
-    time.sleep(1)
-```
-
-</div>
-
-## Wait, does this program execute tasks *sequentially* or *in parallel*?
-
-[//]: # "Slide End }}}"
-
----
-
-[//]: # "Slide Start {{{"
-
-# Parallel Execution of Tasks
-
-<div class="-ml-4 -mt-2 mb-2">
-
-```python
-def job():
-    print("Thread %s" % threading.current_thread())
-
-def run_threaded(job_func):
-    job_thread = threading.Thread(target=job_func)
-    job_thread.start()
-
-schedule.every(10).seconds.do(run_threaded, job)
-schedule.every(10).seconds.do(run_threaded, job)
-
-while 1:
-    schedule.run_pending() time.sleep(1)
-```
-
-</div>
-
-## Wait, does this program execute tasks *sequentially* or *in parallel*?
-
-[//]: # "Slide End }}}"
-
----
-
-[//]: # "Slide Start {{{"
-
-<div class="flex row">
-
-<div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
-Run tasks sequentially or in parallel!
-</div>
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<mdi-loop class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-Task is an effective way to decompose problem
-</div>
-
-</div>
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<mdi-loop class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-Tasks do not necessarily have to run in parallel
-</div>
-
-</div>
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<mdi-loop class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-Parallelism normally has fundamental trade-offs!
-</div>
-
-</div>
-
-</div>
-
-[//]: # "Slide End }}}"
-
----
-
-[//]: # "Slide Start {{{"
-
-# Using the Thread API in C
-
-<v-clicks>
-
-- POSIX standard defines way to implement and use "P-threads" in C programs
-
-- `pthread_create` allows program to create a new thread in a process
-
-- `pthread_join` allows program to wait for a thread to finish execution
-
-- Maintaining mutual exclusion inside of a P-thread program:
-
-  - `pthread_mutex_lock` enters a critical sections
-
-  - `pthread_mutex_unlock` leaves a critical section
-
-  - P-threads also have **condition variables** for the sending of signals
-
-- Yikes! C, Python, and Go all provide their own API for creating and controlling
-  threads! Your initial focus should be on learning the API and avoiding defects.
-
-</v-clicks>
-
-[//]: # "Slide End }}}"
-
----
-
-[//]: # "Slide Start {{{"
-
-<div class="flex row">
-
-<div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
-Compare concurrency and parallelism?
-</div>
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<mdi-code class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-Concurrent programming is a way of thinking
-</div>
-
-</div>
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<mdi-code class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-A goroutine is a problem decomposition
-</div>
-
-</div>
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<mdi-code class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-Concurrent and parallel are not the same!
-</div>
-
-</div>
-
-</div>
 
 [//]: # "Slide End }}}"
 
