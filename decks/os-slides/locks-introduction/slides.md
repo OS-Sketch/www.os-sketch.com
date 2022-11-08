@@ -89,21 +89,7 @@ fonts:
 <div class="flex row">
 
 <div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
-Concurrency and parallelism trade-offs?
-</div>
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<mdi-diamond class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-Enables tasks to happen ... "at the same time"!
-</div>
-
+Trade-offs in concurrency and mutual exclusion?
 </div>
 
 </div>
@@ -129,7 +115,21 @@ Can increase utilization of CPU and the disk
 <mdi-diamond class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Introduces subtle classes of defects into programs
+Ensure protection of shared state with locks
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-diamond class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Locks return control back to programmers!
 </div>
 
 </div>
@@ -142,39 +142,31 @@ Introduces subtle classes of defects into programs
 
 [//]: # "Slide Start {{{"
 
-# Data Structures to Manage Processes
+# Motivating and Building Locks
 
 <v-clicks>
 
-- **Process list**: keep track of basic details about all ready processes
+- A lock variable ensures that a critical section runs with mutual exclusion
 
-- **Register context**: store information about registers in non-ready processes
+- Lock variables --- or a `mutex` variable --- protects the critical section
 
-- **Process Identifier**: unique code assigned to each running program
+- Understanding and manipulating the states of a `mutex` variable:
 
-- Update all data structures across every **context switch** driven by scheduler
+  - **Available**: the critical section is unlocked or free from threads
 
-<div class="border-2 rounded-2xl border-gray-700 bg-gray-300 p-5 mt-6 mb-8">
+  - **Acquired**: the critical section is locked or help by a thread
 
-<pre>
-136792 gkapfham  20   0  359672 244584  12352 S   7.6   0.8 nvim
-529373 gkapfham  20   0   75.2g 601888 365688 S   3.3   1.9 Discord
-569083 gkapfham  20   0  199848  88348  12976 S   3.0   0.3 nvim
-  2061 gkapfham  20   0 1381644  97916  60620 S   1.7   0.3 alacritty
-  2362 gkapfham  20   0   26552  20336   2560 S   1.7   0.1 tmux: server
-588482 gkapfham  20   0 1363824  93760  58216 S   1.7   0.3 alacritty
-  1862 gkapfham  20   0 2648536   1.1g   1.1g S   1.3   3.7 Xorg
-634310 gkapfham  20   0  153344  43072   7184 S   1.0   0.1 nvim
-  1087 root      20   0  332272  20824  17128 S   0.7   0.1 NetworkManager
-  1088 root      20   0   15560  10464   9076 S   0.7   0.0 wpa_supplicant
-</pre>
+  - Manipulate the state of the `mutex` through `lock` and `unlock`
 
-</div>
+- Remember, threads are created by the programmer but scheduled by the OS!
+
+- Locks return control to the programmers and enable critical sections
+
+- Locks are an interface with the programming language, programmer, and OS
 
 </v-clicks>
 
 [//]: # "Slide End }}}"
-
 
 ---
 
