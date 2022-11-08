@@ -89,7 +89,7 @@ fonts:
 <div class="flex row">
 
 <div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
-Trade-offs in concurrency and mutual exclusion?
+Trade-offs in concurrency & mutual exclusion?
 </div>
 
 </div>
@@ -300,7 +300,7 @@ Two competing threads can enter critical section
 <uim-cube class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Serious performance implications due to a busy-wait
+Performance implications due to a busy-wait
 </div>
 
 </div>
@@ -346,7 +346,7 @@ Serious performance implications due to a busy-wait
 <mdi-help-box class="text-5xl ml-4 -mt-2 text-blue-600" />
 
 <div class="text-4xl text-true-gray-700 font-bold mt-0 ml-4">
-Questions on challenges with mutex creation?
+Questions about mutex creation?
 </div>
 
 </div>
