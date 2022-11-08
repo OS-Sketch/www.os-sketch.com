@@ -257,31 +257,96 @@ Hardware often works in conjunction with software
 
 [//]: # "Slide Start {{{"
 
-# Benefits of Using Threads?
+<div class="flex row">
 
-<v-clicks>
+<div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
+Wait, loads and stores do not work correctly!
+</div>
 
-- Multi-threaded program has more than one point of execution
+</div>
 
-- Each thread is like a separate process, except that it shares an address space
-
-- Threads in the same address space can share data and support fast switches
-
-- What are the benefits associated with support threads in the OS?
-
-  - Speed up a computation by supporting parallelism in computations
-  - Avoid blocking a program's progress due to slow input/output devices
-  - When a process is blocked due to disk access, threads can overlap
-
-- Threading allows for an overlap within programs in the same way that
-  multi-programming supported it across programs! Different level of stack!
+<div v-click>
 
 <div class="flex row">
 
-<mdi-help-box class="text-6xl ml-4 -mt-2 text-blue-600" />
+<uim-cube class="text-6xl ml-8 mt-6 text-blue-600" />
 
-<div class="text-4xl text-true-gray-700 font-bold mt-2 ml-4">
-Questions about the role of threads?
+<div class="text-3xl font-bold mt-10 ml-4">
+Standard <code>flag</code> variable does not work correctly
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-cube class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Two competing threads can enter critical section
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-cube class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Serious performance implications due to a busy-wait
+</div>
+
+</div>
+
+</div>
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
+# Malicious Scheduling Considerations
+
+<v-clicks>
+
+- Programming language and operating system support concurrency
+
+- Designing a mutual exclusion solution requires serious engineering!
+
+- Test the approach by considering a malicious scheduler!
+
+  - Assume that the operating system interrupts a thread at worst possible moment
+  - When this interrupt occurs assume another threads wants same critical section
+  - Follow this analysis process until two threads have the critical section
+
+</v-clicks>
+
+<v-clicks>
+
+- So, is it possible to implement a correct mutual exclusion lock? Yes, it is!
+
+- Can you implement a mutual exclusion lock only in software? Yes, you can!
+
+- Most implementations of locks use a hardware-software combined approach!
+
+</v-clicks>
+
+<v-clicks>
+
+<div class="flex row">
+
+<mdi-help-box class="text-5xl ml-4 -mt-2 text-blue-600" />
+
+<div class="text-4xl text-true-gray-700 font-bold mt-0 ml-4">
+Questions on challenges with mutex creation?
 </div>
 
 </div>
