@@ -276,7 +276,7 @@ hide:
 | 11/3                  | <span style="background-color: #23abcc">28. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/threads-locks.pdf" target="_blank"; style="color:#000000;text-decoration:none">Locks</a> <a href="https://github.com/remzi-arpacidusseau/ostep-code/tree/master/threads-locks" target="_blank"; style="color:#000000;text-decoration:none">(code)</a></span>                                            | Michael          |
 | 11/8                  | <span style="background-color: #23abcc">30. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/threads-cv.pdf" target="_blank"; style="color:#000000;text-decoration:none">Condition Variables</a> <a href="https://github.com/remzi-arpacidusseau/ostep-code/tree/master/threads-cv" target="_blank"; style="color:#000000;text-decoration:none">(code)</a></span>                               | Gary             |
 | 11/10                 | <span style="background-color: #23abcc">31. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/threads-sema.pdf" target="_blank"; style="color:#000000;text-decoration:none">Semaphores</a> <a href="https://github.com/remzi-arpacidusseau/ostep-code/tree/master/threads-sema" target="_blank"; style="color:#000000;text-decoration:none">(code)</a></span>                                               | Yanqiao          |
-| 11/15                 | 📝 Midterm 📝                                                      |                 |
+| 11/16                 | 📝 Midterm 📝                                                      |                 |
 | 11/17                 | <span style="background-color: #4dc516">36. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/file-devices.pdf" target="_blank"; style="color:#000000;text-decoration:none">I/O Devices</a></span>                                              | Kyrie            |
 | 11/22                 | <span style="background-color: #4dc516">39/40. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/file-intro.pdf" target="_blank"; style="color:#000000;text-decoration:none">Files and Directories</a> and <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/file-implementation.pdf" target="_blank"; style="color:#000000;text-decoration:none">File System Implementation</a></span> | Dylan, Kobe      |
 |                       | 🦃 Thanksgiving Break 🦃                                                                                    |                 |
@@ -513,7 +513,6 @@ Data Integrity and Protection: Chapter 45
 5. **Lost Write** The device doesn't inform the upper layer that a write finished but the new changes never persisted into the next state, thus exposing the past state before the write
 [Return](#data-integrity-and-security) to *Data Integrity and Security*
 
-
 Intro Security: Chapter 53
 
 1. **Trusted Platform Module (TPM)** Authenticated to users that they were starting up the operating system and version they had intended to do so
@@ -521,7 +520,6 @@ Intro Security: Chapter 53
 3. **Non-Repudiation** The authentication of prior actions in the operating system that cannot be forged
 4. **Security Policies** A list of rules and specifications for ensuring security in an operating system environment
 [Return](#data-integrity-and-security) to *Data Integrity and Security*
-
 
 Distributed Systems: Chapter 48
 
