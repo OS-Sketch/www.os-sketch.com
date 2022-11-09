@@ -24,3 +24,25 @@ hide:
 
 ![Address Spaces](/img/os-sketch-address-spaces.svg#only-light){width="80%"}
 ![Address Spaces](/img/os-sketch-address-spaces-inverted.svg#only-dark){width="80%"}
+
+## Segmentation and Paging
+
+## Memory Swapping
+
+## Concurrency
+
+## Thread API
+
+## Locks
+
+## Condition Variables
+
+## Semaphores
+
+## I/O Devices
+
+## Network File System and Directory
+
+## Data Integrity and Protection
+
+## Distributed Systems
