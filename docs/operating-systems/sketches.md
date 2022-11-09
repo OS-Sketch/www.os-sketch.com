@@ -27,9 +27,15 @@ hide:
 
 ## Segmentation and Paging
 
+![Segmentation and Paging](/img/os-sketch-segmentation-paging.svg#only-light){width="80%"}
+
 ## Memory Swapping
 
+![Memory Swapping](/img/os-sketch-memory-swapping.svg#only-light){width="80%"}
+
 ## Concurrency
+
+![Concurrency](/img/os-sketch-concurrency-introduction.svg#only-light){width="80%"}
 
 ## Thread API
 
