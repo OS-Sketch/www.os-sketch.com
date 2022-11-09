@@ -275,7 +275,6 @@ hide:
 | 11/1                  | <span style="background-color: #23abcc">27. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/threads-api.pdf" target="_blank"; style="color:#000000;text-decoration:none">Thread API</a> <a href="https://github.com/remzi-arpacidusseau/ostep-code/tree/master/threads-api" target="_blank"; style="color:#000000;text-decoration:none">(code)</a></span>                                        | Zackery          |
 | 11/8                  | <span style="background-color: #23abcc">28. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/threads-locks.pdf" target="_blank"; style="color:#000000;text-decoration:none">Locks Pt.1</a> <a href="https://github.com/remzi-arpacidusseau/ostep-code/tree/master/threads-locks" target="_blank"; style="color:#000000;text-decoration:none">(code)</a></span>                                            | Michael          |
 | 11/10                 | <span style="background-color: #23abcc">28. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/threads-locks.pdf" target="_blank"; style="color:#000000;text-decoration:none">Locks Pt.2</a>and<a href="https://pages.cs.wisc.edu/~remzi/OSTEP/threads-cv.pdf" target="_blank"; style="color:#000000;text-decoration:none"> Condition Variables</a></span> | Michael, Gary      |
-
 | 11/15                 | <span style="background-color: #23abcc">31. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/threads-sema.pdf" target="_blank"; style="color:#000000;text-decoration:none">Semaphores</a>
 <a href="https://github.com/remzi-arpacidusseau/ostep-code/tree/master/threads-sema" target="_blank"; style="color:#000000;text-decoration:none">(code)</a></span>                                               | Yanqiao          |
 | 11/16                 | 📝 Midterm During lab :)📝                                                      |                 |
@@ -284,9 +283,10 @@ hide:
 |                       | 🦃 Thanksgiving Break 🦃                                                                                    |                 |
 | 11/29                 | <span style="background-color: #4dc516">Continued</span>                                                   |                  |
 | 12/1                  | <span style="background-color: #4dc516">49. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/dist-nfs.pdf" target="_blank"; style="color:#000000;text-decoration:none">Network File Systems</a></span>                                     | Liam             |
-| 12/6                  | <span style="background-color: #4dc516">45/53. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/file-integrity.pdf" target="_blank"; style="color:#000000;text-decoration:none">Data Integrity and Protection</a> </span> and <span style="background-color: #3ea89e"><a href="https://pages.cs.wisc.edu/~remzi/OSTEP/security-intro.pdf" target="_blank"; style="color:#000000;text-decoration:none">Intro Security</a></span>     | Jordan           |
+| 12/6                  | <span style="background-color: #4dc516">45. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/file-integrity.pdf" target="_blank"; style="color:#000000;text-decoration:none">Data Integrity and Protection</a> </span>     | Jordan           |
 | 12/8                  | <span style="background-color: #4dc516">48. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/dist-intro.pdf" target="_blank"; style="color:#000000;text-decoration:none">Distributed Systems</a></span>                                      | Bill, Andre      |
-| 12/13                 | 📝 Review For Final 📝                                            |                  |
+| 12/13                 | <span style="background-color: #3ea89e">53. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/security-intro.pdf" target="_blank"; style="color:#000000;text-decoration:none">Intro Security</a></span>     | Jordan           |
+| 12/14                 | 📝 Review For Final and Project Demos(2:30 -4:30Pm)📝                                            |                  |
 
 [Return to top of the page](#course-schedule)
 
