@@ -443,20 +443,32 @@ How do both threads modify the shared state?
 
 </v-clicks>
 
+[//]: # "Slide End }}}"
 
-<v-clicks>
+---
 
-<div class="flex row">
+[//]: # "Slide Start {{{"
 
-<mdi-help-box class="text-5xl ml-4 -mt-2 text-blue-600" />
+# Compare and Swap in C and Assembly
 
-<div class="text-4xl text-true-gray-700 font-bold mt-0 ml-4">
-Questions about mutex creation?
+<div class="-ml-6 -mt-2">
+
+```c {all}
+#include <stdio.h>
+int global = 0;
+char compare_and_swap(int *ptr, int old, int new) {
+  unsigned char ret;
+  __asm__ __volatile__(" lock\n"
+                       " cmpxchgl %2,%1\n"
+                       " sete %0\n"
+                  : "=q"(ret), "=m"(*ptr)
+                  : "r"(new), "m"(*ptr), "a"(old)
+                  : "memory");
+  return ret;
+}
+```
+
 </div>
-
-</div>
-
-</v-clicks>
 
 [//]: # "Slide End }}}"
 
