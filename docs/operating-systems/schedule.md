@@ -155,7 +155,7 @@ hide:
 
 ### Next Steps
 
-- Read the chapters called *Concurrency: An Introduction* chapter in
+- Read the chapters called *Concurrency: An Introduction* and *Thread API* (Chapter 27) in
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Check out the [course
   slides](/slides/operating-systems/concurrency-introduction/) for a detailed
@@ -163,7 +163,7 @@ hide:
 - Review the [important terms](#important-terms) to find definitions of the
   terms associated with the assigned chapters
 
-## Thread API and Locks
+## Locking Mechanisms
 
 ### Technical Questions
 
@@ -174,14 +174,14 @@ hide:
 
 ### Next Steps
 
-- Read the chapters called *Thread API* (Chapter 27) and *Locks* (Chapter 28) chapters in
+- Read the chapters called *Locks* (Chapter 28) and *Condition Variables* (Chapter 30) in
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Check out the [course slides](/slides/operating-systems/locks-introduction/)
   for a detailed investigation of these chapters!
 - Review the [important terms](#important-terms) to find definitions of the
   terms associated with the assigned chapters
 
-## Variations of Locks
+## Using Semaphores
 
 ### Technical Questions
 
@@ -189,7 +189,7 @@ hide:
 
 ### Expert Added Content
 
-- *Conditional Variables* and *Semaphores* chapters in
+- Read the chapter called *Semaphores* (Chapter 31) in
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Check out the [course slides](/slides/operating-systems/systems-introduction/)
   for a detailed investigation of these chapters!
