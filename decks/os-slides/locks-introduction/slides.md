@@ -230,7 +230,7 @@ The mutex is a heavily use concurrency primitive
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-A mutex must be both correct and efficient
+A mutex must be both correct, efficient, and fair
 </div>
 
 </div>
