@@ -135,7 +135,7 @@ hide:
   does this behavior influence the **ways** in which I program and use
   software?
 
-### Expert Added Content
+### Next Steps
 
 - Read the chapters called *Swapping Mechanisms* (Chapter 21) and *Swapping
   Policies* (Chapter 22) in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
@@ -153,9 +153,9 @@ hide:
   in the operating system and programming languages? How does the use of
   concurrency primitives influence the **ways** in which I program and test software?
 
-### Expert Added Content
+### Next Steps
 
-- Read the chapters called *Concurrency: An Introduction* chapter in
+- Read the chapters called *Concurrency: An Introduction* and *Thread API* (Chapter 27) in
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Check out the [course
   slides](/slides/operating-systems/concurrency-introduction/) for a detailed
@@ -163,22 +163,25 @@ hide:
 - Review the [important terms](#important-terms) to find definitions of the
   terms associated with the assigned chapters
 
-## Thread API and Locks
+## Locking Mechanisms
 
 ### Technical Questions
 
--Experts add their technical question here
+- How can the use of **locks** support mutual exclusion and reliable
+  **concurrency** in the operating system and programming languages? How does
+  concurrency influence the behavior of a program? How does the use of
+  concurrency primitives influence the **ways** in which I create software?
 
-### Expert Added Content
+### Next Steps
 
-- *Thread API* and *Locks* chapters in
+- Read the chapters called *Locks* (Chapter 28) and *Condition Variables* (Chapter 30) in
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
-- Check out the [course slides](/slides/operating-systems/systems-introduction/)
+- Check out the [course slides](/slides/operating-systems/locks-introduction/)
   for a detailed investigation of these chapters!
-- [Click here](#important-terms) to find definitions for key terms for the
-  week's readings (chapters 27 and 28)!
+- Review the [important terms](#important-terms) to find definitions of the
+  terms associated with the assigned chapters
 
-## Variations of Locks
+## Using Semaphores
 
 ### Technical Questions
 
@@ -186,7 +189,7 @@ hide:
 
 ### Expert Added Content
 
-- *Conditional Variables* and *Semaphores* chapters in
+- Read the chapter called *Semaphores* (Chapter 31) in
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Check out the [course slides](/slides/operating-systems/systems-introduction/)
   for a detailed investigation of these chapters!
@@ -270,18 +273,24 @@ hide:
 | 10/20                 | <span style="background-color: #f88117">Continued</span>                                                    |                  |
 | 10/27                 | <span style="background-color: #23abcc">26. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf" target="_blank"; style="color:#000000;text-decoration:none">Concurrency<a> <a href="https://github.com/remzi-arpacidusseau/ostep-code/tree/master/threads-intro" target="_blank"; style="color:#000000;text-decoration:none">(code)</a></span>                                       | Paige            |
 | 11/1                  | <span style="background-color: #23abcc">27. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/threads-api.pdf" target="_blank"; style="color:#000000;text-decoration:none">Thread API</a> <a href="https://github.com/remzi-arpacidusseau/ostep-code/tree/master/threads-api" target="_blank"; style="color:#000000;text-decoration:none">(code)</a></span>                                        | Zackery          |
-| 11/3                  | <span style="background-color: #23abcc">28. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/threads-locks.pdf" target="_blank"; style="color:#000000;text-decoration:none">Locks</a> <a href="https://github.com/remzi-arpacidusseau/ostep-code/tree/master/threads-locks" target="_blank"; style="color:#000000;text-decoration:none">(code)</a></span>                                            | Michael          |
-| 11/8                  | <span style="background-color: #23abcc">30. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/threads-cv.pdf" target="_blank"; style="color:#000000;text-decoration:none">Condition Variables</a> <a href="https://github.com/remzi-arpacidusseau/ostep-code/tree/master/threads-cv" target="_blank"; style="color:#000000;text-decoration:none">(code)</a></span>                               | Gary             |
-| 11/10                 | <span style="background-color: #23abcc">31. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/threads-sema.pdf" target="_blank"; style="color:#000000;text-decoration:none">Semaphores</a> <a href="https://github.com/remzi-arpacidusseau/ostep-code/tree/master/threads-sema" target="_blank"; style="color:#000000;text-decoration:none">(code)</a></span>                                               | Yanqiao          |
-| 11/15                 | 📝 Midterm 📝                                                      |                 |
+| 11/8                  | <span style="background-color: #23abcc">28. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/threads-locks.pdf" target="_blank"; style="color:#000000;text-decoration:none">Locks Pt.1</a> <a href="https://github.com/remzi-arpacidusseau/ostep-code/tree/master/threads-locks" target="_blank"; style="color:#000000;text-decoration:none">(code)</a></span>                                            | Michael          |
+| 11/10                 | <span style="background-color: #23abcc">28. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/threads-locks.pdf" target="_blank"; style="color:#000000;text-decoration:none">Locks Pt.2</a> and<a href="https://pages.cs.wisc.edu/~remzi/OSTEP/threads-cv.pdf" target="_blank"; style="color:#000000;text-decoration:none"> Condition Variables</a></span> | Michael, Gary      |
+| 11/15                 | <span style="background-color: #23abcc">31. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/threads-sema.pdf" target="_blank"; style="color:#000000;text-decoration:none">Semaphores</a> <a href="https://github.com/remzi-arpacidusseau/ostep-code/tree/master/threads-sema" target="_blank"; style="color:#000000;text-decoration:none">(code)</a></span>                   Yanqiao           |
+| 11/16                 | 📝 Mid-term Exam During lab :)📝                                                      |                 |
 | 11/17                 | <span style="background-color: #4dc516">36. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/file-devices.pdf" target="_blank"; style="color:#000000;text-decoration:none">I/O Devices</a></span>                                              | Kyrie            |
 | 11/22                 | <span style="background-color: #4dc516">39/40. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/file-intro.pdf" target="_blank"; style="color:#000000;text-decoration:none">Files and Directories</a> and <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/file-implementation.pdf" target="_blank"; style="color:#000000;text-decoration:none">File System Implementation</a></span> | Dylan, Kobe      |
 |                       | 🦃 Thanksgiving Break 🦃                                                                                    |                 |
 | 11/29                 | <span style="background-color: #4dc516">Continued</span>                                                   |                  |
+<<<<<<< HEAD
 | 12/1                  | <span style="background-color: #4dc516">49. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/dist-nfs.pdf" target="_blank"; style="color:#000000;text-decoration:none">Network File Systems</a></span>                                     | Liam B, Liam C            |
 | 12/6                  | <span style="background-color: #4dc516">45/53. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/file-integrity.pdf" target="_blank"; style="color:#000000;text-decoration:none">Data Integrity and Protection</a> </span> and <span style="background-color: #3ea89e"><a href="https://pages.cs.wisc.edu/~remzi/OSTEP/security-intro.pdf" target="_blank"; style="color:#000000;text-decoration:none">Intro Security</a></span>     | Jordan           |
+=======
+| 12/1                  | <span style="background-color: #4dc516">49. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/dist-nfs.pdf" target="_blank"; style="color:#000000;text-decoration:none">Network File Systems</a></span>                                     | Liam             |
+| 12/6                  | <span style="background-color: #4dc516">45. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/file-integrity.pdf" target="_blank"; style="color:#000000;text-decoration:none">Data Integrity and Protection</a> </span>     | Jordan           |
+>>>>>>> 7e6d762fc1feeb1ef6cd4916173b4ae353660b12
 | 12/8                  | <span style="background-color: #4dc516">48. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/dist-intro.pdf" target="_blank"; style="color:#000000;text-decoration:none">Distributed Systems</a></span>                                      | Bill, Andre      |
-| 12/13                 | 📝 Review For Final 📝                                            |                  |
+| 12/13                 | <span style="background-color: #3ea89e">53. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/security-intro.pdf" target="_blank"; style="color:#000000;text-decoration:none">Intro Security</a></span>     | Jordan           |
+| 12/14                 | 📝 Review For Final and Project Demos(2:30 -4:30Pm)📝                                            |                  |
 
 [Return to top of the page](#course-schedule)
 
@@ -510,7 +519,6 @@ Data Integrity and Protection: Chapter 45
 5. **Lost Write** The device doesn't inform the upper layer that a write finished but the new changes never persisted into the next state, thus exposing the past state before the write
 [Return](#data-integrity-and-security) to *Data Integrity and Security*
 
-
 Intro Security: Chapter 53
 
 1. **Trusted Platform Module (TPM)** Authenticated to users that they were starting up the operating system and version they had intended to do so
@@ -518,7 +526,6 @@ Intro Security: Chapter 53
 3. **Non-Repudiation** The authentication of prior actions in the operating system that cannot be forged
 4. **Security Policies** A list of rules and specifications for ensuring security in an operating system environment
 [Return](#data-integrity-and-security) to *Data Integrity and Security*
-
 
 Distributed Systems: Chapter 48
 
