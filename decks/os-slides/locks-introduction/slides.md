@@ -472,6 +472,33 @@ char compare_and_swap(int *ptr, int old, int new) {
 
 [//]: # "Slide End }}}"
 
+---
+
+[//]: # "Slide Start {{{"
+
+# Successful Lock Use in C
+
+<div class="-ml-7 -mt-2">
+
+```c {all}
+int main(int argc, char *argv[]) {
+  printf("before successful cas: %d\n", global);
+  int success = compare_and_swap(&global, 0, 100);
+  printf("after successful cas: %d (success: %d)\n",
+          global, success);
+
+  printf("before failing cas: %d\n", global);
+  success = compare_and_swap(&global, 0, 200);
+  printf("after failing cas: %d (old: %d)\n",
+          global, success);
+  return 0;
+}
+```
+
+</div>
+
+[//]: # "Slide End }}}"
+
 
 ---
 
