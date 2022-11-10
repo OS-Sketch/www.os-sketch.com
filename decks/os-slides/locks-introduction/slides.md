@@ -415,6 +415,56 @@ How do both threads modify the shared state?
 
 [//]: # "Slide Start {{{"
 
+# Building and Evaluating a Spin Lock
+
+<v-clicks>
+
+- An **atomic exchange** (or **test-and-set**) operation enables lock creation
+
+- **Goal**: return the value of a variable and update it **atomically**
+
+- Preemption from a malicious scheduler **cannot interrupt** an atomic exchange!
+
+- A **spin lock** introduces a **busy-wait** for all processes not with lock
+
+</v-clicks>
+
+<v-clicks>
+
+- Evaluation of the spin lock using the atomic exchange:
+
+  - **Correctness**: Yes, this will guarantee mutually exclusive access of critical section
+  - **Fairness**: No, a thread stuck on a spin lock could potentially spin forever
+  - **Performance**: No, a single-core single-CPU system may suffer performance problems
+  - **Performance**: Kinda, as long as the system has multiple processors and/or cores!
+
+- If a spinning thread runs on the CPU, it is runs overhead instructions!
+  Ultimately, need more support to implement an efficient approach!
+
+</v-clicks>
+
+
+<v-clicks>
+
+<div class="flex row">
+
+<mdi-help-box class="text-5xl ml-4 -mt-2 text-blue-600" />
+
+<div class="text-4xl text-true-gray-700 font-bold mt-0 ml-4">
+Questions about mutex creation?
+</div>
+
+</div>
+
+</v-clicks>
+
+[//]: # "Slide End }}}"
+
+
+---
+
+[//]: # "Slide Start {{{"
+
 # ✨ Sketching the Key Ideas
 
 <img src="/os-sketch-locks-introduction.svg" class="ml-10 mt-8 h-100" />
