@@ -359,6 +359,16 @@ Questions about mutex creation?
 
 [//]: # "Slide Start {{{"
 
+# ✨ Sketching the Key Ideas
+
+<img src="/os-sketch-locks-introduction-malicious-scheduler.svg" class="ml-10 mt-8 h-100" />
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
 <div class="flex row">
 
 <div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
