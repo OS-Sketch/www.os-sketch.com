@@ -417,6 +417,6 @@ How do both threads modify the shared state?
 
 # ✨ Sketching the Key Ideas
 
-<img src="/os-sketch-concurrency-introduction.svg" class="ml-10 mt-8 h-100" />
+<img src="/os-sketch-locks-introduction.svg" class="ml-10 mt-8 h-100" />
 
 [//]: # "Slide End }}}"
