@@ -615,6 +615,122 @@ Spinning on a lock remains very inefficient!
 
 [//]: # "Slide Start {{{"
 
+# Building and Using Condition Variables
+
+<v-clicks>
+
+- **Condition Variable**: explicit queue a thread enters to wait on condition
+
+- When another thread changes the condition, remove a thread from the queue
+
+- `pthread_cond_wait` : join the queue that waits on a condition
+
+- `pthread_cond_signal` : alert others to change in the condition
+
+- The `wait` allows a thread to pause until receiving the `signal`
+
+</v-clicks>
+
+<v-clicks>
+
+- Importantly, the condition variable works in conjunction with a `mutex` !
+
+- Existing packages implement this, including the one called `pthreads`
+
+- Let's check out the source code of a C-based implementation of approach
+
+- Aim to understand the essential aspects of this solution
+
+</v-clicks>
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
+# Using Condition Variables in C: Setup
+
+<div class="-ml-2 -mt-2 -mb-4">
+
+```c {all}
+#include <stdio.h>
+#include <unistd.h>
+#include <pthread.h>
+#include "common.h"
+#include "common_threads.h"
+
+pthread_cond_t  c = PTHREAD_COND_INITIALIZER;
+pthread_mutex_t m = PTHREAD_MUTEX_INITIALIZER;
+int done = 0;
+```
+
+</div>
+
+- Enables the creation of a parent-child parallel program
+
+- Processes can access critical section with mutual exclusion
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
+# Using Condition Variables in C: Child
+
+<div class="-ml-3 -mt-2 -mb-4">
+
+```c {all}
+void *child(void *arg) {
+    printf("child\n");
+    sleep(1);
+    Mutex_lock(&m);
+    done = 1;
+    Cond_signal(&c);
+    Mutex_unlock(&m);
+    return NULL;
+}
+```
+
+</div>
+
+- The `main` function can create a thread to run `child`
+
+- The `main` function can wait until `child` finishes
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
+# Using Condition Variables in C: Parent
+
+<div class="-ml-2 -mt-2 -mb-4">
+
+```c {all}
+int main(int argc, char *argv[]) {
+    pthread_t p;
+    printf("parent: begin\n");
+    Pthread_create(&p, NULL, child, NULL);
+    Mutex_lock(&m);
+    while (done == 0)
+    Cond_wait(&c, &m);
+    Mutex_unlock(&m);
+    printf("parent: end\n");
+    return 0;
+}
+```
+
+</div>
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
 # ✨ Sketching the Key Ideas
 
 <img src="/os-sketch-locks-introduction.svg" class="ml-10 mt-8 h-100" />
