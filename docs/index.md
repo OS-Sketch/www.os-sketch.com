@@ -65,6 +65,7 @@ for the operating system.
 on/ manages processes on the file system. With the help of the file system,
 processes get identified and sent to the process list.
 
+
 ## Concepts
 
 - **Security:** The security of the OS is the big body guard that can protect the
@@ -81,6 +82,7 @@ processes to and from the scheduler and the CPU.
 
 - **Segmentation:** Segmentation is splitting up the static data into different
 sections in the memory. The RAM uses segmentation the most.
+
 
 - **Concurrency:** This takes processes from the process before it can hit the
 process list, These processes get split into multiple smaller processes and

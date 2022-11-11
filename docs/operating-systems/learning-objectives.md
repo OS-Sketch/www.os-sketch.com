@@ -106,7 +106,7 @@ multiple processes can be run at the same time
 
 ## Persistence
 
-A person who is learning about operating systems needs to be able to know the parts of a computer that persists after shutdown and know how to handle failures in the operating system.
+A person who is learning about operating systems needs to be able to know the parts of a computer that persists after shutdown and know how to handle failures in an operating system.
 
 ### Input/Output Devices
 
@@ -139,7 +139,7 @@ A person who is learning security must be able to implement a basic security sys
 
 - Implement basic knowledge of agent, principal, credential, and object into an OS
 - Implement and working authentication by using sensitivity and hashes as a basic concept
-- Be able to label weakness of each hashing method within an OS
+- Be able to label the weakness of each hashing method within an OS
 
 ### Access Control
 
@@ -178,7 +178,7 @@ programming languages:
       framework for the chosen language, showing that it correctly implements
       the specification for the function or component.
     - Performs the specified operation in an efficient fashion, as determined
-      through experiments that evaluate the components's performance in minutes,
+      through experiments that evaluate the components' performance in minutes,
       seconds, or milliseconds.
     - Features functions that correctly use the basic building blocks of the
       chosen programming language in a way that passes the function's test
