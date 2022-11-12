@@ -49,6 +49,7 @@ hide:
 ## Condition Variables
 
 ![Conditional Variables](/img/os-sketch-conditional-variables.svg#only-light){width="80%"}
+![Conditional Variables](/img/os-sketch-conditional-variables-inverted.svg#only-dark){width="80%"}
 
 ## Semaphores
 
