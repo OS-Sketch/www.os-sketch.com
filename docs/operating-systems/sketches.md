@@ -34,6 +34,7 @@ hide:
 ## Memory Swapping
 
 ![Memory Swapping](/img/os-sketch-memory-swapping.svg#only-light){width="80%"}
+![Memory Swapping](img/os-sketch-memory-swapping-inverted.svg#only-dark){width="80%"}
 
 ## Concurrency
 
