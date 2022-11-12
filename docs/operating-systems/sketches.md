@@ -41,9 +41,9 @@ hide:
 ![Concurrency](/img/os-sketch-concurrency-introduction.svg#only-light){width="80%"}
 ![Concurrency](/img/os-sketch-concurrency-introduction-inverted.svg#only-dark){width="80%"}
 
-## Thread API
-
 ## Locks
+
+![Locks](/img/os-sketch-locks-malicious-scheduler.svg#only-light){width="80%"}
 
 ## Condition Variables
 
