@@ -39,6 +39,7 @@ hide:
 ## Concurrency
 
 ![Concurrency](/img/os-sketch-concurrency-introduction.svg#only-light){width="80%"}
+![Concurrency](/img/os-sketch-concurrency-introduction-inverted.svg#only-dark){width="80%"}
 
 ## Thread API
 
