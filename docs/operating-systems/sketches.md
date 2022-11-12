@@ -48,6 +48,8 @@ hide:
 
 ## Condition Variables
 
+![Conditional Variables](/img/os-sketch-conditional-variables.svg#only-light){width="80%"}
+
 ## Semaphores
 
 ## I/O Devices
