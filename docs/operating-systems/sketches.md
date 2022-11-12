@@ -28,6 +28,8 @@ hide:
 ## Segmentation and Paging
 
 ![Segmentation and Paging](/img/os-sketch-segmentation-paging.svg#only-light){width="80%"}
+![Segmentation and Paging](/img/os-sketch-segmentation-paging-inverted.svg#only-dark){width="80%"}
+
 
 ## Memory Swapping
 
