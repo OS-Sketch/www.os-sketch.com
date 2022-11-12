@@ -44,6 +44,7 @@ hide:
 ## Locks
 
 ![Locks](/img/os-sketch-locks-malicious-scheduler.svg#only-light){width="80%"}
+![Locks](/img/os-sketch-locks-malicious-scheduler-inverted.svg#only-dark){width="80%"}
 
 ## Condition Variables
 
