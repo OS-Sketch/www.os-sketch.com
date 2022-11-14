@@ -86,8 +86,8 @@ processes to and from the scheduler and the CPU. In relation to mechanisms, it i
 sections in the memory. There are types of segmentation: Virtual memory segmentation, which each process is divided into a number of segments where not all of which are resident at one point in time, and simple segmentation, where each process is divided into a number of segments where all of which are loaded into memory at run time, though not necessarily contiguously. The RAM uses segmentation the most.
 
 
-- **Concurrency:** This takes processes from the process before it can hit the
-process list, These processes get split into multiple smaller processes and
+- **Concurrency:** Concurrency is the execution of a set of multiple instruction sequences at the same time. This occurs when there are several process threads running in parallel. It takes processes from the process before it can hit the
+process list. These processes get split into multiple smaller processes and
 then fed to the process list.
 
 ???+ note
