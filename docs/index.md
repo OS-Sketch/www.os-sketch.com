@@ -77,10 +77,10 @@ security process is that it can change the scheduling or even halt the
 execution of any process. There are also more actions for the security process
 that will be covered this semester.
 
--**Policies:** Policies are ways to choose which activities to perform. They are algorithms for making scheduling decisions, and related to mechanisms policies are the "how".
+-**Policies:** Policies are ways to choose which activities to perform. They are algorithms for making scheduling decisions, and refers to what needs to be done (i.e. activities to perform).
 
 - **Mechanisms:** Mechanisms are a very important process tool, they are used to send
-processes to and from the scheduler and the CPU.
+processes to and from the scheduler and the CPU. It is also the technique for enacting policy decisions.
 
 - **Segmentation:** Segmentation is splitting up the static data into different
 sections in the memory. The RAM uses segmentation the most.
