@@ -82,8 +82,8 @@ that will be covered this semester.
 - **Mechanisms:** Mechanisms are a very important process tool, they are used to send
 processes to and from the scheduler and the CPU. In relation to mechanisms, it is also the technique for enacting policy decisions, and refers to how to do it (i.e. implementation to enforce policy).
 
-- **Segmentation:** Segmentation is splitting up the static data into different
-sections in the memory. The RAM uses segmentation the most.
+- **Segmentation:** Segmentation is a process splitting up the static data into different
+sections in the memory. There are types of segmentation: Virtual memory segmentation, which each process is divided into a number of segments where not all of which are resident at one point in time, and simple segmentation, where each process is divided into a number of segments where all of which are loaded into memory at run time, though not necessarily contiguously. The RAM uses segmentation the most.
 
 
 - **Concurrency:** This takes processes from the process before it can hit the
