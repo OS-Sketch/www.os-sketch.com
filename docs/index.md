@@ -80,7 +80,7 @@ that will be covered this semester.
 -**Policies:** Policies are ways to choose which activities to perform. They are algorithms for making scheduling decisions, and refers to what needs to be done (i.e. activities to perform).
 
 - **Mechanisms:** Mechanisms are a very important process tool, they are used to send
-processes to and from the scheduler and the CPU. It is also the technique for enacting policy decisions.
+processes to and from the scheduler and the CPU. In relation to mechanisms, it is also the technique for enacting policy decisions, and refers to how to do it (i.e. implementation to enforce policy).
 
 - **Segmentation:** Segmentation is splitting up the static data into different
 sections in the memory. The RAM uses segmentation the most.
