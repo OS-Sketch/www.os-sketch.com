@@ -8,6 +8,7 @@
     "segmentation-paging",
     "memory-swapping",
     "concurrency-introduction",
-    "locks-introduction"
+    "locks-introduction",
+    "semaphores-introduction"
   ]
 }
