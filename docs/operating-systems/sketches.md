@@ -59,8 +59,8 @@ hide:
 
 ## Semaphores
 
-![Semaphores](img/os-sketch-semaphores-introduction.svg#only-light){width="80%"}
-![Semaphores](img/os-sketch-semaphores-introduction-inverted.svg#only-dark){width="80%"}
+![Semaphores](/img/os-sketch-semaphores-introduction.svg#only-light){width="80%"}
+![Semaphores](/img/os-sketch-semaphores-introduction-inverted.svg#only-dark){width="80%"}
 
 ## I/O Devices
 
