@@ -185,7 +185,10 @@ hide:
 
 ### Technical Questions
 
-- 
+- How can the use of **semaphores** support mutual exclusion and reliable
+ **concurrency** in the operating system and programming languages? How are
+ semaphores **similar** to and **different** from locks? How does the use of
+ concurrency primitives influence the **ways** in which I create software?
 
 ### Expert Added Content
 
