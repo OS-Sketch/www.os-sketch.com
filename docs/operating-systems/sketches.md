@@ -34,17 +34,17 @@ hide:
 ## Memory Swapping
 
 ![Memory Swapping](/img/os-sketch-memory-swapping.svg#only-light){width="80%"}
-![Memory Swapping](img/os-sketch-memory-swapping-inverted.svg#only-dark){width="80%"}
+![Memory Swapping](/img/os-sketch-memory-swapping-inverted.svg#only-dark){width="80%"}
 
 ## Concurrency
 
 ![Concurrency](/img/os-sketch-concurrency-introduction.svg#only-light){width="80%"}
 ![Concurrency](/img/os-sketch-concurrency-introduction-inverted.svg#only-dark){width="80%"}
 
-# Multithread API
+## Multithread API
 
 ![Multithread API](/img/os-sketch-multithreaded-program.svg#only-light){width="80%"}
-![Multithread API](/img/os-sketch-multithreaded-program-inverted.svg#only-light){width="80%"}
+![Multithread API](/img/os-sketch-multithreaded-program-inverted.svg#only-dark){width="80%"}
 
 
 ## Locks
