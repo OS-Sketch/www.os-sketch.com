@@ -173,6 +173,6 @@ Requires sophisticated primitives like semaphore
 
 # ✨ Sketching the Key Ideas
 
-<img src="/os-sketch-locks-introduction.svg" class="ml-10 mt-8 h-100" />
+<img src="/os-sketch-semaphores-introduction.svg" class="ml-5 mt-8 h-105" />
 
 [//]: # "Slide End }}}"
