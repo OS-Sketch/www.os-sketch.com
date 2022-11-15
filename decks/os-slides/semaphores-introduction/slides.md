@@ -313,6 +313,65 @@ Consumer will take the data out of the buffer
 
 [//]: # "Slide Start {{{"
 
+# Implementing Bounded Producer
+
+<div class="ml-6 -mt-2">
+
+```c {all}
+void *producer(void *arg) {
+ int i;
+ for (i = 0; i < loops; i++) {
+  sem_wait(&empty);
+  sem_wait(&mutex);
+  put(i);
+  sem_post(&mutex);
+  sem_post(&full);
+ }
+}
+```
+
+- Combined usage of two different types of semaphores: both binary and counting!
+- Critical section involves running function to put data into bounded buffer
+
+</div>
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
+# Implementing Bounded Consumer
+
+<div class="ml-6 -mt-2 mb-5">
+
+```c {all}
+void *consumer(void *arg) {
+ int i;
+ for (i = 0; i < loops; i++) {
+  sem_wait(&full);
+  sem_wait(&mutex);
+  int tmp = get();
+  sem_post(&mutex);
+  sem_post(&empty);
+  printf("%d\n", tmp);
+ }
+}
+```
+
+<div class="-ml-6">
+  Also involves a combined usage of two different types of semaphores: both binary and counting!
+</div>
+
+</div>
+
+[//]: # "Slide End }}}"
+
+
+---
+
+[//]: # "Slide Start {{{"
+
 # ✨ Sketching the Key Ideas
 
 <img src="/os-sketch-semaphores-introduction.svg" class="ml-5 mt-8 h-105" />
