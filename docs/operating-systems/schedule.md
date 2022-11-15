@@ -288,7 +288,7 @@ hide:
 | 12/6                  | <span style="background-color: #4dc516">45. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/file-integrity.pdf" target="_blank"; style="color:#000000;text-decoration:none">Data Integrity and Protection</a> </span>     | Jordan           |
 | 12/8                  | <span style="background-color: #4dc516">48. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/dist-intro.pdf" target="_blank"; style="color:#000000;text-decoration:none">Distributed Systems</a></span>                                      | Bill, Andre      |
 | 12/13                 | <span style="background-color: #3ea89e">53. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/security-intro.pdf" target="_blank"; style="color:#000000;text-decoration:none">Intro Security</a></span>     | Jordan           |
-| 12/14                 | 📝 Review For Final and Project Demos(2:30 -4:30Pm)📝                                            |                  |
+| 12/14                 | 📝 Review For Final and Project Demos (2:30 - 4:30 PM) 📝                                            |                  |
 
 [Return to top of the page](#course-schedule)
 
