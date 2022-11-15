@@ -201,7 +201,6 @@ Requires sophisticated primitives like semaphore
 
 [//]: # "Slide End }}}"
 
-
 ---
 
 [//]: # "Slide Start {{{"
