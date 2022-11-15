@@ -175,7 +175,7 @@ Requires sophisticated primitives like semaphore
 
 <v-clicks>
 
-- Semaphores are a more general-purpose and powerful protection mechanism
+- Semaphores are a more general-purpose and powerful protection mechanism:
 
   - When used with **two states**, semaphores are like **concurrency locks**
 
@@ -183,19 +183,15 @@ Requires sophisticated primitives like semaphore
 
   - Key distinction: **binary semaphores** versus **counting semaphores**
 
-- Understanding and manipulating the states of a `semaphore` variable:
+- Counting semaphores allow threads to **wait for conditions** to arise:
 
-  - `sem_init` : create a semaphore for use between multiple threads
+  - Parent thread may wait until a child thread has executed
 
-  - `sem_wait` : decrement value of semaphore and wait if it is negative
+  - One thread may wait until a list is either full or empty
 
-  - `sem_post` : increment value of semaphore and wake waiting thread
+  - Parent `Pthread_create` s to make child and `sem_wait` s
 
-- When negative, the value of a semaphore is the number of waiting threads
-
-- Concurrent threads can have the state of `run` , `ready` , or `sleep`
-
-- POSIX standard describes and gives an implementation of semaphores
+  - Child accesses the critical section and then calls `sem_post`
 
 </v-clicks>
 
