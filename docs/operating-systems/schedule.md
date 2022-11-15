@@ -185,16 +185,16 @@ hide:
 
 ### Technical Questions
 
--Experts add their technical question here
+- 
 
 ### Expert Added Content
 
 - Read the chapter called *Semaphores* (Chapter 31) in
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
-- Check out the [course slides](/slides/operating-systems/systems-introduction/)
+- Check out the [course slides](/slides/operating-systems/semaphores-introduction/)
   for a detailed investigation of these chapters!
-- [Click here](#important-terms) to find definitions for key terms for the
-  week's readings (chapters 30 and 31)!
+- Review the [important terms](#important-terms) to find definitions of the
+  terms associated with the assigned chapters
 
 ## I/O Devices
 
