@@ -171,6 +171,41 @@ Requires sophisticated primitives like semaphore
 
 [//]: # "Slide Start {{{"
 
+# Using Semaphores for Ordering
+
+<v-clicks>
+
+- Semaphores are a more general-purpose and powerful protection mechanism
+
+  - When used with **two states**, semaphores are like **concurrency locks**
+
+  - When used for **thread ordering**, semaphores are like **condition variables**
+
+  - Key distinction: **binary semaphores** versus **counting semaphores**
+
+- Understanding and manipulating the states of a `semaphore` variable:
+
+  - `sem_init` : create a semaphore for use between multiple threads
+
+  - `sem_wait` : decrement value of semaphore and wait if it is negative
+
+  - `sem_post` : increment value of semaphore and wake waiting thread
+
+- When negative, the value of a semaphore is the number of waiting threads
+
+- Concurrent threads can have the state of `run` , `ready` , or `sleep`
+
+- POSIX standard describes and gives an implementation of semaphores
+
+</v-clicks>
+
+[//]: # "Slide End }}}"
+
+
+---
+
+[//]: # "Slide Start {{{"
+
 # ✨ Sketching the Key Ideas
 
 <img src="/os-sketch-semaphores-introduction.svg" class="ml-5 mt-8 h-105" />
