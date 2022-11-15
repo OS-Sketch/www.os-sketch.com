@@ -125,6 +125,8 @@ hide:
   for a detailed investigation of these chapters!
 - Review the [important terms](#important-terms) for definitions of the terms
   associated with the assigned chapters
+- Check out the [operating system sketch](/operating-systems/sketches/#segmentation-and-paging)
+  associated with this module
 
 ## Memory Swapping
 
@@ -144,6 +146,9 @@ hide:
   investigation of these chapters!
 - Review the [important terms](#important-terms) to find definitions of the
   terms associated with the assigned chapters
+- Check out the [operating system sketch](/operating-systems/sketches/#memory-swapping)
+  associated with this module
+
 
 ## Introducing Concurrency
 
@@ -162,6 +167,8 @@ hide:
   investigation of these chapters!
 - Review the [important terms](#important-terms) to find definitions of the
   terms associated with the assigned chapters
+- Check out the [operating system sketch](/operating-systems/sketches/#introducing-concurrency)
+  associated with this module
 
 ## Locking Mechanisms
 
@@ -180,6 +187,8 @@ hide:
   for a detailed investigation of these chapters!
 - Review the [important terms](#important-terms) to find definitions of the
   terms associated with the assigned chapters
+- Check out the [operating system sketches](/operating-systems/sketches/#locks)
+  associated with this module
 
 ## Using Semaphores
 
@@ -187,7 +196,7 @@ hide:
 
 -Experts add their technical question here
 
-### Expert Added Content
+### Next Steps
 
 - Read the chapter called *Semaphores* (Chapter 31) in
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
@@ -195,6 +204,8 @@ hide:
   for a detailed investigation of these chapters!
 - [Click here](#important-terms) to find definitions for key terms for the
   week's readings (chapters 30 and 31)!
+- Check out the [operating system sketch](/operating-systems/sketches/#semaphores)
+  associated with this module
 
 ## I/O Devices
 
