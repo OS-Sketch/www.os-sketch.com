@@ -141,27 +141,27 @@ Requires sophisticated primitives like semaphore
 
 [//]: # "Slide Start {{{"
 
-# Motivating and Building Locks
+# Understanding Basics of Semaphores
 
 <v-clicks>
 
-- A lock variable ensures that a critical section runs with mutual exclusion
+- Single primitive for everything related to synchronization in an OS
 
-- Lock variables --- or a `mutex` variable --- protects the critical section
+- Semaphores can work as both a lock and a condition variable!
 
-- Understanding and manipulating the states of a `mutex` variable:
+- Understanding and manipulating the states of a `semaphore` variable:
 
-  - **Available**: the critical section is unlocked or free from threads
+  - `sem_init` : create a semaphore for use between multiple threads
 
-  - **Acquired**: the critical section is locked or help by a thread
+  - `sem_wait` : decrement value of semaphore and wait if it is negative
 
-  - Manipulate the state of the `mutex` through `lock` and `unlock`
+  - `sem_post` : increment value of semaphore and wake waiting thread
 
-- Remember, threads are created by the programmer but scheduled by the OS!
+- When negative, the value of a semaphore is the number of waiting threads
 
-- Locks return control to the programmers and enable critical sections
+- Concurrent threads can have the state of `run` , `ready` , or `sleep`
 
-- Locks are an interface with the programming language, programmer, and OS
+- POSIX standard describes and gives an implementation of semaphores
 
 </v-clicks>
 
