@@ -159,13 +159,13 @@ A person who is learning about operating systems needs to be able to know the pa
 - Handle the data corruption failure mode
 - Choose the best checksum function given a data corruption failure mode and a data integrity budget
 
-  *Go to the [Data Integrity](/operating-systems/schedule/#data-integrity) section in the Course Schedule*
+ *Go to the [Data Integrity and Security](/operating-systems/schedule/#data-integrity-and-security) section in the Course Schedule*
 
 ## Security
 
 A person who is learning security must be able to implement a basic security system that can prevent attacks from getting information on your consumers. Within the security section, users are able to learn key concepts and techniques required to model and top of the line security system for an OS.
 
-  *Go to the [Introducing Security](/operating-systems/schedule/#introducing-security) section in the Course Schedule*
+  *Go to the [Data Integrity and Security](/operating-systems/schedule/#data-integrity-and-security) section in the Course Schedule*
 
 ### Authentication
 
