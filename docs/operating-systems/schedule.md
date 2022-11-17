@@ -556,57 +556,71 @@ way in which I implement programs and use an operating system?
 
     ###### [Return](#file-systems-and-directories) to the *File Systems and Directories* module
 
-File System Implementation: Chapter 40
+### File System Implementation: Chapter 40
 
-1. **vsfs (Very Simple File System)** A simplified version of UNIX and utilizes basic on-disk structures, access methods, and multiple file system
-2. **Access Methods** The methods which allow for calls to be made. They include actions such as open(), read(), and write()
-3. **Metadeta** Types of data about data. Mainly consists of data about data blocks, file size, owner and access rights, etc.
-4. **Inode** A series of nodes arranged in an array and indexed into when the user is accessing a specific inode.
-5. **Indirect Pointer** A type of pointer that points to other pointers which direct the program to a specific memory address or another pointer
-6. **Fixed-Size Cache** A small amount of fast memory inside of a processor to improve the speed of which computational tasks are completed
-[Return](#file-systems-and-directories) to *File Systems and Directories*
+???+ note "Technical Concepts"
 
-Network File Systems: Chapter 49
+    - **vsfs (Very Simple File System)** A simplified version of UNIX and utilizes basic on-disk structures, access methods, and multiple file system
+    - **Access Methods** The methods which allow for calls to be made. They include actions such as open(), read(), and write()
+    - **Metadeta** Types of data about data. Mainly consists of data about data blocks, file size, owner and access rights, etc.
+    - **Inode** A series of nodes arranged in an array and indexed into when the user is accessing a specific inode.
+    - **Indirect Pointer** A type of pointer that points to other pointers which direct the program to a specific memory address or another pointer
+    - **Fixed-Size Cache** A small amount of fast memory inside of a processor to improve the speed of which computational tasks are completed
 
-1. **Stateless Protocol** Simplistic crash recovery process where the server restarts and works as it did previously
-2. **Recovery Protocol** A specific protocol where there's enough memory available to tell the server what it needs to know
-3. **Mount Protocol** The first process through which the clients and servers connect together
-4. **Virtual File System (VFS)** Allows for the use of multiple file systems to be utilized for a given operating system
-5. **Write Buffering** The delayed sending of the clients data to the server. The submitted data to the network is first held locally in the client's cache
-[Return](#file-systems-and-directories) to *File Systems and Directories*
+    ###### [Return](#file-systems-and-directories) to the *File Systems and Directories* module
 
-Data Integrity and Protection: Chapter 45
+### Network File Systems: Chapter 49
 
-1. **Fail-Stop** An early feature of RAID systems where either the disk is working or not at all
-2. **Silent Faults** When the storage drive disk doesn't give any appearance of a problem when the data returned is corrupted
-3. **Misdirected Write** When data is written correctly to the disk storage but in the wrong memory address
-4. **Cyclic Redundancy Check (CRC)** Remainder of binary division between a large binary number (D) and an agreed value of (k)
-5. **Lost Write** The device doesn't inform the upper layer that a write finished but the new changes never persisted into the next state, thus exposing the past state before the write
-[Return](#data-integrity-and-security) to *Data Integrity and Security*
+???+ note "Technical Concepts"
 
-Intro Security: Chapter 53
+    - **Stateless Protocol** Simplistic crash recovery process where the server restarts and works as it did previously
+    - **Recovery Protocol** A specific protocol where there's enough memory available to tell the server what it needs to know
+    - **Mount Protocol** The first process through which the clients and servers connect together
+    - **Virtual File System (VFS)** Allows for the use of multiple file systems to be utilized for a given operating system
+    - **Write Buffering** The delayed sending of the clients data to the server. The submitted data to the network is first held locally in the client's cache
 
-1. **Trusted Platform Module (TPM)** Authenticated to users that they were starting up the operating system and version they had intended to do so
-2. **Access Control Mechanisms** The process through which an operating system determines if the user has the proper authorization to perform the requested action
-3. **Non-Repudiation** The authentication of prior actions in the operating system that cannot be forged
-4. **Security Policies** A list of rules and specifications for ensuring security in an operating system environment
-[Return](#data-integrity-and-security) to *Data Integrity and Security*
+    ###### [Return](#file-systems-and-directories) to the *File Systems and Directories* module
 
-Distributed Systems: Chapter 48
+### Data Integrity and Protection: Chapter 45
 
-1. **Checksums** Method to detect memory corruption quickly
-2. **End-to-end argument** Method through which packet loss, aka data loss, is avoided
-3. **UDP/IP** Common networking stack that involves the use of sockets to communicate with an endpoint, and send datagrams which are short messages
-4. **Distributed Shared Memory (DSM)** Allows for multiple computers on the network to share large virtual address space, akin to how processors have multiple cores which allow for the use of threading
-5. **Remote Procedure Call (RPC)** Simple and easy way to execute code on a remote machine
-[Return](#distributed-systems) to *Distributed Systems*
+???+ note "Technical Concepts"
+
+    - **Fail-Stop** An early feature of RAID systems where either the disk is working or not at all
+    - **Silent Faults** When the storage drive disk doesn't give any appearance of a problem when the data returned is corrupted
+    - **Misdirected Write** When data is written correctly to the disk storage but in the wrong memory address
+    - **Cyclic Redundancy Check (CRC)** Remainder of binary division between a large binary number (D) and an agreed value of (k)
+    - **Lost Write** The device doesn't inform the upper layer that a write finished but the new changes never persisted into the next state, thus exposing the past state before the write
+
+    ###### [Return](#data-integrity-and-security) to the *Data Integrity and Security* module
+
+### Intro Security: Chapter 53
+
+???+ note "Technical Concepts"
+
+    - **Trusted Platform Module (TPM)** Authenticated to users that they were starting up the operating system and version they had intended to do so
+    - **Access Control Mechanisms** The process through which an operating system determines if the user has the proper authorization to perform the requested action
+    - **Non-Repudiation** The authentication of prior actions in the operating system that cannot be forged
+    - **Security Policies** A list of rules and specifications for ensuring security in an operating system environment
+
+    ###### [Return](#data-integrity-and-security) to the *Data Integrity and Security* module
+
+### Distributed Systems: Chapter 48
+
+???+ note "Technical Concepts"
+
+    - **Checksums** Method to detect memory corruption quickly
+    - **End-to-end argument** Method through which packet loss, aka data loss, is avoided
+    - **UDP/IP** Common networking stack that involves the use of sockets to communicate with an endpoint, and send datagrams which are short messages
+    - **Distributed Shared Memory (DSM)** Allows for multiple computers on the network to share large virtual address space, akin to how processors have multiple cores which allow for the use of threading
+    - **Remote Procedure Call (RPC)** Simple and easy way to execute code on a remote machine
+
+    ###### [Return](#distributed-systems) to the *Distributed Systems* module
 
 ## Learning Opportunities
 
 Interested in learning more about any of the topics on this schedule? If you
-are, then make sure to connect with members of the [OS Sketch
-community](/operating-systems/learning-community) for more learning
-opportunities. Remember, this course emphasizes building mastery of the course's
+are, then make sure to connect with members of the [OS Sketch community](/operating-systems/learning-community)
+for more learning opportunities. Remember, this course emphasizes building mastery of the course's
 [learning objectives](../learning-objectives) through the process of "learning
-by doing" As such, you can best understand the content on this schedule by
+by doing". As such, you can best understand the content on this schedule by
 completing all of the projects on this site!
