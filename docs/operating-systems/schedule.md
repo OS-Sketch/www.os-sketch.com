@@ -203,15 +203,19 @@ hide:
 
 ### Technical Questions
 
--Experts add their technical question here
+How can does the operating system use the principle of **virtualization** to
+manage the input/output devices connected to a computer? How do
+virtualization **policies** and **mechanisms** for I/O devices influence the
+way in which I implement programs and use an operating system?
 
 ### Expert Added Content
 
-- *I/O Devices* chapter in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
-- Check out the [course slides](/slides/operating-systems/systems-introduction/)
-  for a detailed investigation of these chapters!
-- [Click here](#important-terms) to find definitions for key terms for the
-  week's reading (chapter 36)!
+- Read the chapter called *I/O Devices* (Chapter 36) in
+  [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+- Check out the [course slides](/slides/operating-systems/io-introduction/) for
+  a detailed investigation of these chapters!
+- Review the [important terms](#important-terms) to find definitions of the
+  terms associated with the assigned chapter
 
 ## File Systems and Directories
 
