@@ -63,7 +63,7 @@ hide:
   (Chapter 6), and *Memory API* (Chapter 14) in
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Study the [course slides](/slides/operating-systems/process-execution/)
-  for a detailed investigation of these chapters!
+  for a detailed investigation of these chapters
 - Review the [important terms](#important-terms) for definitions of the
   key terms associated with the assigned chapters
 - Check out the [operating system sketch](/operating-systems/sketches/#process-execution)
@@ -83,7 +83,7 @@ hide:
   Scheduling* (Chapter 9) in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Check out the [course
   slides](/slides/operating-systems/cpu-scheduling/) for a detailed
-  investigation of these chapters!
+  investigation of these chapters
 - Review the [important terms](#important-terms) for definitions of the
   terms associated with the assigned chapters
 - Check out the [operating system sketch](/operating-systems/sketches/#cpu-scheduling)
@@ -103,7 +103,7 @@ hide:
   Mechanisms* (Chapter 15) in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Check out the [course
   slides](/slides/operating-systems/address-spaces/) for a detailed
-  investigation of these chapters!
+  investigation of these chapters
 - Review the [important terms](#important-terms) for definitions of the
   terms associated with the assigned chapters
 - Check out the [operating system sketch](/operating-systems/sketches/#address-spaces)
@@ -122,7 +122,7 @@ hide:
 - Read the chapters called *Segmentation* (Chapter 16) and *Paging* (Chapter
   18) chapters in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Check out the [course slides](/slides/operating-systems/segmentation-paging/)
-  for a detailed investigation of these chapters!
+  for a detailed investigation of these chapters
 - Review the [important terms](#important-terms) for definitions of the terms
   associated with the assigned chapters
 
@@ -141,7 +141,7 @@ hide:
   Policies* (Chapter 22) in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Check out the [course
   slides](/slides/operating-systems/memory-swapping/) for a detailed
-  investigation of these chapters!
+  investigation of these chapters
 - Review the [important terms](#important-terms) to find definitions of the
   terms associated with the assigned chapters
 
@@ -159,7 +159,7 @@ hide:
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Check out the [course
   slides](/slides/operating-systems/concurrency-introduction/) for a detailed
-  investigation of these chapters!
+  investigation of these chapters
 - Review the [important terms](#important-terms) to find definitions of the
   terms associated with the assigned chapters
 
@@ -177,7 +177,7 @@ hide:
 - Read the chapters called *Locks* (Chapter 28) and *Condition Variables* (Chapter 30) in
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Check out the [course slides](/slides/operating-systems/locks-introduction/)
-  for a detailed investigation of these chapters!
+  for a detailed investigation of these chapters
 - Review the [important terms](#important-terms) to find definitions of the
   terms associated with the assigned chapters
 
@@ -195,7 +195,7 @@ hide:
 - Read the chapter called *Semaphores* (Chapter 31) in
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Check out the [course slides](/slides/operating-systems/semaphores-introduction/)
-  for a detailed investigation of these chapters!
+  for a detailed investigation of these chapters
 - Review the [important terms](#important-terms) to find definitions of the
   terms associated with the assigned chapters
 
@@ -213,7 +213,7 @@ way in which I implement programs and use an operating system?
 - Read the chapter called *I/O Devices* (Chapter 36) in
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Check out the [course slides](/slides/operating-systems/io-introduction/) for
-  a detailed investigation of this chapter!
+  a detailed investigation of this chapter
 - Review the [important terms](#important-terms) to find definitions of the
   terms associated with the assigned chapter
 
@@ -228,7 +228,7 @@ way in which I implement programs and use an operating system?
 - Read the chapters called *File and Directories* (Chapter 39) and *File System Implementation* (Chapter 40)
   in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Check out the [course slides](/slides/operating-systems/systems-introduction/)
-  for a detailed investigation of these chapters!
+  for a detailed investigation of these chapters
 - Review the [important terms](#important-terms) to find definitions of the
   terms associated with the assigned chapters
 
@@ -243,7 +243,7 @@ way in which I implement programs and use an operating system?
 - Read the chapter called *Network File System (NFS)* (Chapter 49) in
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Check out the [course slides](/slides/operating-systems/systems-introduction/)
-  for a detailed investigation of this chapter!
+  for a detailed investigation of this chapter
 - Review the [important terms](#important-terms) to find definitions of the
   terms associated with the assigned chapter
 
@@ -258,7 +258,7 @@ way in which I implement programs and use an operating system?
 - Read the chapter called *Data Integrity and Protection* (Chapter 45) in
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Check out the [course slides](/slides/operating-systems/systems-introduction/)
-  for a detailed investigation of these chapters!
+  for a detailed investigation of these chapters
 - Review the [important terms](#important-terms) to find definitions of the
   terms associated with the assigned chapter
 
@@ -273,7 +273,7 @@ way in which I implement programs and use an operating system?
 - Read the chapter called *Distributed Systems* (Chapter 48) in
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Check out the [course slides](/slides/operating-systems/systems-introduction/)
-  for a detailed investigation of these chapters!
+  for a detailed investigation of these chapters
 - Review the [important terms](#important-terms) to find definitions of the 
   terms associated with the assigned chapter
 
@@ -288,7 +288,7 @@ way in which I implement programs and use an operating system?
 - Read the chapter called *Intro Security* (Chapter 53) in
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Check out the [course slides](/slides/operating-systems/systems-introduction/)
-  for a detailed investigation of these chapters!
+  for a detailed investigation of these chapters
 - Review the [important terms](#important-terms) to find definitions of the 
   terms associated with the assigned chapter
 
@@ -335,13 +335,13 @@ way in which I implement programs and use an operating system?
     - **Virtualization**: The process by which the operating system takes a
       physical resource (such as the processor, or memory, or a disk) and
       transforms it into a more general, more powerful, more secure, and
-      easier-to-use virtual version of itself.
+      easier-to-use virtual version of itself
     - **Concurrency**: Managed by the operating system and/or the programming
       langauge, the situation in which multiple computations happen at the same
-      time.
+      time
     - **Persistence**: The process of storing data in a computer system, as a
       way of ensuring that data survives after the ending of the process that
-      created it.
+      created it
 
     ###### [Return](#systems-introduction) to the *Systems Introduction* module
 
@@ -351,11 +351,11 @@ way in which I implement programs and use an operating system?
 
     - **Process**: It is the operating system that takes these bytes and gets them
       running transforming the program into something useful
-    - **Process API**: consists of calls programs can make related to processes.
+    - **Process API**: consists of calls programs can make related to processes
       Typically, this includes creation, destruction, and other useful calls
-    - **Process state**:  Including running, ready to run, and blocked. Different
+    - **Process state**:  Including running, ready to run, and blocked; Different
       events (e.g., getting scheduled or de-scheduled, or waiting for an I/O to
-      complete) transition a process from one of these states to the other.
+      complete) transition a process from one of these states to the other
     - **Process list**: Contains information about all processes in the system
 
     ###### [Return](#systems-introduction) to the *Systems Introduction* module
