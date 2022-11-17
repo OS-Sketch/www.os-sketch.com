@@ -27,7 +27,7 @@ fonts:
 
 # Operating Systems
 
-## Introducing I/O Devices
+## I/O Devices
 
 <div class="container my-5">
   &nbsp;
@@ -467,6 +467,64 @@ Sync the file buffer and close it
 
 [//]: # "Slide Start {{{"
 
+<div class="flex row">
+
+<div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
+What are the three file descriptors for a process?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-grid class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-4xl font-bold mt-10 ml-4">
+<tt>stderr</tt>: offers program error reports
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-grid class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-4xl font-bold mt-10 ml-4">
+<tt>stdin</tt>: offers input to a program
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-grid class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-4xl font-bold mt-10 ml-4">
+<tt>stdout</tt>: program shares its output
+</div>
+
+</div>
+
+</div>
+
+[//]: # "Slide End }}}"
+
+
+
+---
+
+[//]: # "Slide Start {{{"
+
 # System Architecture for I/O Devices
 
 <v-clicks>
@@ -496,7 +554,7 @@ Sync the file buffer and close it
 
 [//]: # "Slide Start {{{"
 
-# I/O Devices
+# Using Canonical I/O Devices
 
 <v-clicks>
 
@@ -548,8 +606,129 @@ Sync the file buffer and close it
 
 </v-clicks>
 
+<div class="flex row">
+
+<mdi-help-box class="text-5xl ml-0 mt-0 text-blue-600" />
+
+<div class="text-4xl text-true-gray-700 font-bold mt-2 ml-4">
+Questions on interacting with I/O devices?
+</div>
+
+</div>
+
 [//]: # "Slide End }}}"
 
+---
+
+[//]: # "Slide Start {{{"
+
+<div class="flex row">
+
+<div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
+How will OS work with I/O devices?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-repeat class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Explicit I/O instructions are privileged
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-repeat class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Memory-mapped I/O uses device registers
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-repeat class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Current operating systems use both approaches
+</div>
+
+</div>
+
+</div>
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
+<div class="flex row">
+
+<div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
+Wait, the OS still needs device drivers!
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-rocket class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+POSIX API provides standard functions
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-rocket class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+General block interface reads and writes
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-rocket class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Device drivers use specific protocols
+</div>
+
+</div>
+
+</div>
+
+[//]: # "Slide End }}}"
 
 ---
 
