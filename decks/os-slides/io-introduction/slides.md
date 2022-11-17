@@ -496,7 +496,7 @@ Sync the file buffer and close it
 
 [//]: # "Slide Start {{{"
 
-# Using Canonical I/O Devices
+# I/O Devices
 
 <v-clicks>
 
@@ -517,6 +517,34 @@ Sync the file buffer and close it
   - Operating system issues request, blocks process, context switches
   - When I/O device finishes the requested data transfer it raises interrupt
   - Operating system can then reactivate blocked process that can continue
+
+</v-clicks>
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
+# I/O Devices Interaction Modes
+
+<v-clicks>
+
+- Trade-offs with using interrupts to support I/O device interaction:
+
+  - Interrupt-driven interaction with I/O devices can be **slow**
+
+  - The **cost** of interrupt handling and context switching may be significant
+
+  - Large-scale data transfer between CPU and devices may incur **overheads**
+
+  - However, interrupt usage allows **interleaving** of computation and I/O
+
+- **Direct memory access** is an alternative to interrupt-driven interaction
+
+- **DMA controllers** are specialized hardware that interact with I/O devices
+
+- Operating system and CPU must have specialized instructions for I/O devices
 
 </v-clicks>
 
