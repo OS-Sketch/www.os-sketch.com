@@ -142,6 +142,63 @@ What does an OS do when a program runs?
 
 [//]: # "Slide Start {{{"
 
+<div class="flex row">
+
+<div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
+What can happen during process execute step?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-rocket class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Access variable values stored in CPU registers
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-rocket class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Perform arithmetic computation on register values
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-rocket class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Block for I/O to access data stored in the file system
+</div>
+
+</div>
+
+</div>
+
+[//]: # "Slide End }}}"
+
+
+---
+
+[//]: # "Slide Start {{{"
+
 # Virtualization in Operating Systems
 
 <v-clicks>
@@ -163,10 +220,10 @@ What does an OS do when a program runs?
 
 <div class="flex row">
 
-<mdi-help-box class="text-6xl ml-4 mt-0 text-blue-600" />
+<mdi-diamond class="text-6xl ml-4 mt-0 text-blue-600" />
 
 <div class="text-4xl text-true-gray-700 font-bold mt-4 ml-4">
-Questions about the role of virtualization?
+Operating system virtualizes all I/O devices!
 </div>
 
 </div>
