@@ -190,6 +190,8 @@ A person who is learning security must be able to implement a basic security sys
 - Determine in a list what websites are secure and insecure
 - Create and secure a distributed system in multiple approaches
 
+  *Go to the [Distributed Systems](/operating-systems/schedule/#distributed-systems) section in the Course Schedule*
+
 ## Advanced Programming
 
 A person who is learning the fundamentals of operating systems should
