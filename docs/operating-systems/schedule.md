@@ -435,36 +435,48 @@ way in which I implement programs and use an operating system?
 
     ###### [Return](#address-spaces) to the *Addresses Spaces* module
 
-Segmentation: Chapter 16
+### Segmentation: Chapter 16
 
-1. **Segmentation Fault** - arises from a memory access on a segmented machine to an illegal address
-2. **Sparse Address Spaces** - large address spaces with large amounts of unused address space
-3. **External Fragmentation** - a general problem that arises when physical memory quickly becomes full of little holes of free space, making it difficult to allocate new segments, or to grow existing ones
-[Return](#segmentation-and-paging) to *Segmentation and Paging*
+???+ note "Technical Concepts"
 
-Introduction To Paging: Chapter 18
+    - **Segmentation Fault** - arises from a memory access on a segmented machine to an illegal address
+    - **Sparse Address Spaces** - large address spaces with large amounts of unused address space
+    - **External Fragmentation** - a general problem that arises when physical memory quickly becomes full of little holes of free space, making it difficult to allocate new segments, or to grow existing ones
 
-1. **Paging** - the process's address space is split into a number of variable-sized units
-2. **Page Tables** - operating system structure used to store per-process address space
-3. **Virtual Page Number (VPN)** - virtual address that the process generates
-4. **Physical Frame Number (PFN)** - where the virtual page number is indexed in the frames
-5. **Physical Page Number (PPN)** - Same as PFN
-[Return](#segmentation-and-paging) to *Segmentation and Paging*
+    ###### [Return](#segmentation-and-paging) to the *Segmentation and Paging* module
 
-Swapping Mechanisms: Chapter 21
+### Introduction To Paging: Chapter 18
 
-1. **High Watermark (HW)** - a way the that the operating system keeps a small amount of memory free
-2. **Low Watermark (LW)** - a way the that the operating system keeps a small amount of memory free
-3. **Swap Daemon** - the process in which the operating system sorts LW amd HW to keep memory free
-[Return](#swapping) to *Swapping*
+???+ note "Technical Concepts"
 
-Swapping Policies: Chapter 22
+    - **Paging** - the process's address space is split into a number of variable-sized units
+    - **Page Tables** - operating system structure used to store per-process address space
+    - **Virtual Page Number (VPN)** - virtual address that the process generates
+    - **Physical Frame Number (PFN)** - where the virtual page number is indexed in the frames
+    - **Physical Page Number (PPN)** - Same as PFN
 
-1. **Average Memory Access Time (AMAT)** - the number of cache hits and misses that a page is found
-2. **Temporal Locality** - programs keep locality in their access streams when storing and accessing memory
-3. **Clock Algorithm** - the way an operating system approximates LRU by randomly picking a page
-4. **Modified Bit** - a bit that is used in the page-replacement process
-[Return](#swapping) to *Swapping*
+    ###### [Return](#segmentation-and-paging) to the *Segmentation and Paging* module
+
+### Swapping Mechanisms: Chapter 21
+
+???+ note "Technical Concepts"
+
+    - **High Watermark (HW)** - a way the that the operating system keeps a small amount of memory free
+    - **Low Watermark (LW)** - a way the that the operating system keeps a small amount of memory free
+    - **Swap Daemon** - the process in which the operating system sorts LW amd HW to keep memory free
+
+    ###### [Return](#swapping) to the *Swapping* module
+
+### Swapping Policies: Chapter 22
+
+???+ note "Technical Concepts"
+
+    - **Average Memory Access Time (AMAT)** - the number of cache hits and misses that a page is found
+    - **Temporal Locality** - programs keep locality in their access streams when storing and accessing memory
+    - **Clock Algorithm** - the way an operating system approximates LRU by randomly picking a page
+    - **Modified Bit** - a bit that is used in the page-replacement process
+
+    ###### [Return](#swapping) to the *Swapping* module
 
 Concurrency and Threads: Chapter 26
 
