@@ -465,6 +465,32 @@ Sync the file buffer and close it
 
 ---
 
+[//]: # "Slide Start {{{"
+
+# System Architecture for I/O Devices
+
+<v-clicks>
+
+- **CPU** and **memory** communicate through a **proprietary memory bus**
+
+- **CPU** communicates with **I/O devices** through the **peripheral bus**
+
+- Common I/O bus standards: SCSI, SATA, and USB
+
+- Modern system architectures have a customized I/O chip
+
+  - Uses PCIe to communicate with network devices
+  - Uses eSATA to communicate with many disks drives
+  - Uses standard USB interface to connect with keyboard and mouse
+  - Thunderbolt 4 interface supports fast I/O with 12th gen Intel CPUs
+  - Receiving Thunderbolt 4 certification for a device is really challenging!
+  - Reference: https://frame.work/blog/framework-laptops-are-now-thunderbolt-4-certified
+
+- Build hardware and software for **efficient** and **correct** access of I/O devices
+
+</v-clicks>
+
+[//]: # "Slide End }}}"
 
 
 ---
