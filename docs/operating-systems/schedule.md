@@ -405,12 +405,15 @@ way in which I implement programs and use an operating system?
 
     ###### [Return](#address-spaces) to the *Addresses Spaces* module
 
-Segmentation: Chapter 16
+### Segmentation: Chapter 16
 
-1. **Segmentation Fault** - arises from a memory access on a segmented machine to an illegal address
-2. **Sparse Address Spaces** - large address spaces with large amounts of unused address space
-3. **External Fragmentation** - a general problem that arises when physical memory quickly becomes full of little holes of free space, making it difficult to allocate new segments, or to grow existing ones
-[Return](#segmentation-and-paging) to *Segmentation and Paging*
+???+ note "Technical Concepts"
+
+     - **Segmentation Fault** - arises from a memory access on a segmented machine to an illegal address
+     - **Sparse Address Spaces** - large address spaces with large amounts of unused address space
+     - **External Fragmentation** - a general problem that arises when physical memory quickly becomes full of little holes of free space, making it difficult to allocate new segments, or to grow existing ones
+
+    ###### [Return](#segmentation-and-paging) to *Segmentation and Paging*
 
 Introduction To Paging: Chapter 18
 
