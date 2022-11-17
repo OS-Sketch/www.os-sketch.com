@@ -34,6 +34,8 @@ A person who is learning about operating systems needs to be able to know that *
 - Map out the processes of the OS virtualizing resources and doing it efficiently
 - Make a hardware design of the operating system
 
+  *Go to the [Systems Introduction](/operating-systems/schedule/#systems-introduction) section in the Course Schedule*
+
 ### Processes
 
 - State the steps an Operating System should take in order to run a program (or process).
@@ -43,6 +45,8 @@ A person who is learning about operating systems needs to be able to know that *
 - Compare the UNIX interfaces: fork(), wait(), + exec() and outline the difference in how the parent and child processes are used in each interface.
 - List and explain the interfaces and/or user privileges that can be used to control processes.
 
+  *Go to the [Process Execution](/operating-systems/schedule/#process-execution) section in the Course Schedule*
+
 ### Direct Execution
 
 - Trace the steps of a Limited Direct Execution
@@ -50,11 +54,15 @@ A person who is learning about operating systems needs to be able to know that *
 - Trace the steps of Context Switch code
 - Measure the cost of context switch code using the `lmbench` tool
 
+  *Go to the [Process Execution](/operating-systems/schedule/#process-execution) section in the Course Schedule*
+
 ### CPU Scheduling
 
 - Develop a scheduling policy based on workloads and scheduling metric priorities
 - Design any scheduling algorithm with jobs being run over a certain period of time
 - Design an STCF scheduler with overlap between the CPU and the disk over a certain period of time
+
+  *Go to the [CPU Scheduling](/operating-systems/schedule/#cpu-scheduling) section in the Course Schedule*
 
 ### Memory Management
 
@@ -68,11 +76,15 @@ A person who is learning about operating systems needs to be able to know that *
 - Avoid segmentation faults when referring to addresses
 - Determine the segment that an address is in based on how that address was formed
 
+  *Go to the [Segmentation and Paging](/operating-systems/schedule/#segmentation-and-paging) section in the Course Schedule*
+
 ### Paging
 
 - Avoid the problems of segmentation by virtualizing memory with pages
 - Virtualize memory via paging with minimal space and time overheads
 - Design the address translation process from the virtual address to the physical address
+
+  *Go to the [Segmentation and Paging](/operating-systems/schedule/#segmentation-and-paging) section in the Course Schedule*
 
 ### Swapping
 
