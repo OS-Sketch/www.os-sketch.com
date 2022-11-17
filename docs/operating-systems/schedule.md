@@ -155,7 +155,7 @@ hide:
 
 ### Next Steps
 
-- Read the chapters called *Concurrency: An Introduction* and *Thread API* (Chapter 27) in
+- Read the chapters called *Concurrency and Threads* (Chapter 26) and *Thread API* (Chapter 27) in
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Check out the [course
   slides](/slides/operating-systems/concurrency-introduction/) for a detailed
@@ -213,7 +213,7 @@ way in which I implement programs and use an operating system?
 - Read the chapter called *I/O Devices* (Chapter 36) in
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Check out the [course slides](/slides/operating-systems/io-introduction/) for
-  a detailed investigation of these chapters!
+  a detailed investigation of this chapter!
 - Review the [important terms](#important-terms) to find definitions of the
   terms associated with the assigned chapter
 
@@ -225,14 +225,14 @@ way in which I implement programs and use an operating system?
 
 ### Expert Added Content
 
-- *File Systems and Directories*, *File System Implementation* and *Network File
-  Systems* chapters in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+- Read the chapters called *File and Directories* (Chapter 39) and *File System Implementation* (Chapter 40)
+  in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Check out the [course slides](/slides/operating-systems/systems-introduction/)
   for a detailed investigation of these chapters!
-- [Click here](#important-terms) to find definitions for key terms for the
-  week's reading (chapters 39, 40 and 49)!
+- Review the [important terms](#important-terms) to find definitions of the
+  terms associated with the assigned chapters
 
-## Data Integrity and Security
+## Network File Systems
 
 ### Technical Questions
 
@@ -240,12 +240,27 @@ way in which I implement programs and use an operating system?
 
 ### Expert Added Content
 
-- *Data Integrity and Protection* and *Intro Security* chapters in
+- Read the chapter called *Network File System (NFS)* (Chapter 49) in
+  [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+- Check out the [course slides](/slides/operating-systems/systems-introduction/)
+  for a detailed investigation of this chapter!
+- Review the [important terms](#important-terms) to find definitions of the
+  terms associated with the assigned chapter
+
+## Data Integrity
+
+### Technical Questions
+
+-Experts add their technical question here
+
+### Expert Added Content
+
+- Read the chapter called *Data Integrity and Protection* (Chapter 45) in
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Check out the [course slides](/slides/operating-systems/systems-introduction/)
   for a detailed investigation of these chapters!
-- [Click here](#important-terms) to find definitions for key terms for the
-  week's reading (chapters 49 and 53)!
+- Review the [important terms](#important-terms) to find definitions of the
+  terms associated with the assigned chapter
 
 ## Distributed Systems
 
@@ -255,12 +270,27 @@ way in which I implement programs and use an operating system?
 
 ### Expert Added Content
 
-- *Distributed Systems* chapter in
+- Read the chapter called *Distributed Systems* (Chapter 48) in
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Check out the [course slides](/slides/operating-systems/systems-introduction/)
   for a detailed investigation of these chapters!
-- [Click here](#important-terms) to find definitions for key terms for the
-  week's reading (chapters 48)!
+- Review the [important terms](#important-terms) to find definitions of the 
+  terms associated with the assigned chapter
+
+## Introducing Security
+
+### Technical Questions
+
+-Experts add their technical question here
+
+### Expert Added Content
+
+- Read the chapter called *Intro Security* (Chapter 53) in
+  [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+- Check out the [course slides](/slides/operating-systems/systems-introduction/)
+  for a detailed investigation of these chapters!
+- Review the [important terms](#important-terms) to find definitions of the 
+  terms associated with the assigned chapter
 
 ## Course Timeline
 
