@@ -492,6 +492,36 @@ Sync the file buffer and close it
 
 [//]: # "Slide End }}}"
 
+---
+
+[//]: # "Slide Start {{{"
+
+# Using Canonical I/O Devices
+
+<v-clicks>
+
+- A canonical I/O device contains an **interface** that abstracts the **internals**
+
+- Registers on the I/O device include ones for status, command, and data
+
+- I/O devices contain their own memory, CPU, and customized chips
+
+- How does an operating system interact with an I/O device?
+
+  - **Polling** occurs when the operating system asks for frequent status updates
+  - **Programmed I/O** occurs when data moves from CPU to device registers
+  - However, the polling system is **inefficient** and wastes system resources!
+
+- How does an operating system reduce overhead with interrupts?
+
+  - Operating system issues request, blocks process, context switches
+  - When I/O device finishes the requested data transfer it raises interrupt
+  - Operating system can then reactivate blocked process that can continue
+
+</v-clicks>
+
+[//]: # "Slide End }}}"
+
 
 ---
 
