@@ -9,6 +9,7 @@
     "memory-swapping",
     "concurrency-introduction",
     "locks-introduction",
-    "semaphores-introduction"
+    "semaphores-introduction",
+    "io-introduction"
   ]
 }
