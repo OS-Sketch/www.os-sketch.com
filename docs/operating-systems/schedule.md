@@ -63,7 +63,7 @@ hide:
   (Chapter 6), and *Memory API* (Chapter 14) in
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Study the [course slides](/slides/operating-systems/process-execution/)
-  for a detailed investigation of these chapters!
+  for a detailed investigation of these chapters
 - Review the [important terms](#important-terms) for definitions of the
   key terms associated with the assigned chapters
 - Check out the [operating system sketch](/operating-systems/sketches/#process-execution)
@@ -83,7 +83,7 @@ hide:
   Scheduling* (Chapter 9) in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Check out the [course
   slides](/slides/operating-systems/cpu-scheduling/) for a detailed
-  investigation of these chapters!
+  investigation of these chapters
 - Review the [important terms](#important-terms) for definitions of the
   terms associated with the assigned chapters
 - Check out the [operating system sketch](/operating-systems/sketches/#cpu-scheduling)
@@ -103,7 +103,7 @@ hide:
   Mechanisms* (Chapter 15) in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Check out the [course
   slides](/slides/operating-systems/address-spaces/) for a detailed
-  investigation of these chapters!
+  investigation of these chapters
 - Review the [important terms](#important-terms) for definitions of the
   terms associated with the assigned chapters
 - Check out the [operating system sketch](/operating-systems/sketches/#address-spaces)
@@ -122,7 +122,7 @@ hide:
 - Read the chapters called *Segmentation* (Chapter 16) and *Paging* (Chapter
   18) chapters in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Check out the [course slides](/slides/operating-systems/segmentation-paging/)
-  for a detailed investigation of these chapters!
+  for a detailed investigation of these chapters
 - Review the [important terms](#important-terms) for definitions of the terms
   associated with the assigned chapters
 
@@ -141,7 +141,7 @@ hide:
   Policies* (Chapter 22) in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Check out the [course
   slides](/slides/operating-systems/memory-swapping/) for a detailed
-  investigation of these chapters!
+  investigation of these chapters
 - Review the [important terms](#important-terms) to find definitions of the
   terms associated with the assigned chapters
 
@@ -155,11 +155,11 @@ hide:
 
 ### Next Steps
 
-- Read the chapters called *Concurrency: An Introduction* and *Thread API* (Chapter 27) in
+- Read the chapters called *Concurrency and Threads* (Chapter 26) and *Thread API* (Chapter 27) in
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Check out the [course
   slides](/slides/operating-systems/concurrency-introduction/) for a detailed
-  investigation of these chapters!
+  investigation of these chapters
 - Review the [important terms](#important-terms) to find definitions of the
   terms associated with the assigned chapters
 
@@ -177,7 +177,7 @@ hide:
 - Read the chapters called *Locks* (Chapter 28) and *Condition Variables* (Chapter 30) in
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Check out the [course slides](/slides/operating-systems/locks-introduction/)
-  for a detailed investigation of these chapters!
+  for a detailed investigation of these chapters
 - Review the [important terms](#important-terms) to find definitions of the
   terms associated with the assigned chapters
 
@@ -195,7 +195,7 @@ hide:
 - Read the chapter called *Semaphores* (Chapter 31) in
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Check out the [course slides](/slides/operating-systems/semaphores-introduction/)
-  for a detailed investigation of these chapters!
+  for a detailed investigation of these chapters
 - Review the [important terms](#important-terms) to find definitions of the
   terms associated with the assigned chapters
 
@@ -213,7 +213,7 @@ way in which I implement programs and use an operating system?
 - Read the chapter called *I/O Devices* (Chapter 36) in
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Check out the [course slides](/slides/operating-systems/io-introduction/) for
-  a detailed investigation of these chapters!
+  a detailed investigation of this chapter
 - Review the [important terms](#important-terms) to find definitions of the
   terms associated with the assigned chapter
 
@@ -225,14 +225,14 @@ way in which I implement programs and use an operating system?
 
 ### Expert Added Content
 
-- *File Systems and Directories*, *File System Implementation* and *Network File
-  Systems* chapters in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+- Read the chapters called *File and Directories* (Chapter 39) and *File System Implementation* (Chapter 40)
+  in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Check out the [course slides](/slides/operating-systems/systems-introduction/)
-  for a detailed investigation of these chapters!
-- [Click here](#important-terms) to find definitions for key terms for the
-  week's reading (chapters 39, 40 and 49)!
+  for a detailed investigation of these chapters
+- Review the [important terms](#important-terms) to find definitions of the
+  terms associated with the assigned chapters
 
-## Data Integrity and Security
+## Network File Systems
 
 ### Technical Questions
 
@@ -240,12 +240,27 @@ way in which I implement programs and use an operating system?
 
 ### Expert Added Content
 
-- *Data Integrity and Protection* and *Intro Security* chapters in
+- Read the chapter called *Network File System (NFS)* (Chapter 49) in
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Check out the [course slides](/slides/operating-systems/systems-introduction/)
-  for a detailed investigation of these chapters!
-- [Click here](#important-terms) to find definitions for key terms for the
-  week's reading (chapters 49 and 53)!
+  for a detailed investigation of this chapter
+- Review the [important terms](#important-terms) to find definitions of the
+  terms associated with the assigned chapter
+
+## Data Integrity
+
+### Technical Questions
+
+-Experts add their technical question here
+
+### Expert Added Content
+
+- Read the chapter called *Data Integrity and Protection* (Chapter 45) in
+  [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+- Check out the [course slides](/slides/operating-systems/systems-introduction/)
+  for a detailed investigation of these chapters
+- Review the [important terms](#important-terms) to find definitions of the
+  terms associated with the assigned chapter
 
 ## Distributed Systems
 
@@ -255,12 +270,27 @@ way in which I implement programs and use an operating system?
 
 ### Expert Added Content
 
-- *Distributed Systems* chapter in
+- Read the chapter called *Distributed Systems* (Chapter 48) in
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Check out the [course slides](/slides/operating-systems/systems-introduction/)
-  for a detailed investigation of these chapters!
-- [Click here](#important-terms) to find definitions for key terms for the
-  week's reading (chapters 48)!
+  for a detailed investigation of these chapters
+- Review the [important terms](#important-terms) to find definitions of the 
+  terms associated with the assigned chapter
+
+## Introducing Security
+
+### Technical Questions
+
+-Experts add their technical question here
+
+### Expert Added Content
+
+- Read the chapter called *Intro Security* (Chapter 53) in
+  [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+- Check out the [course slides](/slides/operating-systems/systems-introduction/)
+  for a detailed investigation of these chapters
+- Review the [important terms](#important-terms) to find definitions of the 
+  terms associated with the assigned chapter
 
 ## Course Timeline
 
@@ -302,16 +332,16 @@ way in which I implement programs and use an operating system?
 
 ???+ note "Technical Concepts"
 
-    - **Virtualization**: The process by which the operating system takes a
+    - **Virtualization** - the process by which the operating system takes a
       physical resource (such as the processor, or memory, or a disk) and
       transforms it into a more general, more powerful, more secure, and
-      easier-to-use virtual version of itself.
-    - **Concurrency**: Managed by the operating system and/or the programming
+      easier-to-use virtual version of itself
+    - **Concurrency** - managed by the operating system and/or the programming
       langauge, the situation in which multiple computations happen at the same
-      time.
-    - **Persistence**: The process of storing data in a computer system, as a
+      time
+    - **Persistence** - the process of storing data in a computer system, as a
       way of ensuring that data survives after the ending of the process that
-      created it.
+      created it
 
     ###### [Return](#systems-introduction) to the *Systems Introduction* module
 
@@ -319,14 +349,14 @@ way in which I implement programs and use an operating system?
 
 ???+ note "Technical Concepts"
 
-    - **Process**: It is the operating system that takes these bytes and gets them
+    - **Process** - it is the operating system that takes these bytes and gets them
       running transforming the program into something useful
-    - **Process API**: consists of calls programs can make related to processes.
+    - **Process API** - consists of calls programs can make related to processes
       Typically, this includes creation, destruction, and other useful calls
-    - **Process state**:  Including running, ready to run, and blocked. Different
+    - **Process state** - including running, ready to run, and blocked; different
       events (e.g., getting scheduled or de-scheduled, or waiting for an I/O to
-      complete) transition a process from one of these states to the other.
-    - **Process list**: Contains information about all processes in the system
+      complete) transition a process from one of these states to the other
+    - **Process list** - contains information about all processes in the system
 
     ###### [Return](#systems-introduction) to the *Systems Introduction* module
 
@@ -334,10 +364,10 @@ way in which I implement programs and use an operating system?
 
 ???+ note "Technical Concepts"
 
-    - **Process Identifier** - Used to name the process if one wants to do something with the process, such as (for example) stop it from running
-    - **Fork** - Is used in UNIX systems to create a new process
-    - **Scheduler** - Determines which process runs at a given moment in time
-    - **Superuser** - Controls all processes (and indeed do many other things); this role should be assumed infrequently and with caution for security reasons
+    - **Process Identifier** - used to name the process if one wants to do something with the process, such as (for example) stop it from running
+    - **Fork** - is used in UNIX systems to create a new process
+    - **Scheduler** - determines which process runs at a given moment in time
+    - **Superuser** - controls all processes (and indeed do many other things); this role should be assumed infrequently and with caution for security reasons
 
     ###### [Return](#process-execution) to the *Process Execution* module
 
@@ -345,10 +375,10 @@ way in which I implement programs and use an operating system?
 
 ???+ note "Technical Concepts"
 
-    - **Time Sharing** - When you run one process for a little while,then run another one, and so forth
-    - **Limited Direct Execution** - To make a program run as fast as one might expect
-    - **User and Kernel Mode** - The approach we take is to introduce a new processor mode. The operating system runs in
-    - **Context Switch** - When the OS, during a timer interrupt or system call, might wish to switch from running the current process to a different one
+    - **Time Sharing** - when you run one process for a little while,then run another one, and so forth
+    - **Limited Direct Execution** - to make a program run as fast as one might expect
+    - **User and Kernel Mode** - the approach we take is to introduce a new processor mode. The operating system runs in
+    - **Context Switch** - when the OS, during a timer interrupt or system call, might wish to switch from running the current process to a different one
 
     ###### [Return](#process-execution) to the *Process Execution* module
 
@@ -356,9 +386,9 @@ way in which I implement programs and use an operating system?
 
 ???+ note "Technical Concepts"
 
-    - **Stack Memory** - Allocations and deallocations of it are managed implicitly by the compiler for you
-    - **Buffer Overflow** - A related error is not allocating enough memory
-    - **Purify and Valgrind** - Both are excellent at helping you locate the source of your memory-related problems
+    - **Stack Memory** - allocations and deallocations of it are managed implicitly by the compiler for you
+    - **Buffer Overflow** - a related error is not allocating enough memory
+    - **Purify and Valgrind** - both are excellent at helping you locate the source of your memory-related problems
 
     ###### [Return](#process-execution) to the *Process Execution* module
 
@@ -405,145 +435,192 @@ way in which I implement programs and use an operating system?
 
     ###### [Return](#address-spaces) to the *Addresses Spaces* module
 
-Segmentation: Chapter 16
+### Segmentation: Chapter 16
 
-1. **Segmentation Fault** - arises from a memory access on a segmented machine to an illegal address
-2. **Sparse Address Spaces** - large address spaces with large amounts of unused address space
-3. **External Fragmentation** - a general problem that arises when physical memory quickly becomes full of little holes of free space, making it difficult to allocate new segments, or to grow existing ones
-[Return](#segmentation-and-paging) to *Segmentation and Paging*
+???+ note "Technical Concepts"
 
-Introduction To Paging: Chapter 18
+    - **Segmentation Fault** - arises from a memory access on a segmented machine to an illegal address
+    - **Sparse Address Spaces** - large address spaces with large amounts of unused address space
+    - **External Fragmentation** - a general problem that arises when physical memory quickly becomes full of little holes of free space, making it difficult to allocate new segments, or to grow existing ones
 
-1. **Paging** - the process's address space is split into a number of variable-sized units
-2. **Page Tables** - operating system structure used to store per-process address space
-3. **Virtual Page Number (VPN)** - virtual address that the process generates
-4. **Physical Frame Number (PFN)** - where the virtual page number is indexed in the frames
-5. **Physical Page Number (PPN)** - Same as PFN
-[Return](#segmentation-and-paging) to *Segmentation and Paging*
+    ###### [Return](#segmentation-and-paging) to the *Segmentation and Paging* module
 
-Swapping Mechanisms: Chapter 21
+### Introduction To Paging: Chapter 18
 
-1. **High Watermark (HW)** - a way the that the operating system keeps a small amount of memory free
-2. **Low Watermark (LW)** - a way the that the operating system keeps a small amount of memory free
-3. **Swap Daemon** - the process in which the operating system sorts LW amd HW to keep memory free
-[Return](#swapping) to *Swapping*
+???+ note "Technical Concepts"
 
-Swapping Policies: Chapter 22
+    - **Paging** - the process's address space is split into a number of variable-sized units
+    - **Page Tables** - operating system structure used to store per-process address space
+    - **Virtual Page Number (VPN)** - virtual address that the process generates
+    - **Physical Frame Number (PFN)** - where the virtual page number is indexed in the frames
+    - **Physical Page Number (PPN)** - same as PFN
 
-1. **Average Memory Access Time (AMAT)** - the number of cache hits and misses that a page is found
-2. **Temporal Locality** - programs keep locality in their access streams when storing and accessing memory
-3. **Clock Algorithm** - the way an operating system approximates LRU by randomly picking a page
-4. **Modified Bit** - a bit that is used in the page-replacement process
-[Return](#swapping) to *Swapping*
+    ###### [Return](#segmentation-and-paging) to the *Segmentation and Paging* module
 
-Concurrency and Threads: Chapter 26
+### Swapping Mechanisms: Chapter 21
 
-1. **Thread Control Blocks (TCBs)** - stores the state of a thread in a process
-2. **Disassembler** - shows what assembly instructions were used in the program
-3. **Transaction** - grouping of many actions into a single atomic action
-4. **Critical Section** - piece of code that when accesses a shared resource, usually a variable or data structure
-5. **Race Condition** - arises if multiple threads of execution enter the critical section at roughly the same time
-[Return](#concurrency) to *Concurrency*
+???+ note "Technical Concepts"
 
-Thread API: Chapter 27
+    - **High Watermark (HW)** - a way the that the operating system keeps a small amount of memory free
+    - **Low Watermark (LW)** - a way the that the operating system keeps a small amount of memory free
+    - **Swap Daemon** - the process in which the operating system sorts LW amd HW to keep memory free
 
-1. **Function Pointer** - looks for which function threads should start running in
-2. **Procedure Call** - creates a thread or multiple threads
-3. **Critical Section** - region of code that needs to be protected for operation
-[Return](#thread-api-and-locks) to *Thread API and Locks*
+    ###### [Return](#swapping) to the *Swapping* module
 
-Locks: Chapter 28
+### Swapping Policies: Chapter 22
 
-1. **Spinning** - a thread being told to wait before the action is executed based on a lock being in place
-2. **Mutual Exclusion**: if one thread is in the critical section it excludes others from entering
-3. **Fairness**: does each thread contending for the lock get an equal shot at it
-4. **Performance**: time added by using the lock
-[Return](#thread-api-and-locks) to *Thread API and Locks*
+???+ note "Technical Concepts"
 
-Condition Variables: Chapter 30
+    - **Average Memory Access Time (AMAT)** - the number of cache hits and misses that a page is found
+    - **Temporal Locality** - programs keep locality in their access streams when storing and accessing memory
+    - **Clock Algorithm** - the way an operating system approximates LRU by randomly picking a page
+    - **Modified Bit** - a bit that is used in the page-replacement process
 
-1. **Condition variable**: an explicit queue threads can put themselves on when some state of execution is less desirable than another thread.  When it changes state the other threads can be woken up and allowed to continue
-2. **Wait/Signal**: the actions used in a conditional variable.  The thread waits on a specific condition to be met and then signals the sleeping threads to be executed
-3. **Bounded Buffer**: a system of multiple producer threads and consumer threads which is shared
-[Return](#variations-of-locks) to *Variations of Locks*
+    ###### [Return](#swapping) to the *Swapping* module
 
-Semaphores: Chapter 31
+### Concurrency and Threads: Chapter 26
 
-1. **Deadlock** - A problem that occurs when a consumer thread is called before the producer when trying to use mutual exclusion
-2. **Throttling** - An imposed limit to the number of threads that can be simultaneously executed on a piece of code.  Used to keep the system from bogging down
-3. **Zemaphore** - An easier-to-implement version of the semaphore where we don’t maintain the value of the semaphore, when negative, reflects the number of waiting threads
-4. **Hill’s Law** - Sometimes simple and dumb is better.  Just because you can make something sophisticated to solve a problem doesn’t mean it’s the best answer
-[Return](#variations-of-locks) to *Variations of Locks*
+???+ note "Technical Concepts"
 
-I/O Devices: Chapter 36
+    - **Thread Control Blocks (TCBs)** - stores the state of a thread in a process
+    - **Disassembler** - shows what assembly instructions were used in the program
+    - **Transaction** - grouping of many actions into a single atomic action
+    - **Critical Section** - piece of code that when accesses a shared resource, usually a variable or data structure
+    - **Race Condition** - arises if multiple threads of execution enter the critical section at roughly the same time
 
-1. **DMA (direct memory access)** - a device within a system that orchestrates transfers between devices and memory without much CPU intervention
-2. **Memory-mapped I/O** - Another method to interact with devices.  With this version the hardware makes device registers available as if they were memory locations  Helpful because no new instructions are needed to support it
-3. **Hardware Interface** - The way for the software to communicate and interact with the hardware system
-4. **Internal Structure** - Responsible for implementing the abstraction the device presents to the system
-[Return](#io-devices) to *I/O Devices*
+    ###### [Return](#concurrency) to the *Concurrency* module
 
-Files and Directories: Chapter 39
+### Thread API: Chapter 27
 
-1. **Persistent Storage** - A permanent storage device that keeps information intact after a loss of power
-2. **File** - An array of bytes that can be created, read, written and deleted.  Low level name is i-number
-3. **Directory** - An array of tuples, each containing a human-readable and low-level name to which it is mapped
-4. **Directory Tree** - Organizes all files into a tree, starting with the root.
-5. **Hard Link** - An entry in the file system tree.  Takes two arguments (old path name and new) and creates another way to refer to that same file
-6. **Symbolic (soft) Link** - Different type of link that allows links to files in other disk partitions than the one the original file is in
-[Return](#file-systems-and-directories) to *File Systems and Directories*
+???+ note "Technical Concepts"
 
-File System Implementation: Chapter 40
+    - **Function Pointer** - looks for which function threads should start running in
+    - **Procedure Call** - creates a thread or multiple threads
+    - **Critical Section** - region of code that needs to be protected for operation
 
-1. **vsfs (Very Simple File System)** A simplified version of UNIX and utilizes basic on-disk structures, access methods, and multiple file system
-2. **Access Methods** The methods which allow for calls to be made. They include actions such as open(), read(), and write()
-3. **Metadeta** Types of data about data. Mainly consists of data about data blocks, file size, owner and access rights, etc.
-4. **Inode** A series of nodes arranged in an array and indexed into when the user is accessing a specific inode.
-5. **Indirect Pointer** A type of pointer that points to other pointers which direct the program to a specific memory address or another pointer
-6. **Fixed-Size Cache** A small amount of fast memory inside of a processor to improve the speed of which computational tasks are completed
-[Return](#file-systems-and-directories) to *File Systems and Directories*
+    ###### [Return](#thread-api-and-locks) to the *Thread API and Locks* module
 
-Network File Systems: Chapter 49
+### Locks: Chapter 28
 
-1. **Stateless Protocol** Simplistic crash recovery process where the server restarts and works as it did previously
-2. **Recovery Protocol** A specific protocol where there's enough memory available to tell the server what it needs to know
-3. **Mount Protocol** The first process through which the clients and servers connect together
-4. **Virtual File System (VFS)** Allows for the use of multiple file systems to be utilized for a given operating system
-5. **Write Buffering** The delayed sending of the clients data to the server. The submitted data to the network is first held locally in the client's cache
-[Return](#file-systems-and-directories) to *File Systems and Directories*
+???+ note "Technical Concepts"
 
-Data Integrity and Protection: Chapter 45
+    - **Spinning** - a thread being told to wait before the action is executed based on a lock being in place
+    - **Mutual Exclusion** - if one thread is in the critical section it excludes others from entering
+    - **Fairness** - does each thread contending for the lock get an equal shot at it
+    - **Performance** - time added by using the lock
 
-1. **Fail-Stop** An early feature of RAID systems where either the disk is working or not at all
-2. **Silent Faults** When the storage drive disk doesn't give any appearance of a problem when the data returned is corrupted
-3. **Misdirected Write** When data is written correctly to the disk storage but in the wrong memory address
-4. **Cyclic Redundancy Check (CRC)** Remainder of binary division between a large binary number (D) and an agreed value of (k)
-5. **Lost Write** The device doesn't inform the upper layer that a write finished but the new changes never persisted into the next state, thus exposing the past state before the write
-[Return](#data-integrity-and-security) to *Data Integrity and Security*
+    ###### [Return](#thread-api-and-locks) to the *Thread API and Locks* module
 
-Intro Security: Chapter 53
+### Condition Variables: Chapter 30
 
-1. **Trusted Platform Module (TPM)** Authenticated to users that they were starting up the operating system and version they had intended to do so
-2. **Access Control Mechanisms** The process through which an operating system determines if the user has the proper authorization to perform the requested action
-3. **Non-Repudiation** The authentication of prior actions in the operating system that cannot be forged
-4. **Security Policies** A list of rules and specifications for ensuring security in an operating system environment
-[Return](#data-integrity-and-security) to *Data Integrity and Security*
+???+ note "Technical Concepts"
 
-Distributed Systems: Chapter 48
+    - **Condition variable** - an explicit queue threads can put themselves on when some state of execution is less desirable than another thread;  when it changes state the other threads can be woken up and allowed to continue
+    - **Wait/Signal** - the actions used in a conditional variable.  The thread waits on a specific condition to be met and then signals the sleeping threads to be executed
+    - **Bounded Buffer** - a system of multiple producer threads and consumer threads which is shared
 
-1. **Checksums** Method to detect memory corruption quickly
-2. **End-to-end argument** Method through which packet loss, aka data loss, is avoided
-3. **UDP/IP** Common networking stack that involves the use of sockets to communicate with an endpoint, and send datagrams which are short messages
-4. **Distributed Shared Memory (DSM)** Allows for multiple computers on the network to share large virtual address space, akin to how processors have multiple cores which allow for the use of threading
-5. **Remote Procedure Call (RPC)** Simple and easy way to execute code on a remote machine
-[Return](#distributed-systems) to *Distributed Systems*
+    ###### [Return](#variations-of-locks) to the *Variations of Locks* module
+
+### Semaphores: Chapter 31
+
+???+ note "Technical Concepts"
+
+    - **Deadlock** - a problem that occurs when a consumer thread is called before the producer when trying to use mutual exclusion
+    - **Throttling** - an imposed limit to the number of threads that can be simultaneously executed on a piece of code.  Used to keep the system from bogging down
+    - **Zemaphore** - an easier-to-implement version of the semaphore where we don’t maintain the value of the semaphore, when negative, reflects the number of waiting threads
+    - **Hill’s Law** - sometimes simple and dumb is better.  Just because you can make something sophisticated to solve a problem doesn’t mean it’s the best answer
+
+    ###### [Return](#variations-of-locks) to the *Variations of Locks* module
+
+### I/O Devices: Chapter 36
+
+???+ note "Technical Concepts"
+
+    - **DMA (direct memory access)** - a device within a system that orchestrates transfers between devices and memory without much CPU intervention
+    - **Memory-mapped I/O** - another method to interact with devices.  With this version the hardware makes device registers available as if they were memory locations  Helpful because no new instructions are needed to support it
+    - **Hardware Interface** - the way for the software to communicate and interact with the hardware system
+    - **Internal Structure** - responsible for implementing the abstraction the device presents to the system
+
+    ###### [Return](#io-devices) to the *I/O Devices* module
+
+### Files and Directories: Chapter 39
+
+???+ note "Technical Concepts"
+
+    - **Persistent Storage** - a permanent storage device that keeps information intact after a loss of power
+    - **File** - an array of bytes that can be created, read, written and deleted.  Low level name is i-number
+    - **Directory** - an array of tuples, each containing a human-readable and low-level name to which it is mapped
+    - **Directory Tree** - organizes all files into a tree, starting with the root.
+    - **Hard Link** - an entry in the file system tree.  Takes two arguments (old path name and new) and creates another way to refer to that same file
+    - **Symbolic (soft) Link** - different type of link that allows links to files in other disk partitions than the one the original file is in
+
+    ###### [Return](#file-systems-and-directories) to the *File Systems and Directories* module
+
+### File System Implementation: Chapter 40
+
+???+ note "Technical Concepts"
+
+    - **VSFS (Very Simple File System)** - a simplified version of UNIX and utilizes basic on-disk structures, access methods, and multiple file system
+    - **Access Methods** - the methods which allow for calls to be made. They include actions such as open(), read(), and write()
+    - **Metadeta** - types of data about data. Mainly consists of data about data blocks, file size, owner and access rights, etc.
+    - **Inode** - a series of nodes arranged in an array and indexed into when the user is accessing a specific inode.
+    - **Indirect Pointer** - a type of pointer that points to other pointers which direct the program to a specific memory address or another pointer
+    - **Fixed-Size Cache** - a small amount of fast memory inside of a processor to improve the speed of which computational tasks are completed
+
+    ###### [Return](#file-systems-and-directories) to the *File Systems and Directories* module
+
+### Network File Systems: Chapter 49
+
+???+ note "Technical Concepts"
+
+    - **Stateless Protocol** - simplistic crash recovery process where the server restarts and works as it did previously
+    - **Recovery Protocol** - a specific protocol where there's enough memory available to tell the server what it needs to know
+    - **Mount Protocol** - the first process through which the clients and servers connect together
+    - **Virtual File System (VFS)** - allows for the use of multiple file systems to be utilized for a given operating system
+    - **Write Buffering** - the delayed sending of the clients data to the server. The submitted data to the network is first held locally in the client's cache
+
+    ###### [Return](#file-systems-and-directories) to the *File Systems and Directories* module
+
+### Data Integrity and Protection: Chapter 45
+
+???+ note "Technical Concepts"
+
+    - **Fail-Stop** - an early feature of RAID systems where either the disk is working or not at all
+    - **Silent Faults** - when the storage drive disk doesn't give any appearance of a problem when the data returned is corrupted
+    - **Misdirected Write** - when data is written correctly to the disk storage but in the wrong memory address
+    - **Cyclic Redundancy Check (CRC)** - remainder of binary division between a large binary number (D) and an agreed value of (k)
+    - **Lost Write** - the device doesn't inform the upper layer that a write finished but the new changes never persisted into the next state, thus exposing the past state before the write
+
+    ###### [Return](#data-integrity-and-security) to the *Data Integrity and Security* module
+
+### Intro Security: Chapter 53
+
+???+ note "Technical Concepts"
+
+    - **Trusted Platform Module (TPM)** - authenticated to users that they were starting up the operating system and version they had intended to do so
+    - **Access Control Mechanisms** - the process through which an operating system determines if the user has the proper authorization to perform the requested action
+    - **Non-Repudiation** - the authentication of prior actions in the operating system that cannot be forged
+    - **Security Policies** - a list of rules and specifications for ensuring security in an operating system environment
+
+    ###### [Return](#data-integrity-and-security) to the *Data Integrity and Security* module
+
+### Distributed Systems: Chapter 48
+
+???+ note "Technical Concepts"
+
+    - **Checksums** - method to detect memory corruption quickly
+    - **End-to-end argument** - method through which packet loss, aka data loss, is avoided
+    - **UDP/IP** - common networking stack that involves the use of sockets to communicate with an endpoint, and send datagrams which are short messages
+    - **Distributed Shared Memory (DSM)** - allows for multiple computers on the network to share large virtual address space, akin to how processors have multiple cores which allow for the use of threading
+    - **Remote Procedure Call (RPC)** - simple and easy way to execute code on a remote machine
+
+    ###### [Return](#distributed-systems) to the *Distributed Systems* module
 
 ## Learning Opportunities
 
 Interested in learning more about any of the topics on this schedule? If you
-are, then make sure to connect with members of the [OS Sketch
-community](/operating-systems/learning-community) for more learning
-opportunities. Remember, this course emphasizes building mastery of the course's
+are, then make sure to connect with members of the [OS Sketch community](/operating-systems/learning-community)
+for more learning opportunities. Remember, this course emphasizes building mastery of the course's
 [learning objectives](../learning-objectives) through the process of "learning
-by doing" As such, you can best understand the content on this schedule by
+by doing". As such, you can best understand the content on this schedule by
 completing all of the projects on this site!
