@@ -70,6 +70,8 @@ A person who is learning about operating systems needs to be able to know that *
 - Get around the issues of fragmentation when memory is requested
 - Come up with the best situational strategy for managing space in general
 
+  *Go to the [Process Execution](/operating-systems/schedule/#process-execution) section in the Course Schedule*
+
 ### Segmentation
 
 - Design address spaces before and after segmentation
@@ -92,6 +94,8 @@ A person who is learning about operating systems needs to be able to know that *
 - Write page-fault handler code
 - Perform replacements and using high watermark and low watermark
 
+  *Go to the [Memory Swapping](/operating-systems/schedule/#memory-swapping) section in the Course Schedule*
+
 ## Concurrency
 
 A person who is learning about operating systems needs to be able to add features to an operating system so that
@@ -104,17 +108,23 @@ multiple processes can be run at the same time
 - Address the issue of shared data through building support for synchronized primitives to support atomicity
 - Build mechanisms to support the sleeping and waking interaction between processes
 
+  *Go to the [Introducing Concurrency](/operating-systems/schedule/#introducing-concurrency) section in the Course Schedule*
+
 ### Locks
 
 - Create and maintain an efficient lock
 - Properly evaluate the efficacy of locks
 - Implement a compare-and-swap and compare-and-exchange in an OS
 
+  *Go to the [Locking Mechanisms](/operating-systems/schedule/#locking-mechanisms) section in the Course Schedule*
+
 ### Semaphores
 
 - Build and initialize a semaphore
 - Use a semaphore as a lock and an ordering mechanism
 - Solve the bounded buffer problem with semaphores
+
+  *Go to the [Using Semaphores](/operating-systems/schedule/#using-semaphores) section in the Course Schedule*
 
 ## Persistence
 
@@ -126,10 +136,14 @@ A person who is learning about operating systems needs to be able to know the pa
 - Decide whether to lower PIO overhead with Direct Memory Allocation depending on the operating system
 - Design both methods of device communication, those being I/O instructions and memory-mapped I/O
 
+  *Go to the [I/O Devices](/operating-systems/schedule/#io-devices) section in the Course Schedule*
+
 ### Files and Dictionaries
 
 - Make the correct system calls when trying to create, rename, remove, write to, read from, or get the metadata from a file
 - Make the correct system calls when trying to create, read, or remove directories
+
+  *Go to the [File Systems and Directories](/operating-systems/schedule/#file-systems-and-directories) section in the Course Schedule*
 
 ### File System Implementation
 
@@ -137,15 +151,21 @@ A person who is learning about operating systems needs to be able to know the pa
 - Calculate the location of that inode in the disk given an inode number
 - Decide whether to use direct pointers, indirect pointers, or extents depending on the files being dealt with
 
+  *Go to the [File Systems and Directories](/operating-systems/schedule/#file-systems-and-directories) section in the Course Schedule*
+
 ### Data Integrity and Protection
 
 - Handle the latent sector error failure mode
 - Handle the data corruption failure mode
 - Choose the best checksum function given a data corruption failure mode and a data integrity budget
 
+  *Go to the [Data Integrity](/operating-systems/schedule/#data-integrity) section in the Course Schedule*
+
 ## Security
 
 A person who is learning security must be able to implement a basic security system that can prevent attacks from getting information on your consumers. Within the security section, users are able to learn key concepts and techniques required to model and top of the line security system for an OS.
+
+  *Go to the [Introducing Security](/operating-systems/schedule/#introducing-security) section in the Course Schedule*
 
 ### Authentication
 
