@@ -279,7 +279,7 @@ What hardware resources can an OS virtualize?
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-<b>Disk</b>: storage to provide process persistence
+<b>Disk</b>: file storage to provide process persistence
 </div>
 
 </div>
@@ -321,6 +321,62 @@ How does a C program write a file to the disk?
 </div>
 
 </v-clicks>
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
+<div class="flex row">
+
+<div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
+Key difficulties in I/O device support?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-line-spacing class="text-7xl ml-8 mt-4 text-blue-600" />
+
+<div class="text-4xl font-bold mt-10 ml-4">
+Variety of devices with varying interfaces
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-line-spacing class="text-7xl ml-8 mt-4 text-blue-600" />
+
+<div class="text-4xl font-bold mt-10 ml-4">
+Devices have transient failure modes
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-line-spacing class="text-7xl ml-8 mt-4 text-blue-600" />
+
+<div class="text-4xl font-bold mt-10 ml-4">
+Performance is critical due to blocking
+</div>
+
+</div>
+
+</div>
 
 [//]: # "Slide End }}}"
 
@@ -406,6 +462,10 @@ Sync the file buffer and close it
 </div>
 
 [//]: # "Slide End }}}"
+
+---
+
+
 
 ---
 
