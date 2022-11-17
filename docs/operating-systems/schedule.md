@@ -478,62 +478,83 @@ way in which I implement programs and use an operating system?
 
     ###### [Return](#swapping) to the *Swapping* module
 
-Concurrency and Threads: Chapter 26
+### Concurrency and Threads: Chapter 26
 
-1. **Thread Control Blocks (TCBs)** - stores the state of a thread in a process
-2. **Disassembler** - shows what assembly instructions were used in the program
-3. **Transaction** - grouping of many actions into a single atomic action
-4. **Critical Section** - piece of code that when accesses a shared resource, usually a variable or data structure
-5. **Race Condition** - arises if multiple threads of execution enter the critical section at roughly the same time
-[Return](#concurrency) to *Concurrency*
+???+ note "Technical Concepts"
 
-Thread API: Chapter 27
+    - **Thread Control Blocks (TCBs)** - stores the state of a thread in a process
+    - **Disassembler** - shows what assembly instructions were used in the program
+    - **Transaction** - grouping of many actions into a single atomic action
+    - **Critical Section** - piece of code that when accesses a shared resource, usually a variable or data structure
+    - **Race Condition** - arises if multiple threads of execution enter the critical section at roughly the same time
 
-1. **Function Pointer** - looks for which function threads should start running in
-2. **Procedure Call** - creates a thread or multiple threads
-3. **Critical Section** - region of code that needs to be protected for operation
-[Return](#thread-api-and-locks) to *Thread API and Locks*
+    ###### [Return](#concurrency) to the *Concurrency* module
 
-Locks: Chapter 28
+### Thread API: Chapter 27
 
-1. **Spinning** - a thread being told to wait before the action is executed based on a lock being in place
-2. **Mutual Exclusion**: if one thread is in the critical section it excludes others from entering
-3. **Fairness**: does each thread contending for the lock get an equal shot at it
-4. **Performance**: time added by using the lock
-[Return](#thread-api-and-locks) to *Thread API and Locks*
+???+ note "Technical Concepts"
 
-Condition Variables: Chapter 30
+    - **Function Pointer** - looks for which function threads should start running in
+    - **Procedure Call** - creates a thread or multiple threads
+    - **Critical Section** - region of code that needs to be protected for operation
 
-1. **Condition variable**: an explicit queue threads can put themselves on when some state of execution is less desirable than another thread.  When it changes state the other threads can be woken up and allowed to continue
-2. **Wait/Signal**: the actions used in a conditional variable.  The thread waits on a specific condition to be met and then signals the sleeping threads to be executed
-3. **Bounded Buffer**: a system of multiple producer threads and consumer threads which is shared
-[Return](#variations-of-locks) to *Variations of Locks*
+    ###### [Return](#thread-api-and-locks) to the *Thread API and Locks* module
 
-Semaphores: Chapter 31
+### Locks: Chapter 28
 
-1. **Deadlock** - A problem that occurs when a consumer thread is called before the producer when trying to use mutual exclusion
-2. **Throttling** - An imposed limit to the number of threads that can be simultaneously executed on a piece of code.  Used to keep the system from bogging down
-3. **Zemaphore** - An easier-to-implement version of the semaphore where we don’t maintain the value of the semaphore, when negative, reflects the number of waiting threads
-4. **Hill’s Law** - Sometimes simple and dumb is better.  Just because you can make something sophisticated to solve a problem doesn’t mean it’s the best answer
-[Return](#variations-of-locks) to *Variations of Locks*
+???+ note "Technical Concepts"
 
-I/O Devices: Chapter 36
+    - **Spinning** - a thread being told to wait before the action is executed based on a lock being in place
+    - **Mutual Exclusion**: if one thread is in the critical section it excludes others from entering
+    - **Fairness**: does each thread contending for the lock get an equal shot at it
+    - **Performance**: time added by using the lock
 
-1. **DMA (direct memory access)** - a device within a system that orchestrates transfers between devices and memory without much CPU intervention
-2. **Memory-mapped I/O** - Another method to interact with devices.  With this version the hardware makes device registers available as if they were memory locations  Helpful because no new instructions are needed to support it
-3. **Hardware Interface** - The way for the software to communicate and interact with the hardware system
-4. **Internal Structure** - Responsible for implementing the abstraction the device presents to the system
-[Return](#io-devices) to *I/O Devices*
+    ###### [Return](#thread-api-and-locks) to the *Thread API and Locks* module
 
-Files and Directories: Chapter 39
+### Condition Variables: Chapter 30
 
-1. **Persistent Storage** - A permanent storage device that keeps information intact after a loss of power
-2. **File** - An array of bytes that can be created, read, written and deleted.  Low level name is i-number
-3. **Directory** - An array of tuples, each containing a human-readable and low-level name to which it is mapped
-4. **Directory Tree** - Organizes all files into a tree, starting with the root.
-5. **Hard Link** - An entry in the file system tree.  Takes two arguments (old path name and new) and creates another way to refer to that same file
-6. **Symbolic (soft) Link** - Different type of link that allows links to files in other disk partitions than the one the original file is in
-[Return](#file-systems-and-directories) to *File Systems and Directories*
+???+ note "Technical Concepts"
+
+    - **Condition variable**: an explicit queue threads can put themselves on when some state of execution is less desirable than another thread.  When it changes state the other threads can be woken up and allowed to continue
+    - **Wait/Signal**: the actions used in a conditional variable.  The thread waits on a specific condition to be met and then signals the sleeping threads to be executed
+    - **Bounded Buffer**: a system of multiple producer threads and consumer threads which is shared
+
+    ###### [Return](#variations-of-locks) to the *Variations of Locks* module
+
+### Semaphores: Chapter 31
+
+???+ note "Technical Concepts"
+
+    - **Deadlock** - A problem that occurs when a consumer thread is called before the producer when trying to use mutual exclusion
+    - **Throttling** - An imposed limit to the number of threads that can be simultaneously executed on a piece of code.  Used to keep the system from bogging down
+    - **Zemaphore** - An easier-to-implement version of the semaphore where we don’t maintain the value of the semaphore, when negative, reflects the number of waiting threads
+    - **Hill’s Law** - Sometimes simple and dumb is better.  Just because you can make something sophisticated to solve a problem doesn’t mean it’s the best answer
+
+    ###### [Return](#variations-of-locks) to the *Variations of Locks* module
+
+### I/O Devices: Chapter 36
+
+???+ note "Technical Concepts"
+
+    - **DMA (direct memory access)** - a device within a system that orchestrates transfers between devices and memory without much CPU intervention
+    - **Memory-mapped I/O** - Another method to interact with devices.  With this version the hardware makes device registers available as if they were memory locations  Helpful because no new instructions are needed to support it
+    - **Hardware Interface** - The way for the software to communicate and interact with the hardware system
+    - **Internal Structure** - Responsible for implementing the abstraction the device presents to the system
+
+    ###### [Return](#io-devices) to the *I/O Devices* module
+
+### Files and Directories: Chapter 39
+
+???+ note "Technical Concepts"
+
+    - **Persistent Storage** - A permanent storage device that keeps information intact after a loss of power
+    - **File** - An array of bytes that can be created, read, written and deleted.  Low level name is i-number
+    - **Directory** - An array of tuples, each containing a human-readable and low-level name to which it is mapped
+    - **Directory Tree** - Organizes all files into a tree, starting with the root.
+    - **Hard Link** - An entry in the file system tree.  Takes two arguments (old path name and new) and creates another way to refer to that same file
+    - **Symbolic (soft) Link** - Different type of link that allows links to files in other disk partitions than the one the original file is in
+
+    ###### [Return](#file-systems-and-directories) to the *File Systems and Directories* module
 
 File System Implementation: Chapter 40
 
