@@ -332,14 +332,14 @@ way in which I implement programs and use an operating system?
 
 ???+ note "Technical Concepts"
 
-    - **Virtualization**: The process by which the operating system takes a
+    - **Virtualization** - the process by which the operating system takes a
       physical resource (such as the processor, or memory, or a disk) and
       transforms it into a more general, more powerful, more secure, and
       easier-to-use virtual version of itself
-    - **Concurrency**: Managed by the operating system and/or the programming
+    - **Concurrency** - managed by the operating system and/or the programming
       langauge, the situation in which multiple computations happen at the same
       time
-    - **Persistence**: The process of storing data in a computer system, as a
+    - **Persistence** - the process of storing data in a computer system, as a
       way of ensuring that data survives after the ending of the process that
       created it
 
@@ -349,14 +349,14 @@ way in which I implement programs and use an operating system?
 
 ???+ note "Technical Concepts"
 
-    - **Process**: It is the operating system that takes these bytes and gets them
+    - **Process** - it is the operating system that takes these bytes and gets them
       running transforming the program into something useful
-    - **Process API**: consists of calls programs can make related to processes
+    - **Process API** - consists of calls programs can make related to processes
       Typically, this includes creation, destruction, and other useful calls
-    - **Process state**:  Including running, ready to run, and blocked; Different
+    - **Process state** - including running, ready to run, and blocked; different
       events (e.g., getting scheduled or de-scheduled, or waiting for an I/O to
       complete) transition a process from one of these states to the other
-    - **Process list**: Contains information about all processes in the system
+    - **Process list** - contains information about all processes in the system
 
     ###### [Return](#systems-introduction) to the *Systems Introduction* module
 
@@ -364,10 +364,10 @@ way in which I implement programs and use an operating system?
 
 ???+ note "Technical Concepts"
 
-    - **Process Identifier** - Used to name the process if one wants to do something with the process, such as (for example) stop it from running
-    - **Fork** - Is used in UNIX systems to create a new process
-    - **Scheduler** - Determines which process runs at a given moment in time
-    - **Superuser** - Controls all processes (and indeed do many other things); this role should be assumed infrequently and with caution for security reasons
+    - **Process Identifier** - used to name the process if one wants to do something with the process, such as (for example) stop it from running
+    - **Fork** - is used in UNIX systems to create a new process
+    - **Scheduler** - determines which process runs at a given moment in time
+    - **Superuser** - controls all processes (and indeed do many other things); this role should be assumed infrequently and with caution for security reasons
 
     ###### [Return](#process-execution) to the *Process Execution* module
 
@@ -375,10 +375,10 @@ way in which I implement programs and use an operating system?
 
 ???+ note "Technical Concepts"
 
-    - **Time Sharing** - When you run one process for a little while,then run another one, and so forth
-    - **Limited Direct Execution** - To make a program run as fast as one might expect
-    - **User and Kernel Mode** - The approach we take is to introduce a new processor mode. The operating system runs in
-    - **Context Switch** - When the OS, during a timer interrupt or system call, might wish to switch from running the current process to a different one
+    - **Time Sharing** - when you run one process for a little while,then run another one, and so forth
+    - **Limited Direct Execution** - to make a program run as fast as one might expect
+    - **User and Kernel Mode** - the approach we take is to introduce a new processor mode. The operating system runs in
+    - **Context Switch** - when the OS, during a timer interrupt or system call, might wish to switch from running the current process to a different one
 
     ###### [Return](#process-execution) to the *Process Execution* module
 
@@ -386,9 +386,9 @@ way in which I implement programs and use an operating system?
 
 ???+ note "Technical Concepts"
 
-    - **Stack Memory** - Allocations and deallocations of it are managed implicitly by the compiler for you
-    - **Buffer Overflow** - A related error is not allocating enough memory
-    - **Purify and Valgrind** - Both are excellent at helping you locate the source of your memory-related problems
+    - **Stack Memory** - allocations and deallocations of it are managed implicitly by the compiler for you
+    - **Buffer Overflow** - a related error is not allocating enough memory
+    - **Purify and Valgrind** - both are excellent at helping you locate the source of your memory-related problems
 
     ###### [Return](#process-execution) to the *Process Execution* module
 
@@ -453,7 +453,7 @@ way in which I implement programs and use an operating system?
     - **Page Tables** - operating system structure used to store per-process address space
     - **Virtual Page Number (VPN)** - virtual address that the process generates
     - **Physical Frame Number (PFN)** - where the virtual page number is indexed in the frames
-    - **Physical Page Number (PPN)** - Same as PFN
+    - **Physical Page Number (PPN)** - same as PFN
 
     ###### [Return](#segmentation-and-paging) to the *Segmentation and Paging* module
 
@@ -505,9 +505,9 @@ way in which I implement programs and use an operating system?
 ???+ note "Technical Concepts"
 
     - **Spinning** - a thread being told to wait before the action is executed based on a lock being in place
-    - **Mutual Exclusion**: if one thread is in the critical section it excludes others from entering
-    - **Fairness**: does each thread contending for the lock get an equal shot at it
-    - **Performance**: time added by using the lock
+    - **Mutual Exclusion** - if one thread is in the critical section it excludes others from entering
+    - **Fairness** - does each thread contending for the lock get an equal shot at it
+    - **Performance** - time added by using the lock
 
     ###### [Return](#thread-api-and-locks) to the *Thread API and Locks* module
 
@@ -515,9 +515,9 @@ way in which I implement programs and use an operating system?
 
 ???+ note "Technical Concepts"
 
-    - **Condition variable**: an explicit queue threads can put themselves on when some state of execution is less desirable than another thread.  When it changes state the other threads can be woken up and allowed to continue
-    - **Wait/Signal**: the actions used in a conditional variable.  The thread waits on a specific condition to be met and then signals the sleeping threads to be executed
-    - **Bounded Buffer**: a system of multiple producer threads and consumer threads which is shared
+    - **Condition variable** - an explicit queue threads can put themselves on when some state of execution is less desirable than another thread;  when it changes state the other threads can be woken up and allowed to continue
+    - **Wait/Signal** - the actions used in a conditional variable.  The thread waits on a specific condition to be met and then signals the sleeping threads to be executed
+    - **Bounded Buffer** - a system of multiple producer threads and consumer threads which is shared
 
     ###### [Return](#variations-of-locks) to the *Variations of Locks* module
 
@@ -525,10 +525,10 @@ way in which I implement programs and use an operating system?
 
 ???+ note "Technical Concepts"
 
-    - **Deadlock** - A problem that occurs when a consumer thread is called before the producer when trying to use mutual exclusion
-    - **Throttling** - An imposed limit to the number of threads that can be simultaneously executed on a piece of code.  Used to keep the system from bogging down
-    - **Zemaphore** - An easier-to-implement version of the semaphore where we don’t maintain the value of the semaphore, when negative, reflects the number of waiting threads
-    - **Hill’s Law** - Sometimes simple and dumb is better.  Just because you can make something sophisticated to solve a problem doesn’t mean it’s the best answer
+    - **Deadlock** - a problem that occurs when a consumer thread is called before the producer when trying to use mutual exclusion
+    - **Throttling** - an imposed limit to the number of threads that can be simultaneously executed on a piece of code.  Used to keep the system from bogging down
+    - **Zemaphore** - an easier-to-implement version of the semaphore where we don’t maintain the value of the semaphore, when negative, reflects the number of waiting threads
+    - **Hill’s Law** - sometimes simple and dumb is better.  Just because you can make something sophisticated to solve a problem doesn’t mean it’s the best answer
 
     ###### [Return](#variations-of-locks) to the *Variations of Locks* module
 
@@ -537,9 +537,9 @@ way in which I implement programs and use an operating system?
 ???+ note "Technical Concepts"
 
     - **DMA (direct memory access)** - a device within a system that orchestrates transfers between devices and memory without much CPU intervention
-    - **Memory-mapped I/O** - Another method to interact with devices.  With this version the hardware makes device registers available as if they were memory locations  Helpful because no new instructions are needed to support it
-    - **Hardware Interface** - The way for the software to communicate and interact with the hardware system
-    - **Internal Structure** - Responsible for implementing the abstraction the device presents to the system
+    - **Memory-mapped I/O** - another method to interact with devices.  With this version the hardware makes device registers available as if they were memory locations  Helpful because no new instructions are needed to support it
+    - **Hardware Interface** - the way for the software to communicate and interact with the hardware system
+    - **Internal Structure** - responsible for implementing the abstraction the device presents to the system
 
     ###### [Return](#io-devices) to the *I/O Devices* module
 
@@ -547,12 +547,12 @@ way in which I implement programs and use an operating system?
 
 ???+ note "Technical Concepts"
 
-    - **Persistent Storage** - A permanent storage device that keeps information intact after a loss of power
-    - **File** - An array of bytes that can be created, read, written and deleted.  Low level name is i-number
-    - **Directory** - An array of tuples, each containing a human-readable and low-level name to which it is mapped
-    - **Directory Tree** - Organizes all files into a tree, starting with the root.
-    - **Hard Link** - An entry in the file system tree.  Takes two arguments (old path name and new) and creates another way to refer to that same file
-    - **Symbolic (soft) Link** - Different type of link that allows links to files in other disk partitions than the one the original file is in
+    - **Persistent Storage** - a permanent storage device that keeps information intact after a loss of power
+    - **File** - an array of bytes that can be created, read, written and deleted.  Low level name is i-number
+    - **Directory** - an array of tuples, each containing a human-readable and low-level name to which it is mapped
+    - **Directory Tree** - organizes all files into a tree, starting with the root.
+    - **Hard Link** - an entry in the file system tree.  Takes two arguments (old path name and new) and creates another way to refer to that same file
+    - **Symbolic (soft) Link** - different type of link that allows links to files in other disk partitions than the one the original file is in
 
     ###### [Return](#file-systems-and-directories) to the *File Systems and Directories* module
 
@@ -560,12 +560,12 @@ way in which I implement programs and use an operating system?
 
 ???+ note "Technical Concepts"
 
-    - **vsfs (Very Simple File System)** A simplified version of UNIX and utilizes basic on-disk structures, access methods, and multiple file system
-    - **Access Methods** The methods which allow for calls to be made. They include actions such as open(), read(), and write()
-    - **Metadeta** Types of data about data. Mainly consists of data about data blocks, file size, owner and access rights, etc.
-    - **Inode** A series of nodes arranged in an array and indexed into when the user is accessing a specific inode.
-    - **Indirect Pointer** A type of pointer that points to other pointers which direct the program to a specific memory address or another pointer
-    - **Fixed-Size Cache** A small amount of fast memory inside of a processor to improve the speed of which computational tasks are completed
+    - **VSFS (Very Simple File System)** - a simplified version of UNIX and utilizes basic on-disk structures, access methods, and multiple file system
+    - **Access Methods** - the methods which allow for calls to be made. They include actions such as open(), read(), and write()
+    - **Metadeta** - types of data about data. Mainly consists of data about data blocks, file size, owner and access rights, etc.
+    - **Inode** - a series of nodes arranged in an array and indexed into when the user is accessing a specific inode.
+    - **Indirect Pointer** - a type of pointer that points to other pointers which direct the program to a specific memory address or another pointer
+    - **Fixed-Size Cache** - a small amount of fast memory inside of a processor to improve the speed of which computational tasks are completed
 
     ###### [Return](#file-systems-and-directories) to the *File Systems and Directories* module
 
@@ -573,11 +573,11 @@ way in which I implement programs and use an operating system?
 
 ???+ note "Technical Concepts"
 
-    - **Stateless Protocol** Simplistic crash recovery process where the server restarts and works as it did previously
-    - **Recovery Protocol** A specific protocol where there's enough memory available to tell the server what it needs to know
-    - **Mount Protocol** The first process through which the clients and servers connect together
-    - **Virtual File System (VFS)** Allows for the use of multiple file systems to be utilized for a given operating system
-    - **Write Buffering** The delayed sending of the clients data to the server. The submitted data to the network is first held locally in the client's cache
+    - **Stateless Protocol** - simplistic crash recovery process where the server restarts and works as it did previously
+    - **Recovery Protocol** - a specific protocol where there's enough memory available to tell the server what it needs to know
+    - **Mount Protocol** - the first process through which the clients and servers connect together
+    - **Virtual File System (VFS)** - allows for the use of multiple file systems to be utilized for a given operating system
+    - **Write Buffering** - the delayed sending of the clients data to the server. The submitted data to the network is first held locally in the client's cache
 
     ###### [Return](#file-systems-and-directories) to the *File Systems and Directories* module
 
@@ -585,11 +585,11 @@ way in which I implement programs and use an operating system?
 
 ???+ note "Technical Concepts"
 
-    - **Fail-Stop** An early feature of RAID systems where either the disk is working or not at all
-    - **Silent Faults** When the storage drive disk doesn't give any appearance of a problem when the data returned is corrupted
-    - **Misdirected Write** When data is written correctly to the disk storage but in the wrong memory address
-    - **Cyclic Redundancy Check (CRC)** Remainder of binary division between a large binary number (D) and an agreed value of (k)
-    - **Lost Write** The device doesn't inform the upper layer that a write finished but the new changes never persisted into the next state, thus exposing the past state before the write
+    - **Fail-Stop** - an early feature of RAID systems where either the disk is working or not at all
+    - **Silent Faults** - when the storage drive disk doesn't give any appearance of a problem when the data returned is corrupted
+    - **Misdirected Write** - when data is written correctly to the disk storage but in the wrong memory address
+    - **Cyclic Redundancy Check (CRC)** - remainder of binary division between a large binary number (D) and an agreed value of (k)
+    - **Lost Write** - the device doesn't inform the upper layer that a write finished but the new changes never persisted into the next state, thus exposing the past state before the write
 
     ###### [Return](#data-integrity-and-security) to the *Data Integrity and Security* module
 
@@ -597,10 +597,10 @@ way in which I implement programs and use an operating system?
 
 ???+ note "Technical Concepts"
 
-    - **Trusted Platform Module (TPM)** Authenticated to users that they were starting up the operating system and version they had intended to do so
-    - **Access Control Mechanisms** The process through which an operating system determines if the user has the proper authorization to perform the requested action
-    - **Non-Repudiation** The authentication of prior actions in the operating system that cannot be forged
-    - **Security Policies** A list of rules and specifications for ensuring security in an operating system environment
+    - **Trusted Platform Module (TPM)** - authenticated to users that they were starting up the operating system and version they had intended to do so
+    - **Access Control Mechanisms** - the process through which an operating system determines if the user has the proper authorization to perform the requested action
+    - **Non-Repudiation** - the authentication of prior actions in the operating system that cannot be forged
+    - **Security Policies** - a list of rules and specifications for ensuring security in an operating system environment
 
     ###### [Return](#data-integrity-and-security) to the *Data Integrity and Security* module
 
@@ -608,11 +608,11 @@ way in which I implement programs and use an operating system?
 
 ???+ note "Technical Concepts"
 
-    - **Checksums** Method to detect memory corruption quickly
-    - **End-to-end argument** Method through which packet loss, aka data loss, is avoided
-    - **UDP/IP** Common networking stack that involves the use of sockets to communicate with an endpoint, and send datagrams which are short messages
-    - **Distributed Shared Memory (DSM)** Allows for multiple computers on the network to share large virtual address space, akin to how processors have multiple cores which allow for the use of threading
-    - **Remote Procedure Call (RPC)** Simple and easy way to execute code on a remote machine
+    - **Checksums** - method to detect memory corruption quickly
+    - **End-to-end argument** - method through which packet loss, aka data loss, is avoided
+    - **UDP/IP** - common networking stack that involves the use of sockets to communicate with an endpoint, and send datagrams which are short messages
+    - **Distributed Shared Memory (DSM)** - allows for multiple computers on the network to share large virtual address space, akin to how processors have multiple cores which allow for the use of threading
+    - **Remote Procedure Call (RPC)** - simple and easy way to execute code on a remote machine
 
     ###### [Return](#distributed-systems) to the *Distributed Systems* module
 
