@@ -239,7 +239,7 @@ Operating system virtualizes all I/O devices!
 <div class="flex row">
 
 <div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
-What hardware resources can an OS virtualize?
+Hardware resources that an OS virtualize?
 </div>
 
 </div>
@@ -414,7 +414,7 @@ int main(int argc, char *argv[]) {
 <div class="flex row">
 
 <div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
-Summary of steps for file creation in C programs?
+Steps for file creation in C programs?
 </div>
 
 </div>
@@ -470,7 +470,7 @@ Sync the file buffer and close it
 <div class="flex row">
 
 <div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
-What are the three file descriptors for a process?
+The three file descriptors for a process?
 </div>
 
 </div>
