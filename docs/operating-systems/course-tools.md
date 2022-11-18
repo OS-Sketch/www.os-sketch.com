@@ -178,8 +178,8 @@ Your output should specify you have the clang version.
 3. Use  ```pacman -Syuu``` command to update the environment.
 4. Use  ```pacman -S mingw-w64-x86_64-toolchain``` command to install the toolchain, which contains GCC and Make command.
 5. Verify the installation by entering ```gcc —version``` inside the terminal. It should return the version of GCC you installed.
-6. In order to use the GCC toolchain, you have to add this to your path environment variable: <MSYS2 location>/mingw64/bin .
-7. You can also change the name of make from mingw32-make to make to make it easier to execute in the terminal.
+6. In order to use the GCC toolchain, you have to add to the path environment variable: <MSYS2 location>/mingw64/bin .
+7. You can also change the name of make from mingw32-make to make so it is easier to execute in the terminal.
 8. In order to test everything went correctly, create two new files in a directory named hello.c and makefile.
   
      Hello.c should contain:
