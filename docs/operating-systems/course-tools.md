@@ -208,11 +208,11 @@ You want your output to say you have the clang version.
 - Navigate to https://docs.docker.com/desktop/install/windows-install/, get the installer, and follow the instructions.
 
 ### Python 3.10
-1. Go to the Microsoft Store app, and install 
+Go to the Microsoft Store app, and install: 
   ```Python 3.10```
-2. Use
+Check version:
   ```python --version``` 
-  to check version.
+ 
 
 ### Golang
 1. Download Go from the official website (https://go.dev/dl/).
@@ -223,14 +223,16 @@ You want your output to say you have the clang version.
 
 ### pipx / poetry / gatorgrade
 
-1. install pipx: 
+Install pipx: 
   ```python3 -m pip install --user pipx``` 
   and then 
-  ```python3 -m pipx ensurepath```.
+  ```python3 -m pipx ensurepath```
 
-2. you can then install gatorgrade using pipx using the command ```pipx install gatorgrade```.
+Install Gatorgrade using pipx:
+  ```pipx install gatorgrade```
 
-3. Use the ```curl -sSL https://install.python-poetry.org | python3 -``` command to install poetry.
+Command to install poetry.
+  ```curl -sSL https://install.python-poetry.org | python3 -``` 
 
 ## Locally installing the required tools for Linux
 
