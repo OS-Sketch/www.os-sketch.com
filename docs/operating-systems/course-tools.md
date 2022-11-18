@@ -148,13 +148,13 @@ If you haven’t installed gatorgrade type this command:
 
 ### Go installation process:
 
-If you haven't installed go click the link and follow [the instructions](https://go.dev/dl/)
+If you haven't installed Go click the link and follow [the instructions](https://go.dev/dl/)
 
 Make sure you click the right chip that your laptop has.
 
 If you choose the right version and it still isn't working, follow these instructions:
-1. type in the command ```nano ~/.zshrc``` into your terminal
-2. add in the following 2 paths into the file that pops up in your terminal:
+1. Type in the command ```nano ~/.zshrc``` into your terminal
+2. Add in the following 2 paths into the file that pops up in your terminal:
   - ```export PATH=$PATH:/usr/local/go/bin```
   - ```export PATH=$PATH:$GOPATH/bin```
 3. After you save the changes in that file, source the file using the command ```. ~/.zshrc```.
@@ -175,9 +175,9 @@ Your output should specify you have the clang version.
 
 1. Do not install MinGW directly, go to https://www.msys2.org/ and download MSYS2.
 2. Search for the MSYS2 MinGW x64 environment and open it.
-3. Write ```pacman -Syuu``` to update the environment.
-4. Write ```pacman -S mingw-w64-x86_64-toolchain``` to install the toolchain, which contains gcc and the make command.
-5. Verify the installation worked by entering ```gcc —version``` in your terminal. If it is working it should return the version of gcc you installed.
+3. Use  ```pacman -Syuu``` command to update the environment.
+4. Use  ```pacman -S mingw-w64-x86_64-toolchain``` command to install the toolchain, which contains GCC and Make command.
+5. Verify the installation by entering ```gcc —version``` inside the terminal. It should return the version of GCC you installed.
 6. In order to use the gcc toolchain, you have to add this to your path environment variable: <MSYS2 location>/mingw64/bin .
 7. You can also change the name of make from mingw32-make to make to make it easier to execute in the terminal.
 8. In order to test everything went correctly, create two new files in a directory named hello.c and makefile.
@@ -213,10 +213,10 @@ Check version:
 
 ### Golang
 1. Download Go from the official website (https://go.dev/dl/).
-2. Follow the installer's instructions and wait while it is downloaded onto your laptop.
+2. Follow the installer's instructions.
 3. Search for ```env``` on your computer and open environment variables.
-4. Copy the path for Go and paste it into your user variable editing window.
-5. Test that go is working by typing ```go version``` into your terminal.
+4. Copy the path for Go and paste into your user variable editing window.
+5. Test Go is installed by typing ```go version``` into your terminal.
 
 ### Pipx / Poetry / Gatorgrade
 
