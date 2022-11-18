@@ -87,7 +87,7 @@ Go to your terminal and type
 
 `python –version`
 
-If the output says python 3.10 you are all set.
+If the output says `Python 3.10` you are all set.
 
 If the output says you have a different version type this command:
 
@@ -167,10 +167,7 @@ GCC might already be installed on your computer since you have a mac. To check t
 
 `gcc –version`
 
-You want your output to say you have the clang version.
-
-
-
+Your output should specify you have the clang version.
 
 ## Locally installing the required tools for Windows
 
@@ -205,7 +202,7 @@ You want your output to say you have the clang version.
 9. Navigate to the directory in your terminal, enter make and see the program run!
 
 ### Docker
-- Navigate to https://docs.docker.com/desktop/install/windows-install/, get the installer, and follow the instructions.
+- Navigate to https://docs.docker.com/desktop/install/windows-install/ to install Docker, and follow the instructions.
 
 ### Python 3.10
 Go to the Microsoft Store app, and install: 
@@ -221,18 +218,26 @@ Check version:
 4. Copy the path for Go and paste it into your user variable editing window.
 5. Test that go is working by typing ```go version``` into your terminal.
 
-### pipx / poetry / gatorgrade
+### Pipx / Poetry / Gatorgrade
 
 Install pipx: 
-  ```python3 -m pip install --user pipx``` 
+  ```
+  python3 -m pip install --user pipx
+  ``` 
   and then 
-  ```python3 -m pipx ensurepath```
+  ```
+  python3 -m pipx ensurepath
+  ```
 
 Install Gatorgrade using pipx:
-  ```pipx install gatorgrade```
+  ```
+  pipx install gatorgrade
+  ```
 
 Command to install poetry.
-  ```curl -sSL https://install.python-poetry.org | python3 -``` 
+  ```
+  curl -sSL https://install.python-poetry.org | python3 -
+  ``` 
 
 ## Locally installing the required tools for Linux
 
