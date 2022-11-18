@@ -163,7 +163,7 @@ If you choose the right version and it still isn't working, follow these instruc
 
 ### GCC installation process:
 
-GCC might already be installed on your computer since you have a mac. To check type:
+GCC might already be installed on your computer since you have a MAC. To check type:
 
 `gcc –version`
 
@@ -171,24 +171,26 @@ Your output should specify you have the clang version.
 
 ## Locally installing the required tools for Windows
 
-### gcc & ```make``` command
+### GCC & ```make``` command
 
 1. Do not install MinGW directly, go to https://www.msys2.org/ and download MSYS2.
 2. Search for the MSYS2 MinGW x64 environment and open it.
 3. Use  ```pacman -Syuu``` command to update the environment.
 4. Use  ```pacman -S mingw-w64-x86_64-toolchain``` command to install the toolchain, which contains GCC and Make command.
 5. Verify the installation by entering ```gcc —version``` inside the terminal. It should return the version of GCC you installed.
-6. In order to use the gcc toolchain, you have to add this to your path environment variable: <MSYS2 location>/mingw64/bin .
+6. In order to use the GCC toolchain, you have to add this to your path environment variable: <MSYS2 location>/mingw64/bin .
 7. You can also change the name of make from mingw32-make to make to make it easier to execute in the terminal.
 8. In order to test everything went correctly, create two new files in a directory named hello.c and makefile.
-    1. Hello.c should contain:
+  
+     Hello.c should contain:
       ``` #include <stdio.h>
  
       int main() {
           printf("Hello, world!\n");
           return 0;
       }```
-    2. Makefile should contain:
+  
+    Makefile should contain:
       ``` all: hello.exe
 
       hello.exe: hello.o
@@ -199,6 +201,7 @@ Your output should specify you have the clang version.
           
       clean:
           rm hello.o hello.exe```
+  
 9. Navigate to the directory in your terminal, enter make and see the program run!
 
 ### Docker
