@@ -237,7 +237,7 @@ Install Gatorgrade using pipx:
   pipx install gatorgrade
   ```
 
-Command to install poetry.
+Command to install poetry:
   ```
   curl -sSL https://install.python-poetry.org | python3 -
   ``` 
@@ -246,7 +246,7 @@ Command to install poetry.
 
 ### Python3.10 or above
 
-[Python 3.10](https://computingforgeeks.com/how-to-install-python-on-ubuntu-linux-system/)  or above is expected. Please copy the commands below to download Python 3.10. Feel free to download the newest version if possible
+[Python 3.10](https://computingforgeeks.com/how-to-install-python-on-ubuntu-linux-system/)  or above is expected. Downlad Python with this command: 
 
 ```
 sudo apt install python3.10
