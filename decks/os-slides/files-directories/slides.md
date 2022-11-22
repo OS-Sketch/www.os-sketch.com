@@ -368,6 +368,59 @@ Delete a directory with the <code>rmdir</code> syscall
 
 ---
 
+[//]: # (Slide Start {{{)
+
+# Using `ls -i` to Inspect the Inodes
+
+<style>
+  h2 {
+    font-size: 42px;
+    @apply text-red-600 mb-4;
+  }
+  li {
+    @apply bg-gray-300;
+    font-size: 28px;
+    margin-top: 4px;
+    margin-bottom: 9px;
+  }
+</style>
+
+### Each file and directory has a unique inode!
+
+<v-clicks>
+
+<div class="border-2 rounded-2xl border-gray-700 bg-gray-300 p-5 mt-5 mb-10">
+
+<pre>
+49556658 CODE_OF_CONDUCT.md  49556568 poetry.lock
+49556813 CONTRIBUTING.md     10229066 __pycache__
+ 4072575 decks               49556812 pyproject.toml
+ 4213204 docs                49556646 README.md
+10361886 includes            49556682 runtime.txt
+49556687 LICENSE             10229064 scripts
+49556958 mkdocs.yml          49556680 site
+49556685 netlify.toml        51781485 src
+49556660 output             49557110 tags
+</pre>
+
+</div>
+
+<div class="border-2 rounded-2xl border-gray-700 bg-gray-300 p-5 mt-3 mb-10">
+
+<pre>
+4215461 components    4215456 public     4215455 slides.md
+4215215 node_modules  4215460 README.md  4215465 styles
+4215213 package.json  4215463 setup      4215470 tags
+</pre>
+
+</div>
+
+</v-clicks>
+
+[//]: # (Slide End }}})
+
+---
+
 [//]: # "Slide Start {{{"
 
 # Hard and Soft Links in File Systems
