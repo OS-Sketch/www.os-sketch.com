@@ -203,7 +203,7 @@ hide:
 
 ### Technical Questions
 
-- How can does the operating system use the principle of **virtualization** to
+- How does the operating system use the principle of **virtualization** to
   manage the input/output devices connected to a computer? How do
   virtualization **policies** and **mechanisms** for I/O devices influence the
   way in which I implement programs and use an operating system?
