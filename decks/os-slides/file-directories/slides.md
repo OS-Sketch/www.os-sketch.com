@@ -27,7 +27,7 @@ fonts:
 
 # Operating Systems
 
-## I/O Devices
+## Files and Directories
 
 <div class="container my-5">
   &nbsp;
