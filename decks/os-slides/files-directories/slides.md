@@ -89,7 +89,7 @@ fonts:
 <div class="flex row">
 
 <div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
-What does an OS do when a program runs?
+What is persistent storage for data?
 </div>
 
 </div>
@@ -101,21 +101,7 @@ What does an OS do when a program runs?
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-<b>Fetch</b>: retrieve an instruction from memory
-</div>
-
-</div>
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-<b>Decode</b>: determine what the instruction should do
+Continue to keep contents even after power cycles
 </div>
 
 </div>
@@ -129,7 +115,21 @@ What does an OS do when a program runs?
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-<b>Execute</b>: run the instruction and then repeat process
+Enable storage and access of files and directories
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Durably store data for a considerable amount of time
 </div>
 
 </div>
@@ -142,34 +142,27 @@ What does an OS do when a program runs?
 
 [//]: # "Slide Start {{{"
 
-# Virtualization in Operating Systems
+# Understanding Files and Directories
 
 <v-clicks>
 
-- **Goal**: simplify access to physical resources through abstract interfaces
+- **Goal**: uniform and simple access to data in persistent storage
 
-- What are the **benefits** of using virtualization in an operating system?
+- Key concepts for understanding **files** and **directories**:
 
-  - Abstract away details about specific hardware modules
-  - Offer a uniform interface to hardware modules of specific class
-  - Enable simulation of more physical resources than are available
-  - Enforce rules about the accessing of physical hardware resources
+  - **File**: linear array of bytes that can be individually read and written
+  - **Inode Name**: low-level name of a file, often encoded as a number
+  - **Directory**: a file with a list of inode and human-readable files names
+  - **Separator**: platform-dependent directory separate for file paths
+  - **Sub-Directory**: a directory contained within another directory
+  - **Absolute Path**: a fully qualified path starting at the file system root
+  - **Relative Path**: a path that starts in the context of a non-root directory
 
-- The operating system is a **resource manager** running as a virtual machine
+- The current convention is that a file will have both a name and an extension
 
-- Separate the **policy** for resource management from the **mechanism**!
+- Operating system must provide a way to manipulate files and directories
 
-- What does an operating system virtualize? CPU, Disk, Memory, Network!
-
-<div class="flex row">
-
-<mdi-diamond class="text-6xl ml-4 mt-0 text-blue-600" />
-
-<div class="text-4xl text-true-gray-700 font-bold mt-4 ml-4">
-Operating system virtualizes all I/O devices!
-</div>
-
-</div>
+- Whenever possible, the implementation details are abstracted away from us!
 
 </v-clicks>
 
