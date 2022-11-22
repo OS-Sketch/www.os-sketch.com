@@ -423,32 +423,84 @@ Delete a directory with the <code>rmdir</code> syscall
 
 [//]: # "Slide Start {{{"
 
-# Hard and Soft Links in File Systems
+# Links and Controls in File Systems
 
 <v-clicks>
 
-- System uses a **numerical** file descriptor for a human-readable name
+- **Hard linking** creates a new way to refer to an existing file
 
-- Additional insights into the tracking of **files** and **directories**:
+- Deleting a hard link also deletes the file it references
 
-  - Each process maintains a **file descriptor table** (FDT)
-  - Parent and child processes can access the same file descriptor table
-  - A process uses the FDT to support lookup into **open file table** (OFT)
+- **Soft linking** also creates an extra reference to an existing file
 
-- A `write` syscall means that a file must be persistent in the future
+- However, deleting a soft link will not delete the file it references
 
-- For performance reasons, the operating system may **delay** this syscall!
+- `ln -s <target> <linkname>` will create a symbolic link
 
-- The `fsync` syscall ensure that the written file is immediately persisted
+- Each file and directory also contains permissions and controls
 
-- The `flush=True` parameter in Python leads to an `fsync` call
+- Permissions are organize according to the user, group, and owner
 
-- File system implementation must be both efficient and correct
+- `ls -alg` will show the access controls for a file
+
+### Any questions about linking and controls in the file system?
 
 </v-clicks>
 
 [//]: # "Slide End }}}"
 
+---
+
+[//]: # (Slide Start {{{)
+
+# Using `ls -alg` to Reveal System Details
+
+<style>
+  h2 {
+    font-size: 42px;
+    @apply text-red-600 mb-4;
+  }
+  li {
+    @apply bg-gray-300;
+    font-size: 28px;
+    margin-top: 4px;
+    margin-bottom: 9px;
+  }
+</style>
+
+### It is possible to inspect the file system through listing
+
+<v-clicks>
+
+<div class="border-2 rounded-2xl border-gray-700 bg-gray-300 p-5 mt-5 mb-10">
+
+<pre>
+drwxr-xr-x    - gkapfham 29 Aug 08:20 __pycache__
+drwxr-xr-x    - gkapfham 29 Aug 08:20 _output
+drwxr-xr-x    - gkapfham 15 Sep 06:55 decks
+drwxr-xr-x    - gkapfham 22 Nov 06:36 docs
+drwxr-xr-x    - gkapfham 29 Aug 11:45 includes
+drwxr-xr-x    - gkapfham 29 Aug 12:01 overrides
+drwxr-xr-x    - gkapfham 29 Aug 08:20 scripts
+drwxr-xr-x    - gkapfham 29 Aug 08:20 site
+drwxr-xr-x    - gkapfham 12 Sep 15:32 src
+.rw-r--r-- 3.4k gkapfham 29 Aug 09:56 CODE_OF_CONDUCT.md
+.rw-r--r-- 1.7k gkapfham 29 Aug 10:00 CONTRIBUTING.md
+.rw-r--r--  35k gkapfham 29 Aug 10:02 LICENSE
+.rw-r--r-- 6.0k gkapfham 11 Nov 07:28 mkdocs.yml
+.rw-r--r--  287 gkapfham 31 Aug 13:43 netlify.toml
+.rw-r--r--  42k gkapfham 15 Sep 06:55 poetry.lock
+.rw-r--r--  501 gkapfham 31 Aug 13:42 pyproject.toml
+.rw-r--r-- 1.2k gkapfham  2 Sep 12:03 README.md
+.rw-r--r--    4 gkapfham 29 Aug 08:20 runtime.txt
+.rw-r--r--  96k gkapfham 22 Nov 06:50 tags
+</pre>
+
+</div>
+
+</v-clicks>
+
+[//]: # (Slide End }}})
 
 ---
 
