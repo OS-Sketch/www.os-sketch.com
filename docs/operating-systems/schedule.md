@@ -190,7 +190,7 @@ hide:
  semaphores **similar** to and **different** from locks? How does the use of
  concurrency primitives influence the **ways** in which I create software?
 
-### Expert Added Content
+### Next Steps
 
 - Read the chapter called *Semaphores* (Chapter 31) in
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
@@ -203,12 +203,12 @@ hide:
 
 ### Technical Questions
 
-How can does the operating system use the principle of **virtualization** to
-manage the input/output devices connected to a computer? How do
-virtualization **policies** and **mechanisms** for I/O devices influence the
-way in which I implement programs and use an operating system?
+- How can does the operating system use the principle of **virtualization** to
+  manage the input/output devices connected to a computer? How do
+  virtualization **policies** and **mechanisms** for I/O devices influence the
+  way in which I implement programs and use an operating system?
 
-### Expert Added Content
+### Next Steps
 
 - Read the chapter called *I/O Devices* (Chapter 36) in
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
@@ -221,14 +221,19 @@ way in which I implement programs and use an operating system?
 
 ### Technical Questions
 
--Experts add their technical question here
+- How can does the operating system use the principle of **virtualization** to
+  manage the input/output devices connected to a computer? How do
+  virtualization **policies** and **mechanisms** for I/O devices influence the
+  way in which I implement programs and use an operating system?
 
-### Expert Added Content
+### Next Steps
 
-- Read the chapters called *File and Directories* (Chapter 39) and *File System Implementation* (Chapter 40)
-  in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
-- Check out the [course slides](/slides/operating-systems/systems-introduction/)
-  for a detailed investigation of these chapters
+- Read the chapter called *File and Directories* (Chapter 39) and *File System
+  Implementation* (Chapter 40) in
+  [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+- Check out the [course
+  slides](/slides/operating-systems/files-directories/) for a detailed
+  investigation of these chapters
 - Review the [important terms](#important-terms) to find definitions of the
   terms associated with the assigned chapters
 
@@ -238,7 +243,7 @@ way in which I implement programs and use an operating system?
 
 -Experts add their technical question here
 
-### Expert Added Content
+### Next Steps
 
 - Read the chapter called *Network File System (NFS)* (Chapter 49) in
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
@@ -253,7 +258,7 @@ way in which I implement programs and use an operating system?
 
 -Experts add their technical question here
 
-### Expert Added Content
+### Next Steps
 
 - Read the chapter called *Data Integrity and Protection* (Chapter 45) in
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
@@ -268,7 +273,7 @@ way in which I implement programs and use an operating system?
 
 -Experts add their technical question here
 
-### Expert Added Content
+### Next Steps
 
 - Read the chapter called *Distributed Systems* (Chapter 48) in
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
@@ -283,7 +288,7 @@ way in which I implement programs and use an operating system?
 
 -Experts add their technical question here
 
-### Expert Added Content
+### Next Steps
 
 - Read the chapter called *Intro Security* (Chapter 53) in
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
