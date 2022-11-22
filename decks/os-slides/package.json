@@ -10,6 +10,7 @@
     "concurrency-introduction",
     "locks-introduction",
     "semaphores-introduction",
-    "io-introduction"
+    "io-introduction",
+    "files-directories"
   ]
 }
