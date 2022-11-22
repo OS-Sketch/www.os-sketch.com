@@ -314,6 +314,63 @@ Remove a file from system with <code>unlink</code> syscall
 
 [//]: # "Slide Start {{{"
 
+<div class="flex row">
+
+<div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
+File system operations for directories?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-grid class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Create a directory with the <code>mkdir</code> syscall
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-grid class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Read directory contents with <code>readdir</code> syscall
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-grid class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Delete a directory with the <code>rmdir</code> syscall
+</div>
+
+</div>
+
+</div>
+
+[//]: # "Slide End }}}"
+
+
+---
+
+[//]: # "Slide Start {{{"
+
 # ✨ Sketching the Key Ideas
 
 <img src="/os-sketch-files-directories.svg" class="ml-0 mt-8 h-100" />
