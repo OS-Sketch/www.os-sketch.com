@@ -224,6 +224,36 @@ Stop file access through the <code>close</code> syscall
 
 [//]: # "Slide End }}}"
 
+---
+
+[//]: # "Slide Start {{{"
+
+# Managing Files and Directories
+
+<v-clicks>
+
+- System uses a **numerical** file descriptor for a human-readable name
+
+- Additional insights into the tracking of **files** and **directories**:
+
+  - Each process maintains a **file descriptor table** (FDT)
+  - Parent and child processes can access the same file descriptor table
+  - A process uses the FDT to support lookup into **open file table** (OFT)
+
+- A `write` syscall means that a file must be persistent in the future
+
+- For performance reasons, the operating system may **delay** this syscall!
+
+- The `fsync` syscall ensure that the written file is immediately persisted
+
+- The `flush=True` parameter in Python leads to an `fsync` call
+
+- File system implementation must be both efficient and correct
+
+</v-clicks>
+
+[//]: # "Slide End }}}"
+
 
 ---
 
