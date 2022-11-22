@@ -254,6 +254,61 @@ Stop file access through the <code>close</code> syscall
 
 [//]: # "Slide End }}}"
 
+---
+
+[//]: # "Slide Start {{{"
+
+<div class="flex row">
+
+<div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
+What are additional file system operations?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-grid class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Atomically rename a file with <code>rename</code> syscall
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-grid class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+File metadata with <code>stat</code> and <code>fstat</code> syscalls
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-grid class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Remove a file from system with <code>unlink</code> syscall
+</div>
+
+</div>
+
+</div>
+
+[//]: # "Slide End }}}"
 
 ---
 
