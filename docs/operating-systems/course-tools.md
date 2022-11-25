@@ -89,8 +89,6 @@ Go to your terminal and type
 
 If the output says `Python 3.10` you are all set.
 
-If the output says you have a different version type this command:
-
 You should go to [this website](https://www.python.org/downloads/) and download the mac version. 
 
 
