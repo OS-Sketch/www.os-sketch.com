@@ -173,25 +173,28 @@ Your output should specify you have the clang version.
 
 ### GCC & `make` command
 
-1. Do not install MinGW directly, go to https://www.msys2.org/ and download MSYS2.
-2. Search for the MSYS2 MinGW x64 environment and open it.
-3. Use  `pacman -Syuu` command to update the environment.
-4. Use  `pacman -S mingw-w64-x86_64-toolchain` command to install the toolchain, which contains GCC and Make command.
-5. Verify the installation by entering `gcc —version` inside the terminal. It should return the version of GCC you installed.
-6. In order to use the GCC toolchain, you have to add to the path environment variable: <MSYS2 location>/mingw64/bin .
-7. You can also change the name of make from mingw32-make to make so it is easier to execute in the terminal.
-8. In order to test everything went correctly, create two new files in a directory named hello.c and makefile.
+- Do not install MinGW directly, go to https://www.msys2.org/ and download MSYS2.
+- Search for the MSYS2 MinGW x64 environment and open it.
+- Use  `pacman -Syuu` command to update the environment.
+- Use  `pacman -S mingw-w64-x86_64-toolchain` command to install the toolchain, which contains GCC and Make command.
+- Verify the installation by entering `gcc —version` inside the terminal. It should return the version of GCC you installed.
+- In order to use the GCC toolchain, you have to add to the path environment variable: <MSYS2 location>/mingw64/bin .
+- You can also change the name of make from mingw32-make to make so it is easier to execute in the terminal.
+- In order to test everything went correctly, create two new files in a directory named hello.c and makefile.
   
      Contents of Hello.c:
-      ``` #include <stdio.h>
+      ``` 
+      #include <stdio.h>
  
       int main() {
           printf("Hello, world!\n");
           return 0;
-      }```
+      }
+      ```
   
     Contents of Makefile:
-      ``` all: hello.exe
+      ``` 
+      all: hello.exe
 
       hello.exe: hello.o
           gcc -o hello.exe hello.o
@@ -200,9 +203,10 @@ Your output should specify you have the clang version.
           gcc -c hello.c
           
       clean:
-          rm hello.o hello.exe```
+          rm hello.o hello.exe
+      ```
  
-9. Navigate to the directory in your terminal, enter make and see the program run!
+- Navigate to the directory in your terminal, and run the make command.
 
 ### Docker
 Navigate to https://docs.docker.com/desktop/install/windows-install/ to install Docker.
@@ -217,11 +221,11 @@ Check version:
  
 
 ### Golang
-1. Download Go from the official website (https://go.dev/dl/).
-2. Follow the installer's instructions.
-3. Search for ```env``` on your computer and open environment variables.
-4. Copy the path for Go and paste into your user variable editing window.
-5. Test Go is installed by typing ```go version``` into your terminal.
+- Download Go from the official website (https://go.dev/dl/).
+- Follow the installer's instructions.
+- Search for ```env``` on your computer and open environment variables.
+- Copy the path for Go and paste into your user variable editing window.
+- Test Go is installed by typing ```go version``` into your terminal.
 
 ### Pipx / Poetry / Gatorgrade
 
@@ -282,7 +286,7 @@ $ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plug
 ```
 ### C and gcc:
  
-C and gcc should be installed by default in Linux distributors
+C and gcc should be installed by default in Linux distributors.
 
 ### Go
-In order to download [Go](https://go.dev/doc/install) on Linux click this link https://go.dev/dl/  and click the LINUX button that is underneath the feature downloads header. Once that is downloaded follow the directions that it gives you in order to complete the download.
+In order to download [Go](https://go.dev/doc/install) on Linux click this [link](https://go.dev/dl/) and click the LINUX button that is underneath the feature downloads header. Once that is downloaded follow the directions that it gives you in order to complete the download.
