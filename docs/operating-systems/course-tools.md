@@ -148,17 +148,17 @@ If you haven’t installed gatorgrade type this command:
 
 ### Go installation process:
 
-If you haven't installed Go click the link and follow [the instructions](https://go.dev/dl/)
+If you haven't installed Go: [the instructions](https://go.dev/dl/)
 
 Make sure you click the right chip that your laptop has.
 
 If you choose the right version and it still isn't working, follow these instructions:
-1. Type in the command ```nano ~/.zshrc``` into your terminal
-2. Add in the following 2 paths into the file that pops up in your terminal:
+- Type in the command ```nano ~/.zshrc``` into your terminal
+- Add in the following 2 paths into the file that pops up in your terminal:
   - ```export PATH=$PATH:/usr/local/go/bin```
   - ```export PATH=$PATH:$GOPATH/bin```
-3. After you save the changes in that file, source the file using the command ```. ~/.zshrc```.
-4. Check if go is now working using the ```go version``` command.
+- After you save the changes in that file, source the file using the command ```. ~/.zshrc```.
+- heck if go is now working using the ```go version``` command.
 
 
 ### GCC installation process:
@@ -171,18 +171,18 @@ Your output should specify you have the clang version.
 
 ## Locally installing the required tools for Windows
 
-### GCC & ```make``` command
+### GCC & `make` command
 
 1. Do not install MinGW directly, go to https://www.msys2.org/ and download MSYS2.
 2. Search for the MSYS2 MinGW x64 environment and open it.
-3. Use  ```pacman -Syuu``` command to update the environment.
-4. Use  ```pacman -S mingw-w64-x86_64-toolchain``` command to install the toolchain, which contains GCC and Make command.
-5. Verify the installation by entering ```gcc —version``` inside the terminal. It should return the version of GCC you installed.
+3. Use  `pacman -Syuu` command to update the environment.
+4. Use  `pacman -S mingw-w64-x86_64-toolchain` command to install the toolchain, which contains GCC and Make command.
+5. Verify the installation by entering `gcc —version` inside the terminal. It should return the version of GCC you installed.
 6. In order to use the GCC toolchain, you have to add to the path environment variable: <MSYS2 location>/mingw64/bin .
 7. You can also change the name of make from mingw32-make to make so it is easier to execute in the terminal.
 8. In order to test everything went correctly, create two new files in a directory named hello.c and makefile.
   
-     Hello.c should contain:
+     Contents of Hello.c:
       ``` #include <stdio.h>
  
       int main() {
@@ -190,7 +190,7 @@ Your output should specify you have the clang version.
           return 0;
       }```
   
-    Makefile should contain:
+    Contents of Makefile:
       ``` all: hello.exe
 
       hello.exe: hello.o
@@ -201,17 +201,19 @@ Your output should specify you have the clang version.
           
       clean:
           rm hello.o hello.exe```
-  
+ 
 9. Navigate to the directory in your terminal, enter make and see the program run!
 
 ### Docker
-- Navigate to https://docs.docker.com/desktop/install/windows-install/ to install Docker, and follow the instructions.
+Navigate to https://docs.docker.com/desktop/install/windows-install/ to install Docker.
 
 ### Python 3.10
-Go to the Microsoft Store app, and install: 
-  ```Python 3.10```
+Go to the Microsoft Store app to install: 
+```Python 3.10```
+
+
 Check version:
-  ```python --version``` 
+```python --version``` 
  
 
 ### Golang
@@ -283,4 +285,4 @@ $ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plug
 C and gcc should be installed by default in Linux distributors
 
 ### Go
-In order to download [Go](https://go.dev/doc/install) on Linux click this link https://go.dev/dl/  and click the LINUX button that is underneath the feature downloads header. Once that is downloaded follow the directions that it gives you in order to complete the download
+In order to download [Go](https://go.dev/doc/install) on Linux click this link https://go.dev/dl/  and click the LINUX button that is underneath the feature downloads header. Once that is downloaded follow the directions that it gives you in order to complete the download.
