@@ -137,7 +137,7 @@ Once poetry is installed then retype
 
 `poetry –version`
 
-### Gatorade installation process:
+### GatorGrade installation process:
 
 If you haven’t installed gatorgrade type this command:
 
@@ -204,18 +204,22 @@ Your output should specify you have the clang version.
           rm hello.o hello.exe
       ```
  
-- Navigate to the directory in your terminal, and run the make command.
+Navigate to the directory in your terminal, and run the make command.
 
 ### Docker
 Navigate to https://docs.docker.com/desktop/install/windows-install/ to install Docker.
 
 ### Python 3.10
 Go to the Microsoft Store app to install: 
-```Python 3.10```
+```
+Python 3.10
+```
 
 
 Check version:
-```python --version``` 
+```
+python --version
+``` 
  
 
 ### Golang
