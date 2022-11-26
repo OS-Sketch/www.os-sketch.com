@@ -167,7 +167,6 @@ Your output should specify you have the clang version.
 ## Locally installing the required tools for Windows
 
 ### GCC & `make` command
-
 - Do not install MinGW directly, go to https://www.msys2.org/ and download MSYS2.
 - Search for the MSYS2 MinGW x64 environment and open it.
 - Use  `pacman -Syuu` command to update the environment.
@@ -204,11 +203,9 @@ Your output should specify you have the clang version.
 Navigate to the directory in your terminal, and run the make command.
 
 ### Docker
-  
 Navigate to https://docs.docker.com/desktop/install/windows-install/ to install Docker.
 
 ### Python 3.10
-  
 Go to the Microsoft Store app to install: 
 ```
 Python 3.10
@@ -222,7 +219,6 @@ python --version
  
 
 ### Golang
-  
 - Download Go from the official website (https://go.dev/dl/).
 - Follow the installer's instructions.
 - Search for ```env``` on your computer and open environment variables.
@@ -277,22 +273,18 @@ $ pipx install gatorgrade
 ```
 
 ### Poetry
-
 [Poetry](https://python-poetry.org/docs/) can be downloaded by the commands below.  On some systems, python may still refer to Python 2 instead of Python 3. Better python3 binary to avoid ambiguity.
 ```
 curl -sSL https://install.python-poetry.org | python3 -
 ```
-### Docker
-  
+### Docker 
 Install [Docker](https://docs.docker.com/engine/install/ubuntu/):
 ```
 $ sudo apt-get update
 $ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 ```
 ### C and GCC:
- 
 C and GCC should be installed by default in Linux distributors.
 
 ### Go
-  
 In order to download [Go](https://go.dev/doc/install) on Linux click this [link](https://go.dev/dl/) and click the LINUX button that is underneath the feature downloads header. Once that is downloaded follow the directions that it gives you in order to complete the download.
