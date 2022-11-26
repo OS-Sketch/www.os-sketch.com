@@ -148,26 +148,31 @@ If you haven't installed Go: [the instructions](https://go.dev/dl/)
 Make sure you click the right chip that your laptop has.
 
 If you choose the right version and it still isn't working, follow these instructions:
-- Type in the command ```nano ~/.zshrc``` into your terminal
+- Type in the command: 
+```
+nano ~/.zshrc
+``` 
+into your terminal
 - Add in the following 2 paths into the file that pops up in your terminal:
   - ```export PATH=$PATH:/usr/local/go/bin```
   - ```export PATH=$PATH:$GOPATH/bin```
-- After you save the changes in that file, source the file using the command ```. ~/.zshrc```.
-- heck if go is now working using the ```go version``` command.
+- After you save the changes in that file, source the file using the command ```
+. ~/.zshrc```.
+- Check if Go is now working using the ```go version``` command.
 
 
 ### GCC installation process:
 
 GCC might already be installed on your computer since you have a Mac. To check type:
 
-`gcc –version`
+`gcc -–version`
 
 Your output should specify you have the clang version.
 
 ## Locally installing the required tools for Windows
 
 ### GCC & `make` command
-- Do not install MinGW directly, go to https://www.msys2.org/ and download MSYS2.
+- Do not install MinGW directly, go to this [website](https://www.msys2.org/) and download MSYS2.
 - Search for the MSYS2 MinGW x64 environment and open it.
 - Use  `pacman -Syuu` command to update the environment.
 - Use  `pacman -S mingw-w64-x86_64-toolchain` command to install the toolchain, which contains GCC and Make command.
@@ -203,7 +208,7 @@ Your output should specify you have the clang version.
 Navigate to the directory in your terminal, and run the make command.
 
 ### Docker
-Navigate to https://docs.docker.com/desktop/install/windows-install/ to install Docker.
+Navigate to this [website](https://docs.docker.com/desktop/install/windows-install/) to install Docker.
 
 ### Python 3.10
 Go to the Microsoft Store app to install: 
@@ -219,7 +224,7 @@ python --version
  
 
 ### Golang
-- Download Go from the official website (https://go.dev/dl/).
+- Download Go from the official [website](https://go.dev/dl/).
 - Follow the installer's instructions.
 - Search for ```env``` on your computer and open environment variables.
 - Copy the path for Go and paste into your user variable editing window.
