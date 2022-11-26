@@ -96,11 +96,9 @@ You should go to [this website](https://www.python.org/downloads/) and download 
 
 Using Homebrew, pipx can be installed with:
 
-
 `brew install pipx`
 
 The path can be ensured with:
-
 
 `pipx ensurepath`
 
@@ -117,7 +115,6 @@ The version can be verified with:
 `pipx --version`
 
 ### Poetry installation process:
-
 
 In your terminal window type:
 
@@ -137,7 +134,7 @@ Once poetry is installed then retype
 
 `poetry –version`
 
-### GatorGrade installation process:
+### Gatorgrade installation process:
 
 If you haven’t installed gatorgrade type this command:
 
@@ -161,7 +158,7 @@ If you choose the right version and it still isn't working, follow these instruc
 
 ### GCC installation process:
 
-GCC might already be installed on your computer since you have a MAC. To check type:
+GCC might already be installed on your computer since you have a Mac. To check type:
 
 `gcc –version`
 
@@ -207,9 +204,11 @@ Your output should specify you have the clang version.
 Navigate to the directory in your terminal, and run the make command.
 
 ### Docker
+  
 Navigate to https://docs.docker.com/desktop/install/windows-install/ to install Docker.
 
 ### Python 3.10
+  
 Go to the Microsoft Store app to install: 
 ```
 Python 3.10
@@ -223,6 +222,7 @@ python --version
  
 
 ### Golang
+  
 - Download Go from the official website (https://go.dev/dl/).
 - Follow the installer's instructions.
 - Search for ```env``` on your computer and open environment variables.
@@ -261,6 +261,7 @@ sudo apt install python3.10
 ```
 
 ### [Pipx](https://pypa.github.io/pipx/installation/)
+  
 Install Pipx with commands below:
 ```
 $ python3 -m pip install --user pipx
@@ -268,6 +269,7 @@ $ python3 -m pipx ensurepath
 ```
 
 ### Gatorgrade
+  
 After installing pipx, you are ready to install another tool called [Gatorgrade](https://github.com/GatorEducator/gatorgrade) by using pipx
 Install Gatorgrade by:
 ```
@@ -281,14 +283,16 @@ $ pipx install gatorgrade
 curl -sSL https://install.python-poetry.org | python3 -
 ```
 ### Docker
+  
 Install [Docker](https://docs.docker.com/engine/install/ubuntu/):
 ```
 $ sudo apt-get update
 $ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 ```
-### C and gcc:
+### C and GCC:
  
-C and gcc should be installed by default in Linux distributors.
+C and GCC should be installed by default in Linux distributors.
 
 ### Go
+  
 In order to download [Go](https://go.dev/doc/install) on Linux click this [link](https://go.dev/dl/) and click the LINUX button that is underneath the feature downloads header. Once that is downloaded follow the directions that it gives you in order to complete the download.
