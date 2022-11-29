@@ -735,6 +735,6 @@ Device drivers use specific protocols
 
 # ✨ Sketching the Key Ideas
 
-<img src="/os-sketch-systems-introduction.svg" class="ml-10 mt-8 h-100" />
+<img src="/os-sketch-io-introduction.svg" class="ml-1 mt-8 h-100" />
 
 [//]: # "Slide End }}}"
