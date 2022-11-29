@@ -241,13 +241,13 @@ hide:
 
 ### Technical Questions
 
--Experts add their technical question here
+-
 
 ### Next Steps
 
 - Read the chapter called *Network File System (NFS)* (Chapter 49) in
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
-- Check out the [course slides](/slides/operating-systems/systems-introduction/)
+- Check out the [course slides](/slides/operating-systems/nfs-introduction/)
   for a detailed investigation of this chapter
 - Review the [important terms](#important-terms) to find definitions of the
   terms associated with the assigned chapter
