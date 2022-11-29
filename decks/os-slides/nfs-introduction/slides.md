@@ -27,7 +27,7 @@ fonts:
 
 # Operating Systems
 
-## I/O Devices
+## Network File Systems
 
 <div class="container my-5">
   &nbsp;
@@ -61,10 +61,9 @@ fonts:
 
 ## Key Question
 
-> How does the operating system use the principle of **virtualization** to
-> manage the input/output devices connected to a computer? How do
-> virtualization **policies** and **mechanisms** for I/O devices influence the
-> way in which I implement programs and use an operating system?
+> What are the **benefits** and **drawbacks** of a network file system? How can
+> you use the principles from the field of operating systems to **implement**
+> and **test** a file system that is remote from the computer that accesses it?
 
 </div>
 
@@ -74,9 +73,9 @@ fonts:
 
 ## Learning Objectives
 
-> To **remember** and **understand** some of the foundations of I/O devices,
-> grasping the abstractions and implementation strategies that enable programs
-> to effectively run on a computer through an operating system.
+> To **remember** and **understand** some of the foundations of network file
+> systems, grasping the abstractions and implementation strategies that enable
+> programs to effectively access remote content with operating system.
 
 </div>
 
