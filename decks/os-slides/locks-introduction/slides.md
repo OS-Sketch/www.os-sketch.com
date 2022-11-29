@@ -746,13 +746,3 @@ int main(int argc, char *argv[]) {
 <img src="/os-sketch-locks-introduction.svg" class="ml-10 mt-8 h-100" />
 
 [//]: # "Slide End }}}"
-
----
-
-[//]: # "Slide Start {{{"
-
-# ✨ Sketching the Key Ideas
-
-<img src="/os-sketch-locks-introduction-api.svg" class="ml-40 mt-8 h-100" />
-
-[//]: # "Slide End }}}"
