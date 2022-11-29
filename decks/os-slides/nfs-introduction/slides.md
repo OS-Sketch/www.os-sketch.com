@@ -311,6 +311,61 @@ Drop the lost state and report failure to recover
 
 [//]: # "Slide End }}}"
 
+---
+
+[//]: # "Slide Start {{{"
+
+<div class="flex row">
+
+<div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
+Message loss between client and server?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-exclamation-octagon class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Client request is lost before arriving at the server
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-exclamation-octagon class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Client sends request and the server is down
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-cube class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Response from server not delivered to the client
+</div>
+
+</div>
+
+</div>
+
+[//]: # "Slide End }}}"
 
 ---
 
