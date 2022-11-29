@@ -67,7 +67,12 @@ hide:
 ![io Devices](/img/os-sketch-io-introduction.svg#only-light){width="80%"}
 ![io Devices](/img/os-sketch-io-introduction-inverted.svg#only-dark){width="80%"}
 
-## Network File System and Directory
+## Files and Directories
+
+![io Devices](/img/os-sketch-files-directories.svg#only-light){width="80%"}
+![io Devices](/img/os-sketch-files-directories-inverted.svg#only-dark){width="80%"}
+
+## Network File System
 
 ## Data Integrity and Protection
 
