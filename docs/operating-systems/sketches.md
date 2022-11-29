@@ -64,8 +64,8 @@ hide:
 
 ## I/O Devices
 
-![I/O Devices](/img/os-sketch-io-introduction.svg#only-light){width="80%"}
-![I/O Devices](/img/os-sketch-io-introduction-inverted.svg#only-dark){width="80%"}
+![io Devices](/img/os-sketch-io-introduction.svg#only-light){width="80%"}
+![io Devices](/img/os-sketch-io-introduction-inverted.svg#only-dark){width="80%"}
 
 ## Network File System and Directory
 

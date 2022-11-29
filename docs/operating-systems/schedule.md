@@ -213,13 +213,15 @@ hide:
 
 -Experts add their technical question here
 
-### Expert Added Content
+### Next Steps
 
 - *I/O Devices* chapter in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Check out the [course slides](/slides/operating-systems/systems-introduction/)
   for a detailed investigation of these chapters!
 - [Click here](#important-terms) to find definitions for key terms for the
   week's reading (chapter 36)!
+- Check out the [operating system sketch](/operating-systems/sketches/#io-devices)
+  associated with this module
 
 ## File Systems and Directories
 
