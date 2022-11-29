@@ -11,6 +11,7 @@
     "locks-introduction",
     "semaphores-introduction",
     "io-introduction",
-    "files-directories"
+    "files-directories",
+    "nfs-introduction"
   ]
 }
