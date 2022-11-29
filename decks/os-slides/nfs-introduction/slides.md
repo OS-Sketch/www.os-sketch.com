@@ -144,7 +144,7 @@ Files and directories are transferred across network
 <div class="flex row">
 
 <div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
-What can happen during process execute step?
+Trade-offs with network file systems?
 </div>
 
 </div>
@@ -156,21 +156,7 @@ What can happen during process execute step?
 <uim-rocket class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Access variable values stored in CPU registers
-</div>
-
-</div>
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<uim-rocket class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-Perform arithmetic computation on register values
+Aids sharing of files and directories across clients
 </div>
 
 </div>
@@ -184,7 +170,21 @@ Perform arithmetic computation on register values
 <uim-rocket class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Block for I/O to access data stored in the file system
+Centralization helps administration and security
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-rocket class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Failure modes for performance and correctness
 </div>
 
 </div>
