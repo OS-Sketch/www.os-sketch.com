@@ -197,34 +197,29 @@ Failure modes for performance and correctness
 
 [//]: # "Slide Start {{{"
 
-# Virtualization in Operating Systems
+# Basic Network File System
 
 <v-clicks>
 
-- **Goal**: simplify access to physical resources through abstract interfaces
+- Components of a network file system (NFS):
 
-- What are the **benefits** of using virtualization in an operating system?
+  - **File Server**: remote server that contains a disk array
+  - **NFS Server**: networking layer that manages requests for files and directories
+  - **Client-Side File System**: interacts through the network with the remote
+    file server
 
-  - Abstract away details about specific hardware modules
-  - Offer a uniform interface to hardware modules of specific class
-  - Enable simulation of more physical resources than are available
-  - Enforce rules about the accessing of physical hardware resources
+- What are the **benefits** and **drawbacks** of using a network file system?
 
-- The operating system is a **resource manager** running as a virtual machine
+  - Provides **transparent** access to files on a remote server
+  - Uses the **same** system calls for access to remote and local files
+  - However, the **may** semantics of remote and local access may differ
+  - Ultimately, transparency is a **double-edged sword** for an operating system!
 
-- Separate the **policy** for resource management from the **mechanism**!
+- **Design Goal**: given the unreliability of networks and
+  computers, a protocol and implementation that supports simple and fast server
+  crash recovery
 
-- What does an operating system virtualize? CPU, Disk, Memory, Network!
-
-<div class="flex row">
-
-<mdi-diamond class="text-6xl ml-4 mt-0 text-blue-600" />
-
-<div class="text-4xl text-true-gray-700 font-bold mt-4 ml-4">
-Operating system virtualizes all I/O devices!
-</div>
-
-</div>
+- The key to fast recovery from crashes is to maintain little, if any, state!
 
 </v-clicks>
 
