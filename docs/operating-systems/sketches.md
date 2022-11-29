@@ -69,8 +69,8 @@ hide:
 
 ## Files and Directories
 
-![io Devices](/img/os-sketch-files-directories.svg#only-light){width="80%"}
-![io Devices](/img/os-sketch-files-directories-inverted.svg#only-dark){width="80%"}
+![Files and Directories](/img/os-sketch-files-directories.svg#only-light){width="80%"}
+![Files and Directories](/img/os-sketch-files-directories-inverted.svg#only-dark){width="80%"}
 
 ## Network File System
 

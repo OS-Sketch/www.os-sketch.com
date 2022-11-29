@@ -237,6 +237,8 @@ hide:
   for a detailed investigation of these chapters!
 - [Click here](#important-terms) to find definitions for key terms for the
   week's reading (chapters 39, 40 and 49)!
+- Check out the [operating system sketch](/operating-systems/sketches/#files-and-directories)
+  associated with this module
 
 ## Data Integrity and Security
 
