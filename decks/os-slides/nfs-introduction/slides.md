@@ -355,7 +355,7 @@ Client sends request and the server is down
 
 <div class="flex row">
 
-<uim-cube class="text-6xl ml-8 mt-6 text-blue-600" />
+<uim-exclamation-octagon class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
 Response from server not delivered to the client
@@ -364,6 +364,36 @@ Response from server not delivered to the client
 </div>
 
 </div>
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
+# Benefits and Drawbacks of Caching
+
+<v-clicks>
+
+- One major concern is that **network communication may not be fast**!
+
+- How do we solve performance problems? Of course, we **add a cache**!
+
+- NFS client can cache file **data** and **meta-data** and avoid the network
+
+- NFS client can also perform **write buffering** to further improve performance
+
+- Challenges associated with cache consistency on clients and the server:
+
+  - Cache inconsistency may emerge on the side of clients or the server
+  - One client may have buffered the updated version of a file
+  - Another client may read an out-of-date file version from the server
+  - By the time the first client writes is updates they may be out of date!
+
+- **Design Goal**: make sure that the caching protocol is clearly documented and
+  the client software transparently makes good decisions with diagnostics
+
+</v-clicks>
 
 [//]: # "Slide End }}}"
 
