@@ -241,7 +241,9 @@ hide:
 
 ### Technical Questions
 
--
+- What are the **benefits** and **drawbacks** of a network file system? How can
+  you use the principles from the field of operating systems to **implement**
+  and **test** a file system that is remote from the computer that accesses it?
 
 ### Next Steps
 
