@@ -229,6 +229,63 @@ Failure modes for performance and correctness
 
 [//]: # "Slide Start {{{"
 
+<div class="flex row">
+
+<div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
+State management in the face of crashes?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-cube class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Backup state and attempt to recover it quickly
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-cube class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Attempt to regenerate the state through replay
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-cube class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Drop the lost state and report failure to recover
+</div>
+
+</div>
+
+</div>
+
+[//]: # "Slide End }}}"
+
+
+---
+
+[//]: # "Slide Start {{{"
+
 # ✨ Sketching the Key Ideas
 
 <img src="/os-sketch-io-introduction.svg" class="ml-1 mt-8 h-100" />
