@@ -281,6 +281,36 @@ Drop the lost state and report failure to recover
 
 [//]: # "Slide End }}}"
 
+---
+
+[//]: # "Slide Start {{{"
+
+# NFS Protocols and Implementations
+
+<v-clicks>
+
+- Strategies for tracking and manage state in a network file system:
+
+  - Client **tracks** all relevant state for file and directory accesses
+  - Client **fully qualifies** all requests to minimize storage on the server
+  - Server **should never** need to **consult state** to respond to a request
+
+- How does **idempotency** help to handle server failure?
+
+  - Sometimes a client may not receive a response from the server
+  - If no response emerges the client may want to call a function again
+  - But, how can the client know if it is acceptable to repeatedly call the function?
+  - Repeated calls to an idempotent operation are the same as if the client
+    called the operation a single time, giving confidence to the file system
+    client
+
+- **Design Goal**: given the unreliability of networks and
+  computers, most functions provided by the server should be idempotent
+
+</v-clicks>
+
+[//]: # "Slide End }}}"
+
 
 ---
 
