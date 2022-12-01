@@ -12,6 +12,7 @@
     "semaphores-introduction",
     "io-introduction",
     "files-directories",
-    "nfs-introduction"
+    "nfs-introduction",
+    "data-integrity"
   ]
 }
