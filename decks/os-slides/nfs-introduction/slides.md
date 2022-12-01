@@ -403,6 +403,6 @@ Response from server not delivered to the client
 
 # ✨ Sketching the Key Ideas
 
-<img src="/os-sketch-io-introduction.svg" class="ml-1 mt-8 h-100" />
+<img src="/os-sketch-nfs-introduction.svg" class="ml-1 mt-8 h-100" />
 
 [//]: # "Slide End }}}"
