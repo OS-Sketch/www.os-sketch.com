@@ -258,13 +258,15 @@ hide:
 
 ### Technical Questions
 
--Experts add their technical question here
+- How can the operating system ensure that **data written** to storage is
+  **protected**? What steps must be taken to ensure that data protection can be
+  done with both **low time and space** overheads?
 
 ### Next Steps
 
 - Read the chapter called *Data Integrity and Protection* (Chapter 45) in
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
-- Check out the [course slides](/slides/operating-systems/systems-introduction/)
+- Check out the [course slides](/slides/operating-systems/data-integrity/)
   for a detailed investigation of these chapters
 - Review the [important terms](#important-terms) to find definitions of the
   terms associated with the assigned chapter
