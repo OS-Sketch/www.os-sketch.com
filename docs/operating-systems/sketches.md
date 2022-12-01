@@ -74,7 +74,8 @@ hide:
 
 ## Network File System
 
-![Network File System]()
+![Network File System](/img/os-sketch-nfs-introduction.svg#only-light)
+![Network File System](/img/os-sketch-nfs-introduction-inverted.svg#only-dark)
 
 ## Data Integrity and Protection
 
