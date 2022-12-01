@@ -156,18 +156,12 @@ Disks are more likely to fail after frequent use
 - While handling every problem is out of scope, the operating systems should
   address single-block called **latent-sector errors** and **block corruption**
 
-- What are the **benefits** and **drawbacks** of using a network file system?
+  - LSE occurs when a disk sector fails in a detectable fashion
+  - Error correcting codes can detect the existence of an LSE
+  - Disk blocks can also corrupt for a wide variety of undiagnosable reasons
+  - An error correcting code cannot detect a problem with disk firmware!
 
-  - Provides **transparent** access to files on a remote server
-  - Uses the **same** system calls for access to remote and local files
-  - However, the **may** semantics of remote and local access may differ
-  - Ultimately, transparency is a **double-edged sword** for an operating system!
-
-- **Design Goal**: given the unreliability of networks and
-  computers, a protocol and implementation that supports simple and fast server
-  crash recovery
-
-- The key to fast recovery from crashes is to maintain little, if any, state!
+- Errors often emerge depending on **workloads** to which disk is subjected
 
 </v-clicks>
 
