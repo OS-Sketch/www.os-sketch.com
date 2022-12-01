@@ -142,16 +142,19 @@ Disks are more likely to fail after frequent use
 
 [//]: # "Slide Start {{{"
 
-# Basic Network File System
+# Failure Modes for Disk Drives
 
 <v-clicks>
 
-- Components of a network file system (NFS):
+- Limited models for **disk drive failure**:
 
-  - **File Server**: remote server that contains a disk array
-  - **NFS Server**: networking layer that manages requests for files and directories
-  - **Client-Side File System**: interacts through the network with the remote
-    file server
+  - Either the entire disk is **working** or it **completely fails**
+  - Detection of problems in the **fail-stop** disk model is relatively straightforward
+  - Motivated the creation of redundant arrays of inexpensive disks, called **RAID**
+  - Of course, there are **other types** of disk failures to also consider!
+
+- While handling every problem is out of scope, the operating systems should
+  address single-block called **latent-sector errors** and **block corruption**
 
 - What are the **benefits** and **drawbacks** of using a network file system?
 
