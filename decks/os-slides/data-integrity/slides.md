@@ -89,7 +89,7 @@ fonts:
 <div class="flex row">
 
 <div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
-What is the definition of a network file system?
+Insights from "bathtub curb" for disk failure?
 </div>
 
 </div>
@@ -101,21 +101,7 @@ What is the definition of a network file system?
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Files and directories stored on a centralized server
-</div>
-
-</div>
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-Each remote client mounts the network file system
+Disks are more likely to fail when first installed
 </div>
 
 </div>
@@ -129,7 +115,21 @@ Each remote client mounts the network file system
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Files and directories are transferred across network
+Disks enter a stable period when failure is unlikely
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Disks are more likely to fail after frequent use
 </div>
 
 </div>
