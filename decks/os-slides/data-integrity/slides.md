@@ -61,9 +61,9 @@ fonts:
 
 ## Key Question
 
-> What are the **benefits** and **drawbacks** of a network file system? How can
-> you use the principles from the field of operating systems to **implement**
-> and **test** a file system that is remote from the computer that accesses it?
+> How can the operating system ensure that **data written** to storage is
+> **protected**? What steps must be taken to ensure that data protection can be
+> done with both **low time and space** overheads?
 
 </div>
 
@@ -73,9 +73,10 @@ fonts:
 
 ## Learning Objectives
 
-> To **remember** and **understand** some of the foundations of network file
-> systems, grasping the abstractions and implementation strategies that enable
-> programs to effectively access remote content with operating system.
+> To **remember** and **understand** some of the foundations of data protection
+> and integrity systems, grasping the abstractions and implementation
+> strategies that enable programs to rely on the operating system to
+> **persistently** store data, even in the presence of **disk failures**.
 
 </div>
 
