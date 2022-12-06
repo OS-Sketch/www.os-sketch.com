@@ -191,6 +191,8 @@ Disks are more likely to fail after frequent use
 
 - Note that RAID systems use **dedicated hardware** to achieve reliability goals
 
+- **Any questions about handling latent sectors errors for data integrity?**
+
 </v-clicks>
 
 [//]: # "Slide End }}}"
@@ -227,6 +229,62 @@ cksum slides.md
 cksum tags
 123132981 4135 tags
 </pre>
+</div>
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
+<div class="flex row">
+
+<div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
+Checksums for detection block corruption?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-cube class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Like hashing, you want to avoid collisions
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-cube class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Trade-offs in time overhead and quality of checksum
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-cube class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Decide where to store the checksums on the disk
+</div>
+
+</div>
+
 </div>
 
 [//]: # "Slide End }}}"
