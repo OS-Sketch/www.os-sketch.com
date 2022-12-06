@@ -171,6 +171,34 @@ Disks are more likely to fail after frequent use
 
 [//]: # "Slide Start {{{"
 
+# Handling Latent Sector Errors
+
+<v-clicks>
+
+- **RAID**: Redundant array of inexpensive disks is very helpful!
+
+- **Latent sector errors** (LSEs) are straightforward to detect and handle!
+
+- Mirrored RAID system can access the **redundant copy** of the data in array
+
+- RAID-4 or RAID-5 systems can reconstruct the sector using **parity** content
+
+- Additional challenges arise when the **disks fill** at the same time LSEs occur
+
+- What is the main **cost** with these approaches? **Space overhead**!
+
+- There is also some cost associated with mirroring data and computing parity
+
+- Note that RAID systems use **dedicated hardware** to achieve reliability goals
+
+</v-clicks>
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
 # ✨ Sketching the Key Ideas
 
 <img src="/os-sketch-io-introduction.svg" class="ml-1 mt-8 h-100" />
