@@ -240,7 +240,7 @@ cksum tags
 <div class="flex row">
 
 <div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
-Checksums for detection block corruption?
+Checksums for detecting block corruption?
 </div>
 
 </div>
@@ -293,8 +293,92 @@ Decide where to store the checksums on the disk
 
 [//]: # "Slide Start {{{"
 
+# Additional Data Integrity Insights
+
+<v-clicks>
+
+- Checksums are broadly useful for confirming correctness of file downloads
+
+- Checksums can help to ensure that download did not corrupt an archive
+
+- Package managers can use of checksums for corruption detection
+
+- Additional problems with modern disk drives:
+
+    - Misdirected writes can be detected with checksums
+    - Missing writes cannot be detected with checksums
+    - Specific files systems (e.g., ZFS and WaffleFS) also handle
+    - Alternatives for missing writes include dedicated hardware
+
+- Often useful to perform checks on the entire filesystem at intervals
+- Of course, there is a cost associated with running comprehensive checks!
+
+</v-clicks>
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
+<div class="flex row">
+
+<div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
+Concluding insights about data integrity?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-cube class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Tools exist for detecting and correcting problems
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-cube class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Trade-offs in integrity and time+space overhead
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-cube class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Makes connections to cryptography and hashing
+</div>
+
+</div>
+
+</div>
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
 # ✨ Sketching the Key Ideas
 
-<img src="/os-sketch-io-introduction.svg" class="ml-1 mt-8 h-100" />
+<img src="/os-sketch-data-integrity.svg" class="ml-10 mt-8 h-100" />
 
 [//]: # "Slide End }}}"
