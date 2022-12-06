@@ -87,9 +87,7 @@ Go to your terminal and type
 
 `python –version`
 
-If the output says python 3.10 you are all set.
-
-If the output says you have a different version type this command:
+If the output says `Python 3.10` you are all set.
 
 You should go to [this website](https://www.python.org/downloads/) and download the mac version. 
 
@@ -98,11 +96,9 @@ You should go to [this website](https://www.python.org/downloads/) and download 
 
 Using Homebrew, pipx can be installed with:
 
-
 `brew install pipx`
 
 The path can be ensured with:
-
 
 `pipx ensurepath`
 
@@ -119,7 +115,6 @@ The version can be verified with:
 `pipx --version`
 
 ### Poetry installation process:
-
 
 In your terminal window type:
 
@@ -139,7 +134,7 @@ Once poetry is installed then retype
 
 `poetry –version`
 
-### Gatorade installation process:
+### Gatorgrade installation process:
 
 If you haven’t installed gatorgrade type this command:
 
@@ -148,51 +143,64 @@ If you haven’t installed gatorgrade type this command:
 
 ### Go installation process:
 
-If you haven't installed go click the link and follow [the instructions](https://go.dev/dl/)
+If you haven't installed Go: [the instructions](https://go.dev/dl/)
 
 Make sure you click the right chip that your laptop has.
 
 If you choose the right version and it still isn't working, follow these instructions:
-1. type in the command ```nano ~/.zshrc``` into your terminal
-2. add in the following 2 paths into the file that pops up in your terminal:
-  - ```export PATH=$PATH:/usr/local/go/bin```
-  - ```export PATH=$PATH:$GOPATH/bin```
-3. After you save the changes in that file, source the file using the command ```. ~/.zshrc```.
-4. Check if go is now working using the ```go version``` command.
 
+Type in the command into your terminal: 
+```
+nano ~/.zshrc
+``` 
+Add in the following 2 paths into the file that pops up in your terminal:
+```
+export PATH=$PATH:/usr/local/go/bin
+```
+
+```
+export PATH=$PATH:$GOPATH/bin
+```
+After you save the changes in that file, source the file using the command:
+```
+. ~/.zshrc
+```
+
+Check if Go is now working using the ```go version``` command.
 
 ### GCC installation process:
 
-GCC might already be installed on your computer since you have a mac. To check type:
+GCC might already be installed on your computer since you have a Mac. To check type:
 
-`gcc –version`
+`gcc -–version`
 
-You want your output to say you have the clang version.
-
-
-
+Your output should specify you have the clang version.
 
 ## Locally installing the required tools for Windows
 
-### gcc & ```make``` command
-
-1. Do not install MinGW directly, go to https://www.msys2.org/ and download MSYS2.
-2. Search for the MSYS2 MinGW x64 environment and open it.
-3. Write ```pacman -Syuu``` to update the environment.
-4. Write ```pacman -S mingw-w64-x86_64-toolchain``` to install the toolchain, which contains gcc and the make command.
-5. Verify the installation worked by entering ```gcc —version``` in your terminal. If it is working it should return the version of gcc you installed.
-6. In order to use the gcc toolchain, you have to add this to your path environment variable: <MSYS2 location>/mingw64/bin .
-7. You can also change the name of make from mingw32-make to make to make it easier to execute in the terminal.
-8. In order to test everything went correctly, create two new files in a directory named hello.c and makefile.
-    1. Hello.c should contain:
-      ``` #include <stdio.h>
+### GCC & `make` command
+- Do not install MinGW directly, go to this [website](https://www.msys2.org/) and download MSYS2.
+- Search for the MSYS2 MinGW x64 environment and open it.
+- Use  `pacman -Syuu` command to update the environment.
+- Use  `pacman -S mingw-w64-x86_64-toolchain` command to install the toolchain, which contains GCC and Make command.
+- Verify the installation by entering `gcc —version` inside the terminal. It should return the version of GCC you installed.
+- In order to use the GCC toolchain, you have to add to the path environment variable: <MSYS2 location>/mingw64/bin .
+- You can also change the name of make from mingw32-make to make so it is easier to execute in the terminal.
+- In order to test everything went correctly, create two new files in a directory named hello.c and makefile.
+  
+     Contents of Hello.c:
+      ``` 
+      #include <stdio.h>
  
       int main() {
           printf("Hello, world!\n");
           return 0;
-      }```
-    2. Makefile should contain:
-      ``` all: hello.exe
+      }
+      ```
+  
+    Contents of Makefile:
+      ``` 
+      all: hello.exe
 
       hello.exe: hello.o
           gcc -o hello.exe hello.o
@@ -201,42 +209,67 @@ You want your output to say you have the clang version.
           gcc -c hello.c
           
       clean:
-          rm hello.o hello.exe```
-9. Navigate to the directory in your terminal, enter make and see the program run!
+          rm hello.o hello.exe
+      ```
+ 
+Navigate to the directory in your terminal, and run the make command.
 
 ### Docker
-- Navigate to https://docs.docker.com/desktop/install/windows-install/, get the installer, and follow the instructions.
+Navigate to this [website](https://docs.docker.com/desktop/install/windows-install/) to install Docker.
 
 ### Python 3.10
-1. Go to the Microsoft Store app, search ```Python 3.10``` and install.
-2. Can check this worked by using the ```python --version``` command.
+Go to the Microsoft Store app to install: 
+```
+Python 3.10
+```
+
+
+Check version:
+```
+python --version
+``` 
+ 
 
 ### Golang
-1. Download Go from the official website (https://go.dev/dl/).
-2. Follow the installer's instructions and wait while it is downloaded onto your laptop.
-3. Search for ```env``` on your computer and open environment variables.
-4. Copy the path for Go and paste it into your user variable editing window.
-5. Test that go is working by typing ```go version``` into your terminal.
+- Download Go from the official [website](https://go.dev/dl/).
+- Follow the installer's instructions.
+- Search for ```env``` on your computer and open environment variables.
+- Copy the path for Go and paste into your user variable editing window.
+- Test Go is installed by typing ```go version``` into your terminal.
 
-### pipx / poetry / gatorgrade
+### Pipx / Poetry / Gatorgrade
 
-1. install pipx using the command ```python3 -m pip install --user pipx``` and then ```python3 -m pipx ensurepath```.
+Install pipx: 
+  ```
+  python3 -m pip install --user pipx
+  ``` 
+  and then 
+  ```
+  python3 -m pipx ensurepath
+  ```
 
-2. you can then install gatorgrade using pipx using the command ```pipx install gatorgrade```.
+Install Gatorgrade using pipx:
+  ```
+  pipx install gatorgrade
+  ```
 
-3. Use the ```curl -sSL https://install.python-poetry.org | python3 -``` command to install poetry.
+Command to install poetry:
+  ```
+  curl -sSL https://install.python-poetry.org | python3 -
+  ``` 
 
 ## Locally installing the required tools for Linux
 
 ### Python3.10 or above
 
-[Python 3.10](https://computingforgeeks.com/how-to-install-python-on-ubuntu-linux-system/)  or above is expected. Please copy the commands below to download Python 3.10. Feel free to download the newest version if possible
+[Python 3.10](https://computingforgeeks.com/how-to-install-python-on-ubuntu-linux-system/)  or above is expected. Downlad Python with this command: 
 
 ```
 sudo apt install python3.10
 ```
 
 ### [Pipx](https://pypa.github.io/pipx/installation/)
+  
 Install Pipx with commands below:
 ```
 $ python3 -m pip install --user pipx
@@ -244,6 +277,7 @@ $ python3 -m pipx ensurepath
 ```
 
 ### Gatorgrade
+  
 After installing pipx, you are ready to install another tool called [Gatorgrade](https://github.com/GatorEducator/gatorgrade) by using pipx
 Install Gatorgrade by:
 ```
@@ -251,20 +285,18 @@ $ pipx install gatorgrade
 ```
 
 ### Poetry
-
 [Poetry](https://python-poetry.org/docs/) can be downloaded by the commands below.  On some systems, python may still refer to Python 2 instead of Python 3. Better python3 binary to avoid ambiguity.
 ```
 curl -sSL https://install.python-poetry.org | python3 -
 ```
-### Docker
+### Docker 
 Install [Docker](https://docs.docker.com/engine/install/ubuntu/):
 ```
 $ sudo apt-get update
 $ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 ```
-### C and gcc:
- 
-C and gcc should be installed by default in Linux distributors
+### C and GCC:
+C and GCC should be installed by default in Linux distributors.
 
 ### Go
-In order to download [Go](https://go.dev/doc/install) on Linux click this link https://go.dev/dl/  and click the LINUX button that is underneath the feature downloads header. Once that is downloaded follow the directions that it gives you in order to complete the download
+In order to download [Go](https://go.dev/doc/install) on Linux click this [link](https://go.dev/dl/) and click the LINUX button that is underneath the feature downloads header. Once that is downloaded follow the directions that it gives you in order to complete the download.

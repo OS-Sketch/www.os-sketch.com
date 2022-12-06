@@ -8,6 +8,11 @@
     "segmentation-paging",
     "memory-swapping",
     "concurrency-introduction",
-    "locks-introduction"
+    "locks-introduction",
+    "semaphores-introduction",
+    "io-introduction",
+    "files-directories",
+    "nfs-introduction",
+    "data-integrity"
   ]
 }

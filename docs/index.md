@@ -77,15 +77,14 @@ security process is that it can change the scheduling or even halt the
 execution of any process. There are also more actions for the security process
 that will be covered this semester.
 
+-**Policies:** Policies are ways to choose which activities to perform. They are algorithms for making scheduling decisions, and refers to what needs to be done (i.e. activities to perform).
+
 - **Mechanisms:** Mechanisms are a very important process tool, they are used to send
-processes to and from the scheduler and the CPU.
+processes to and from the scheduler and the CPU. In relation to mechanisms, it is also the technique for enacting policy decisions, and refers to how to do it (i.e. implementation to enforce policy).
 
-- **Segmentation:** Segmentation is splitting up the static data into different
-sections in the memory. The RAM uses segmentation the most.
+- **Segmentation:** Segmentation is a memory management technique by splitting up the static data into different sections in the memory. There are types of segmentation: virtual memory segmentation and simple segmentation. Virtual memory segmentation is where each process is divided into a number of segments where not all of which are resident at one point in time. On the other hand, simple segmentation is where each process is divided into a number of segments where all of which are loaded into memory at run time, though not necessarily contiguously.
 
-
-- **Concurrency:** This takes processes from the process before it can hit the
-process list, These processes get split into multiple smaller processes and
+- **Concurrency:** Concurrency is the execution of a set of multiple instruction sequences at the same time. This occurs when there are several process threads running in parallel. It takes threads from the process before it can hit the process list. These processes get split into multiple smaller processes and
 then fed to the process list.
 
 ???+ note
