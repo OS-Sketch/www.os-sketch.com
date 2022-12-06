@@ -199,6 +199,42 @@ Disks are more likely to fail after frequent use
 
 [//]: # "Slide Start {{{"
 
+# Handling Block-Level Corruption
+
+<v-clicks>
+
+- What should the operating system do if a block on the disk **silently fails**?
+
+- Understanding **checksums** and how the system computes them:
+
+    - Mirrored RAID system can access the **redundant copy** of the data in array
+    - A checksum is a **unique value** computed for a block of data
+    - An operating system computes a **checksum** and **compares** it to known value
+    - Wait, what if the checksum is **not completely accurate** and **does not detect**?
+    - Need checksums that **do not** yield false positives or false negatives
+
+</v-clicks>
+
+<div class="border-2 rounded-2xl border-gray-700 bg-gray-300 p-5 mt-3 mb-5">
+<pre>
+cksum slides.md
+2814442712 4977 slides.md
+</pre>
+</div>
+
+<div class="border-2 rounded-2xl border-gray-700 bg-gray-300 p-5 mt-3 mb-5">
+<pre>
+cksum tags
+123132981 4135 tags
+</pre>
+</div>
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
 # ✨ Sketching the Key Ideas
 
 <img src="/os-sketch-io-introduction.svg" class="ml-1 mt-8 h-100" />
