@@ -27,7 +27,7 @@ fonts:
 
 # Operating Systems
 
-## Locks Introduction
+## Introducing Locks
 
 <div class="container my-5">
   &nbsp;
