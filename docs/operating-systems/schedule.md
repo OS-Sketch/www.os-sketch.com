@@ -17,7 +17,8 @@ hide:
     background-color: #3ea89e
     }
   .booklink{
-    color:#ee00ff
+  color:#000000;
+  text-decoration:underline
   }
   </style>
 
