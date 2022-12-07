@@ -266,6 +266,8 @@ hide:
   for a detailed investigation of this chapter
 - Review the [important terms](#important-terms) to find definitions of the
   terms associated with the assigned chapter
+- Check out the [operating system sketch](/operating-systems/sketches/#network-file-system)
+  associated with this module
 
 ## Data Integrity
 
@@ -283,6 +285,8 @@ hide:
   for a detailed investigation of these chapters
 - Review the [important terms](#important-terms) to find definitions of the
   terms associated with the assigned chapter
+- Check out the [operating system sketch](/operating-systems/sketches/##data-integrity-and-protection)
+  associated with this module
 
 ## Distributed Systems
 
