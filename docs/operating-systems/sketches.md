@@ -79,4 +79,8 @@ hide:
 
 ## Data Integrity and Protection
 
+![Network File System](/img/os-sketch-data-integrity.svg#only-light)
+![Network File System](/img/os-sketch-data-integrity-inverted.svg#only-dark)
+
+
 ## Distributed Systems
