@@ -16,10 +16,7 @@ hide:
   background-blue-green{
     background-color: #3ea89e}
   .booklink: hover{
-    color: #BCEAFF
-  }
-  .booklink: {
-    text-decoration: none;
+    color: #B600FF
   }
   </style>
 
