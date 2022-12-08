@@ -230,7 +230,7 @@ Design and implementation is very challenging!
 <div class="flex row">
 
 <div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
-State management in the face of crashes?
+Strategies for reliable communication?
 </div>
 
 </div>
@@ -242,21 +242,7 @@ State management in the face of crashes?
 <uim-cube class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Backup state and attempt to recover it quickly
-</div>
-
-</div>
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<uim-cube class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-Attempt to regenerate the state through replay
+Acknowledge the receipt of a message
 </div>
 
 </div>
@@ -270,7 +256,21 @@ Attempt to regenerate the state through replay
 <uim-cube class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Drop the lost state and report failure to recover
+Retry the sending of a message if not delivered
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-cube class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Use checksums to confirm correct transmission
 </div>
 
 </div>
@@ -283,27 +283,27 @@ Drop the lost state and report failure to recover
 
 [//]: # "Slide Start {{{"
 
-# NFS Protocols and Implementations
+# Understanding Remote Procedure Calls
 
 <v-clicks>
 
-- Strategies for tracking and manage state in a network file system:
+- A remote procedure call (RPC) is a function call between client and server
 
-  - Client **tracks** all relevant state for file and directory accesses
-  - Client **fully qualifies** all requests to minimize storage on the server
-  - Server **should never** need to **consult state** to respond to a request
+- Add layers of abstraction to ensure that RPC behaves like a function call
 
-- How does **idempotency** help to handle server failure?
+- Leverage existing protocols and features to ensure reliable communication
 
-  - Sometimes a client may not receive a response from the server
-  - If no response emerges the client may want to call a function again
-  - But, how can the client know if it is acceptable to repeatedly call the function?
-  - Repeated calls to an idempotent operation are the same as if the client
-    called the operation a single time, giving confidence to the file system
-    client
+- Stubs allow clients and servers to communicate even with differences in:
+  operating system, computer architecture, programming language
 
-- **Design Goal**: given the unreliability of networks and
-  computers, most functions provided by the server should be idempotent
+- Function invoked from a remote client should be implemented as normal
+
+- RPC functionality in the language and the operating system preserves
+  abstraction. Yet, of course, an RPC is not the same as a function call!
+
+  - Greater response times may negatively influence performance-critical functions
+  - Decrease in reliability may cause function on a client to not working correctly
+  - Accept the abstraction and yet acknowledge that it is both limited and leaky
 
 </v-clicks>
 
