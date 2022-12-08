@@ -287,19 +287,19 @@ Use checksums to confirm correct transmission
 
 <v-clicks>
 
-- A remote procedure call (RPC) is a function call between client and server
+- A **remote procedure call** (RPC) is a function call between client and server
 
-- Add layers of abstraction to ensure that RPC behaves like a function call
+- Add layer(s) of **abstraction** to ensure that RPC behaves like a function call
 
-- Leverage existing protocols and features to ensure reliable communication
+- Leverage existing protocols and features to ensure **reliable** communication
 
-- Stubs allow clients and servers to communicate even with differences in:
+- Stubs allow clients and servers to communicate **even with differences** in:
   operating system, computer architecture, programming language
 
-- Function invoked from a remote client should be implemented as normal
+- Function invoked from a remote client should be implemented "normally"
 
 - RPC functionality in the language and the operating system preserves
-  abstraction. Yet, of course, an RPC is not the same as a function call!
+  abstraction. Yet, of course, an **RPC is not the same as a function call**!
 
   - Greater response times may negatively influence performance-critical functions
   - Decrease in reliability may cause function on a client to not working correctly
@@ -369,29 +369,55 @@ Response from server not delivered to the client
 
 [//]: # "Slide Start {{{"
 
-# Benefits and Drawbacks of Caching
+<div class="flex row">
 
-<v-clicks>
+<div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
+Recent advances in distributed systems?
+</div>
 
-- One major concern is that **network communication may not be fast**!
+</div>
 
-- How do we solve performance problems? Of course, we **add a cache**!
+<div v-click>
 
-- NFS client can cache file **data** and **meta-data** and avoid the network
+<div class="flex row">
 
-- NFS client can also perform **write buffering** to further improve performance
+<uim-cube class="text-6xl ml-8 mt-6 text-blue-600" />
 
-- Challenges associated with cache consistency on clients and the server:
+<div class="text-3xl font-bold mt-10 ml-4">
+Middleware that facilitates remote communication
+</div>
 
-  - Cache inconsistency may emerge on the side of clients or the server
-  - One client may have buffered the updated version of a file
-  - Another client may read an out-of-date file version from the server
-  - By the time the first client writes is updates they may be out of date!
+</div>
 
-- **Design Goal**: make sure that the caching protocol is clearly documented and
-  the client software transparently makes good decisions with diagnostics
+</div>
 
-</v-clicks>
+<div v-click>
+
+<div class="flex row">
+
+<uim-cube class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Lookup services that aid in finding remote servers
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-cube class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Faster and more reliable communication primitives
+</div>
+
+</div>
+
+</div>
 
 [//]: # "Slide End }}}"
 
