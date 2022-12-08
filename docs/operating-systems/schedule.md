@@ -275,15 +275,18 @@ hide:
 
 ### Technical Questions
 
--Experts add their technical question here
+- How can we apply the principles of operating systems to the design and
+  implementation of a distributed system that involves clients and servers not
+  located on the same network? In particular, how can we build systems that
+  operate reliably even when their components are prone to failure?
 
 ### Next Steps
 
 - Read the chapter called *Distributed Systems* (Chapter 48) in
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
-- Check out the [course slides](/slides/operating-systems/systems-introduction/)
+- Check out the [course slides](/slides/operating-systems/distributed-systems/)
   for a detailed investigation of these chapters
-- Review the [important terms](#important-terms) to find definitions of the 
+- Review the [important terms](#important-terms) to find definitions of the
   terms associated with the assigned chapter
 
 ## Introducing Security
