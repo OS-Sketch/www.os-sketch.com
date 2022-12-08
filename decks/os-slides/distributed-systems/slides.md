@@ -89,7 +89,7 @@ fonts:
 <div class="flex row">
 
 <div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
-What is the definition of a network file system?
+What is the definition of a distributed system?
 </div>
 
 </div>
@@ -404,6 +404,6 @@ Response from server not delivered to the client
 
 # ✨ Sketching the Key Ideas
 
-<img src="/os-sketch-nfs-introduction.svg" class="ml-1 mt-8 h-100" />
+<img src="/os-sketch-distributed-systems.svg" class="ml-20 mt-6 h-105" />
 
 [//]: # "Slide End }}}"
