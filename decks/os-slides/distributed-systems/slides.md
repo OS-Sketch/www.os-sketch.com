@@ -27,7 +27,7 @@ fonts:
 
 # Operating Systems
 
-## Network File Systems
+## Distributed Systems
 
 <div class="container my-5">
   &nbsp;
@@ -61,9 +61,10 @@ fonts:
 
 ## Key Question
 
-> What are the **benefits** and **drawbacks** of a network file system? How can
-> you use the principles from the field of operating systems to **implement**
-> and **test** a file system that is remote from the computer that accesses it?
+> How can we apply the **principles** of operating systems to the **design** and
+> **implementation** of a distributed system that involves clients and servers not
+> located on the same network? In particular, how can we build systems that
+> operate **reliably** even when their components are **prone to failure**?
 
 </div>
 
@@ -75,7 +76,7 @@ fonts:
 
 > To **remember** and **understand** some of the foundations of network file
 > systems, grasping the abstractions and implementation strategies that enable
-> programs to effectively access remote content with operating system.
+> programs to run efficiently and effectively **across a network**.
 
 </div>
 
