@@ -101,7 +101,7 @@ What is the definition of a distributed system?
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Files and directories stored on a centralized server
+Client-server system with remote communication
 </div>
 
 </div>
@@ -115,7 +115,7 @@ Files and directories stored on a centralized server
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Each remote client mounts the network file system
+Peer-to-peer system where all nodes are equal
 </div>
 
 </div>
@@ -129,7 +129,7 @@ Each remote client mounts the network file system
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Files and directories are transferred across network
+" ... a computer you have never heard of crashes ... "
 </div>
 
 </div>
@@ -145,7 +145,7 @@ Files and directories are transferred across network
 <div class="flex row">
 
 <div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
-Trade-offs with network file systems?
+Trade-offs with distributed systems?
 </div>
 
 </div>
@@ -157,21 +157,7 @@ Trade-offs with network file systems?
 <uim-rocket class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Aids sharing of files and directories across clients
-</div>
-
-</div>
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<uim-rocket class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-Centralization helps administration and security
+Supports balancing of compute and memory load
 </div>
 
 </div>
@@ -185,7 +171,21 @@ Centralization helps administration and security
 <uim-rocket class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Failure modes for performance and correctness
+May improve throughput and response time
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-rocket class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Design and implementation is very challenging!
 </div>
 
 </div>
@@ -198,29 +198,26 @@ Failure modes for performance and correctness
 
 [//]: # "Slide Start {{{"
 
-# Basic Network File System
+# Distributed System Communication
 
 <v-clicks>
 
-- Components of a network file system (NFS):
+- Communication between the **client** and the **server** in a distributed system:
 
-  - **File Server**: remote server that contains a disk array
-  - **NFS Server**: networking layer that manages requests for files and directories
-  - **Client-Side File System**: interacts through the network with the remote
-    file server
+  - Both the client and the server have network stubs for communication
+  - Network stubs marshall and unmarshall parameters and return values
+  - High-level communication uses of a serialization primitive
+  - Programming languages offer remote procedure calls (RPCs)
+  - Low-level communication uses networking protocols to send packets
 
-- What are the **benefits** and **drawbacks** of using a network file system?
+- Trade-offs in **reliable** and **unreliable** communication primitives:
 
-  - Provides **transparent** access to files on a remote server
-  - Uses the **same** system calls for access to remote and local files
-  - However, the **may** semantics of remote and local access may differ
-  - Ultimately, transparency is a **double-edged sword** for an operating system!
+  - TCP/IP is a reliable communication primitive that has overheads
+  - UDP is a less reliable communication primitive without checks
+  - Communication may be point-to-point or a network broadcast
+  - More reliable communicate primitives tend to have worse performance
 
-- **Design Goal**: given the unreliability of networks and
-  computers, a protocol and implementation that supports simple and fast server
-  crash recovery
-
-- The key to fast recovery from crashes is to maintain little, if any, state!
+- **Checksums** calculation in network stubs can support **reliable** communication!
 
 </v-clicks>
 
