@@ -302,6 +302,8 @@ hide:
   for a detailed investigation of these chapters
 - Review the [important terms](#important-terms) to find definitions of the 
   terms associated with the assigned chapter
+- Check out the [operating system sketch](/operating-systems/sketches/##distributed-systems)
+  associated with this module
 
 ## Introducing Security
 
