@@ -82,5 +82,9 @@ hide:
 ![Network File System](/img/os-sketch-data-integrity.svg#only-light)
 ![Network File System](/img/os-sketch-data-integrity-inverted.svg#only-dark)
 
-
 ## Distributed Systems
+
+![Network File System](/img/os-sketch-distributed-systems.svg#only-light)
+![Network File System](/img/os-sketch-distributed-systems-inverted.svg#only-dark)
+
+
