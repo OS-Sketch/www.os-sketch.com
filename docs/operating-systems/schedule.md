@@ -404,6 +404,9 @@ hide:
     - **Limited Direct Execution** - to make a program run as fast as one might expect
     - **User and Kernel Mode** - the approach we take is to introduce a new processor mode. The operating system runs in
     - **Context Switch** - when the OS, during a timer interrupt or system call, might wish to switch from running the current process to a different one
+    - **system-call number** - the number assigned to a system call that is
+      used for placing the system call in a specific location on the stack. 
+      This number is then examined by the OS and executes the corresponding code to the number.
 
     ###### [Return](#process-execution) to the *Process Execution* module
 
