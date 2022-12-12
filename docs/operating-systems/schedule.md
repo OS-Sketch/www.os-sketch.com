@@ -415,6 +415,8 @@ hide:
     - **Stack Memory** - allocations and deallocations of it are managed implicitly by the compiler for you
     - **Buffer Overflow** - a related error is not allocating enough memory
     - **Purify and Valgrind** - both are excellent at helping you locate the source of your memory-related problems
+    - **Heap Memory** - all allocation and deallocation of heap memory is controlled soley by the programmer
+    - **malloc()** - you pass malloc a size you request for room on the heap that either passes you a pointer to your newly allocated space or fails and returns NULL
 
     ###### [Return](#process-execution) to the *Process Execution* module
 
