@@ -351,9 +351,17 @@ hide:
     - **Concurrency** - managed by the operating system and/or the programming
       langauge, the situation in which multiple computations happen at the same
       time
-    - **Persistence** - the process of storing data in a computer system, as a
+    - **Persistence** - the process of storing data in a computer system, as a 
       way of ensuring that data survives after the ending of the process that
       created it
+    - **journaling** - also known as copy-on-write, is a special ordering protocol
+      to ensure that if the disk is to fail during a write the system can recover 
+      to a reasonable state going forward
+    - **abstraction** - The abstraction process is a fundemental piece to the
+      coding method that helps break all of the requirements of a large program
+      into small and understandable pieces. I.E. = writing a high level c language
+      program without needing to focus on the assembly language, or writing code
+      in assembly without worrying about logic gates.
 
     ###### [Return](#systems-introduction) to the *Systems Introduction* module
 
