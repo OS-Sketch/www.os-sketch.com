@@ -42,7 +42,7 @@ hide:
 ## Locks
 
 ![Locks](/img/os-sketch-locks-malicious-thread-locks.svg#only-light){width="%80"}
-![Locks](/img/os-sketch-locks-malicious-thread-locks-inverted.#only-dark){width="%80"}
+![Locks](/img/os-sketch-locks-malicious-thread-locks-inverted.svg#only-dark){width="%80"}
 
 ## Condition Variables
 
