@@ -377,6 +377,9 @@ hide:
       events (e.g., getting scheduled or de-scheduled, or waiting for an I/O to
       complete) transition a process from one of these states to the other
     - **Process list** - contains information about all processes in the system
+    - **Process Control Block** - An individual structure that stores all of the 
+      information about a process, inorder to keep track of all the running
+      programs in a system.
 
     ###### [Return](#systems-introduction) to the *Systems Introduction* module
 
