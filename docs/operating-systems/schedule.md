@@ -427,7 +427,10 @@ hide:
     - **Workload** - simplifying assumptions about the processes running in the system
     - **First In, First Out (FIFO)** - means the first element in, is the first element out
     - **Shortest Job First (SJF)** - runs the shortest job first, then the next shortest, and so on
-
+    - **Turnaround time** - the time that the job takes to complete minus the time it
+      took for the job to arrive in the system
+    - **Response Time** - the time from when a process was scheduled to the time it arrived in the system
+    
     ###### [Return](#cpu-scheduling) to the *CPU Scheduling* module
 
 ### Lottery Scheduling: Chapter 9
