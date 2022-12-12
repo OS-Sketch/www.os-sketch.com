@@ -292,15 +292,18 @@ hide:
 
 ### Technical Questions
 
--Experts add their technical question here
+- How can we apply the principles of operating systems to the design and
+  implementation of a distributed system that involves clients and servers not
+  located on the same network? In particular, how can we build systems that
+  operate reliably even when their components are prone to failure?
 
 ### Next Steps
 
 - Read the chapter called *Distributed Systems* (Chapter 48) in
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
-- Check out the [course slides](/slides/operating-systems/systems-introduction/)
+- Check out the [course slides](/slides/operating-systems/distributed-systems/)
   for a detailed investigation of these chapters
-- Review the [important terms](#important-terms) to find definitions of the 
+- Review the [important terms](#important-terms) to find definitions of the
   terms associated with the assigned chapter
 - Check out the [operating system sketch](/operating-systems/sketches/##distributed-systems)
   associated with this module
@@ -333,7 +336,7 @@ hide:
 | 10/4                  | <span style="background-color: #f88117">13/15. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/vm-intro.pdf" target="_blank"; style="color:#000000;text-decoration:none">Address Spaces</a>, <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/vm-mechanism.pdf" target="_blank"; style="color:#000000;text-decoration:none">Address Mechanism<a></span>                      | Thomas, Abagail  |
 | 10/6                  | <span style="background-color: #f88117">Continued</span>                                                    |                  |
 |                       | 🍂 Fall Break 🍂                                                                                             |                 |
-| 10/13                 | <span style="background-color: #f88117">16/18. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/vm-segmentation.pdf" target="_blank"; style="color:#000000;text-decoration:none">Segmentation</a> and <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/vm-paging.pdf" target="_blank"; style="color:#000000;text-decoration:none">Intro into Paging<a></span>                     | Estaban, Caden       |
+| 10/13                 | <span style="background-color: #f88117">16/18. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/vm-segmentation.pdf" target="_blank"; style="color:#000000;text-decoration:none">Segmentation</a> and <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/vm-paging.pdf" target="_blank"; style="color:#000000;text-decoration:none">Intro into Paging<a></span>                     | Esteban, Caden       |
 | 10/18                 | <span style="background-color: #f88117">21/22. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/vm-beyondphys.pdf" target="_blank"; style="color:#000000;text-decoration:none">Swapping: Mechanisms</a> and <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/vm-beyondphys-policy.pdf" target="_blank"; style="color:#000000;text-decoration:none">Policies</a></span>                     | Jeff, Garrison             |
 | 10/20                 | <span style="background-color: #f88117">Continued</span>                                                    |                  |
 | 10/27                 | <span style="background-color: #23abcc">26. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf" target="_blank"; style="color:#000000;text-decoration:none">Concurrency<a> <a href="https://github.com/remzi-arpacidusseau/ostep-code/tree/master/threads-intro" target="_blank"; style="color:#000000;text-decoration:none">(code)</a></span>                                       | Paige            |

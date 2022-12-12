@@ -13,6 +13,7 @@
     "io-introduction",
     "files-directories",
     "nfs-introduction",
-    "data-integrity"
+    "data-integrity",
+    "distributed-systems"
   ]
 }
