@@ -389,6 +389,8 @@ hide:
 
     - **Process Identifier** - used to name the process if one wants to do something with the process, such as (for example) stop it from running
     - **Fork** - is used in UNIX systems to create a new process
+    - **exec** - allows a child process to break free from its similarity in 
+      its parent function and execute an entirely new program
     - **Scheduler** - determines which process runs at a given moment in time
     - **Superuser** - controls all processes (and indeed do many other things); this role should be assumed infrequently and with caution for security reasons
 
