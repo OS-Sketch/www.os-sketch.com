@@ -125,6 +125,8 @@ hide:
   for a detailed investigation of these chapters
 - Review the [important terms](#important-terms) for definitions of the terms
   associated with the assigned chapters
+- Check out the [operating system sketch](/operating-systems/sketches/#segmentation-and-paging)
+  associated with this module
 
 ## Memory Swapping
 
@@ -144,6 +146,9 @@ hide:
   investigation of these chapters
 - Review the [important terms](#important-terms) to find definitions of the
   terms associated with the assigned chapters
+- Check out the [operating system sketch](/operating-systems/sketches/#memory-swapping)
+  associated with this module
+
 
 ## Introducing Concurrency
 
@@ -162,6 +167,8 @@ hide:
   investigation of these chapters
 - Review the [important terms](#important-terms) to find definitions of the
   terms associated with the assigned chapters
+- Check out the [operating system sketch](/operating-systems/sketches/#introducing-concurrency)
+  associated with this module
 
 ## Locking Mechanisms
 
@@ -180,6 +187,8 @@ hide:
   for a detailed investigation of these chapters
 - Review the [important terms](#important-terms) to find definitions of the
   terms associated with the assigned chapters
+- Check out the [operating system sketches](/operating-systems/sketches/#locks)
+  associated with this module
 
 ## Using Semaphores
 
@@ -194,10 +203,13 @@ hide:
 
 - Read the chapter called *Semaphores* (Chapter 31) in
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
-- Check out the [course slides](/slides/operating-systems/semaphores-introduction/)
-  for a detailed investigation of these chapters
-- Review the [important terms](#important-terms) to find definitions of the
-  terms associated with the assigned chapters
+- Check out the [course slides](/slides/operating-systems/systems-introduction/)
+  for a detailed investigation of these chapters!
+- [Click here](#important-terms) to find definitions for key terms for the
+  week's readings (chapters 30 and 31)!
+- Check out the [operating system sketch](/operating-systems/sketches/#semaphores)
+  associated with this module
+
 
 ## I/O Devices
 
@@ -210,12 +222,13 @@ hide:
 
 ### Next Steps
 
-- Read the chapter called *I/O Devices* (Chapter 36) in
-  [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
-- Check out the [course slides](/slides/operating-systems/io-introduction/) for
-  a detailed investigation of this chapter
-- Review the [important terms](#important-terms) to find definitions of the
-  terms associated with the assigned chapter
+- *I/O Devices* chapter in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+- Check out the [course slides](/slides/operating-systems/systems-introduction/)
+  for a detailed investigation of these chapters!
+- [Click here](#important-terms) to find definitions for key terms for the
+  week's reading (chapter 36)!
+- Check out the [operating system sketch](/operating-systems/sketches/#io-devices)
+  associated with this module
 
 ## File Systems and Directories
 
@@ -228,14 +241,14 @@ hide:
 
 ### Next Steps
 
-- Read the chapter called *File and Directories* (Chapter 39) and *File System
-  Implementation* (Chapter 40) in
-  [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
-- Check out the [course
-  slides](/slides/operating-systems/files-directories/) for a detailed
-  investigation of these chapters
-- Review the [important terms](#important-terms) to find definitions of the
-  terms associated with the assigned chapters
+- *File Systems and Directories*, *File System Implementation* and *Network File
+  Systems* chapters in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+- Check out the [course slides](/slides/operating-systems/systems-introduction/)
+  for a detailed investigation of these chapters!
+- [Click here](#important-terms) to find definitions for key terms for the
+  week's reading (chapters 39, 40 and 49)!
+- Check out the [operating system sketch](/operating-systems/sketches/#files-and-directories)
+  associated with this module
 
 ## Network File Systems
 
@@ -253,6 +266,8 @@ hide:
   for a detailed investigation of this chapter
 - Review the [important terms](#important-terms) to find definitions of the
   terms associated with the assigned chapter
+- Check out the [operating system sketch](/operating-systems/sketches/#network-file-system)
+  associated with this module
 
 ## Data Integrity
 
@@ -270,6 +285,8 @@ hide:
   for a detailed investigation of these chapters
 - Review the [important terms](#important-terms) to find definitions of the
   terms associated with the assigned chapter
+- Check out the [operating system sketch](/operating-systems/sketches/##data-integrity-and-protection)
+  associated with this module
 
 ## Distributed Systems
 
@@ -288,6 +305,8 @@ hide:
   for a detailed investigation of these chapters
 - Review the [important terms](#important-terms) to find definitions of the
   terms associated with the assigned chapter
+- Check out the [operating system sketch](/operating-systems/sketches/##distributed-systems)
+  associated with this module
 
 ## Introducing Security
 
