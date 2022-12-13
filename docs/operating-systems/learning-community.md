@@ -1,10 +1,6 @@
 ---
 hide:
   - navigation
-tags:
-  - Discussion
-  - Logistics
-  - Resources
 ---
 
 # Learning Community
@@ -73,6 +69,7 @@ forum that best connects to your situation, as illustrated with these examples.
 ## Integration Guidelines
 
 ### Commit Messages
+
 - Commit messages should follow the rules described by the [Conventional
   Commits Standard](https://www.conventionalcommits.org/en/v1.0.0/#summary).
   Here is an example:
@@ -82,6 +79,7 @@ forum that best connects to your situation, as illustrated with these examples.
     ```
 
 ### Pull Requests (PR)
+
 - To ensure the creation of uniform pull requests (PR), you should follow these syntactic rules:
 
     - The first letter of the pull request (PR) title should be capitalized,
