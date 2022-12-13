@@ -229,7 +229,7 @@ Availability: guarantee information is usable
 <div class="flex row">
 
 <div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
-State management in the face of crashes?
+Where to insert security mechanisms?
 </div>
 
 </div>
@@ -241,21 +241,7 @@ State management in the face of crashes?
 <uim-cube class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Backup state and attempt to recover it quickly
-</div>
-
-</div>
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<uim-cube class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-Attempt to regenerate the state through replay
+Memory management ensures process isolation
 </div>
 
 </div>
@@ -269,7 +255,21 @@ Attempt to regenerate the state through replay
 <uim-cube class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Drop the lost state and report failure to recover
+Systems calls move from user to kernel space
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-cube class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Process scheduling ensures no system take-overs
 </div>
 
 </div>
@@ -282,27 +282,28 @@ Drop the lost state and report failure to recover
 
 [//]: # "Slide Start {{{"
 
-# NFS Protocols and Implementations
+# Strategies for Secure Systems
 
 <v-clicks>
 
-- Strategies for tracking and manage state in a network file system:
+- **Authentication** attaches an identity to a process or a person:
 
-  - Client **tracks** all relevant state for file and directory accesses
-  - Client **fully qualifies** all requests to minimize storage on the server
-  - Server **should never** need to **consult state** to respond to a request
+  - **What do you know?**: use passwords or other codes to determine identity
+  - **What do you have?**: use physical keys or mobile devices to determine identity
+  - **What are you?**: use physical characteristics of a person like fingerprints
 
-- How does **idempotency** help to handle server failure?
+- Use **cross-over error rate** that balances false positives and false
+  negatives
+
+- Adopt **multiple-factor authentication** to ensure defense in depth
+
+- **Authorization** determines whether a process or person can take an action:
 
   - Sometimes a client may not receive a response from the server
   - If no response emerges the client may want to call a function again
   - But, how can the client know if it is acceptable to repeatedly call the function?
-  - Repeated calls to an idempotent operation are the same as if the client
-    called the operation a single time, giving confidence to the file system
-    client
 
-- **Design Goal**: given the unreliability of networks and
-  computers, most functions provided by the server should be idempotent
+- **Design Goal**: a security system that is robust without being intrusive
 
 </v-clicks>
 
