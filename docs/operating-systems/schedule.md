@@ -580,6 +580,7 @@ hide:
     - **Mutual Exclusion** - if one thread is in the critical section it excludes others from entering
     - **Fairness** - does each thread contending for the lock get an equal shot at it
     - **Performance** - time added by using the lock
+    - **Flags** - Variables used to indicate whether a thread has possession over a lock
 
     ###### [Return](#thread-api-and-locks) to the *Thread API and Locks* module
 
@@ -590,6 +591,8 @@ hide:
     - **Condition variable** - an explicit queue threads can put themselves on when some state of execution is less desirable than another thread;  when it changes state the other threads can be woken up and allowed to continue
     - **Wait/Signal** - the actions used in a conditional variable.  The thread waits on a specific condition to be met and then signals the sleeping threads to be executed
     - **Bounded Buffer** - a system of multiple producer threads and consumer threads which is shared
+    - **Mesa semantics** - When a signal is made, the thread is taken out of the waiting queue.
+    - **Hoare semantics** - Is harder to implement than Mesa semantics, but runs the waken thread more efficiently
 
     ###### [Return](#variations-of-locks) to the *Variations of Locks* module
 
@@ -601,6 +604,7 @@ hide:
     - **Throttling** - an imposed limit to the number of threads that can be simultaneously executed on a piece of code.  Used to keep the system from bogging down
     - **Zemaphore** - an easier-to-implement version of the semaphore where we don’t maintain the value of the semaphore, when negative, reflects the number of waiting threads
     - **Hill’s Law** - sometimes simple and dumb is better.  Just because you can make something sophisticated to solve a problem doesn’t mean it’s the best answer
+    - **Binary Sephamore** - Sephamores that contain locks. These locks only contain two states, held and not held
 
     ###### [Return](#variations-of-locks) to the *Variations of Locks* module
 
@@ -612,6 +616,7 @@ hide:
     - **Memory-mapped I/O** - another method to interact with devices.  With this version the hardware makes device registers available as if they were memory locations  Helpful because no new instructions are needed to support it
     - **Hardware Interface** - the way for the software to communicate and interact with the hardware system
     - **Internal Structure** - responsible for implementing the abstraction the device presents to the system
+    - **Peripheral Bus** - These connect slower devices to the system. This would include hard-drives, printers, and keyboards.
 
     ###### [Return](#io-devices) to the *I/O Devices* module
 
@@ -650,6 +655,10 @@ hide:
     - **Mount Protocol** - the first process through which the clients and servers connect together
     - **Virtual File System (VFS)** - allows for the use of multiple file systems to be utilized for a given operating system
     - **Write Buffering** - the delayed sending of the clients data to the server. The submitted data to the network is first held locally in the client's cache
+    - **Idempotency** - any function that can be executed several times without changing the final result beyond its first iteration.
+    - **Cache** - a transient high-speed data storage layer allowing the user to avoid communication with the network to access data.
+    - **Flush-on-Close** - when a file is written to and closed, the client "flushes" all updates to the server to ensure future clients will see the latest file version.
+    - **Stale Cache** - a cache, where the object in the cache is not the most recent version committed to the data source. 
 
     ###### [Return](#file-systems-and-directories) to the *File Systems and Directories* module
 
@@ -673,6 +682,7 @@ hide:
     - **Access Control Mechanisms** - the process through which an operating system determines if the user has the proper authorization to perform the requested action
     - **Non-Repudiation** - the authentication of prior actions in the operating system that cannot be forged
     - **Security Policies** - a list of rules and specifications for ensuring security in an operating system environment
+    - **Fail-safe defaults** - Defaults for policies to be more secure
 
     ###### [Return](#data-integrity-and-security) to the *Data Integrity and Security* module
 
