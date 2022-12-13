@@ -863,7 +863,6 @@ Assess scheduling impacts in different environments
 
 [//]: # "Slide End }}}"
 
-
 ---
 
 [//]: # "Slide Start {{{"
