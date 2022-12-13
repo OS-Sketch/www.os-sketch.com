@@ -399,6 +399,7 @@ hide:
     - **Process Control Block** - An individual structure that stores all of the 
       information about a process inorder to keep track of all the running
       programs in a system.
+    - **Context Switch ** - gives the OS the ability to stop running one program and start running another on a given CPU
 
     ###### [Return](#systems-introduction) to the *Systems Introduction* module
 
