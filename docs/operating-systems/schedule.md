@@ -327,15 +327,17 @@ hide:
 
 ### Technical Questions
 
--Experts add their technical question here
+- How can we apply the principles of computer security to ensure that large and
+  complex operating systems permit resource sharing without allowing not
+  permitted resources accesses or actions to take place?
 
 ### Next Steps
 
 - Read the chapter called *Intro Security* (Chapter 53) in
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
-- Check out the [course slides](/slides/operating-systems/systems-introduction/)
+- Check out the [course slides](/slides/operating-systems/security-introduction/)
   for a detailed investigation of these chapters
-- Review the [important terms](#important-terms) to find definitions of the 
+- Review the [important terms](#important-terms) to find definitions of the
   terms associated with the assigned chapter
 
 ## Course Timeline
