@@ -354,10 +354,10 @@ hide:
     - **Persistence** - the process of storing data in a computer system, as a 
       way of ensuring that data survives after the ending of the process that
       created it
-    - **journaling** - also known as copy-on-write, is a special ordering protocol
+    - **Journaling** - also known as copy-on-write, is a special ordering protocol
       to ensure that if the disk is to fail during a write the system can recover 
       to a reasonable state going forward
-    - **abstraction** - The abstraction process is a fundemental piece to the
+    - **Abstraction** - The abstraction process is a fundemental piece to the
       coding method that helps break all of the requirements of a large program
       into small and understandable pieces. I.E. = writing a high level c language
       program without needing to focus on the assembly language, or writing code
@@ -378,7 +378,7 @@ hide:
       complete) transition a process from one of these states to the other
     - **Process list** - contains information about all processes in the system
     - **Process Control Block** - An individual structure that stores all of the 
-      information about a process, inorder to keep track of all the running
+      information about a process inorder to keep track of all the running
       programs in a system.
 
     ###### [Return](#systems-introduction) to the *Systems Introduction* module
@@ -389,7 +389,7 @@ hide:
 
     - **Process Identifier** - used to name the process if one wants to do something with the process, such as (for example) stop it from running
     - **Fork** - is used in UNIX systems to create a new process
-    - **exec** - allows a child process to break free from its similarity in 
+    - **Exec** - allows a child process to break free from its similarity in 
       its parent function and execute an entirely new program
     - **Scheduler** - determines which process runs at a given moment in time
     - **Superuser** - controls all processes (and indeed do many other things); this role should be assumed infrequently and with caution for security reasons
@@ -404,7 +404,7 @@ hide:
     - **Limited Direct Execution** - to make a program run as fast as one might expect
     - **User and Kernel Mode** - the approach we take is to introduce a new processor mode. The operating system runs in
     - **Context Switch** - when the OS, during a timer interrupt or system call, might wish to switch from running the current process to a different one
-    - **system-call** - allows the kernel to have access to key functionality of the users programs I.E: file system, create/destroy process, process communication, and memory allocation
+    - **System-call** - allows the kernel to have access to key functionality of the users programs I.E: file system, create/destroy process, process communication, and memory allocation
 
     ###### [Return](#process-execution) to the *Process Execution* module
 
@@ -416,7 +416,7 @@ hide:
     - **Buffer Overflow** - a related error is not allocating enough memory
     - **Purify and Valgrind** - both are excellent at helping you locate the source of your memory-related problems
     - **Heap Memory** - all allocation and deallocation of heap memory is controlled soley by the programmer
-    - **malloc()** - you pass malloc a size you request for room on the heap that either passes you a pointer to your newly allocated space or fails and returns NULL
+    - **Malloc()** - you pass malloc a size you request for room on the heap that either passes you a pointer to your newly allocated space or fails and returns NULL
 
     ###### [Return](#process-execution) to the *Process Execution* module
 
@@ -427,7 +427,7 @@ hide:
     - **Workload** - simplifying assumptions about the processes running in the system
     - **First In, First Out (FIFO)** - means the first element in, is the first element out
     - **Shortest Job First (SJF)** - runs the shortest job first, then the next shortest, and so on
-    - **Turnaround time** - the time that the job takes to complete minus the time it
+    - **Turnaround Time** - the time that the job takes to complete minus the time it
       took for the job to arrive in the system
     - **Response Time** - the time from when a process was scheduled to the time it arrived in the system
 
