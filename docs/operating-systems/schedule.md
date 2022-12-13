@@ -568,7 +568,8 @@ hide:
     - **Mutual Exclusion** - if one thread is in the critical section it excludes others from entering
     - **Fairness** - does each thread contending for the lock get an equal shot at it
     - **Performance** - time added by using the lock
-
+    - **Preemptive Scheduler** - to work correctly on a single processor, it requires a preemptive scheduler it will interrupt a thread via a timer, in order to run a different thread
+    
     ###### [Return](#thread-api-and-locks) to the *Thread API and Locks* module
 
 ### Condition Variables: Chapter 30
