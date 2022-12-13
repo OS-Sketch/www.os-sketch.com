@@ -465,7 +465,8 @@ hide:
     - **Address Translation** - the hardware transforms each memory access, changing the virtual address provided by the instruction to a physical address where the desired information is actually located
     - **Static Relocation** - which a piece of software known as the loader takes an executable that is about to be run and rewrites its addresses to the desired offset in physical memory
     - **Free List** - a list of the ranges of the physical memory which are not currently in use
-
+    - **Memory Management Unit (MMU)** - the part of the centrilized processing unit that accounts for address translation
+    
     ###### [Return](#address-spaces) to the *Addresses Spaces* module
 
 ### Segmentation: Chapter 16
