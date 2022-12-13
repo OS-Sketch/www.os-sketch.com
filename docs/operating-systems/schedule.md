@@ -520,8 +520,8 @@ hide:
     - **Low Watermark (LW)** - a way the that the operating system keeps a small amount of memory free
     - **Swap Daemon** - the process in which the operating system sorts LW amd HW to keep memory free
     - **Present Bit** - when the hardware looks in the
-    PTE, its looking to see where the present bit is located and if the page is in the memory(1) or on the disk somewhere(0). 
-    - **Page-Fault Handler** - When the present bit is not functioning the Page-Fault Handler arranges for the transfer of the desired page from disk to memory. 
+    PTE, its looking to see where the present bit is located and if the page is in the memory(1) or on the disk somewhere(0)
+    - **Page-Fault Handler** - When the present bit is not functioning the Page-Fault Handler arranges for the transfer of the desired page from disk to memory
 
     ###### [Return](#swapping) to the *Swapping* module
 
@@ -533,7 +533,7 @@ hide:
     - **Temporal Locality** - programs keep locality in their access streams when storing and accessing memory
     - **Clock Algorithm** - the way an operating system approximates LRU by randomly picking a page
     - **Modified Bit** - a bit that is used in the page-replacement process
-    - **FIFO replacement** - fifo replacement (first-in, first-out) enters the system; when a re-placement occurs and the page on the tail of the queue (the “first-in” page) is evicted.
+    - **FIFO replacement** - fifo replacement (first-in, first-out) enters the system; when a re-placement occurs and the page on the tail of the queue (the “first-in” page) is evicted
 
     ###### [Return](#swapping) to the *Swapping* module
 
@@ -556,6 +556,7 @@ hide:
     - **Function Pointer** - looks for which function threads should start running in
     - **Procedure Call** - creates a thread or multiple threads
     - **Critical Section** - region of code that needs to be protected for operation
+    - **Heap** - allows you to share data between threads
 
     ###### [Return](#thread-api-and-locks) to the *Thread API and Locks* module
 
