@@ -316,7 +316,7 @@ Process scheduling ensures no system take-overs
 <div class="flex row">
 
 <div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
-How an cryptography aid computer security?
+How can cryptography aid computer security?
 </div>
 
 </div>
