@@ -88,7 +88,7 @@ fonts:
 <div class="flex row">
 
 <div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
-What is the definition of a network file system?
+What operations can the system perform?
 </div>
 
 </div>
@@ -100,21 +100,7 @@ What is the definition of a network file system?
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Files and directories stored on a centralized server
-</div>
-
-</div>
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-Each remote client mounts the network file system
+Examine or alter the memory of any process
 </div>
 
 </div>
@@ -128,7 +114,21 @@ Each remote client mounts the network file system
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Files and directories are transferred across network
+Schedule the execution of any process
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Well, perform almost any operating, right?
 </div>
 
 </div>
@@ -144,7 +144,7 @@ Files and directories are transferred across network
 <div class="flex row">
 
 <div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
-Trade-offs with network file systems?
+What are the goals of a security policy?
 </div>
 
 </div>
@@ -153,24 +153,10 @@ Trade-offs with network file systems?
 
 <div class="flex row">
 
-<uim-rocket class="text-6xl ml-8 mt-6 text-blue-600" />
+<uim-cube class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Aids sharing of files and directories across clients
-</div>
-
-</div>
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<uim-rocket class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-Centralization helps administration and security
+Confidentiality: keep information protected
 </div>
 
 </div>
@@ -181,10 +167,24 @@ Centralization helps administration and security
 
 <div class="flex row">
 
-<uim-rocket class="text-6xl ml-8 mt-6 text-blue-600" />
+<uim-cube class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Failure modes for performance and correctness
+Integrity: information is correct and authentic
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-cube class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Availability: guarantee information is usable
 </div>
 
 </div>
@@ -197,29 +197,26 @@ Failure modes for performance and correctness
 
 [//]: # "Slide Start {{{"
 
-# Basic Network File System
+# Key Principles of Security
 
 <v-clicks>
 
-- Components of a network file system (NFS):
+- Key principles of security a policy should ensure:
 
-  - **File Server**: remote server that contains a disk array
-  - **NFS Server**: networking layer that manages requests for files and directories
-  - **Client-Side File System**: interacts through the network with the remote
-    file server
+    - **Economy of Mechanism**: keep the security enforcement simple
+    - **Fail-safe Defaults**: pick system defaults that are secure
+    - **Complete Mediation**: always confirm that an operation adheres to the policy
+    - **Open Design**: assume that an adversary always has access to the design
+    - **Privilede Separation**: require separate parties or credentials for operations
+    - **Least Privilege**: offer the minimum privileges needed to complete task
+    - **Least Common Mechanism**: use different mechanisms to enforce policies
+    - **Acceptability**: build secure systems that people will use
 
-- What are the **benefits** and **drawbacks** of using a network file system?
+- Design simple systems that are easy to audit and understand
 
-  - Provides **transparent** access to files on a remote server
-  - Uses the **same** system calls for access to remote and local files
-  - However, the **may** semantics of remote and local access may differ
-  - Ultimately, transparency is a **double-edged sword** for an operating system!
+- A system is only secure if people will use the security mechanisms
 
-- **Design Goal**: given the unreliability of networks and
-  computers, a protocol and implementation that supports simple and fast server
-  crash recovery
-
-- The key to fast recovery from crashes is to maintain little, if any, state!
+- A focus on system correctness normally improves system security
 
 </v-clicks>
 
