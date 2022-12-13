@@ -61,9 +61,9 @@ fonts:
 
 ## Key Question
 
-> What are the **benefits** and **drawbacks** of a network file system? How can
-> you use the principles from the field of operating systems to **implement**
-> and **test** a file system that is remote from the computer that accesses it?
+> How can we apply the principles of **computer security** to ensure that large
+> and complex operating systems permit resource sharing without allowing not
+> permitted resources accesses or actions to take place?
 
 </div>
 
@@ -73,9 +73,9 @@ fonts:
 
 ## Learning Objectives
 
-> To **remember** and **understand** some of the foundations of network file
-> systems, grasping the abstractions and implementation strategies that enable
-> programs to effectively access remote content with operating system.
+> To **remember** and **understand** some of the foundations of computer
+> security systems, grasping the challenges and the implementation strategies
+> that enable programs to concurrently run in a secure and safe fashion.
 
 </div>
 
