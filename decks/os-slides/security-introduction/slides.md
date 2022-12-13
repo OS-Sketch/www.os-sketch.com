@@ -380,21 +380,16 @@ Confirm the validity of various file types
     - **Plaintext**: the content that is input to encryption algorithm
     - **Ciphertext**: the content that is output of encryption algorithm
 
-- Encryption algorithms should be efficient and difficult to break
+- Encryption algorithms should be efficient and difficult to break:
 
-- NFS client can cache file **data** and **meta-data** and avoid the network
+    - **Secret-key cryptography**: sender and receiver share a private key
+    - **Public-key cryptography**: sender and receiver share a public key
 
-- NFS client can also perform **write buffering** to further improve performance
+- While making ciphers is interesting, consider use of existing algorithms
 
-- Challenges associated with cache consistency on clients and the server:
+- Leverage ciphers built for and integrated into the operating system
 
-  - Cache inconsistency may emerge on the side of clients or the server
-  - One client may have buffered the updated version of a file
-  - Another client may read an out-of-date file version from the server
-  - By the time the first client writes is updates they may be out of date!
-
-- **Design Goal**: make sure that the caching protocol is clearly documented and
-  the client software transparently makes good decisions with diagnostics
+- **Design Goal**: offer and adopt effective algorithms that are easy to use
 
 </v-clicks>
 
