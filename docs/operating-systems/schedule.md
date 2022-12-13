@@ -569,7 +569,7 @@ hide:
     - **Fairness** - does each thread contending for the lock get an equal shot at it
     - **Performance** - time added by using the lock
     - **Preemptive Scheduler** - to work correctly on a single processor, it requires a preemptive scheduler it will interrupt a thread via a timer, in order to run a different thread
-    
+
     ###### [Return](#thread-api-and-locks) to the *Thread API and Locks* module
 
 ### Condition Variables: Chapter 30
@@ -579,6 +579,7 @@ hide:
     - **Condition variable** - an explicit queue threads can put themselves on when some state of execution is less desirable than another thread;  when it changes state the other threads can be woken up and allowed to continue
     - **Wait/Signal** - the actions used in a conditional variable.  The thread waits on a specific condition to be met and then signals the sleeping threads to be executed
     - **Bounded Buffer** - a system of multiple producer threads and consumer threads which is shared
+    - **Producer/Consumer Threads** - for a producer it puts a integer into the shared buffer loops a number of times, a consumer that gets the data out of that shared buffer (forever), each time printing out the data item it pulled from the shared buffer
 
     ###### [Return](#variations-of-locks) to the *Variations of Locks* module
 
