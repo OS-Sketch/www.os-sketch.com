@@ -650,6 +650,7 @@ hide:
     - **Mount Protocol** - the first process through which the clients and servers connect together
     - **Virtual File System (VFS)** - allows for the use of multiple file systems to be utilized for a given operating system
     - **Write Buffering** - the delayed sending of the clients data to the server. The submitted data to the network is first held locally in the client's cache
+    - **Idempotency** - any function that can be executed several times without changing the final result beyond its first iteration.
 
     ###### [Return](#file-systems-and-directories) to the *File Systems and Directories* module
 
