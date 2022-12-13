@@ -517,7 +517,7 @@ hide:
     - **Mutual Exclusion** - if one thread is in the critical section it excludes others from entering
     - **Fairness** - does each thread contending for the lock get an equal shot at it
     - **Performance** - time added by using the lock
-    - **Flags** - Variables used to indicate whether a thread has possession over a lock.
+    - **Flags** - Variables used to indicate whether a thread has possession over a lock
 
     ###### [Return](#thread-api-and-locks) to the *Thread API and Locks* module
 
@@ -529,7 +529,7 @@ hide:
     - **Wait/Signal** - the actions used in a conditional variable.  The thread waits on a specific condition to be met and then signals the sleeping threads to be executed
     - **Bounded Buffer** - a system of multiple producer threads and consumer threads which is shared
     - **Mesa semantics** - When a signal is made, the thread is taken out of the waiting queue.
-    - **Hoare semantics** - Is harder to implement than Mesa semantics, but runs the waken thread more efficiently.
+    - **Hoare semantics** - Is harder to implement than Mesa semantics, but runs the waken thread more efficiently
 
     ###### [Return](#variations-of-locks) to the *Variations of Locks* module
 
@@ -541,7 +541,7 @@ hide:
     - **Throttling** - an imposed limit to the number of threads that can be simultaneously executed on a piece of code.  Used to keep the system from bogging down
     - **Zemaphore** - an easier-to-implement version of the semaphore where we don’t maintain the value of the semaphore, when negative, reflects the number of waiting threads
     - **Hill’s Law** - sometimes simple and dumb is better.  Just because you can make something sophisticated to solve a problem doesn’t mean it’s the best answer
-    - **Binary Sephamore** - Sephamores that contain locks. These locks only contain two states, held and not held.
+    - **Binary Sephamore** - Sephamores that contain locks. These locks only contain two states, held and not held
 
     ###### [Return](#variations-of-locks) to the *Variations of Locks* module
 
@@ -615,6 +615,7 @@ hide:
     - **Access Control Mechanisms** - the process through which an operating system determines if the user has the proper authorization to perform the requested action
     - **Non-Repudiation** - the authentication of prior actions in the operating system that cannot be forged
     - **Security Policies** - a list of rules and specifications for ensuring security in an operating system environment
+    - **Fail-safe defaults** - Defaults for policies to be more secure
 
     ###### [Return](#data-integrity-and-security) to the *Data Integrity and Security* module
 
