@@ -522,7 +522,7 @@ hide:
     - **Present Bit** - when the hardware looks in the
     PTE, its looking to see where the present bit is located and if the page is in the memory(1) or on the disk somewhere(0). 
     - **Page-Fault Handler** - When the present bit is not functioning the Page-Fault Handler arranges for the transfer of the desired page from disk to memory. 
-    
+
     ###### [Return](#swapping) to the *Swapping* module
 
 ### Swapping Policies: Chapter 22
@@ -533,6 +533,7 @@ hide:
     - **Temporal Locality** - programs keep locality in their access streams when storing and accessing memory
     - **Clock Algorithm** - the way an operating system approximates LRU by randomly picking a page
     - **Modified Bit** - a bit that is used in the page-replacement process
+    - **FIFO replacement** - fifo replacement (first-in, first-out) enters the system; when a re-placement occurs and the page on the tail of the queue (the “first-in” page) is evicted.
 
     ###### [Return](#swapping) to the *Swapping* module
 
