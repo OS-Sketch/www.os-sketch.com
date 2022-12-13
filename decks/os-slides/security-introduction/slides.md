@@ -401,6 +401,6 @@ Confirm the validity of various file types
 
 # ✨ Sketching the Key Ideas
 
-<img src="/os-sketch-nfs-introduction.svg" class="ml-1 mt-8 h-100" />
+<img src="/os-sketch-security-introduction.svg" class="ml-1 mt-8 h-100" />
 
 [//]: # "Slide End }}}"
