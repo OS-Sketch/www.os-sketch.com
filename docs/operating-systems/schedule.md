@@ -528,6 +528,8 @@ hide:
     - **Condition variable** - an explicit queue threads can put themselves on when some state of execution is less desirable than another thread;  when it changes state the other threads can be woken up and allowed to continue
     - **Wait/Signal** - the actions used in a conditional variable.  The thread waits on a specific condition to be met and then signals the sleeping threads to be executed
     - **Bounded Buffer** - a system of multiple producer threads and consumer threads which is shared
+    - **Mesa semantics** - When a signal is made, the thread is taken out of the waiting queue.
+    - **Hoare semantics** - Is harder to implement than Mesa semantics, but runs the waken thread more efficiently.
 
     ###### [Return](#variations-of-locks) to the *Variations of Locks* module
 
@@ -539,6 +541,7 @@ hide:
     - **Throttling** - an imposed limit to the number of threads that can be simultaneously executed on a piece of code.  Used to keep the system from bogging down
     - **Zemaphore** - an easier-to-implement version of the semaphore where we don’t maintain the value of the semaphore, when negative, reflects the number of waiting threads
     - **Hill’s Law** - sometimes simple and dumb is better.  Just because you can make something sophisticated to solve a problem doesn’t mean it’s the best answer
+    - 
 
     ###### [Return](#variations-of-locks) to the *Variations of Locks* module
 
