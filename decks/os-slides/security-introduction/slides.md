@@ -299,9 +299,9 @@ Process scheduling ensures no system take-overs
 
 - **Authorization** determines whether a process or person can take an action:
 
-  - Sometimes a client may not receive a response from the server
-  - If no response emerges the client may want to call a function again
-  - But, how can the client know if it is acceptable to repeatedly call the function?
+  - Use access control lists for files and directories
+  - Restrict system calls to specific processes or users
+  - Limit access to network resources according to identity
 
 - **Design Goal**: a security system that is robust without being intrusive
 
@@ -316,7 +316,7 @@ Process scheduling ensures no system take-overs
 <div class="flex row">
 
 <div class="text-7xl text-red-600 font-bold mt-5 ml-4 mb-4">
-Message loss between client and server?
+How an cryptography aid computer security?
 </div>
 
 </div>
@@ -325,24 +325,10 @@ Message loss between client and server?
 
 <div class="flex row">
 
-<uim-exclamation-octagon class="text-6xl ml-8 mt-6 text-blue-600" />
+<uim-rocket class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Client request is lost before arriving at the server
-</div>
-
-</div>
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<uim-exclamation-octagon class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-Client sends request and the server is down
+Supporting the sending of secret messages
 </div>
 
 </div>
@@ -353,10 +339,24 @@ Client sends request and the server is down
 
 <div class="flex row">
 
-<uim-exclamation-octagon class="text-6xl ml-8 mt-6 text-blue-600" />
+<uim-rocket class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Response from server not delivered to the client
+Enable secure storage of files and passwords
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-rocket class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Confirm the validity of various file types
 </div>
 
 </div>
@@ -369,13 +369,18 @@ Response from server not delivered to the client
 
 [//]: # "Slide Start {{{"
 
-# Benefits and Drawbacks of Caching
+# Understanding Cryptography Basics
 
 <v-clicks>
 
-- One major concern is that **network communication may not be fast**!
+- Understand some of the key terms in cryptography for encryption:
 
-- How do we solve performance problems? Of course, we **add a cache**!
+    - **Encryption**: the process of encoding a plaintext message
+    - **Decryption**: the process of decoding a ciphertext message
+    - **Plaintext**: the content that is input to encryption algorithm
+    - **Ciphertext**: the content that is output of encryption algorithm
+
+- Encryption algorithms should be efficient and difficult to break
 
 - NFS client can cache file **data** and **meta-data** and avoid the network
 
