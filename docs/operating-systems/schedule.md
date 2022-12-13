@@ -652,7 +652,7 @@ hide:
     - **Write Buffering** - the delayed sending of the clients data to the server. The submitted data to the network is first held locally in the client's cache
     - **Idempotency** - any function that can be executed several times without changing the final result beyond its first iteration.
     - **Cache** - a transient high-speed data storage layer allowing the user to avoid communication with the network to access data.
-    - **Flush-on-Close** - when a file is written to and subsequently closed by a client application, the client "flushes" all updates to the server.
+    - **Flush-on-Close** - when a file is written to and subsequently closed by a client application, the client "flushes" all updates to the server to ensure future clients will see the latest file version.
 
     ###### [Return](#file-systems-and-directories) to the *File Systems and Directories* module
 
