@@ -370,9 +370,17 @@ hide:
     - **Concurrency** - managed by the operating system and/or the programming
       langauge, the situation in which multiple computations happen at the same
       time
-    - **Persistence** - the process of storing data in a computer system, as a
+    - **Persistence** - the process of storing data in a computer system, as a 
       way of ensuring that data survives after the ending of the process that
       created it
+    - **Journaling** - also known as copy-on-write, is a special ordering protocol
+      to ensure that if the disk is to fail during a write the system can recover 
+      to a reasonable state going forward
+    - **Abstraction** - The abstraction process is a fundemental piece to the
+      coding method that helps break all of the requirements of a large program
+      into small and understandable pieces. I.E. = writing a high level c language
+      program without needing to focus on the assembly language, or writing code
+      in assembly without worrying about logic gates.
 
     ###### [Return](#systems-introduction) to the *Systems Introduction* module
 
@@ -388,6 +396,9 @@ hide:
       events (e.g., getting scheduled or de-scheduled, or waiting for an I/O to
       complete) transition a process from one of these states to the other
     - **Process list** - contains information about all processes in the system
+    - **Process Control Block** - An individual structure that stores all of the 
+      information about a process inorder to keep track of all the running
+      programs in a system.
 
     ###### [Return](#systems-introduction) to the *Systems Introduction* module
 
@@ -397,6 +408,8 @@ hide:
 
     - **Process Identifier** - used to name the process if one wants to do something with the process, such as (for example) stop it from running
     - **Fork** - is used in UNIX systems to create a new process
+    - **Exec** - allows a child process to break free from its similarity in 
+      its parent function and execute an entirely new program
     - **Scheduler** - determines which process runs at a given moment in time
     - **Superuser** - controls all processes (and indeed do many other things); this role should be assumed infrequently and with caution for security reasons
 
@@ -410,6 +423,7 @@ hide:
     - **Limited Direct Execution** - to make a program run as fast as one might expect
     - **User and Kernel Mode** - the approach we take is to introduce a new processor mode. The operating system runs in
     - **Context Switch** - when the OS, during a timer interrupt or system call, might wish to switch from running the current process to a different one
+    - **System-call** - allows the kernel to have access to key functionality of the users programs I.E: file system, create/destroy process, process communication, and memory allocation
 
     ###### [Return](#process-execution) to the *Process Execution* module
 
@@ -420,6 +434,8 @@ hide:
     - **Stack Memory** - allocations and deallocations of it are managed implicitly by the compiler for you
     - **Buffer Overflow** - a related error is not allocating enough memory
     - **Purify and Valgrind** - both are excellent at helping you locate the source of your memory-related problems
+    - **Heap Memory** - all allocation and deallocation of heap memory is controlled soley by the programmer
+    - **Malloc()** - you pass malloc a size you request for room on the heap that either passes you a pointer to your newly allocated space or fails and returns NULL
 
     ###### [Return](#process-execution) to the *Process Execution* module
 
@@ -430,6 +446,9 @@ hide:
     - **Workload** - simplifying assumptions about the processes running in the system
     - **First In, First Out (FIFO)** - means the first element in, is the first element out
     - **Shortest Job First (SJF)** - runs the shortest job first, then the next shortest, and so on
+    - **Turnaround Time** - the time that the job takes to complete minus the time it
+      took for the job to arrive in the system
+    - **Response Time** - the time from when a process was scheduled to the time it arrived in the system
 
     ###### [Return](#cpu-scheduling) to the *CPU Scheduling* module
 
@@ -452,6 +471,8 @@ hide:
     - **Stack** - a linear data structure that follows the principal of Last In First Out (LIFO). This means the last element inserted inside the stack is removed first
     - **Heap** - an area of pre-reserved computer main storage (memory) that a program process can use to store data in some variable amount that won't be known until the program is running
     - **Virtualizing Memory** - the system can load larger or multiple programs running at the same time, enable each one to operate as if it has more space, without having to purchase more RAM
+    - **Address Space** - the address space of a process contains the view of memories state in the running program
+    - **Virtual Address** - this is a virtualized reference point of a physical address that the program can affect without triggering the physical address space until warrented
 
     ###### [Return](#address-spaces) to the *Addresses Spaces* module
 
@@ -463,6 +484,7 @@ hide:
     - **Address Translation** - the hardware transforms each memory access, changing the virtual address provided by the instruction to a physical address where the desired information is actually located
     - **Static Relocation** - which a piece of software known as the loader takes an executable that is about to be run and rewrites its addresses to the desired offset in physical memory
     - **Free List** - a list of the ranges of the physical memory which are not currently in use
+    - **Memory Management Unit (MMU)** - the part of the centrilized processing unit that accounts for address translation
 
     ###### [Return](#address-spaces) to the *Addresses Spaces* module
 
@@ -470,9 +492,11 @@ hide:
 
 ???+ note "Technical Concepts"
 
+    - **Segmentation** - is having an enclosed portion of the address space of any particular length. There are three logically different segments: code, stack, and heap, that all do different things
     - **Segmentation Fault** - arises from a memory access on a segmented machine to an illegal address
     - **Sparse Address Spaces** - large address spaces with large amounts of unused address space
     - **External Fragmentation** - a general problem that arises when physical memory quickly becomes full of little holes of free space, making it difficult to allocate new segments, or to grow existing ones
+    - **Sparse Address Spaces** - in the physical memory, this is a address space with a larger portion of the space not being used
 
     ###### [Return](#segmentation-and-paging) to the *Segmentation and Paging* module
 
