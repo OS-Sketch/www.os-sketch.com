@@ -214,7 +214,7 @@ Although this course primarily uses Discord for communication, the instructor
 may use email to send announcements about important matters. It is your
 responsibility to check your email at least once a day and to ensure that you
 can reliably send and receive emails. This class policy is based on the
-statement about the use of email that appears in *The Compass* [The Compass](https://dspace.allegheny.edu/handle/10456/42164), the College's student handbook; please see the instructor if you do not have this handbook.
+statement about the use of email that appears in [The Compass](https://dspace.allegheny.edu/handle/10456/42164), the College's student handbook; please see the instructor if you do not have this handbook.
 
 #### Honor Code
 
