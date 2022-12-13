@@ -284,7 +284,7 @@ accommodation of their disabilities. Students with disabilities who believe they
 may need accommodations in this class are encouraged to contact Disability
 Services at 814-332-2898. Disability Services is part of the Learning Commons
 and is located in Pelletier Library. Please do this as soon as possible to
-ensure that approved accommodations are implemented in a timely fashion.
+ensure that approved accommodations are implemented in a timely fashion. [Student Acessability and Support Services(SASS)](https://sites.allegheny.edu/studentaccessibility/)
 
 ### Welcome Message
 
