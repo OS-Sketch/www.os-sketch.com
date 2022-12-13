@@ -466,16 +466,18 @@ hide:
     - **Static Relocation** - which a piece of software known as the loader takes an executable that is about to be run and rewrites its addresses to the desired offset in physical memory
     - **Free List** - a list of the ranges of the physical memory which are not currently in use
     - **Memory Management Unit (MMU)** - the part of the centrilized processing unit that accounts for address translation
-    
+
     ###### [Return](#address-spaces) to the *Addresses Spaces* module
 
 ### Segmentation: Chapter 16
 
 ???+ note "Technical Concepts"
 
+    - **Segmentation** - is having an enclosed portion of the address space of any particular length. There are three logically different segments: code, stack, and heap, that all do different things
     - **Segmentation Fault** - arises from a memory access on a segmented machine to an illegal address
     - **Sparse Address Spaces** - large address spaces with large amounts of unused address space
     - **External Fragmentation** - a general problem that arises when physical memory quickly becomes full of little holes of free space, making it difficult to allocate new segments, or to grow existing ones
+    - **Sparse Address Spaces** - in the physical memory, this is a address space with a larger portion of the space not being used
 
     ###### [Return](#segmentation-and-paging) to the *Segmentation and Paging* module
 
