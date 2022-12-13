@@ -521,7 +521,8 @@ hide:
     - **Swap Daemon** - the process in which the operating system sorts LW amd HW to keep memory free
     - **Present Bit** - when the hardware looks in the
     PTE, its looking to see where the present bit is located and if the page is in the memory(1) or on the disk somewhere(0). 
-
+    - **Page-Fault Handler** - When the present bit is not functioning the Page-Fault Handler arranges for the transfer of the desired page from disk to memory. 
+    
     ###### [Return](#swapping) to the *Swapping* module
 
 ### Swapping Policies: Chapter 22
