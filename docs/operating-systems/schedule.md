@@ -600,6 +600,7 @@ hide:
     - **Memory-mapped I/O** - another method to interact with devices.  With this version the hardware makes device registers available as if they were memory locations  Helpful because no new instructions are needed to support it
     - **Hardware Interface** - the way for the software to communicate and interact with the hardware system
     - **Internal Structure** - responsible for implementing the abstraction the device presents to the system
+    - **I/O instructions** - a way for the OS to send data to specific device registers and thus allow the construction of the protocols 
 
     ###### [Return](#io-devices) to the *I/O Devices* module
 
