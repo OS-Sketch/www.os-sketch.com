@@ -650,6 +650,10 @@ hide:
     - **Mount Protocol** - the first process through which the clients and servers connect together
     - **Virtual File System (VFS)** - allows for the use of multiple file systems to be utilized for a given operating system
     - **Write Buffering** - the delayed sending of the clients data to the server. The submitted data to the network is first held locally in the client's cache
+    - **Idempotency** - any function that can be executed several times without changing the final result beyond its first iteration.
+    - **Cache** - a transient high-speed data storage layer allowing the user to avoid communication with the network to access data.
+    - **Flush-on-Close** - when a file is written to and closed, the client "flushes" all updates to the server to ensure future clients will see the latest file version.
+    - **Stale Cache** - a cache, where the object in the cache is not the most recent version committed to the data source. 
 
     ###### [Return](#file-systems-and-directories) to the *File Systems and Directories* module
 
