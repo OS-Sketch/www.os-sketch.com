@@ -430,7 +430,7 @@ hide:
     - **Turnaround time** - the time that the job takes to complete minus the time it
       took for the job to arrive in the system
     - **Response Time** - the time from when a process was scheduled to the time it arrived in the system
-    
+
     ###### [Return](#cpu-scheduling) to the *CPU Scheduling* module
 
 ### Lottery Scheduling: Chapter 9
@@ -452,6 +452,8 @@ hide:
     - **Stack** - a linear data structure that follows the principal of Last In First Out (LIFO). This means the last element inserted inside the stack is removed first
     - **Heap** - an area of pre-reserved computer main storage (memory) that a program process can use to store data in some variable amount that won't be known until the program is running
     - **Virtualizing Memory** - the system can load larger or multiple programs running at the same time, enable each one to operate as if it has more space, without having to purchase more RAM
+    - **Address Space** - the address space of a process contains the view of memories state in the running program
+    - **Virtual Address** - this is a virtualized reference point of a physical address that the program can affect without triggering the physical address space until warrented
 
     ###### [Return](#address-spaces) to the *Addresses Spaces* module
 
