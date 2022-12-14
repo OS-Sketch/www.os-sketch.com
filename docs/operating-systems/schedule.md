@@ -3,6 +3,21 @@ hide:
   - navigation
 ---
 
+<style>
+  background-orange{
+    background-color: #f88117
+  }
+  background-blue{
+    background-color: #23abcc
+  }
+  background-green{
+    background-color: #4dc516
+  }
+  background-blue-green{
+    background-color: #3ea89e
+    }
+  </style>
+
 # Course Schedule
 
 ## Course Setup
@@ -312,47 +327,49 @@ hide:
 
 ### Technical Questions
 
--Experts add their technical question here
+- How can we apply the principles of computer security to ensure that large and
+  complex operating systems permit resource sharing without allowing not
+  permitted resources accesses or actions to take place?
 
 ### Next Steps
 
 - Read the chapter called *Intro Security* (Chapter 53) in
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
-- Check out the [course slides](/slides/operating-systems/systems-introduction/)
+- Check out the [course slides](/slides/operating-systems/security-introduction/)
   for a detailed investigation of these chapters
-- Review the [important terms](#important-terms) to find definitions of the 
+- Review the [important terms](#important-terms) to find definitions of the
   terms associated with the assigned chapter
 
 ## Course Timeline
 
 | Class Date            | Chapter/Topics                                               | Expert/Presenter |
 |-----------------------|--------------------------------------------------------------|------------------|
-| 9/13                  | <span style="background-color: #f88117">2/4. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/intro.pdf" target="_blank"; style="color:#000000;text-decoration:none">Introduction</a>/ <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-intro.pdf" target="_blank" style="color:#000000;text-decoration:none">Processes</a></span>                                   | Peter, Anthony   |
-| 9/15                  | <span style="background-color: #f88117">Processes Continued</span>                                          |                  |
-| 9/20                  | <span style="background-color: #f88117">5/14/6. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-api.pdf" target="_blank"; style="color:#000000;text-decoration:none">Process API</a>, <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/vm-api.pdf" target="_blank"; style="color:#000000;text-decoration:none">Memory API</a>, <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-mechanisms.pdf" target="_blank"; style="color:#000000;text-decoration:none">Direct Execution</a></span>              | Lex, Caden       |
-| 9/22                  | <span style="background-color: #f88117">Continued </span>                                                   |                  |
-| 9/27                  | <span style="background-color: #f88117">7/9. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched.pdf" target="_blank"; style="color:#000000;text-decoration:none">CPU</a> and <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-lottery.pdf" target="_blank"; style="color:#000000;text-decoration:none">Lottery Scheduling</a> </span>                              | Favour, Katie    |
-| 9/29                  | <span style="background-color: #f88117">Continued</span>                                                    |                  |
-| 10/4                  | <span style="background-color: #f88117">13/15. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/vm-intro.pdf" target="_blank"; style="color:#000000;text-decoration:none">Address Spaces</a>, <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/vm-mechanism.pdf" target="_blank"; style="color:#000000;text-decoration:none">Address Mechanism<a></span>                      | Thomas, Abagail  |
-| 10/6                  | <span style="background-color: #f88117">Continued</span>                                                    |                  |
+| 9/13                  | <background-orange>2/4. <a class = "booklink" style="color:#000000;text-decoration:underline" href="https://pages.cs.wisc.edu/~remzi/OSTEP/intro.pdf" target="_blank">Introduction</a>/ <a class = "booklink" style="color:#000000;text-decoration:underline" href="https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-intro.pdf" target="_blank">Processes</a></background-orange>                                   | Peter, Anthony   |
+| 9/15                  | <background-orange>Processes Continued</background-orange>                                          |                  |
+| 9/20                  | <background-orange>5/14/6. <a class = "booklink" style="color:#000000;text-decoration:underline" href="https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-api.pdf" target="_blank">Process API</a>, <a class = "booklink" style="color:#000000;text-decoration:underline" href="https://pages.cs.wisc.edu/~remzi/OSTEP/vm-api.pdf" target="_blank">Memory API</a>, <a class = "booklink" style="color:#000000;text-decoration:underline" href="https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-mechanisms.pdf" target="_blank">Direct Execution</a></background-orange>              | Lex, Caden       |
+| 9/22                  | <background-orange>Continued </background-orange>                                                   |                  |
+| 9/27                  | <background-orange>7/9. <a class = "booklink" style="color:#000000;text-decoration:underline" href="https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched.pdf" target="_blank">CPU</a> and <a class = "booklink" style="color:#000000;text-decoration:underline" href="https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-lottery.pdf" target="_blank">Lottery Scheduling</a> </background-orange>                              | Favour, Katie    |
+| 9/29                  | <background-orange>Continued</background-orange>                                                    |                  |
+| 10/4                  | <background-orange>13/15. <a class = "booklink" style="color:#000000;text-decoration:underline" href="https://pages.cs.wisc.edu/~remzi/OSTEP/vm-intro.pdf" target="_blank">Address Spaces</a>, <a class = "booklink" style="color:#000000;text-decoration:underline" href="https://pages.cs.wisc.edu/~remzi/OSTEP/vm-mechanism.pdf" target="_blank">Address Mechanism</a></background-orange>                      | Thomas, Abagail  |
+| 10/6                  | <background-orange>Continued</background-orange>                                                    |                  |
 |                       | 🍂 Fall Break 🍂                                                                                             |                 |
-| 10/13                 | <span style="background-color: #f88117">16/18. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/vm-segmentation.pdf" target="_blank"; style="color:#000000;text-decoration:none">Segmentation</a> and <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/vm-paging.pdf" target="_blank"; style="color:#000000;text-decoration:none">Intro into Paging<a></span>                     | Esteban, Caden       |
-| 10/18                 | <span style="background-color: #f88117">21/22. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/vm-beyondphys.pdf" target="_blank"; style="color:#000000;text-decoration:none">Swapping: Mechanisms</a> and <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/vm-beyondphys-policy.pdf" target="_blank"; style="color:#000000;text-decoration:none">Policies</a></span>                     | Jeff, Garrison             |
-| 10/20                 | <span style="background-color: #f88117">Continued</span>                                                    |                  |
-| 10/27                 | <span style="background-color: #23abcc">26. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf" target="_blank"; style="color:#000000;text-decoration:none">Concurrency<a> <a href="https://github.com/remzi-arpacidusseau/ostep-code/tree/master/threads-intro" target="_blank"; style="color:#000000;text-decoration:none">(code)</a></span>                                       | Paige            |
-| 11/1                  | <span style="background-color: #23abcc">27. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/threads-api.pdf" target="_blank"; style="color:#000000;text-decoration:none">Thread API</a> <a href="https://github.com/remzi-arpacidusseau/ostep-code/tree/master/threads-api" target="_blank"; style="color:#000000;text-decoration:none">(code)</a></span>                                        | Zackery          |
-| 11/8                  | <span style="background-color: #23abcc">28. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/threads-locks.pdf" target="_blank"; style="color:#000000;text-decoration:none">Locks Pt.1</a> <a href="https://github.com/remzi-arpacidusseau/ostep-code/tree/master/threads-locks" target="_blank"; style="color:#000000;text-decoration:none">(code)</a></span>                                            | Michael          |
-| 11/10                 | <span style="background-color: #23abcc">28. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/threads-locks.pdf" target="_blank"; style="color:#000000;text-decoration:none">Locks Pt.2</a> and<a href="https://pages.cs.wisc.edu/~remzi/OSTEP/threads-cv.pdf" target="_blank"; style="color:#000000;text-decoration:none"> Condition Variables</a></span> | Michael, Gary      |
-| 11/15                 | <span style="background-color: #23abcc">31. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/threads-sema.pdf" target="_blank"; style="color:#000000;text-decoration:none">Semaphores</a> <a href="https://github.com/remzi-arpacidusseau/ostep-code/tree/master/threads-sema" target="_blank"; style="color:#000000;text-decoration:none">(code)</a></span>               |    Yanqiao           |
+| 10/13                 | <background-orange>16/18. <a class = "booklink" style="color:#000000;text-decoration:underline" href="https://pages.cs.wisc.edu/~remzi/OSTEP/vm-segmentation.pdf" target="_blank">Segmentation</a> and <a class = "booklink" style="color:#000000;text-decoration:underline" href="https://pages.cs.wisc.edu/~remzi/OSTEP/vm-paging.pdf" target="_blank">Intro into Paging</a></background-orange>                     | Esteban, Caden       |
+| 10/18                 | <background-orange>21/22. <a class = "booklink" style="color:#000000;text-decoration:underline"href="https://pages.cs.wisc.edu/~remzi/OSTEP/vm-beyondphys.pdf" target="_blank">Swapping: Mechanisms</a> and <a class = "booklink" style="color:#000000;text-decoration:underline" href="https://pages.cs.wisc.edu/~remzi/OSTEP/vm-beyondphys-policy.pdf" target="_blank">Policies</a></background-orange>                     | Jeff, Garrison             |
+| 10/20                 | <background-orange>Continued</background-orange>                                                    |                  |
+| 10/27                 | <background-blue>26. <a class = "booklink" style="color:#000000;text-decoration:underline" href="https://pages.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf" target="_blank">Concurrency<a> <a href="https://github.com/remzi-arpacidusseau/ostep-code/tree/master/threads-intro" target="_blank">(code)</a></background-blue>                                       | Paige            |
+| 11/1                  | <background-blue>27. <a class = "booklink" style="color:#000000;text-decoration:underline" href="https://pages.cs.wisc.edu/~remzi/OSTEP/threads-api.pdf" target="_blank">Thread API</a> <a href="https://github.com/remzi-arpacidusseau/ostep-code/tree/master/threads-api" target="_blank">(code)</a></background-blue>                                        | Zackery          |
+| 11/8                  | <background-blue>28. <a class = "booklink" style="color:#000000;text-decoration:underline" href="https://pages.cs.wisc.edu/~remzi/OSTEP/threads-locks.pdf" target="_blank">Locks Pt.1</a> <a href="https://github.com/remzi-arpacidusseau/ostep-code/tree/master/threads-locks" target="_blank">(code)</a></background-blue>                                            | Michael          |
+| 11/10                 | <background-blue>28. <a class = "booklink" style="color:#000000;text-decoration:underline" href="https://pages.cs.wisc.edu/~remzi/OSTEP/threads-locks.pdf" target="_blank">Locks Pt.2</a> and<a href="https://pages.cs.wisc.edu/~remzi/OSTEP/threads-cv.pdf" target="_blank"> Condition Variables</a></background-blue> | Michael, Gary      |
+| 11/15                 | <background-blue>31. <a class = "booklink" style="color:#000000;text-decoration:underline" href="https://pages.cs.wisc.edu/~remzi/OSTEP/threads-sema.pdf" target="_blank">Semaphores</a> <a href="https://github.com/remzi-arpacidusseau/ostep-code/tree/master/threads-sema" target="_blank">(code)</a></background-blue>               |    Yanqiao           |
 | 11/16                 | 📝 Mid-term Exam During lab 📝                                                      |                 |
-| 11/17                 | <span style="background-color: #4dc516">36. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/file-devices.pdf" target="_blank"; style="color:#000000;text-decoration:none">I/O Devices</a></span>                                              | Kyrie            |
-| 11/22                 | <span style="background-color: #4dc516">39/40. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/file-intro.pdf" target="_blank"; style="color:#000000;text-decoration:none">Files and Directories</a> and <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/file-implementation.pdf" target="_blank"; style="color:#000000;text-decoration:none">File System Implementation</a></span> | Dylan, Kobe      |
+| 11/17                 | <background-green>36. <a class = "booklink" style="color:#000000;text-decoration:underline" href="https://pages.cs.wisc.edu/~remzi/OSTEP/file-devices.pdf" target="_blank">I/O Devices</a></background-green>                                              | Kyrie            |
+| 11/22                 | <background-green>39/40. <a class = "booklink" style="color:#000000;text-decoration:underline" href="https://pages.cs.wisc.edu/~remzi/OSTEP/file-intro.pdf" target="_blank">Files and Directories</a> and <a class = "booklink" style="color:#000000;text-decoration:underline" href="https://pages.cs.wisc.edu/~remzi/OSTEP/file-implementation.pdf" target="_blank">File System Implementation</a></background-green> | Dylan, Kobe      |
 |                       | 🦃 Thanksgiving Break 🦃                                                                                    |                 |
-| 11/29                 | <span style="background-color: #4dc516">Continued</span>                                                   |                  |
-| 12/1                  | <span style="background-color: #4dc516">49. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/dist-nfs.pdf" target="_blank"; style="color:#000000;text-decoration:none">Network File Systems</a></span>                                     | Liam B, Liam M            |
-| 12/6                  | <span style="background-color: #4dc516">45. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/file-integrity.pdf" target="_blank"; style="color:#000000;text-decoration:none">Data Integrity and Protection</a> </span>     | Jordan           |
-| 12/8                  | <span style="background-color: #4dc516">48. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/dist-intro.pdf" target="_blank"; style="color:#000000;text-decoration:none">Distributed Systems</a></span>                                      | Bill, Andre      |
-| 12/13                 | <span style="background-color: #3ea89e">53. <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/security-intro.pdf" target="_blank"; style="color:#000000;text-decoration:none">Intro Security</a></span>     | Jordan           |
+| 11/29                 | <background-green>Continued</background-green>                                                   |                  |
+| 12/1                  | <background-green>49. <a class = "booklink" style="color:#000000;text-decoration:underline" href="https://pages.cs.wisc.edu/~remzi/OSTEP/dist-nfs.pdf" target="_blank">Network File Systems</a></background-green>                                     | Liam B, Liam M            |
+| 12/6                  | <background-green>45. <a class = "booklink" style="color:#000000;text-decoration:underline" href="https://pages.cs.wisc.edu/~remzi/OSTEP/file-integrity.pdf" target="_blank">Data Integrity and Protection</a> </background-green>     | Jordan           |
+| 12/8                  | <background-green>48. <a class = "booklink" style="color:#000000;text-decoration:underline" href="https://pages.cs.wisc.edu/~remzi/OSTEP/dist-intro.pdf" target="_blank">Distributed Systems</a></background-green>                                      | Bill, Andre      |
+| 12/13                 | <background-blue-green>53. <a class = "booklink" style="color:#000000;text-decoration:underline" href="https://pages.cs.wisc.edu/~remzi/OSTEP/security-intro.pdf" target="_blank">Intro Security</a></background-blue-green>     | Jordan           |
 | 12/14                 | 📝 Review For Final and Project Demos (2:30 - 4:30 PM) 📝                                            |                  |
 
 [Return to top of the page](#course-schedule)
@@ -573,6 +590,7 @@ hide:
     - **Fairness** - does each thread contending for the lock get an equal shot at it
     - **Performance** - time added by using the lock
     - **Preemptive Scheduler** - to work correctly on a single processor, it requires a preemptive scheduler it will interrupt a thread via a timer, in order to run a different thread
+    - **Flags** - Variables used to indicate whether a thread has possession over a lock
 
     ###### [Return](#thread-api-and-locks) to the *Thread API and Locks* module
 
@@ -584,6 +602,8 @@ hide:
     - **Wait/Signal** - the actions used in a conditional variable.  The thread waits on a specific condition to be met and then signals the sleeping threads to be executed
     - **Bounded Buffer** - a system of multiple producer threads and consumer threads which is shared
     - **Producer/Consumer Threads** - for a producer it puts a integer into the shared buffer loops a number of times, a consumer that gets the data out of that shared buffer (forever), each time printing out the data item it pulled from the shared buffer
+    - **Mesa semantics** - When a signal is made, the thread is taken out of the waiting queue.
+    - **Hoare semantics** - Is harder to implement than Mesa semantics, but runs the waken thread more efficiently
 
     ###### [Return](#variations-of-locks) to the *Variations of Locks* module
 
@@ -596,7 +616,7 @@ hide:
     - **Zemaphore** - an easier-to-implement version of the semaphore where we don’t maintain the value of the semaphore, when negative, reflects the number of waiting threads
     - **Hill’s Law** - sometimes simple and dumb is better.  Just because you can make something sophisticated to solve a problem doesn’t mean it’s the best answer
     - **Scheduler State** - there are three different states,  Run (the thread is running), Ready (i.e., runnable but not running), and Sleep (the thread is blocked)
-    - **Binary Semaphore** - a semaphore used as a lock
+    - **Binary Sephamore** - Sephamores that contain locks. These locks only contain two states, held and not held
 
     ###### [Return](#variations-of-locks) to the *Variations of Locks* module
 
@@ -609,6 +629,7 @@ hide:
     - **Hardware Interface** - the way for the software to communicate and interact with the hardware system
     - **Internal Structure** - responsible for implementing the abstraction the device presents to the system
     - **I/O instructions** - a way for the OS to send data to specific device registers and thus allow the construction of the protocols 
+    - **Peripheral Bus** - These connect slower devices to the system. This would include hard-drives, printers, and keyboards.
 
     ###### [Return](#io-devices) to the *I/O Devices* module
 
@@ -647,6 +668,10 @@ hide:
     - **Mount Protocol** - the first process through which the clients and servers connect together
     - **Virtual File System (VFS)** - allows for the use of multiple file systems to be utilized for a given operating system
     - **Write Buffering** - the delayed sending of the clients data to the server. The submitted data to the network is first held locally in the client's cache
+    - **Idempotency** - any function that can be executed several times without changing the final result beyond its first iteration.
+    - **Cache** - a transient high-speed data storage layer allowing the user to avoid communication with the network to access data.
+    - **Flush-on-Close** - when a file is written to and closed, the client "flushes" all updates to the server to ensure future clients will see the latest file version.
+    - **Stale Cache** - a cache, where the object in the cache is not the most recent version committed to the data source. 
 
     ###### [Return](#file-systems-and-directories) to the *File Systems and Directories* module
 
@@ -671,6 +696,7 @@ hide:
     - **Access Control Mechanisms** - the process through which an operating system determines if the user has the proper authorization to perform the requested action
     - **Non-Repudiation** - the authentication of prior actions in the operating system that cannot be forged
     - **Security Policies** - a list of rules and specifications for ensuring security in an operating system environment
+    - **Fail-safe defaults** - Defaults for policies to be more secure
 
     ###### [Return](#data-integrity-and-security) to the *Data Integrity and Security* module
 

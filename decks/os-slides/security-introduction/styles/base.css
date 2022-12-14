@@ -1,0 +1,56 @@
+.prose {
+  font-size: 1.15rem;
+  line-height: 1.05;
+
+  p {
+    margin-top: 0.5em;
+    margin-bottom: 0.1em;
+  }
+}
+
+.slidev-layout {
+  @apply bg-gray-300;
+  height: 100%;
+
+  h1 {
+    @apply text-5xl text-dark-100 font-medium;
+  }
+
+  h1 + p {
+    @apply opacity-100 my-4 text-2xl;
+  }
+
+  h2,
+  h3 {
+    @apply text-2xl text-dark-100 font-medium;
+  }
+
+  p {
+    @apply text-2xl text-dark-100 font-normal;
+  }
+
+  .bold {
+    @apply text-3xl text-dark-100 font-normal;
+  }
+
+  pre {
+    display: inline;
+    margin-right: 0.1em;
+  }
+
+  code {
+    @apply text-3xl;
+  }
+
+  blockquote {
+    @apply text-5xl px-4 py-1 border-dark-100 border-3;
+  }
+
+  blockquote > * {
+    @apply my-3;
+  }
+
+  li {
+    @apply text-xl text-dark-100;
+  }
+}
