@@ -654,7 +654,7 @@ hide:
     - **Misdirected Write** - when data is written correctly to the disk storage but in the wrong memory address
     - **Cyclic Redundancy Check (CRC)** - remainder of binary division between a large binary number (D) and an agreed value of (k)
     - **Lost Write** - the device doesn't inform the upper layer that a write finished but the new changes never persisted into the next state, thus exposing the past state before the write
-    - **error correcting codes (ECC)** - used by the drive to determine whether the on-disk bits in a block are good or bad. in some cases the ecc will fix the bits but if it doesnt have enough information it will print error.
+    - **Error Correcting Codes (ECC)** - used by the drive to determine whether the on-disk bits in a block are good or bad. in some cases the ecc will fix the bits but if it doesnt have enough information it will print error.
 
     ###### [Return](#data-integrity-and-security) to the *Data Integrity and Security* module
 
