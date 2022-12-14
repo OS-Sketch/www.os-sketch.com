@@ -22,7 +22,7 @@
 }
 
 .md-tabs__link {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .md-nav__link {
@@ -188,4 +188,9 @@
 
 .tinyskip {
   margin: 1.5rem;
+}
+
+.center {
+  display: block;
+  margin: 0 auto;
 }
