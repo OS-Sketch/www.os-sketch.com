@@ -696,6 +696,7 @@ hide:
     - **TCP/IP** - commonly used reliable networking stack involving machinery to handle network congestion, multiple outstanding requests and other optimizations.
     - **Distributed Shared Memory (DSM)** - allows for multiple computers on the network to share large virtual address space, akin to how processors have multiple cores which allow for the use of threading
     - **Remote Procedure Call (RPC)** - simple and easy way to execute code on a remote machine
+    - **Message Buffer** - a contiguous array of bytes of some size
 
     ###### [Return](#distributed-systems) to the *Distributed Systems* module
 
