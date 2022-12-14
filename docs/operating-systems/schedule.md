@@ -558,7 +558,7 @@ hide:
     - **Procedure Call** - creates a thread or multiple threads
     - **Critical Section** - region of code that needs to be protected for operation
     - **Heap** - allows you to share data between threads
-    - **Lack of Proper Initialization** - a error that occurs when
+    - **Lack of Proper Initialization** - a error that occurs when locks are not properly initialized to begin with creating incorrect values to begin with
 
     ###### [Return](#thread-api-and-locks) to the *Thread API and Locks* module
 
