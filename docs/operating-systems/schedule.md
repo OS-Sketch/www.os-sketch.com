@@ -699,7 +699,8 @@ hide:
     - **Stub Generator** - creates client and server stubs containing functions specified in the interface to be used in the RPC service
     - **Message Buffer** - a contiguous array of bytes of some size
     - **Marshaling/Serialization** - packing necessary information such as an identifier and arguments into a single contiguous buffer
-    - **Unmarshaling/Deserialization** - unpacking the returned information from more complex functions
+    - **Unmarshaling/Deserialization** - unpacking the returned information from more complex functions, extracting identifier and arguments
+    - **Run-time Library** - used for handling much of the RPC system, including most performance and reliability issues
 
     ###### [Return](#distributed-systems) to the *Distributed Systems* module
 
