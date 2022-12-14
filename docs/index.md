@@ -4,8 +4,11 @@ hide:
   - toc
 ---
 
-![Terminal Window](/img/os-sketch-main-diagram.svg#only-light){ width="70%",: .center}
-![Terminal Window](/img/os-sketch-main-diagram-inverted.svg#only-dark){width="70%",: .center}
+<figure markdown>
+  ![Terminal Window](/img/os-sketch-main-diagram.svg#only-light){ width="70%",: .center}
+  ![Terminal Window](/img/os-sketch-main-diagram-inverted.svg#only-dark){ width="70%",: .center}
+  <figcaption></figcaption>
+</figure>
 
 # Introduction
 
