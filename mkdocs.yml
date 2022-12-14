@@ -66,6 +66,7 @@ theme:
 markdown_extensions:
   # Add HTML attributes and CSS classes to markdown elements
   - attr_list
+  - md_in_html
   # Support the inclusion of snippets of HTML or Markdown from other files;
   # note that this extension also enables the chosen abbreviations approach
   - pymdownx.snippets:
