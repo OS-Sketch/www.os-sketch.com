@@ -4,8 +4,8 @@ hide:
   - toc
 ---
 
-![Terminal Window](/img/OS-Diagram.svg#only-light){width="70%"}
-![Terminal Window](/img/OS-Diagram-Inverted.svg#only-dark){width="70%"}
+![Terminal Window](/img/os-sketch-main-diagram.svg#only-light){width="70%"}
+![Terminal Window](/img/os-sketch-main-diagram-inverted.svg#only-dark){width="70%"}
 
 # Introduction
 
