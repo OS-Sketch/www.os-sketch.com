@@ -697,8 +697,8 @@ hide:
     - **Distributed Shared Memory (DSM)** - allows for multiple computers on the network to share large virtual address space, akin to how processors have multiple cores which allow for the use of threading
     - **Remote Procedure Call (RPC)** - simple and easy way to execute code on a remote machine
     - **Message Buffer** - a contiguous array of bytes of some size
-    - **Marshaling** - packing necessary information such as an identifier and arguments into a single contiguous buffer
-    - **Deserialization** - unpacking the returned information from more complex functions
+    - **Marshaling/Serialization** - packing necessary information such as an identifier and arguments into a single contiguous buffer
+    - **Unmarshaling/Deserialization** - unpacking the returned information from more complex functions
 
     ###### [Return](#distributed-systems) to the *Distributed Systems* module
 
