@@ -593,7 +593,7 @@ hide:
     - **Zemaphore** - an easier-to-implement version of the semaphore where we don’t maintain the value of the semaphore, when negative, reflects the number of waiting threads
     - **Hill’s Law** - sometimes simple and dumb is better.  Just because you can make something sophisticated to solve a problem doesn’t mean it’s the best answer
     - **Scheduler State** - there are three different states,  Run (the thread is running), Ready (i.e., runnable but not running), and Sleep (the thread is blocked)
-    
+    - **Binary Semaphore** - a semaphore used as a lock
 
     ###### [Return](#variations-of-locks) to the *Variations of Locks* module
 
