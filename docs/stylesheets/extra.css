@@ -22,7 +22,7 @@
 }
 
 .md-tabs__link {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .md-nav__link {
