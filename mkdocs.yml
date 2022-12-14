@@ -125,8 +125,6 @@ plugins:
   - git-revision-date-localized:
       type: timeago
       enable_creation_date: true
-  - tags:
-      tags_file: tags.md
   # Minify the HTML source code to support faster downloads
   - minify:
       minify_html: true
@@ -167,5 +165,4 @@ nav:
   - Course Syllabus: operating-systems/syllabus.md
   - Course Schedule: operating-systems/schedule.md
   - Course Tools: operating-systems/course-tools.md
-  - Topics List: tags.md
   - Sketches: operating-systems/sketches.md

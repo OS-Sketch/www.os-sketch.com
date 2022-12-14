@@ -1,10 +1,6 @@
 ---
 hide:
   - navigation
-tags:
-  - Logistics
-  - Resources
-  - Planning
 ---
 
 <!-- Review the content in the OSTEP book and identify key chapters and topics -->
