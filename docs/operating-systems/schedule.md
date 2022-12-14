@@ -387,11 +387,11 @@ hide:
     - **Concurrency** - managed by the operating system and/or the programming
       langauge, the situation in which multiple computations happen at the same
       time
-    - **Persistence** - the process of storing data in a computer system, as a 
+    - **Persistence** - the process of storing data in a computer system, as a
       way of ensuring that data survives after the ending of the process that
       created it
     - **Journaling** - also known as copy-on-write, is a special ordering protocol
-      to ensure that if the disk is to fail during a write the system can recover 
+      to ensure that if the disk is to fail during a write the system can recover
       to a reasonable state going forward
     - **Abstraction** - The abstraction process is a fundemental piece to the
       coding method that helps break all of the requirements of a large program
@@ -413,7 +413,7 @@ hide:
       events (e.g., getting scheduled or de-scheduled, or waiting for an I/O to
       complete) transition a process from one of these states to the other
     - **Process list** - contains information about all processes in the system
-    - **Process Control Block** - An individual structure that stores all of the 
+    - **Process Control Block** - An individual structure that stores all of the
       information about a process inorder to keep track of all the running
       programs in a system.
 
@@ -425,7 +425,7 @@ hide:
 
     - **Process Identifier** - used to name the process if one wants to do something with the process, such as (for example) stop it from running
     - **Fork** - is used in UNIX systems to create a new process
-    - **Exec** - allows a child process to break free from its similarity in 
+    - **Exec** - allows a child process to break free from its similarity in
       its parent function and execute an entirely new program
     - **Scheduler** - determines which process runs at a given moment in time
     - **Superuser** - controls all processes (and indeed do many other things); this role should be assumed infrequently and with caution for security reasons
@@ -658,7 +658,7 @@ hide:
     - **Idempotency** - any function that can be executed several times without changing the final result beyond its first iteration.
     - **Cache** - a transient high-speed data storage layer allowing the user to avoid communication with the network to access data.
     - **Flush-on-Close** - when a file is written to and closed, the client "flushes" all updates to the server to ensure future clients will see the latest file version.
-    - **Stale Cache** - a cache, where the object in the cache is not the most recent version committed to the data source. 
+    - **Stale Cache** - a cache, where the object in the cache is not the most recent version committed to the data source.
 
     ###### [Return](#file-systems-and-directories) to the *File Systems and Directories* module
 
@@ -693,6 +693,7 @@ hide:
     - **Checksums** - method to detect memory corruption quickly
     - **End-to-end argument** - method through which packet loss, aka data loss, is avoided
     - **UDP/IP** - common networking stack that involves the use of sockets to communicate with an endpoint, and send datagrams which are short messages
+    - **TCP/IP** - commonly used reliable networking stack involving machinery to handle network congestion, multiple outstanding requests and other optimizations.
     - **Distributed Shared Memory (DSM)** - allows for multiple computers on the network to share large virtual address space, akin to how processors have multiple cores which allow for the use of threading
     - **Remote Procedure Call (RPC)** - simple and easy way to execute code on a remote machine
 
