@@ -416,6 +416,7 @@ hide:
     - **Process Control Block** - An individual structure that stores all of the 
       information about a process inorder to keep track of all the running
       programs in a system.
+    - **Context Switch ** - gives the OS the ability to stop running one program and start running another on a given CPU
 
     ###### [Return](#systems-introduction) to the *Systems Introduction* module
 
@@ -536,6 +537,9 @@ hide:
     - **High Watermark (HW)** - a way the that the operating system keeps a small amount of memory free
     - **Low Watermark (LW)** - a way the that the operating system keeps a small amount of memory free
     - **Swap Daemon** - the process in which the operating system sorts LW amd HW to keep memory free
+    - **Present Bit** - when the hardware looks in the
+    PTE, its looking to see where the present bit is located and if the page is in the memory(1) or on the disk somewhere(0)
+    - **Page-Fault Handler** - When the present bit is not functioning the Page-Fault Handler arranges for the transfer of the desired page from disk to memory
 
     ###### [Return](#swapping) to the *Swapping* module
 
@@ -547,6 +551,7 @@ hide:
     - **Temporal Locality** - programs keep locality in their access streams when storing and accessing memory
     - **Clock Algorithm** - the way an operating system approximates LRU by randomly picking a page
     - **Modified Bit** - a bit that is used in the page-replacement process
+    - **FIFO replacement** - fifo replacement (first-in, first-out) enters the system; when a re-placement occurs and the page on the tail of the queue (the “first-in” page) is evicted
 
     ###### [Return](#swapping) to the *Swapping* module
 
@@ -559,6 +564,7 @@ hide:
     - **Transaction** - grouping of many actions into a single atomic action
     - **Critical Section** - piece of code that when accesses a shared resource, usually a variable or data structure
     - **Race Condition** - arises if multiple threads of execution enter the critical section at roughly the same time
+    - **Parallelization** - the practice of taking a single-threaded program into a program that run this work on multiple CPU cores
 
     ###### [Return](#concurrency) to the *Concurrency* module
 
@@ -569,6 +575,9 @@ hide:
     - **Function Pointer** - looks for which function threads should start running in
     - **Procedure Call** - creates a thread or multiple threads
     - **Critical Section** - region of code that needs to be protected for operation
+    - **Heap** - allows you to share data between threads
+    - **Lack of Proper Initialization** - a error that occurs when locks are not properly initialized to begin with creating incorrect values to begin with
+    - **Condition Variable** - useful when some kind os signaling must take place between threads, especial if one thread is waiting on another
 
     ###### [Return](#thread-api-and-locks) to the *Thread API and Locks* module
 
@@ -580,6 +589,7 @@ hide:
     - **Mutual Exclusion** - if one thread is in the critical section it excludes others from entering
     - **Fairness** - does each thread contending for the lock get an equal shot at it
     - **Performance** - time added by using the lock
+    - **Preemptive Scheduler** - to work correctly on a single processor, it requires a preemptive scheduler it will interrupt a thread via a timer, in order to run a different thread
     - **Flags** - Variables used to indicate whether a thread has possession over a lock
 
     ###### [Return](#thread-api-and-locks) to the *Thread API and Locks* module
@@ -591,6 +601,7 @@ hide:
     - **Condition variable** - an explicit queue threads can put themselves on when some state of execution is less desirable than another thread;  when it changes state the other threads can be woken up and allowed to continue
     - **Wait/Signal** - the actions used in a conditional variable.  The thread waits on a specific condition to be met and then signals the sleeping threads to be executed
     - **Bounded Buffer** - a system of multiple producer threads and consumer threads which is shared
+    - **Producer/Consumer Threads** - for a producer it puts a integer into the shared buffer loops a number of times, a consumer that gets the data out of that shared buffer (forever), each time printing out the data item it pulled from the shared buffer
     - **Mesa semantics** - When a signal is made, the thread is taken out of the waiting queue.
     - **Hoare semantics** - Is harder to implement than Mesa semantics, but runs the waken thread more efficiently
 
@@ -604,6 +615,7 @@ hide:
     - **Throttling** - an imposed limit to the number of threads that can be simultaneously executed on a piece of code.  Used to keep the system from bogging down
     - **Zemaphore** - an easier-to-implement version of the semaphore where we don’t maintain the value of the semaphore, when negative, reflects the number of waiting threads
     - **Hill’s Law** - sometimes simple and dumb is better.  Just because you can make something sophisticated to solve a problem doesn’t mean it’s the best answer
+    - **Scheduler State** - there are three different states,  Run (the thread is running), Ready (i.e., runnable but not running), and Sleep (the thread is blocked)
     - **Binary Sephamore** - Sephamores that contain locks. These locks only contain two states, held and not held
 
     ###### [Return](#variations-of-locks) to the *Variations of Locks* module
@@ -616,6 +628,7 @@ hide:
     - **Memory-mapped I/O** - another method to interact with devices.  With this version the hardware makes device registers available as if they were memory locations  Helpful because no new instructions are needed to support it
     - **Hardware Interface** - the way for the software to communicate and interact with the hardware system
     - **Internal Structure** - responsible for implementing the abstraction the device presents to the system
+    - **I/O instructions** - a way for the OS to send data to specific device registers and thus allow the construction of the protocols 
     - **Peripheral Bus** - These connect slower devices to the system. This would include hard-drives, printers, and keyboards.
 
     ###### [Return](#io-devices) to the *I/O Devices* module
@@ -671,6 +684,7 @@ hide:
     - **Misdirected Write** - when data is written correctly to the disk storage but in the wrong memory address
     - **Cyclic Redundancy Check (CRC)** - remainder of binary division between a large binary number (D) and an agreed value of (k)
     - **Lost Write** - the device doesn't inform the upper layer that a write finished but the new changes never persisted into the next state, thus exposing the past state before the write
+    - **Error Correcting Codes (ECC)** - used by the drive to determine whether the on-disk bits in a block are good or bad. in some cases the ecc will fix the bits but if it doesn't have enough information it will print error.
 
     ###### [Return](#data-integrity-and-security) to the *Data Integrity and Security* module
 
