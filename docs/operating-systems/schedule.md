@@ -693,8 +693,9 @@ hide:
     - **Checksums** - method to detect memory corruption quickly
     - **End-to-end argument** - method through which packet loss, aka data loss, is avoided
     - **UDP/IP** - common networking stack that involves the use of sockets to communicate with an endpoint, and send datagrams which are short messages
-    - **TCP/IP** - commonly used reliable networking stack involving machinery to handle network congestion, multiple outstanding requests and other optimizations.
-    - **Timeout/Retry** - an approach used for handling dropped message requests 
+    - **TCP/IP** - commonly used reliable networking stack involving machinery to handle network congestion, multiple outstanding requests and other optimizations
+    - **Acknowledgment** - a technique involving the message receiver sending back an acknowledgment to the sender
+    - **Timeout/Retry** - an approach used for handling dropped message requests
     - **Distributed Shared Memory (DSM)** - allows for multiple computers on the network to share large virtual address space, akin to how processors have multiple cores which allow for the use of threading
     - **Remote Procedure Call (RPC)** - simple and easy way to execute code on a remote machine
     - **Stub Generator** - creates client and server stubs containing functions specified in the interface to be used in the RPC service
