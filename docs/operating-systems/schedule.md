@@ -547,6 +547,7 @@ hide:
     - **Transaction** - grouping of many actions into a single atomic action
     - **Critical Section** - piece of code that when accesses a shared resource, usually a variable or data structure
     - **Race Condition** - arises if multiple threads of execution enter the critical section at roughly the same time
+    - **Parallelization** - the practice of taking a single-threaded program into a program that run this work on multiple CPU cores
 
     ###### [Return](#concurrency) to the *Concurrency* module
 
