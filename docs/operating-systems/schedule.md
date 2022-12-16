@@ -220,8 +220,8 @@ hide:
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Check out the [course slides](/slides/operating-systems/semaphores-introduction/)
   for a detailed investigation of these chapters!
-- [Click here](#important-terms) to find definitions for key terms for the
-  week's readings (chapters 30 and 31)!
+- Review the [important terms](#important-terms) to find definitions of the
+  terms associated with the assigned chapters
 - Check out the [operating system sketch](/operating-systems/sketches/#semaphores)
   associated with this module
 
@@ -238,10 +238,10 @@ hide:
 ### Next Steps
 
 - *I/O Devices* chapter in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
-- Check out the [course slides](/slides/operating-systems/systems-introduction/)
+- Check out the [course slides](/slides/operating-systems/io-introduction/)
   for a detailed investigation of these chapters!
-- [Click here](#important-terms) to find definitions for key terms for the
-  week's reading (chapter 36)!
+- Review the [important terms](#important-terms) to find definitions of the
+  terms associated with the assigned chapters
 - Check out the [operating system sketch](/operating-systems/sketches/#io-devices)
   associated with this module
 
