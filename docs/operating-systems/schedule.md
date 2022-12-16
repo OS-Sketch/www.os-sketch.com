@@ -330,8 +330,8 @@ hide:
 ### Technical Questions
 
 - How can we apply the principles of computer security to ensure that large and
-  complex operating systems permit resource sharing without allowing not
-  permitted resources accesses or actions to take place?
+  complex operating systems permit resource sharing without allowing access to
+  not-permitted resources or impermissible actions to take place?
 
 ### Next Steps
 
