@@ -236,13 +236,14 @@ hide:
 
 ### Next Steps
 
-- *I/O Devices* chapter in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
-- Check out the [course slides](/slides/operating-systems/io-introduction/)
-  for a detailed investigation of these chapters!
+- Read the chapter called *I/O Devices* chapter in
+  [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+- Check out the [course slides](/slides/operating-systems/io-introduction/) for
+  a detailed investigation of these chapters!
 - Review the [important terms](#important-terms) to find definitions of the
   terms associated with the assigned chapters
-- Check out the [operating system sketch](/operating-systems/sketches/#io-devices)
-  associated with this module
+- Check out the [operating system
+  sketch](/operating-systems/sketches/#io-devices) associated with this module
 
 ## File Systems and Directories
 
@@ -255,14 +256,17 @@ hide:
 
 ### Next Steps
 
-- *File Systems and Directories*, *File System Implementation* and *Network File
-  Systems* chapters in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
-- Check out the [course slides](/slides/operating-systems/systems-introduction/)
-  for a detailed investigation of these chapters!
-- [Click here](#important-terms) to find definitions for key terms for the
-  week's reading (chapters 39, 40 and 49)!
-- Check out the [operating system sketch](/operating-systems/sketches/#files-and-directories)
-  associated with this module
+- Read the chapters called *File and Directories* (Chapter 39) and *File System
+  Implementation* (Chapter 40) in
+  [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+- Check out the [course
+  slides](/slides/operating-systems/systems-introduction/) for a detailed
+  investigation of these chapters!
+- Review the [important terms](#important-terms) to find definitions of the
+  terms associated with the assigned chapters
+- Check out the [operating system
+  sketch](/operating-systems/sketches/#files-and-directories) associated with
+  this module
 
 ## Network File Systems
 
