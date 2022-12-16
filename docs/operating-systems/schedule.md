@@ -225,7 +225,6 @@ hide:
 - Check out the [operating system sketch](/operating-systems/sketches/#semaphores)
   associated with this module
 
-
 ## I/O Devices
 
 ### Technical Questions
