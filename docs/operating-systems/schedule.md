@@ -259,9 +259,8 @@ hide:
 - Read the chapters called *File and Directories* (Chapter 39) and *File System
   Implementation* (Chapter 40) in
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
-- Check out the [course
-  slides](/slides/operating-systems/systems-introduction/) for a detailed
-  investigation of these chapters!
+- Check out the [course slides](/slides/operating-systems/files-directories/)
+  for a detailed investigation of these chapters!
 - Review the [important terms](#important-terms) to find definitions of the
   terms associated with the assigned chapters
 - Check out the [operating system
