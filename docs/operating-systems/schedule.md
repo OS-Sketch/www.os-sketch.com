@@ -218,7 +218,7 @@ hide:
 
 - Read the chapter called *Semaphores* (Chapter 31) in
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
-- Check out the [course slides](/slides/operating-systems/systems-introduction/)
+- Check out the [course slides](/slides/operating-systems/semaphores-introduction/)
   for a detailed investigation of these chapters!
 - [Click here](#important-terms) to find definitions for key terms for the
   week's readings (chapters 30 and 31)!
