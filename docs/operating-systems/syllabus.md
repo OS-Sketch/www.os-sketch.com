@@ -214,8 +214,7 @@ Although this course primarily uses Discord for communication, the instructor
 may use email to send announcements about important matters. It is your
 responsibility to check your email at least once a day and to ensure that you
 can reliably send and receive emails. This class policy is based on the
-statement about the use of email that appears in *The Compass*, the College's
-student handbook; please see the instructor if you do not have this handbook.
+statement about the use of email that appears in [The Compass](https://dspace.allegheny.edu/handle/10456/42164), the College's student handbook; please see the instructor if you do not have this handbook.
 
 #### Honor Code
 
@@ -285,7 +284,7 @@ accommodation of their disabilities. Students with disabilities who believe they
 may need accommodations in this class are encouraged to contact Disability
 Services at 814-332-2898. Disability Services is part of the Learning Commons
 and is located in Pelletier Library. Please do this as soon as possible to
-ensure that approved accommodations are implemented in a timely fashion.
+ensure that approved accommodations are implemented in a timely fashion. [Student Acessability and Support Services(SASS)](https://sites.allegheny.edu/studentaccessibility/)
 
 ### Welcome Message
 
