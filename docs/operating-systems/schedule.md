@@ -218,13 +218,12 @@ hide:
 
 - Read the chapter called *Semaphores* (Chapter 31) in
   [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
-- Check out the [course slides](/slides/operating-systems/systems-introduction/)
+- Check out the [course slides](/slides/operating-systems/semaphores-introduction/)
   for a detailed investigation of these chapters!
-- [Click here](#important-terms) to find definitions for key terms for the
-  week's readings (chapters 30 and 31)!
+- Review the [important terms](#important-terms) to find definitions of the
+  terms associated with the assigned chapters
 - Check out the [operating system sketch](/operating-systems/sketches/#semaphores)
   associated with this module
-
 
 ## I/O Devices
 
@@ -237,13 +236,14 @@ hide:
 
 ### Next Steps
 
-- *I/O Devices* chapter in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
-- Check out the [course slides](/slides/operating-systems/systems-introduction/)
-  for a detailed investigation of these chapters!
-- [Click here](#important-terms) to find definitions for key terms for the
-  week's reading (chapter 36)!
-- Check out the [operating system sketch](/operating-systems/sketches/#io-devices)
-  associated with this module
+- Read the chapter called *I/O Devices* chapter in
+  [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+- Check out the [course slides](/slides/operating-systems/io-introduction/) for
+  a detailed investigation of these chapters!
+- Review the [important terms](#important-terms) to find definitions of the
+  terms associated with the assigned chapters
+- Check out the [operating system
+  sketch](/operating-systems/sketches/#io-devices) associated with this module
 
 ## File Systems and Directories
 
@@ -256,14 +256,16 @@ hide:
 
 ### Next Steps
 
-- *File Systems and Directories*, *File System Implementation* and *Network File
-  Systems* chapters in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
-- Check out the [course slides](/slides/operating-systems/systems-introduction/)
+- Read the chapters called *File and Directories* (Chapter 39) and *File System
+  Implementation* (Chapter 40) in
+  [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+- Check out the [course slides](/slides/operating-systems/files-directories/)
   for a detailed investigation of these chapters!
-- [Click here](#important-terms) to find definitions for key terms for the
-  week's reading (chapters 39, 40 and 49)!
-- Check out the [operating system sketch](/operating-systems/sketches/#files-and-directories)
-  associated with this module
+- Review the [important terms](#important-terms) to find definitions of the
+  terms associated with the assigned chapters
+- Check out the [operating system
+  sketch](/operating-systems/sketches/#files-and-directories) associated with
+  this module
 
 ## Network File Systems
 
@@ -320,7 +322,7 @@ hide:
   for a detailed investigation of these chapters
 - Review the [important terms](#important-terms) to find definitions of the
   terms associated with the assigned chapter
-- Check out the [operating system sketch](/operating-systems/sketches/##distributed-systems)
+- Check out the [operating system sketch](/operating-systems/sketches/#distributed-systems)
   associated with this module
 
 ## Introducing Security
@@ -328,15 +330,17 @@ hide:
 ### Technical Questions
 
 - How can we apply the principles of computer security to ensure that large and
-  complex operating systems permit resource sharing without allowing not
-  permitted resources accesses or actions to take place?
+  complex operating systems permit resource sharing without allowing access to
+  not-permitted resources or impermissible actions to take place?
 
 ### Next Steps
 
-- Read the chapter called *Intro Security* (Chapter 53) in
-  [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
-- Check out the [course slides](/slides/operating-systems/security-introduction/)
-  for a detailed investigation of these chapters
+- Read the chapter called *Introduction to Security* (Chapter 53) and quickly
+  scan the chapters called *Authentication* (Chapter 54) and *Access Control*
+  (Chapter 55) in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+- Check out the [course
+  slides](/slides/operating-systems/security-introduction/) for a detailed
+  investigation of these chapters
 - Review the [important terms](#important-terms) to find definitions of the
   terms associated with the assigned chapter
 
