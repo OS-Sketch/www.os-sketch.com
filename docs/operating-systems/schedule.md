@@ -335,10 +335,12 @@ hide:
 
 ### Next Steps
 
-- Read the chapter called *Intro Security* (Chapter 53) in
-  [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
-- Check out the [course slides](/slides/operating-systems/security-introduction/)
-  for a detailed investigation of these chapters
+- Read the chapter called *Introduction to Security* (Chapter 53) and quickly
+  scan the chapters called *Authentication* (Chapter 54) and *Access Control*
+  (Chapter 55) in [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+- Check out the [course
+  slides](/slides/operating-systems/security-introduction/) for a detailed
+  investigation of these chapters
 - Review the [important terms](#important-terms) to find definitions of the
   terms associated with the assigned chapter
 
